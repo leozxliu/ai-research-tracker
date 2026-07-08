@@ -1,21 +1,48 @@
 # AI Research Tracker
 
-A single-page tracker in the style of the former Papers with Code, hosted on GitHub Pages.
+A single-page AI research tracker in the style of the former [Papers with Code](https://huggingface.co/papers/trending), covering conferences, trending papers, milestone research, and company timelines.
 
-**Tabs**
+**Live site:** https://leozxliu.github.io/ai-research-tracker/
 
-- **Conferences** — major AI/ML conference calendar through 2028 (NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ACL, EMNLP, AAAI, IJCAI, KDD, COLM, WACV)
-- **Trending Papers** — snapshot of Hugging Face trending papers, with a live-fetch button
-- **Milestones** — landmark AI papers from 1950 to today, in chronological order
-- **Area Timelines** — per-field history: LLMs, AI agents, computer vision, generative media, RL
-- **Companies** — recent development timelines for OpenAI, Anthropic, Google DeepMind, Meta, DeepSeek, xAI, NVIDIA, Microsoft, Amazon, Apple, Tesla, and the open-weights ecosystem
+## Contents
 
-**Updating**
+| Tab | What it shows |
+|---|---|
+| **Conferences** | Major AI/ML conference calendar through 2028 — NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ACL, EMNLP, AAAI, IJCAI, KDD, COLM, WACV — with dates, locations, and TBA status |
+| **Trending Papers** | Snapshot of Hugging Face trending papers, ranked by upvotes, with a live-fetch button |
+| **Milestones** | Landmark AI papers from 1950 (Turing) to today, in chronological order |
+| **Area Timelines** | Per-field history: LLMs, AI agents, computer vision, generative media, reinforcement learning |
+| **Companies** | Recent development timelines for OpenAI, Anthropic, Google DeepMind, Meta, DeepSeek, xAI, NVIDIA, Microsoft, Amazon, Apple, Tesla, and the open-weights ecosystem |
 
-The "Update this page" button copies a ready-made prompt to the clipboard; paste it into a
-Claude session with access to this repo and it will refresh the content, update the snapshot
-date, and push. The "Fetch latest papers" button on the Trending Papers tab pulls live data
-from the Hugging Face API directly in the browser.
+## Features
 
-Content snapshot: July 8, 2026. Everything is a single self-contained `index.html` —
-no build step, no dependencies.
+- **Zero dependencies** — one self-contained `index.html`; no build step, no frameworks
+- **Light/dark theme** — follows the OS preference, with a manual toggle persisted in localStorage
+- **Live paper fetch** — the Trending Papers tab pulls current rankings from the Hugging Face API directly in the browser
+- **One-click update prompt** — the "Update this page" button copies a ready-made refresh prompt for Claude (see below)
+- **Responsive** — works on mobile; wide tables scroll horizontally
+
+## Updating the content
+
+The page content is a static snapshot (date shown in the header). Two ways to refresh it:
+
+1. **Trending papers only** — click **Fetch latest papers** on the Trending Papers tab; this pulls live data in the browser and needs no deploy.
+2. **Everything** — click **Update this page** in the header. It copies a prompt to the clipboard; paste it into a [Claude Code](https://claude.com/claude-code) session opened in this repo. Claude re-checks conference sites, refreshes the paper snapshot, updates the timelines, bumps the snapshot date, and pushes. GitHub Pages redeploys automatically in about a minute.
+
+## Deployment
+
+Hosted on GitHub Pages, served from the root of the `main` branch. Any push to `main` that changes `index.html` redeploys the site — there is no build pipeline.
+
+```
+.
+├── index.html   # the entire site: markup, styles, and scripts
+└── README.md
+```
+
+## Data sources
+
+- **Conferences** — official conference sites (neurips.cc, icml.cc, iclr.cc, thecvf.com, aaai.org, ijcai.org, ecva.net, aclweb.org, kdd.org, colmweb.org). Verify against the official site before making travel or submission plans; look-alike "predatory" conferences reuse these names.
+- **Papers** — [Hugging Face Papers](https://huggingface.co/papers/trending) (the successor to Papers with Code) and [arXiv](https://arxiv.org)
+- **Timelines** — original papers where they exist (linked inline), plus press coverage for recent company news; entries marked "reported" are unconfirmed
+
+Content snapshot: **July 8, 2026**.
