@@ -1,0 +1,86 @@
+<p class="papers-note">
+      Per-field timelines tracing how each key area of AI evolved, with extra depth on the
+      recent large-language-model and agent eras.
+    </p>
+    <nav class="area-nav" aria-label="Jump to area">
+      <a href="#area-llm">Large Language Models</a>
+      <a href="#area-agents">AI Agents</a>
+      <a href="#area-cv">Computer Vision</a>
+      <a href="#area-gen">Generative Media</a>
+      <a href="#area-rl">Reinforcement Learning</a>
+    </nav>
+
+    <section class="area" id="area-llm">
+      <h2>Large Language Models</h2>
+      <p class="area-sub">From the Transformer to reasoning models: the fastest-moving decade in the field.</p>
+      <ul class="tl">
+        <li><span class="yr">2017</span><h3><a href="https://arxiv.org/abs/1706.03762">Transformer — Attention Is All You Need</a></h3><p>Attention replaces recurrence; the architecture every LLM still uses.</p></li>
+        <li><span class="yr">2018</span><h3><a href="https://arxiv.org/abs/1810.04805">GPT-1 &amp; BERT — the pretraining era begins</a></h3><p>Generative pretraining (OpenAI) and bidirectional pretraining (Google) make "pretrain, then adapt" the standard recipe.</p></li>
+        <li><span class="yr">2019</span><h3><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">GPT-2 — scale brings fluency</a></h3><p>1.5B parameters write coherent long-form text; its staged release starts the first big debate on releasing model weights.</p></li>
+        <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2005.14165">GPT-3 &amp; the scaling laws</a></h3><p>In-context learning emerges at 175B parameters, while Kaplan et al. show performance scales predictably with compute — the case for going bigger.</p></li>
+        <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2203.02155">Chinchilla, InstructGPT, and ChatGPT</a></h3><p>Compute-optimal training resets scaling strategy; RLHF makes models helpful; ChatGPT (Nov 30) takes LLMs from research to a hundred million users.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2303.08774">GPT-4 and the open-weights wave</a></h3><p>GPT-4 passes professional exams and accepts images; LLaMA and Llama 2 put strong weights in the open; Mistral 7B shows small can be mighty.</p></li>
+        <li><span class="yr">2024</span><h3>Multimodal by default, and test-time compute</h3><p>GPT-4o and Gemini 1.5 (1M-token context) make voice and vision native; OpenAI's o1 shows models improve by thinking longer, not just training bigger.</p></li>
+        <li><span class="yr">2025</span><h3><a href="https://arxiv.org/abs/2501.12948">DeepSeek-V3 / R1 — the open frontier</a></h3><p>Near-frontier capability at a fraction of the training cost, with reasoning learned by pure RL — reasoning models become the industry default.</p></li>
+        <li><span class="yr">2026</span><h3><a href="https://arxiv.org/abs/2602.15763">Frontier open models target software engineering</a></h3><p>Releases like GLM-5 push open models toward real-world coding and long-horizon agentic work at falling cost.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="area-agents">
+      <h2>AI Agents</h2>
+      <p class="area-sub">LLMs that act: tools, computers, codebases — the area moving fastest right now.</p>
+      <ul class="tl">
+        <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2210.03629">ReAct — reason, then act</a></h3><p>Interleaving chain-of-thought with tool actions becomes the basic control loop of nearly every agent since.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2302.04761">Toolformer &amp; the autonomous-loop moment</a></h3><p>Models teach themselves to call APIs; AutoGPT and BabyAGI go viral as the first self-directed task loops the public can run.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2304.03442">Generative Agents &amp; Voyager</a></h3><p>Simulated agent societies with memory and planning (the "Smallville" paper); Voyager learns an ever-growing skill library in Minecraft.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2310.06770">SWE-bench — agents meet real work</a></h3><p>Resolving actual GitHub issues becomes the benchmark that defines coding-agent progress.</p></li>
+        <li><span class="yr">2024</span><h3><a href="https://arxiv.org/abs/2405.15793">Coding agents arrive: Devin &amp; SWE-agent</a></h3><p>End-to-end software agents plan, edit, run, and debug; agent–computer interface design proves as important as the model.</p></li>
+        <li><span class="yr">2024</span><h3>Computer use &amp; the Model Context Protocol</h3><p>Anthropic's computer-use API lets models operate a real desktop; MCP standardizes how agents connect to tools and data.</p></li>
+        <li><span class="yr">2025</span><h3>Agents in production</h3><p>Deep-research agents, terminal coding agents (Claude Code, Codex), and multi-agent orchestration move from demos to daily workflows.</p></li>
+        <li><span class="yr">2026</span><h3><a href="https://arxiv.org/abs/2605.23904">Self-evolving skills</a></h3><p>Work like SkillOpt has agents optimize their own skill libraries in text space, with no added inference cost — agents that improve themselves on the job.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="area-cv">
+      <h2>Computer Vision</h2>
+      <p class="area-sub">From reading digits to promptable, open-vocabulary perception.</p>
+      <ul class="tl">
+        <li><span class="yr">1998</span><h3><a href="https://ieeexplore.ieee.org/document/726791">LeNet-5 — CNNs read checks</a></h3><p>Convolution + pooling + gradient descent, deployed commercially decades before the deep-learning boom.</p></li>
+        <li><span class="yr">2012</span><h3><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks">AlexNet — the ImageNet moment</a></h3><p>GPU-trained CNN halves the error rate of classical pipelines and converts the field to deep learning overnight.</p></li>
+        <li><span class="yr">2015</span><h3><a href="https://arxiv.org/abs/1512.03385">ResNet, and detection gets fast</a></h3><p>Residual connections unlock very deep networks; Faster R-CNN and YOLO make real-time object detection practical.</p></li>
+        <li><span class="yr">2017</span><h3><a href="https://arxiv.org/abs/1703.06870">Mask R-CNN — pixel-level understanding</a></h3><p>One framework for detection, segmentation, and pose — the workhorse of applied vision for years.</p></li>
+        <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2010.11929">ViT — Transformers take over vision</a></h3><p>Image patches as tokens; with enough data, attention beats convolution's built-in assumptions.</p></li>
+        <li><span class="yr">2021</span><h3><a href="https://arxiv.org/abs/2103.00020">CLIP — vision meets language</a></h3><p>400M image–text pairs give open-vocabulary recognition: classify anything you can describe.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2304.02643">Segment Anything (SAM)</a></h3><p>A promptable foundation model for segmentation; SAM 2 (2024) extends it to video.</p></li>
+        <li><span class="yr">2026</span><h3><a href="https://arxiv.org/abs/2607.05247">Dense spatial perception &amp; streaming 3D</a></h3><p>Current work pushes sub-pixel boundary understanding and real-time 3D reconstruction — vision as continuous geometry, not just labels.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="area-gen">
+      <h2>Generative Media</h2>
+      <p class="area-sub">Images, then video, then worlds.</p>
+      <ul class="tl">
+        <li><span class="yr">2014</span><h3><a href="https://arxiv.org/abs/1406.2661">GANs — adversarial generation</a></h3><p>Generator vs. discriminator; the first path to sharp synthetic images.</p></li>
+        <li><span class="yr">2018</span><h3><a href="https://arxiv.org/abs/1812.04948">StyleGAN — photorealistic faces</a></h3><p>"This person does not exist" makes generative AI's power visible to everyone.</p></li>
+        <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2006.11239">DDPM — diffusion becomes practical</a></h3><p>Denoising step by step proves more stable and scalable than adversarial training.</p></li>
+        <li><span class="yr">2021</span><h3><a href="https://arxiv.org/abs/2102.12092">DALL·E — text becomes image</a></h3><p>Open-ended text-to-image generation; CLIP guidance quickly amplifies quality.</p></li>
+        <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2112.10752">Stable Diffusion, DALL·E 2, Imagen</a></h3><p>Latent diffusion makes generation cheap and open; image generation goes mainstream in a single year.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2302.05543">ControlNet — controllable generation</a></h3><p>Pose, depth, and edge conditioning turn diffusion from a slot machine into a design tool.</p></li>
+        <li><span class="yr">2024</span><h3>Sora — video generation at scale</h3><p>Minute-long coherent video from text, framed explicitly as a step toward world simulators.</p></li>
+        <li><span class="yr">2025–26</span><h3>Native audio-video and interactive world models</h3><p>Veo-class models add synchronized sound; multiplayer interactive world models make generated environments playable in real time.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="area-rl">
+      <h2>Reinforcement Learning</h2>
+      <p class="area-sub">From backgammon to the training signal behind reasoning models.</p>
+      <ul class="tl">
+        <li><span class="yr">1992</span><h3><a href="https://dl.acm.org/doi/10.1145/203330.203343">TD-Gammon — learning from self-play</a></h3><p>A neural network reaches world-class backgammon through temporal-difference learning alone.</p></li>
+        <li><span class="yr">2013</span><h3><a href="https://arxiv.org/abs/1312.5602">DQN — pixels to actions</a></h3><p>One network learns dozens of Atari games from raw screens; deep RL is born.</p></li>
+        <li><span class="yr">2016</span><h3><a href="https://www.nature.com/articles/nature16961">AlphaGo — the grand-challenge win</a></h3><p>Search plus learned policy and value networks defeat the world's best Go players.</p></li>
+        <li><span class="yr">2017</span><h3><a href="https://arxiv.org/abs/1707.06347">PPO &amp; AlphaZero</a></h3><p>PPO becomes the field's dependable workhorse; AlphaZero masters Go, chess, and shogi from self-play with no human data.</p></li>
+        <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/1911.08265">MuZero — planning without rules</a></h3><p>Learns a model of the environment's dynamics itself, planning without being told the rules.</p></li>
+        <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2203.02155">RLHF — RL meets language models</a></h3><p>Human preferences as a reward signal align LLMs; RL becomes central to how frontier models are finished.</p></li>
+        <li><span class="yr">2025</span><h3><a href="https://arxiv.org/abs/2501.12948">RL for reasoning</a></h3><p>DeepSeek-R1 shows chain-of-thought reasoning can emerge from RL with verifiable rewards — no supervised reasoning data needed.</p></li>
+      </ul>
+    </section>

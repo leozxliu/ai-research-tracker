@@ -1,0 +1,101 @@
+{
+  "snapshot": "July 8, 2026",
+  "papers": [
+    {
+      "votes": 253,
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "arxiv": "2605.23904",
+      "desc": "A text-space optimizer that lets agents evolve their own skills, with zero added inference overhead at deployment.",
+      "tag": "Agents",
+      "extras": ["Microsoft Research", "May 2026"]
+    },
+    {
+      "votes": 225,
+      "title": "DataFlow: LLM-Driven Data Preparation Framework",
+      "arxiv": "2512.16676",
+      "desc": "An LLM-driven framework for data preparation that improves data quality and reproducibility across tasks.",
+      "tag": "Data",
+      "extras": ["Peking University", "Dec 2025"]
+    },
+    {
+      "votes": 209,
+      "title": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction",
+      "arxiv": "2606.14777",
+      "desc": "Continuous, real-time decision-making for interactive vision-language systems.",
+      "tag": "VLM",
+      "extras": ["JD.com", "Jun 2026"]
+    },
+    {
+      "votes": 196,
+      "title": "GLM-5: Foundation Model Advances",
+      "arxiv": "2602.15763",
+      "desc": "Foundation-model release focused on stronger coding ability and lower cost for real-world software engineering.",
+      "tag": "LLM",
+      "extras": ["186 authors", "Feb 2026"]
+    },
+    {
+      "votes": 175,
+      "title": "MinerU2.5: Document Parsing Vision-Language Model",
+      "arxiv": "2509.22186",
+      "desc": "A 1.2B-parameter document-parsing model reaching state-of-the-art recognition with high computational efficiency.",
+      "tag": "OCR / VLM",
+      "extras": ["61 authors", "Sep 2025"]
+    },
+    {
+      "votes": 109,
+      "title": "TradingAgents: Multi-Agent LLM Financial Trading Framework",
+      "arxiv": "2412.20138",
+      "desc": "A multi-agent framework that simulates the structure of real-world trading firms.",
+      "tag": "Agents",
+      "extras": ["4 authors", "Dec 2024"]
+    },
+    {
+      "votes": 82,
+      "title": "OpenDevin: AI Software Developers Platform",
+      "arxiv": "2407.16741",
+      "desc": "A platform for building agents that write code, use the command line, and browse the web.",
+      "tag": "Code Agents",
+      "extras": ["24 authors", "Jul 2024"]
+    },
+    {
+      "votes": 51,
+      "title": "Unlimited OCR Works",
+      "arxiv": "2606.23050",
+      "desc": "Removes memory constraints for long-sequence OCR, scaling across many pages.",
+      "tag": "OCR",
+      "extras": ["Baidu", "Jun 2026"]
+    },
+    {
+      "votes": 34,
+      "title": "Vision Pretraining for Dense Spatial Perception",
+      "arxiv": "2607.05247",
+      "desc": "Boundary modeling enables dense spatial perception by learning sub-pixel representations.",
+      "tag": "CV",
+      "extras": ["Jul 2026"]
+    },
+    {
+      "votes": 25,
+      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+      "arxiv": "2604.14141",
+      "desc": "A real-time 3D foundation model with stable streaming reconstruction at 20 FPS.",
+      "tag": "3D",
+      "extras": ["Apr 2026"]
+    },
+    {
+      "votes": 15,
+      "title": "Multiplayer Interactive World Models",
+      "arxiv": "2607.05352",
+      "desc": "Stable long-horizon rollouts in a complex physics-based multiplayer environment.",
+      "tag": "World Models",
+      "extras": ["27 authors", "Jul 2026"]
+    },
+    {
+      "votes": 8,
+      "title": "Continuous Audio Language Models",
+      "arxiv": "2509.06926",
+      "desc": "Continuous generation to balance audio quality against computational cost.",
+      "tag": "Audio",
+      "extras": ["5 authors", "Sep 2025"]
+    }
+  ]
+}
