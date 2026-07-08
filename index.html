@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AI research tracker: conference calendar through 2028, trending papers, milestone papers, and development timelines for areas and top AI companies.">
+<title>AI Conferences &amp; Trending Papers</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗓️</text></svg>">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body, h1, h2, h3, p, ul, ol, figure, blockquote { margin: 0; }
+  ul.conf-list, ul.paper-list, ul.tl { padding: 0; }
+  img { max-width: 100%; display: block; }
+
+  :root {
+    --bg: #fbfcfd;
+    --surface: #ffffff;
+    --ink: #1c2733;
+    --ink-soft: #55636f;
+    --ink-faint: #8a97a3;
+    --line: #e3e9ee;
+    --accent: #0b7285;
+    --accent-soft: #e0f2f5;
+    --live: #2b8a3e;
+    --live-soft: #e3f4e6;
+    --tba: #9a6700;
+    --tba-soft: #f7ecd4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12181f;
+      --surface: #1a222b;
+      --ink: #e6ecf1;
+      --ink-soft: #a7b4c0;
+      --ink-faint: #6e7d8a;
+      --line: #2a3540;
+      --accent: #4dc4d9;
+      --accent-soft: #123b44;
+      --live: #69c877;
+      --live-soft: #17351d;
+      --tba: #e0b350;
+      --tba-soft: #3a2f14;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12181f;
+    --surface: #1a222b;
+    --ink: #e6ecf1;
+    --ink-soft: #a7b4c0;
+    --ink-faint: #6e7d8a;
+    --line: #2a3540;
+    --accent: #4dc4d9;
+    --accent-soft: #123b44;
+    --live: #69c877;
+    --live-soft: #17351d;
+    --tba: #e0b350;
+    --tba-soft: #3a2f14;
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfcfd;
+    --surface: #ffffff;
+    --ink: #1c2733;
+    --ink-soft: #55636f;
+    --ink-faint: #8a97a3;
+    --line: #e3e9ee;
+    --accent: #0b7285;
+    --accent-soft: #e0f2f5;
+    --live: #2b8a3e;
+    --live-soft: #e3f4e6;
+    --tba: #9a6700;
+    --tba-soft: #f7ecd4;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 4rem;
+  }
+
+  header.page {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 1.75rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+  }
+  .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  h1 {
+    font-size: clamp(1.7rem, 4vw, 2.3rem);
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+    margin-bottom: 0.65rem;
+  }
+  .lede {
+    color: var(--ink-soft);
+    max-width: 58ch;
+    font-size: 0.98rem;
+  }
+  .lede a { color: var(--accent); }
+
+  section.year { margin-bottom: 2.75rem; }
+  .year-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .year-head h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .year-head .count {
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+  }
+
+  ul.conf-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+  .conf {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+    display: grid;
+    grid-template-columns: 7.5rem 1fr auto;
+    gap: 0.35rem 1.1rem;
+    align-items: baseline;
+  }
+  .conf .acro {
+    font-weight: 700;
+    font-size: 1.02rem;
+  }
+  .conf .acro a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .conf .acro a:hover,
+  .conf .acro a:focus-visible {
+    text-decoration: underline;
+    outline: none;
+  }
+  .conf .full {
+    color: var(--ink-soft);
+    font-size: 0.88rem;
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  .conf .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.1rem;
+    font-size: 0.88rem;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  .conf .meta .loc { color: var(--ink-soft); }
+  .pill {
+    justify-self: end;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.18rem 0.6rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .pill.field { background: var(--accent-soft); color: var(--accent); }
+  .pill.live { background: var(--live-soft); color: var(--live); }
+  .pill.tba { background: var(--tba-soft); color: var(--tba); }
+  .pills { justify-self: end; display: flex; gap: 0.4rem; }
+
+  @media (max-width: 560px) {
+    .conf { grid-template-columns: 1fr; }
+    .pills { justify-self: start; grid-row: 4; }
+    .conf .full { grid-row: 2; }
+    .conf .meta { grid-row: 3; }
+  }
+
+  nav.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 2.25rem;
+  }
+  nav.tabs button {
+    appearance: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    padding: 0.55rem 0.9rem;
+    font: inherit;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    cursor: pointer;
+  }
+  nav.tabs button:hover { color: var(--ink); }
+  nav.tabs button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+  }
+  nav.tabs button[aria-selected="true"] {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  [hidden] { display: none !important; }
+
+  .papers-note {
+    color: var(--ink-soft);
+    font-size: 0.88rem;
+    max-width: 62ch;
+    margin-bottom: 1.25rem;
+  }
+  ul.paper-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+  .paper {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+    display: grid;
+    grid-template-columns: 3.4rem 1fr;
+    gap: 0.15rem 1rem;
+  }
+  .paper .votes {
+    grid-row: 1 / span 3;
+    align-self: start;
+    text-align: center;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 0.3rem 0.2rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .paper .votes .n {
+    display: block;
+    font-weight: 700;
+    font-size: 1.02rem;
+    color: var(--accent);
+  }
+  .paper .votes .lbl {
+    display: block;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .paper h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+  .paper h3 a { color: var(--ink); text-decoration: none; }
+  .paper h3 a:hover, .paper h3 a:focus-visible { color: var(--accent); outline: none; }
+  .paper .desc { color: var(--ink-soft); font-size: 0.88rem; }
+  .paper .paper-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.9rem;
+    font-size: 0.78rem;
+    color: var(--ink-faint);
+    margin-top: 0.3rem;
+  }
+  .paper .paper-meta a { color: var(--accent); text-decoration: none; }
+  .paper .paper-meta a:hover, .paper .paper-meta a:focus-visible { text-decoration: underline; outline: none; }
+  .tag {
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.14rem 0.55rem;
+    border-radius: 999px;
+  }
+
+  .fetch-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .fetch-bar button {
+    appearance: none;
+    font: inherit;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #fff;
+    background: var(--accent);
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1.1rem;
+    cursor: pointer;
+  }
+  .fetch-bar button:hover { filter: brightness(1.08); }
+  .fetch-bar button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .fetch-bar button:disabled { opacity: 0.6; cursor: wait; }
+  .fetch-bar button.ghost {
+    background: var(--surface);
+    color: var(--ink-soft);
+    border: 1px solid var(--line);
+  }
+  .fetch-status { font-size: 0.82rem; color: var(--ink-faint); }
+  .fetch-status.error { color: var(--tba); }
+  .fetch-status.ok { color: var(--live); }
+  .prompt-box {
+    margin-top: 0.8rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    font-size: 0.84rem;
+    color: var(--ink-soft);
+    user-select: all;
+  }
+
+  .area-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+  }
+  .area-nav a {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border-radius: 999px;
+    padding: 0.25rem 0.8rem;
+    text-decoration: none;
+  }
+  .area-nav a:hover, .area-nav a:focus-visible { text-decoration: underline; outline: none; }
+
+  section.area { margin-bottom: 3rem; }
+  section.area > h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+  }
+  section.area > .area-sub {
+    color: var(--ink-soft);
+    font-size: 0.88rem;
+    max-width: 60ch;
+    margin-bottom: 1.25rem;
+  }
+  ul.tl {
+    list-style: none;
+    border-left: 2px solid var(--line);
+    margin-left: 0.3rem;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+  }
+  ul.tl li { position: relative; }
+  ul.tl li::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.5rem - 7px);
+    top: 0.32rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--bg);
+  }
+  ul.tl .yr {
+    display: block;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    text-transform: uppercase;
+  }
+  ul.tl h3 { font-size: 0.96rem; font-weight: 700; }
+  ul.tl h3 a { color: var(--ink); text-decoration: none; }
+  ul.tl h3 a:hover, ul.tl h3 a:focus-visible { color: var(--accent); outline: none; }
+  ul.tl p { color: var(--ink-soft); font-size: 0.86rem; max-width: 62ch; }
+
+  .table-scroll { overflow-x: auto; }
+  table.milestones {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 640px;
+    font-size: 0.88rem;
+  }
+  table.milestones th {
+    text-align: left;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    padding: 0.5rem 0.9rem 0.5rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  table.milestones td {
+    padding: 0.6rem 0.9rem 0.6rem 0;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  table.milestones td.yr {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  table.milestones td.paper { min-width: 15rem; }
+  table.milestones td.paper a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  table.milestones td.paper a:hover, table.milestones td.paper a:focus-visible { text-decoration: underline; outline: none; }
+  table.milestones td.paper .by { display: block; color: var(--ink-faint); font-size: 0.78rem; font-weight: 400; }
+  table.milestones td.why { color: var(--ink-soft); min-width: 18rem; }
+
+  footer.page {
+    border-top: 1px solid var(--line);
+    padding-top: 1.25rem;
+    color: var(--ink-faint);
+    font-size: 0.8rem;
+    max-width: 65ch;
+  }
+  footer.page a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <p class="eyebrow">AI research tracker · updated July 8, 2026</p>
+    <h1>AI Conferences &amp; Trending Papers</h1>
+    <p class="lede">
+      Upcoming top-tier AI conferences through 2028, plus currently trending papers — in the
+      style of the former Papers&nbsp;with&nbsp;Code (the original site now redirects to
+      <a href="https://huggingface.co/papers/trending">Hugging&nbsp;Face Papers</a>).
+      Conference dates come from each conference's official site; entries not yet announced are marked TBA.
+    </p>
+    <div class="fetch-bar" style="margin-top: 1.1rem;">
+      <button id="update-btn" type="button">Update this page</button>
+      <button id="theme-btn" type="button" class="ghost" aria-label="Toggle color theme">◐ Theme</button>
+      <span id="update-status" class="fetch-status">Content snapshot: July 8, 2026</span>
+    </div>
+    <div id="update-prompt-box" class="prompt-box" hidden></div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-btn-conferences" aria-selected="true" aria-controls="panel-conferences">Conferences</button>
+    <button role="tab" id="tab-btn-papers" aria-selected="false" aria-controls="panel-papers">Trending Papers</button>
+    <button role="tab" id="tab-btn-milestones" aria-selected="false" aria-controls="panel-milestones">Milestones</button>
+    <button role="tab" id="tab-btn-areas" aria-selected="false" aria-controls="panel-areas">Area Timelines</button>
+    <button role="tab" id="tab-btn-companies" aria-selected="false" aria-controls="panel-companies">Companies</button>
+  </nav>
+
+  <div id="panel-conferences" role="tabpanel" aria-labelledby="tab-btn-conferences">
+
+  <section class="year">
+    <div class="year-head"><h2>2026</h2><span class="count">7 upcoming</span></div>
+    <ul class="conf-list">
+      <li class="conf">
+        <span class="acro"><a href="https://icml.cc/">ICML 2026</a></span>
+        <span class="meta"><span class="dates">Jul 6 – 11, 2026</span><span class="loc">COEX, Seoul, South Korea</span></span>
+        <span class="pills"><span class="pill live">Happening now</span><span class="pill field">ML</span></span>
+        <span class="full">Forty-Third International Conference on Machine Learning</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://kdd2026.kdd.org/">KDD 2026</a></span>
+        <span class="meta"><span class="dates">Aug 9 – 13, 2026</span><span class="loc">ICC Jeju, Jeju, South Korea</span></span>
+        <span class="pills"><span class="pill field">Data Mining</span></span>
+        <span class="full">32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://2026.ijcai.org/">IJCAI–ECAI 2026</a></span>
+        <span class="meta"><span class="dates">Aug 15 – 21, 2026</span><span class="loc">Bremen, Germany</span></span>
+        <span class="pills"><span class="pill field">AI</span></span>
+        <span class="full">35th International Joint Conference on Artificial Intelligence, joint with the European Conference on AI</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://eccv.ecva.net/">ECCV 2026</a></span>
+        <span class="meta"><span class="dates">Sep 8 – 13, 2026</span><span class="loc">Malmö Arena, Malmö, Sweden</span></span>
+        <span class="pills"><span class="pill field">CV</span></span>
+        <span class="full">18th European Conference on Computer Vision</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://colmweb.org/">COLM 2026</a></span>
+        <span class="meta"><span class="dates">Oct 6 – 9, 2026</span><span class="loc">San Francisco, CA, USA</span></span>
+        <span class="pills"><span class="pill field">LLMs</span></span>
+        <span class="full">Third Conference on Language Modeling</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://2026.emnlp.org/">EMNLP 2026</a></span>
+        <span class="meta"><span class="dates">Oct 24 – 29, 2026</span><span class="loc">Budapest, Hungary</span></span>
+        <span class="pills"><span class="pill field">NLP</span></span>
+        <span class="full">2026 Conference on Empirical Methods in Natural Language Processing</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://neurips.cc/">NeurIPS 2026</a></span>
+        <span class="meta"><span class="dates">Dec 6 – 12, 2026</span><span class="loc">Sydney, Australia</span></span>
+        <span class="pills"><span class="pill field">ML</span></span>
+        <span class="full">Fortieth Annual Conference on Neural Information Processing Systems</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="year">
+    <div class="year-head"><h2>2027</h2><span class="count">7 announced</span></div>
+    <ul class="conf-list">
+      <li class="conf">
+        <span class="acro"><a href="https://wacv.thecvf.com/">WACV 2027</a></span>
+        <span class="meta"><span class="dates">Early 2027 · dates TBA</span><span class="loc">Orlando, FL, USA</span></span>
+        <span class="pills"><span class="pill tba">Dates TBA</span><span class="pill field">CV</span></span>
+        <span class="full">IEEE/CVF Winter Conference on Applications of Computer Vision</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://aaai.org/conference/aaai/aaai-27/">AAAI-27</a></span>
+        <span class="meta"><span class="dates">Feb 16 – 23, 2027</span><span class="loc">Montréal, Canada</span></span>
+        <span class="pills"><span class="pill field">AI</span></span>
+        <span class="full">Forty-First AAAI Conference on Artificial Intelligence</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://iclr.cc/">ICLR 2027</a></span>
+        <span class="meta"><span class="dates">Apr 2027 · dates TBA</span><span class="loc">West Coast of North America, city TBA</span></span>
+        <span class="pills"><span class="pill tba">TBA</span><span class="pill field">ML</span></span>
+        <span class="full">Fifteenth International Conference on Learning Representations</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://cvpr.thecvf.com/">CVPR 2027</a></span>
+        <span class="meta"><span class="dates">Jun 20 – 24, 2027</span><span class="loc">Seattle, WA, USA</span></span>
+        <span class="pills"><span class="pill field">CV</span></span>
+        <span class="full">IEEE/CVF Conference on Computer Vision and Pattern Recognition</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://icml.cc/Conferences/FutureMeetings">ICML 2027</a></span>
+        <span class="meta"><span class="dates">Jul 2027 · dates TBA</span><span class="loc">Location announcement expected Aug 2026</span></span>
+        <span class="pills"><span class="pill tba">TBA</span><span class="pill field">ML</span></span>
+        <span class="full">Forty-Fourth International Conference on Machine Learning</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://iccv.thecvf.com/">ICCV 2027</a></span>
+        <span class="meta"><span class="dates">Oct 2 – 8, 2027</span><span class="loc">Hong Kong</span></span>
+        <span class="pills"><span class="pill field">CV</span></span>
+        <span class="full">IEEE/CVF International Conference on Computer Vision</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://neurips.cc/Conferences/FutureMeetings">NeurIPS 2027</a></span>
+        <span class="meta"><span class="dates">Dec 2027 · dates TBA</span><span class="loc">Europe, city TBA</span></span>
+        <span class="pills"><span class="pill tba">TBA</span><span class="pill field">ML</span></span>
+        <span class="full">Forty-First Annual Conference on Neural Information Processing Systems</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="year">
+    <div class="year-head"><h2>2028</h2><span class="count">4 announced so far</span></div>
+    <ul class="conf-list">
+      <li class="conf">
+        <span class="acro"><a href="https://wacv.thecvf.com/">WACV 2028</a></span>
+        <span class="meta"><span class="dates">Early 2028 · dates TBA</span><span class="loc">Waikoloa, HI, USA</span></span>
+        <span class="pills"><span class="pill tba">Dates TBA</span><span class="pill field">CV</span></span>
+        <span class="full">IEEE/CVF Winter Conference on Applications of Computer Vision</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://cvpr.thecvf.com/">CVPR 2028</a></span>
+        <span class="meta"><span class="dates">Jun 2028 · dates TBA</span><span class="loc">San Antonio, TX, USA</span></span>
+        <span class="pills"><span class="pill tba">Dates TBA</span><span class="pill field">CV</span></span>
+        <span class="full">IEEE/CVF Conference on Computer Vision and Pattern Recognition</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://icml.cc/Conferences/FutureMeetings">ICML 2028</a></span>
+        <span class="meta"><span class="dates">Jul 2028 · dates TBA</span><span class="loc">Eastern United States, city TBA</span></span>
+        <span class="pills"><span class="pill tba">TBA</span><span class="pill field">ML</span></span>
+        <span class="full">Forty-Fifth International Conference on Machine Learning</span>
+      </li>
+      <li class="conf">
+        <span class="acro"><a href="https://neurips.cc/Conferences/FutureMeetings">NeurIPS 2028</a></span>
+        <span class="meta"><span class="dates">Dec 2028 · dates TBA</span><span class="loc">Western United States, city TBA</span></span>
+        <span class="pills"><span class="pill tba">TBA</span><span class="pill field">ML</span></span>
+        <span class="full">Forty-Second Annual Conference on Neural Information Processing Systems</span>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="page">
+    <p>
+      ECCV 2028 (biennial), EMNLP/ACL 2027+, AAAI-28, IJCAI 2027+, KDD 2027+, and COLM 2027+ have
+      not yet been announced. Sources: official conference sites —
+      <a href="https://neurips.cc/Conferences/FutureMeetings">NeurIPS</a>,
+      <a href="https://icml.cc/Conferences/FutureMeetings">ICML</a>,
+      <a href="https://iclr.cc/Conferences/FutureMeetings">ICLR</a>,
+      <a href="https://www.thecvf.com/?page_id=100">CVF (CVPR / ICCV / WACV)</a>,
+      <a href="https://aaai.org/conference/aaai/aaai-27/">AAAI</a>,
+      <a href="https://2026.ijcai.org/">IJCAI</a>,
+      <a href="https://eccv.ecva.net/">ECCV</a>,
+      <a href="https://2026.emnlp.org/">EMNLP</a>,
+      <a href="https://kdd2026.kdd.org/">KDD</a>,
+      <a href="https://colmweb.org/">COLM</a>.
+      Always verify against the official site before making travel or submission plans —
+      several look-alike "predatory" conferences reuse these names.
+    </p>
+  </footer>
+  </div>
+
+  <div id="panel-papers" role="tabpanel" aria-labelledby="tab-btn-papers" hidden>
+    <p class="papers-note">
+      Trending papers ranked by community upvotes, from
+      <a href="https://huggingface.co/papers/trending" style="color: var(--accent);">Hugging&nbsp;Face Papers</a>.
+      The list below is a snapshot from July 8, 2026 — use the button to pull the latest.
+    </p>
+    <div class="fetch-bar">
+      <button id="fetch-btn" type="button">Fetch latest papers</button>
+      <span id="fetch-status" class="fetch-status">Showing snapshot from Jul 8, 2026</span>
+    </div>
+    <ul class="paper-list" id="paper-list">
+      <li class="paper">
+        <span class="votes"><span class="n">253</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2605.23904">SkillOpt: Executive Strategy for Self-Evolving Agent Skills</a></h3>
+        <p class="desc">A text-space optimizer that lets agents evolve their own skills, with zero added inference overhead at deployment.</p>
+        <p class="paper-meta"><span class="tag">Agents</span><span>Microsoft Research</span><span>May 2026</span><a href="https://huggingface.co/papers/2605.23904">HF page</a><a href="https://arxiv.org/abs/2605.23904">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">225</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2512.16676">DataFlow: LLM-Driven Data Preparation Framework</a></h3>
+        <p class="desc">An LLM-driven framework for data preparation that improves data quality and reproducibility across tasks.</p>
+        <p class="paper-meta"><span class="tag">Data</span><span>Peking University</span><span>Dec 2025</span><a href="https://huggingface.co/papers/2512.16676">HF page</a><a href="https://arxiv.org/abs/2512.16676">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">209</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2606.14777">JoyAI-VL-Interaction: Real-Time Vision-Language Interaction</a></h3>
+        <p class="desc">Continuous, real-time decision-making for interactive vision-language systems.</p>
+        <p class="paper-meta"><span class="tag">VLM</span><span>JD.com</span><span>Jun 2026</span><a href="https://huggingface.co/papers/2606.14777">HF page</a><a href="https://arxiv.org/abs/2606.14777">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">196</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2602.15763">GLM-5: Foundation Model Advances</a></h3>
+        <p class="desc">Foundation-model release focused on stronger coding ability and lower cost for real-world software engineering.</p>
+        <p class="paper-meta"><span class="tag">LLM</span><span>186 authors</span><span>Feb 2026</span><a href="https://huggingface.co/papers/2602.15763">HF page</a><a href="https://arxiv.org/abs/2602.15763">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">175</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2509.22186">MinerU2.5: Document Parsing Vision-Language Model</a></h3>
+        <p class="desc">A 1.2B-parameter document-parsing model reaching state-of-the-art recognition with high computational efficiency.</p>
+        <p class="paper-meta"><span class="tag">OCR / VLM</span><span>61 authors</span><span>Sep 2025</span><a href="https://huggingface.co/papers/2509.22186">HF page</a><a href="https://arxiv.org/abs/2509.22186">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">109</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2412.20138">TradingAgents: Multi-Agent LLM Financial Trading Framework</a></h3>
+        <p class="desc">A multi-agent framework that simulates the structure of real-world trading firms.</p>
+        <p class="paper-meta"><span class="tag">Agents</span><span>4 authors</span><span>Dec 2024</span><a href="https://huggingface.co/papers/2412.20138">HF page</a><a href="https://arxiv.org/abs/2412.20138">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">82</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2407.16741">OpenDevin: AI Software Developers Platform</a></h3>
+        <p class="desc">A platform for building agents that write code, use the command line, and browse the web.</p>
+        <p class="paper-meta"><span class="tag">Code Agents</span><span>24 authors</span><span>Jul 2024</span><a href="https://huggingface.co/papers/2407.16741">HF page</a><a href="https://arxiv.org/abs/2407.16741">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">51</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2606.23050">Unlimited OCR Works</a></h3>
+        <p class="desc">Removes memory constraints for long-sequence OCR, scaling across many pages.</p>
+        <p class="paper-meta"><span class="tag">OCR</span><span>Baidu</span><span>Jun 2026</span><a href="https://huggingface.co/papers/2606.23050">HF page</a><a href="https://arxiv.org/abs/2606.23050">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">34</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2607.05247">Vision Pretraining for Dense Spatial Perception</a></h3>
+        <p class="desc">Boundary modeling enables dense spatial perception by learning sub-pixel representations.</p>
+        <p class="paper-meta"><span class="tag">CV</span><span>Jul 2026</span><a href="https://huggingface.co/papers/2607.05247">HF page</a><a href="https://arxiv.org/abs/2607.05247">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">25</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2604.14141">Geometric Context Transformer for Streaming 3D Reconstruction</a></h3>
+        <p class="desc">A real-time 3D foundation model with stable streaming reconstruction at 20 FPS.</p>
+        <p class="paper-meta"><span class="tag">3D</span><span>Apr 2026</span><a href="https://huggingface.co/papers/2604.14141">HF page</a><a href="https://arxiv.org/abs/2604.14141">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">15</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2607.05352">Multiplayer Interactive World Models</a></h3>
+        <p class="desc">Stable long-horizon rollouts in a complex physics-based multiplayer environment.</p>
+        <p class="paper-meta"><span class="tag">World Models</span><span>27 authors</span><span>Jul 2026</span><a href="https://huggingface.co/papers/2607.05352">HF page</a><a href="https://arxiv.org/abs/2607.05352">arXiv</a></p>
+      </li>
+      <li class="paper">
+        <span class="votes"><span class="n">8</span><span class="lbl">votes</span></span>
+        <h3><a href="https://arxiv.org/abs/2509.06926">Continuous Audio Language Models</a></h3>
+        <p class="desc">Continuous generation to balance audio quality against computational cost.</p>
+        <p class="paper-meta"><span class="tag">Audio</span><span>5 authors</span><span>Sep 2025</span><a href="https://huggingface.co/papers/2509.06926">HF page</a><a href="https://arxiv.org/abs/2509.06926">arXiv</a></p>
+      </li>
+    </ul>
+  </div>
+
+  <div id="panel-milestones" role="tabpanel" aria-labelledby="tab-btn-milestones" hidden>
+    <p class="papers-note">
+      Overall milestones: the landmark papers that defined AI as a whole, from the perceptron
+      to modern reasoning models. For deeper per-field history — including recent LLM and
+      AI-agent work — see the <strong>Area Timelines</strong> tab.
+    </p>
+    <div class="table-scroll">
+      <table class="milestones">
+        <thead>
+          <tr><th>Year</th><th>Paper</th><th>Area</th><th>Why it matters</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="yr">1950</td>
+            <td class="paper"><a href="https://academic.oup.com/mind/article/LIX/236/433/986238">Computing Machinery and Intelligence</a><span class="by">Alan Turing</span></td>
+            <td><span class="tag">Foundations</span></td>
+            <td class="why">Posed "Can machines think?" and proposed the imitation game (Turing test), framing the field before it had a name.</td>
+          </tr>
+          <tr>
+            <td class="yr">1958</td>
+            <td class="paper"><a href="https://psycnet.apa.org/doi/10.1037/h0042519">The Perceptron</a><span class="by">Frank Rosenblatt</span></td>
+            <td><span class="tag">Neural Nets</span></td>
+            <td class="why">The first trainable artificial neuron — the ancestor of every neural network that followed.</td>
+          </tr>
+          <tr>
+            <td class="yr">1986</td>
+            <td class="paper"><a href="https://www.nature.com/articles/323533a0">Learning Representations by Back-Propagating Errors</a><span class="by">Rumelhart, Hinton &amp; Williams</span></td>
+            <td><span class="tag">Neural Nets</span></td>
+            <td class="why">Popularized backpropagation, making multi-layer networks trainable and reviving neural-network research.</td>
+          </tr>
+          <tr>
+            <td class="yr">1997</td>
+            <td class="paper"><a href="https://www.bioinf.jku.at/publications/older/2604.pdf">Long Short-Term Memory</a><span class="by">Hochreiter &amp; Schmidhuber</span></td>
+            <td><span class="tag">Sequences</span></td>
+            <td class="why">Solved vanishing gradients for recurrent networks; dominated speech and language modeling for two decades.</td>
+          </tr>
+          <tr>
+            <td class="yr">1998</td>
+            <td class="paper"><a href="https://ieeexplore.ieee.org/document/726791">Gradient-Based Learning Applied to Document Recognition (LeNet-5)</a><span class="by">LeCun et al.</span></td>
+            <td><span class="tag">CV</span></td>
+            <td class="why">Established convolutional neural networks as the way to read images, decades ahead of the hardware.</td>
+          </tr>
+          <tr>
+            <td class="yr">2012</td>
+            <td class="paper"><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks">ImageNet Classification with Deep CNNs (AlexNet)</a><span class="by">Krizhevsky, Sutskever &amp; Hinton</span></td>
+            <td><span class="tag">CV</span></td>
+            <td class="why">Crushed the ImageNet benchmark with GPUs and ignited the modern deep-learning era.</td>
+          </tr>
+          <tr>
+            <td class="yr">2013</td>
+            <td class="paper"><a href="https://arxiv.org/abs/1301.3781">Efficient Estimation of Word Representations (word2vec)</a><span class="by">Mikolov et al.</span></td>
+            <td><span class="tag">NLP</span></td>
+            <td class="why">Showed word meaning could be captured in vectors ("king − man + woman ≈ queen"), starting the embeddings era.</td>
+          </tr>
+          <tr>
+            <td class="yr">2013</td>
+            <td class="paper"><a href="https://arxiv.org/abs/1312.5602">Playing Atari with Deep Reinforcement Learning (DQN)</a><span class="by">Mnih et al., DeepMind</span></td>
+            <td><span class="tag">RL</span></td>
+            <td class="why">First deep network to learn control from raw pixels, launching deep reinforcement learning.</td>
+          </tr>
+          <tr>
+            <td class="yr">2014</td>
+            <td class="paper"><a href="https://arxiv.org/abs/1406.2661">Generative Adversarial Networks</a><span class="by">Goodfellow et al.</span></td>
+            <td><span class="tag">Generative</span></td>
+            <td class="why">Two networks competing — generator vs. discriminator — made realistic image generation possible.</td>
+          </tr>
+          <tr>
+            <td class="yr">2014</td>
+            <td class="paper"><a href="https://arxiv.org/abs/1409.3215">Sequence to Sequence Learning with Neural Networks</a><span class="by">Sutskever, Vinyals &amp; Le</span></td>
+            <td><span class="tag">NLP</span></td>
+            <td class="why">The encoder–decoder recipe behind neural machine translation and, later, chat models.</td>
+          </tr>
+          <tr>
+            <td class="yr">2014</td>
+            <td class="paper"><a href="https://arxiv.org/abs/1412.6980">Adam: A Method for Stochastic Optimization</a><span class="by">Kingma &amp; Ba</span></td>
+            <td><span class="tag">Optimization</span></td>
+            <td class="why">Became the default optimizer for nearly every deep model trained since.</td>
+          </tr>
+          <tr>
+            <td class="yr">2015</td>
+            <td class="paper"><a href="https://arxiv.org/abs/1512.03385">Deep Residual Learning (ResNet)</a><span class="by">He et al.</span></td>
+            <td><span class="tag">CV</span></td>
+            <td class="why">Skip connections let networks go from 20 layers to 1000+, a trick every modern architecture inherits.</td>
+          </tr>
+          <tr>
+            <td class="yr">2016</td>
+            <td class="paper"><a href="https://www.nature.com/articles/nature16961">Mastering the Game of Go (AlphaGo)</a><span class="by">Silver et al., DeepMind</span></td>
+            <td><span class="tag">RL</span></td>
+            <td class="why">Beat the world's best Go players a decade ahead of predictions; deep RL's defining public moment.</td>
+          </tr>
+          <tr>
+            <td class="yr">2017</td>
+            <td class="paper"><a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need (Transformer)</a><span class="by">Vaswani et al.</span></td>
+            <td><span class="tag">Architecture</span></td>
+            <td class="why">The Transformer replaced recurrence with attention — the architecture underneath every modern LLM.</td>
+          </tr>
+          <tr>
+            <td class="yr">2018</td>
+            <td class="paper"><a href="https://arxiv.org/abs/1810.04805">BERT: Pre-training of Deep Bidirectional Transformers</a><span class="by">Devlin et al., Google</span></td>
+            <td><span class="tag">NLP</span></td>
+            <td class="why">Made "pretrain, then fine-tune" the standard playbook for language understanding.</td>
+          </tr>
+          <tr>
+            <td class="yr">2020</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2001.08361">Scaling Laws for Neural Language Models</a><span class="by">Kaplan et al., OpenAI</span></td>
+            <td><span class="tag">Scaling</span></td>
+            <td class="why">Showed loss falls predictably with compute, data, and parameters — the argument for building ever-bigger models.</td>
+          </tr>
+          <tr>
+            <td class="yr">2020</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2005.14165">Language Models are Few-Shot Learners (GPT-3)</a><span class="by">Brown et al., OpenAI</span></td>
+            <td><span class="tag">LLM</span></td>
+            <td class="why">175B parameters revealed in-context learning: one model, many tasks, no fine-tuning.</td>
+          </tr>
+          <tr>
+            <td class="yr">2020</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a><span class="by">Ho, Jain &amp; Abbeel</span></td>
+            <td><span class="tag">Generative</span></td>
+            <td class="why">Made diffusion practical, displacing GANs as the engine of image generation.</td>
+          </tr>
+          <tr>
+            <td class="yr">2020</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2010.11929">An Image is Worth 16x16 Words (ViT)</a><span class="by">Dosovitskiy et al., Google</span></td>
+            <td><span class="tag">CV</span></td>
+            <td class="why">Brought the Transformer to vision, ending CNNs' monopoly on image models.</td>
+          </tr>
+          <tr>
+            <td class="yr">2021</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2103.00020">Learning Transferable Visual Models (CLIP)</a><span class="by">Radford et al., OpenAI</span></td>
+            <td><span class="tag">Multimodal</span></td>
+            <td class="why">Tied images and text into one embedding space — the connective tissue of multimodal AI.</td>
+          </tr>
+          <tr>
+            <td class="yr">2021</td>
+            <td class="paper"><a href="https://www.nature.com/articles/s41586-021-03819-2">Highly Accurate Protein Structure Prediction (AlphaFold 2)</a><span class="by">Jumper et al., DeepMind</span></td>
+            <td><span class="tag">AI for Science</span></td>
+            <td class="why">Effectively solved protein folding, a 50-year grand challenge; later earned a Nobel Prize in Chemistry.</td>
+          </tr>
+          <tr>
+            <td class="yr">2022</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2203.02155">Training LMs to Follow Instructions (InstructGPT)</a><span class="by">Ouyang et al., OpenAI</span></td>
+            <td><span class="tag">Alignment</span></td>
+            <td class="why">RLHF turned raw language models into helpful assistants — the technique behind ChatGPT.</td>
+          </tr>
+          <tr>
+            <td class="yr">2022</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2201.11903">Chain-of-Thought Prompting Elicits Reasoning</a><span class="by">Wei et al., Google</span></td>
+            <td><span class="tag">Reasoning</span></td>
+            <td class="why">"Think step by step" unlocked latent reasoning in LLMs and seeded today's reasoning models.</td>
+          </tr>
+          <tr>
+            <td class="yr">2022</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal LLMs (Chinchilla)</a><span class="by">Hoffmann et al., DeepMind</span></td>
+            <td><span class="tag">Scaling</span></td>
+            <td class="why">Showed most LLMs were undertrained on data, resetting how the field balances model size vs. tokens.</td>
+          </tr>
+          <tr>
+            <td class="yr">2022</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2112.10752">High-Resolution Image Synthesis with Latent Diffusion</a><span class="by">Rombach et al.</span></td>
+            <td><span class="tag">Generative</span></td>
+            <td class="why">Ran diffusion in latent space, making it cheap — the paper behind Stable Diffusion.</td>
+          </tr>
+          <tr>
+            <td class="yr">2023</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2302.13971">LLaMA: Open and Efficient Foundation Language Models</a><span class="by">Touvron et al., Meta</span></td>
+            <td><span class="tag">Open Models</span></td>
+            <td class="why">Put near-frontier weights in researchers' hands and ignited the open-model ecosystem.</td>
+          </tr>
+          <tr>
+            <td class="yr">2023</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2312.00752">Mamba: Linear-Time Sequence Modeling</a><span class="by">Gu &amp; Dao</span></td>
+            <td><span class="tag">Architecture</span></td>
+            <td class="why">State-space models as the first credible post-Transformer challenger for long sequences.</td>
+          </tr>
+          <tr>
+            <td class="yr">2025</td>
+            <td class="paper"><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning via RL</a><span class="by">DeepSeek</span></td>
+            <td><span class="tag">Reasoning</span></td>
+            <td class="why">Showed reasoning ability can emerge from pure reinforcement learning — and released it openly at a fraction of frontier cost.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="panel-areas" role="tabpanel" aria-labelledby="tab-btn-areas" hidden>
+    <p class="papers-note">
+      Per-field timelines tracing how each key area of AI evolved, with extra depth on the
+      recent large-language-model and agent eras.
+    </p>
+    <nav class="area-nav" aria-label="Jump to area">
+      <a href="#area-llm">Large Language Models</a>
+      <a href="#area-agents">AI Agents</a>
+      <a href="#area-cv">Computer Vision</a>
+      <a href="#area-gen">Generative Media</a>
+      <a href="#area-rl">Reinforcement Learning</a>
+    </nav>
+
+    <section class="area" id="area-llm">
+      <h2>Large Language Models</h2>
+      <p class="area-sub">From the Transformer to reasoning models: the fastest-moving decade in the field.</p>
+      <ul class="tl">
+        <li><span class="yr">2017</span><h3><a href="https://arxiv.org/abs/1706.03762">Transformer — Attention Is All You Need</a></h3><p>Attention replaces recurrence; the architecture every LLM still uses.</p></li>
+        <li><span class="yr">2018</span><h3><a href="https://arxiv.org/abs/1810.04805">GPT-1 &amp; BERT — the pretraining era begins</a></h3><p>Generative pretraining (OpenAI) and bidirectional pretraining (Google) make "pretrain, then adapt" the standard recipe.</p></li>
+        <li><span class="yr">2019</span><h3><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">GPT-2 — scale brings fluency</a></h3><p>1.5B parameters write coherent long-form text; its staged release starts the first big debate on releasing model weights.</p></li>
+        <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2005.14165">GPT-3 &amp; the scaling laws</a></h3><p>In-context learning emerges at 175B parameters, while Kaplan et al. show performance scales predictably with compute — the case for going bigger.</p></li>
+        <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2203.02155">Chinchilla, InstructGPT, and ChatGPT</a></h3><p>Compute-optimal training resets scaling strategy; RLHF makes models helpful; ChatGPT (Nov 30) takes LLMs from research to a hundred million users.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2303.08774">GPT-4 and the open-weights wave</a></h3><p>GPT-4 passes professional exams and accepts images; LLaMA and Llama 2 put strong weights in the open; Mistral 7B shows small can be mighty.</p></li>
+        <li><span class="yr">2024</span><h3>Multimodal by default, and test-time compute</h3><p>GPT-4o and Gemini 1.5 (1M-token context) make voice and vision native; OpenAI's o1 shows models improve by thinking longer, not just training bigger.</p></li>
+        <li><span class="yr">2025</span><h3><a href="https://arxiv.org/abs/2501.12948">DeepSeek-V3 / R1 — the open frontier</a></h3><p>Near-frontier capability at a fraction of the training cost, with reasoning learned by pure RL — reasoning models become the industry default.</p></li>
+        <li><span class="yr">2026</span><h3><a href="https://arxiv.org/abs/2602.15763">Frontier open models target software engineering</a></h3><p>Releases like GLM-5 push open models toward real-world coding and long-horizon agentic work at falling cost.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="area-agents">
+      <h2>AI Agents</h2>
+      <p class="area-sub">LLMs that act: tools, computers, codebases — the area moving fastest right now.</p>
+      <ul class="tl">
+        <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2210.03629">ReAct — reason, then act</a></h3><p>Interleaving chain-of-thought with tool actions becomes the basic control loop of nearly every agent since.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2302.04761">Toolformer &amp; the autonomous-loop moment</a></h3><p>Models teach themselves to call APIs; AutoGPT and BabyAGI go viral as the first self-directed task loops the public can run.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2304.03442">Generative Agents &amp; Voyager</a></h3><p>Simulated agent societies with memory and planning (the "Smallville" paper); Voyager learns an ever-growing skill library in Minecraft.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2310.06770">SWE-bench — agents meet real work</a></h3><p>Resolving actual GitHub issues becomes the benchmark that defines coding-agent progress.</p></li>
+        <li><span class="yr">2024</span><h3><a href="https://arxiv.org/abs/2405.15793">Coding agents arrive: Devin &amp; SWE-agent</a></h3><p>End-to-end software agents plan, edit, run, and debug; agent–computer interface design proves as important as the model.</p></li>
+        <li><span class="yr">2024</span><h3>Computer use &amp; the Model Context Protocol</h3><p>Anthropic's computer-use API lets models operate a real desktop; MCP standardizes how agents connect to tools and data.</p></li>
+        <li><span class="yr">2025</span><h3>Agents in production</h3><p>Deep-research agents, terminal coding agents (Claude Code, Codex), and multi-agent orchestration move from demos to daily workflows.</p></li>
+        <li><span class="yr">2026</span><h3><a href="https://arxiv.org/abs/2605.23904">Self-evolving skills</a></h3><p>Work like SkillOpt has agents optimize their own skill libraries in text space, with no added inference cost — agents that improve themselves on the job.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="area-cv">
+      <h2>Computer Vision</h2>
+      <p class="area-sub">From reading digits to promptable, open-vocabulary perception.</p>
+      <ul class="tl">
+        <li><span class="yr">1998</span><h3><a href="https://ieeexplore.ieee.org/document/726791">LeNet-5 — CNNs read checks</a></h3><p>Convolution + pooling + gradient descent, deployed commercially decades before the deep-learning boom.</p></li>
+        <li><span class="yr">2012</span><h3><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks">AlexNet — the ImageNet moment</a></h3><p>GPU-trained CNN halves the error rate of classical pipelines and converts the field to deep learning overnight.</p></li>
+        <li><span class="yr">2015</span><h3><a href="https://arxiv.org/abs/1512.03385">ResNet, and detection gets fast</a></h3><p>Residual connections unlock very deep networks; Faster R-CNN and YOLO make real-time object detection practical.</p></li>
+        <li><span class="yr">2017</span><h3><a href="https://arxiv.org/abs/1703.06870">Mask R-CNN — pixel-level understanding</a></h3><p>One framework for detection, segmentation, and pose — the workhorse of applied vision for years.</p></li>
+        <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2010.11929">ViT — Transformers take over vision</a></h3><p>Image patches as tokens; with enough data, attention beats convolution's built-in assumptions.</p></li>
+        <li><span class="yr">2021</span><h3><a href="https://arxiv.org/abs/2103.00020">CLIP — vision meets language</a></h3><p>400M image–text pairs give open-vocabulary recognition: classify anything you can describe.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2304.02643">Segment Anything (SAM)</a></h3><p>A promptable foundation model for segmentation; SAM 2 (2024) extends it to video.</p></li>
+        <li><span class="yr">2026</span><h3><a href="https://arxiv.org/abs/2607.05247">Dense spatial perception &amp; streaming 3D</a></h3><p>Current work pushes sub-pixel boundary understanding and real-time 3D reconstruction — vision as continuous geometry, not just labels.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="area-gen">
+      <h2>Generative Media</h2>
+      <p class="area-sub">Images, then video, then worlds.</p>
+      <ul class="tl">
+        <li><span class="yr">2014</span><h3><a href="https://arxiv.org/abs/1406.2661">GANs — adversarial generation</a></h3><p>Generator vs. discriminator; the first path to sharp synthetic images.</p></li>
+        <li><span class="yr">2018</span><h3><a href="https://arxiv.org/abs/1812.04948">StyleGAN — photorealistic faces</a></h3><p>"This person does not exist" makes generative AI's power visible to everyone.</p></li>
+        <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2006.11239">DDPM — diffusion becomes practical</a></h3><p>Denoising step by step proves more stable and scalable than adversarial training.</p></li>
+        <li><span class="yr">2021</span><h3><a href="https://arxiv.org/abs/2102.12092">DALL·E — text becomes image</a></h3><p>Open-ended text-to-image generation; CLIP guidance quickly amplifies quality.</p></li>
+        <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2112.10752">Stable Diffusion, DALL·E 2, Imagen</a></h3><p>Latent diffusion makes generation cheap and open; image generation goes mainstream in a single year.</p></li>
+        <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2302.05543">ControlNet — controllable generation</a></h3><p>Pose, depth, and edge conditioning turn diffusion from a slot machine into a design tool.</p></li>
+        <li><span class="yr">2024</span><h3>Sora — video generation at scale</h3><p>Minute-long coherent video from text, framed explicitly as a step toward world simulators.</p></li>
+        <li><span class="yr">2025–26</span><h3>Native audio-video and interactive world models</h3><p>Veo-class models add synchronized sound; multiplayer interactive world models make generated environments playable in real time.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="area-rl">
+      <h2>Reinforcement Learning</h2>
+      <p class="area-sub">From backgammon to the training signal behind reasoning models.</p>
+      <ul class="tl">
+        <li><span class="yr">1992</span><h3><a href="https://dl.acm.org/doi/10.1145/203330.203343">TD-Gammon — learning from self-play</a></h3><p>A neural network reaches world-class backgammon through temporal-difference learning alone.</p></li>
+        <li><span class="yr">2013</span><h3><a href="https://arxiv.org/abs/1312.5602">DQN — pixels to actions</a></h3><p>One network learns dozens of Atari games from raw screens; deep RL is born.</p></li>
+        <li><span class="yr">2016</span><h3><a href="https://www.nature.com/articles/nature16961">AlphaGo — the grand-challenge win</a></h3><p>Search plus learned policy and value networks defeat the world's best Go players.</p></li>
+        <li><span class="yr">2017</span><h3><a href="https://arxiv.org/abs/1707.06347">PPO &amp; AlphaZero</a></h3><p>PPO becomes the field's dependable workhorse; AlphaZero masters Go, chess, and shogi from self-play with no human data.</p></li>
+        <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/1911.08265">MuZero — planning without rules</a></h3><p>Learns a model of the environment's dynamics itself, planning without being told the rules.</p></li>
+        <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2203.02155">RLHF — RL meets language models</a></h3><p>Human preferences as a reward signal align LLMs; RL becomes central to how frontier models are finished.</p></li>
+        <li><span class="yr">2025</span><h3><a href="https://arxiv.org/abs/2501.12948">RL for reasoning</a></h3><p>DeepSeek-R1 shows chain-of-thought reasoning can emerge from RL with verifiable rewards — no supervised reasoning data needed.</p></li>
+      </ul>
+    </section>
+  </div>
+
+  <div id="panel-companies" role="tabpanel" aria-labelledby="tab-btn-companies" hidden>
+    <p class="papers-note">
+      Recent development timelines for the top frontier-AI labs, from the ChatGPT moment to
+      mid-2026. Entries from 2026 come from news as of July 8, 2026 — use the update button
+      to refresh this tab as the year unfolds.
+    </p>
+    <nav class="area-nav" aria-label="Jump to company">
+      <a href="#co-openai">OpenAI</a>
+      <a href="#co-anthropic">Anthropic</a>
+      <a href="#co-google">Google DeepMind</a>
+      <a href="#co-meta">Meta AI</a>
+      <a href="#co-deepseek">DeepSeek</a>
+      <a href="#co-xai">xAI</a>
+      <a href="#co-nvidia">NVIDIA</a>
+      <a href="#co-microsoft">Microsoft</a>
+      <a href="#co-amazon">Amazon</a>
+      <a href="#co-apple">Apple</a>
+      <a href="#co-tesla">Tesla</a>
+      <a href="#co-open">Open Weights</a>
+    </nav>
+
+    <section class="area" id="co-openai">
+      <h2>OpenAI</h2>
+      <p class="area-sub">Set the consumer-AI era in motion and keeps pushing the frontier on reasoning and agents.</p>
+      <ul class="tl">
+        <li><span class="yr">Nov 2022</span><h3>ChatGPT launches</h3><p>Reaches 100 million users in two months — the fastest-growing consumer product in history and the starting gun for the current AI race.</p></li>
+        <li><span class="yr">Mar 2023</span><h3>GPT-4</h3><p>Multimodal, passes professional exams; becomes the benchmark every rival measures against for nearly two years.</p></li>
+        <li><span class="yr">2024</span><h3>GPT-4o, o1, and Sora</h3><p>Real-time voice and vision (May); o1 introduces the reasoning-model paradigm of thinking before answering (Sep); Sora brings text-to-video to the public (Dec).</p></li>
+        <li><span class="yr">2025</span><h3>o3, agents, and GPT-5</h3><p>Operator and Deep Research turn the models into working agents; GPT-5 (Aug) unifies fast chat and deep reasoning in one system; Codex matures into a production coding agent.</p></li>
+        <li><span class="yr">2026</span><h3>GPT-5.5 and the GPT-5.6 family</h3><p>GPT-5.5 (Apr) targets complex coding and research work; GPT-5.6 Sol, Terra, and Luna (Jun–Jul) launch publicly after an initial government-requested limited rollout to vetted partners — a first for frontier-model releases.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-anthropic">
+      <h2>Anthropic</h2>
+      <p class="area-sub">Safety-focused lab whose models became the default for coding and agentic work.</p>
+      <ul class="tl">
+        <li><span class="yr">Dec 2022</span><h3><a href="https://arxiv.org/abs/2212.08073">Constitutional AI</a></h3><p>Training models to critique themselves against written principles — the alignment method behind every Claude since.</p></li>
+        <li><span class="yr">2023</span><h3>Claude 1 &amp; 2</h3><p>Claude launches with a 100K-token context window, making long-document work practical before anyone else.</p></li>
+        <li><span class="yr">2024</span><h3>Claude 3, computer use, and MCP</h3><p>The Claude 3 family (Mar) is the first to clearly challenge GPT-4; Claude 3.5 Sonnet adds computer use (Oct); the Model Context Protocol (Nov) becomes the industry standard for connecting agents to tools.</p></li>
+        <li><span class="yr">2025</span><h3>Claude 4 era and Claude Code</h3><p>Opus 4 and Sonnet 4 (May) lead coding benchmarks; Claude Code takes agentic coding into terminals everywhere; Sonnet 4.5 and Opus 4.5 (fall) extend the lead in long-horizon agent tasks.</p></li>
+        <li><span class="yr">2026</span><h3>Opus 4.8 and the Claude 5 family</h3><p>Opus 4.8 sharpens the 4-series; the Claude 5 generation debuts with Fable 5 and introduces the Mythos-class tier above Opus — Mythos 5 available to approved organizations.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-google">
+      <h2>Google DeepMind</h2>
+      <p class="area-sub">Research powerhouse that fused Brain and DeepMind, spanning LLMs, science, and world models.</p>
+      <ul class="tl">
+        <li><span class="yr">Dec 2023</span><h3>Gemini 1.0</h3><p>Google's flagship answer to GPT-4, natively multimodal from the start.</p></li>
+        <li><span class="yr">2024</span><h3>Long context, AlphaFold 3, and a Nobel Prize</h3><p>Gemini 1.5 brings a million-token context (Feb); AlphaFold 3 models all of life's molecules (May); Hassabis and Jumper share the Chemistry Nobel (Oct); Gemini 2.0 and Veo 2 open the agentic push (Dec).</p></li>
+        <li><span class="yr">2025</span><h3>Gemini 2.5, Veo 3, Genie 3, Gemini 3</h3><p>Thinking-native Gemini 2.5 Pro (Mar); Veo 3 generates video with synchronized audio (May); Genie 3 produces playable interactive worlds (Aug); Gemini 3 (Nov) closes the year at the frontier.</p></li>
+        <li><span class="yr">2026</span><h3>Gemini 3.5 generation</h3><p>Gemini 3.5 Flash ships (May); the 3.5 Pro flagship is slated for mid-July with a 2M-token context and a deeper reasoning layer, squaring off against GPT-5.6 and Claude's Fable 5.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-meta">
+      <h2>Meta AI</h2>
+      <p class="area-sub">The open-weights heavyweight — and lately, the most aggressive talent spender.</p>
+      <ul class="tl">
+        <li><span class="yr">2023</span><h3>LLaMA and Llama 2</h3><p>LLaMA (Feb) escapes the lab and seeds the open-model ecosystem; Llama 2 (Jul) makes open weights commercially usable.</p></li>
+        <li><span class="yr">2024</span><h3>Llama 3 and the 405B</h3><p>Llama 3 (Apr) and 3.1-405B (Jul) deliver the first genuinely frontier-scale open weights.</p></li>
+        <li><span class="yr">2025</span><h3>Llama 4 and Superintelligence Labs</h3><p>Llama 4's MoE multimodal lineup (Apr) lands to mixed reviews; Meta responds by founding Superintelligence Labs and recruiting star researchers with unprecedented offers (Jun).</p></li>
+        <li><span class="yr">2026</span><h3>Betting on open agentic AI</h3><p>Positioning centers on Llama-4-class models as the agentic stack you can run on your own infrastructure — no per-token cost, no vendor lock-in — while the field awaits its next frontier release.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-deepseek">
+      <h2>DeepSeek</h2>
+      <p class="area-sub">The efficiency shock: frontier capability at a fraction of the assumed cost.</p>
+      <ul class="tl">
+        <li><span class="yr">2024</span><h3>V2 and V3</h3><p>V2's cheap MoE (May) triggers a price war in China; V3 (Dec) reaches frontier class on a reported ~$5.6M training run.</p></li>
+        <li><span class="yr">Jan 2025</span><h3><a href="https://arxiv.org/abs/2501.12948">R1 — the reasoning shock</a></h3><p>An open reasoning model trained largely by RL matches far more expensive rivals; markets react with the largest single-day value drop in Nvidia's history.</p></li>
+        <li><span class="yr">2025</span><h3>Iterating under constraints</h3><p>V3.1 and V3.2 refine efficiency and agent/tool use while navigating chip-export limits.</p></li>
+        <li><span class="yr">2026</span><h3>V4 — scaling on domestic silicon</h3><p>V4 is reported around April as a ~1T-parameter MoE with a 1M-token context and native multimodality, notably optimized for Huawei Ascend chips rather than Nvidia GPUs.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-xai">
+      <h2>xAI</h2>
+      <p class="area-sub">Compute maximalism: the biggest clusters, the fastest build-outs.</p>
+      <ul class="tl">
+        <li><span class="yr">Nov 2023</span><h3>Grok-1</h3><p>Launches as a real-time, irreverent assistant wired into X.</p></li>
+        <li><span class="yr">2024</span><h3>Open weights and Colossus</h3><p>Grok-1 weights released openly (Mar); the Colossus supercluster — 100,000 H100s — is assembled in about four months (Sep).</p></li>
+        <li><span class="yr">2025</span><h3>Grok 3 and Grok 4</h3><p>Grok 3 (Feb) debuts trained on Colossus; Grok 4 (Jul) posts frontier benchmark scores.</p></li>
+        <li><span class="yr">2026</span><h3>Multi-agent Grok and the road to Grok 5</h3><p>Grok 4.x betas introduce a multi-agent architecture (Feb–Mar); Grok 5 — a reported 6T-parameter MoE training on the gigawatt-scale Colossus 2 — is expected mid-year.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-nvidia">
+      <h2>NVIDIA</h2>
+      <p class="area-sub">The picks-and-shovels winner: nearly every model above was trained on its hardware.</p>
+      <ul class="tl">
+        <li><span class="yr">2022</span><h3>H100 ships as ChatGPT ignites demand</h3><p>The Hopper GPU arrives months before the LLM boom makes it the most sought-after object in tech.</p></li>
+        <li><span class="yr">2023</span><h3>The trillion-dollar chip company</h3><p>Data-center revenue explodes on LLM training demand; NVIDIA joins the $1T club (May) as GPUs become the industry's constraint.</p></li>
+        <li><span class="yr">2024</span><h3>Blackwell and the top of the market</h3><p>Blackwell unveiled at GTC (Mar); NVIDIA briefly becomes the world's most valuable company (Jun) while the CUDA software moat keeps rivals at bay.</p></li>
+        <li><span class="yr">2025</span><h3>Blackwell ramp, $4T then $5T</h3><p>Fastest product ramp in its history; first company past $4T (Jul) and $5T (Oct); releases open Nemotron models and opens NVLink to partners.</p></li>
+        <li><span class="yr">2026</span><h3><a href="https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer">Rubin platform</a></h3><p>Launched at CES (Jan): Vera CPU, Rubin GPU, and NVLink-6 networking promise ~10× lower inference token cost versus Blackwell; cloud deployments begin in the second half of 2026.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-microsoft">
+      <h2>Microsoft</h2>
+      <p class="area-sub">Bet earliest and biggest on OpenAI, then hedged with its own models and silicon.</p>
+      <ul class="tl">
+        <li><span class="yr">2023</span><h3>The OpenAI bet pays off</h3><p>Multibillion-dollar investment (Jan) puts GPT-4 into Bing and then Microsoft 365 Copilot — the first frontier model wired into everyday office work.</p></li>
+        <li><span class="yr">2024</span><h3>Copilot everywhere, silicon at home</h3><p>Copilot+ PCs bring on-device AI (May); the Phi family shows small models can punch up; Maia 100 custom accelerators enter Azure datacenters.</p></li>
+        <li><span class="yr">2025</span><h3>A new OpenAI deal and in-house MAI models</h3><p>The partnership is restructured (Oct) — Microsoft holds roughly a quarter of OpenAI while gaining independence; first MAI in-house models (MAI-1, MAI-Voice) debut; Fairwater-class AI datacenters come online.</p></li>
+        <li><span class="yr">2026</span><h3>Vera Rubin early adopter, Maia 200</h3><p>Among the first to deploy NVIDIA's Vera Rubin NVL72 racks in next-generation AI datacenters while ramping its own Maia 200 silicon — a two-track compute strategy.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-amazon">
+      <h2>Amazon</h2>
+      <p class="area-sub">The infrastructure play: model marketplace, custom chips, and the Anthropic alliance.</p>
+      <ul class="tl">
+        <li><span class="yr">2023</span><h3>Bedrock and the Anthropic alliance</h3><p>Bedrock (Apr) makes AWS the neutral marketplace for foundation models; the first $4B investment in Anthropic (Sep) anchors its frontier bet.</p></li>
+        <li><span class="yr">2024</span><h3>Nova models and Trainium 2</h3><p>The Anthropic investment doubles to $8B; Amazon's own Nova model family debuts at re:Invent (Dec); Trainium 2 chips ship as the in-house alternative to GPUs.</p></li>
+        <li><span class="yr">2025</span><h3>Alexa+ and Project Rainier</h3><p>Alexa is rebuilt on Claude-class models (Feb); Nova Act targets agents; Project Rainier goes live (Oct) — roughly half a million Trainium 2 chips dedicated to training Anthropic's models.</p></li>
+        <li><span class="yr">2026</span><h3>Trainium 3 and a million NVIDIA GPUs</h3><p>Trainium 3 ramps production (Q2) while AWS simultaneously commits to deploying over a million NVIDIA GPUs across its regions — hedging both sides of the silicon war.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-apple">
+      <h2>Apple</h2>
+      <p class="area-sub">The late mover: on-device privacy-first AI, then a landmark deal to buy the frontier instead of building it.</p>
+      <ul class="tl">
+        <li><span class="yr">Jun 2024</span><h3>Apple Intelligence</h3><p>WWDC 2024 unveils on-device models plus Private Cloud Compute, with ChatGPT as an opt-in fallback — privacy as the differentiator.</p></li>
+        <li><span class="yr">2025</span><h3>Rollout stalls, developers get the models</h3><p>The promised Siri overhaul is officially delayed (Mar); WWDC 2025's Foundation Models framework gives every app free access to the on-device LLM; Apple shops for a frontier partner.</p></li>
+        <li><span class="yr">Jan 2026</span><h3><a href="https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html">The Google deal</a></h3><p>Apple and Google announce a multi-year partnership: a custom 1.2T-parameter Gemini model — reportedly ~$1B a year — becomes the engine behind the rebuilt Siri and next-gen Apple Intelligence.</p></li>
+        <li><span class="yr">Spring 2026</span><h3>Context-aware Siri ships</h3><p>iOS 26.4 delivers phase one: Siri gains personal context, on-screen awareness, and Gemini-backed knowledge.</p></li>
+        <li><span class="yr">Jun 2026</span><h3>WWDC 2026 — Siri AI</h3><p>A fully rebuilt, conversational Siri that takes actions across apps and holds multi-turn context; full conversational rollout slated for September with iOS 27.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-tesla">
+      <h2>Tesla</h2>
+      <p class="area-sub">Embodied AI at scale: neural-network driving, humanoid robots, and in-house silicon.</p>
+      <ul class="tl">
+        <li><span class="yr">2021–22</span><h3>AI Days — Dojo and Optimus</h3><p>Tesla announces the Dojo training supercomputer and the Optimus humanoid, reframing itself as an AI and robotics company that happens to sell cars.</p></li>
+        <li><span class="yr">2024</span><h3>End-to-end neural driving, Cybercab unveiled</h3><p>FSD v12 replaces hand-written driving code with a single end-to-end neural network; the "We, Robot" event (Oct) shows the pedal-less Cybercab and next-gen Optimus.</p></li>
+        <li><span class="yr">2025</span><h3>Robotaxi launches; Dojo retired</h3><p>The first Robotaxi service opens in Austin (Jun); Tesla shuts down Dojo (Aug) and pivots its silicon roadmap to the AI5/AI6 chips with external fabs.</p></li>
+        <li><span class="yr">2026</span><h3>Unsupervised rides and Optimus Gen 3</h3><p>Unsupervised Robotaxi rides expand to Dallas and Houston (Apr); Cybercab production begins on today's AI4 hardware; Optimus Gen 3 debuts with guidance of 50–100K units built this year.</p></li>
+        <li><span class="yr">Apr 2026</span><h3><a href="https://www.teslarati.com/tesla-finalizes-ai5-chip-design-elon-musk-makes-bold-claim-capability/">AI5 tapes out</a></h3><p>The next-gen chip — roughly 5× the useful compute of the current dual-AI4 setup — finishes design, aimed at Optimus and training clusters, with production planned for 2027.</p></li>
+      </ul>
+    </section>
+
+    <section class="area" id="co-open">
+      <h2>The Open-Weights Ecosystem</h2>
+      <p class="area-sub">Not one company but a movement — increasingly led from China — that keeps the frontier only months ahead of what anyone can download.</p>
+      <ul class="tl">
+        <li><span class="yr">2023</span><h3>LLaMA escapes, Mistral arrives</h3><p>The LLaMA leak (Feb) and Llama 2's commercial license (Jul) seed the ecosystem; Mistral 7B (Sep) proves a small European team can compete; Hugging Face becomes the movement's home.</p></li>
+        <li><span class="yr">2024</span><h3>Open weights reach frontier scale</h3><p>Alibaba's Qwen 2/2.5 climbs the leaderboards, Llama 3.1-405B delivers the first frontier-scale open weights, and DeepSeek V3 (Dec) matches closed models at a fraction of the training cost.</p></li>
+        <li><span class="yr">2025</span><h3>The R1 year</h3><p>DeepSeek-R1 (Jan) open-sources frontier reasoning and shocks the markets; Qwen 3, Moonshot's 1T-parameter Kimi K2, and Z.ai's GLM-4.5 follow; even OpenAI returns to open weights with gpt-oss (Aug). The closed-to-open gap shrinks to months.</p></li>
+        <li><span class="yr">2026</span><h3>A release cadence no closed lab matches</h3><p>Qwen 3.5/3.6 (Apache 2.0), GLM-5 through 5.2 (MIT), Kimi K2.6 and K2.7-Code, Mistral Medium 3.5, and DeepSeek V4 all ship within months of each other — open models now lead on some agentic-coding benchmarks, with Chinese labs setting the pace.</p></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<script>
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+  document.getElementById('theme-btn').addEventListener('click', () => {
+    const root = document.documentElement;
+    const current = root.dataset.theme ||
+      (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const next = current === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    localStorage.setItem('theme', next);
+  });
+
+  const tabs = document.querySelectorAll('nav.tabs [role="tab"]');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => {
+        const selected = t === tab;
+        t.setAttribute('aria-selected', String(selected));
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !selected;
+      });
+    });
+  });
+
+  const fetchBtn = document.getElementById('fetch-btn');
+  const fetchStatus = document.getElementById('fetch-status');
+  const paperList = document.getElementById('paper-list');
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  fetchBtn.addEventListener('click', async () => {
+    fetchBtn.disabled = true;
+    fetchStatus.className = 'fetch-status';
+    fetchStatus.textContent = 'Fetching from huggingface.co…';
+    try {
+      const res = await fetch('https://huggingface.co/api/daily_papers?limit=15');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      const items = data
+        .map(d => d.paper || d)
+        .filter(p => p && p.title)
+        .sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0));
+      if (!items.length) throw new Error('empty response');
+      paperList.innerHTML = items.map(p => {
+        const id = esc(p.id || '');
+        const date = p.publishedAt
+          ? new Date(p.publishedAt).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
+          : '';
+        const summary = (p.summary || '').split(/(?<=\.)\s/)[0];
+        return '<li class="paper">' +
+          '<span class="votes"><span class="n">' + esc(p.upvotes ?? 0) + '</span><span class="lbl">votes</span></span>' +
+          '<h3><a href="https://arxiv.org/abs/' + id + '">' + esc(p.title) + '</a></h3>' +
+          '<p class="desc">' + esc(summary) + '</p>' +
+          '<p class="paper-meta"><span>' + esc(date) + '</span>' +
+          '<a href="https://huggingface.co/papers/' + id + '">HF page</a>' +
+          '<a href="https://arxiv.org/abs/' + id + '">arXiv</a></p>' +
+          '</li>';
+      }).join('');
+      fetchStatus.className = 'fetch-status ok';
+      fetchStatus.textContent = 'Live data fetched ' + new Date().toLocaleString();
+    } catch (err) {
+      fetchStatus.className = 'fetch-status error';
+      fetchStatus.textContent = 'Live fetch failed (' + err.message + ') — the network or the ' +
+        'Hugging Face API may be unavailable. Showing the Jul 8, 2026 snapshot instead.';
+    } finally {
+      fetchBtn.disabled = false;
+    }
+  });
+
+  const updateBtn = document.getElementById('update-btn');
+  const updateStatus = document.getElementById('update-status');
+  const promptBox = document.getElementById('update-prompt-box');
+  const updatePrompt =
+    'Please update my AI tracker page (index.html in my GitHub repo, live at ' + location.href + ' ): ' +
+    '(1) check official conference sites for newly announced dates/locations and update the ' +
+    'Conferences tab; (2) re-fetch the Hugging Face trending papers and replace the snapshot in ' +
+    'the Trending Papers tab; (3) update the Area Timelines and Companies sections (including ' +
+    'Open Weights) with significant developments since the snapshot date shown on the page. ' +
+    'Keep the existing format, update the snapshot date, then commit and push.';
+
+  updateBtn.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(updatePrompt);
+      updateStatus.className = 'fetch-status ok';
+      updateStatus.textContent = 'Update prompt copied — paste it to Claude to refresh every tab.';
+      promptBox.hidden = true;
+    } catch (err) {
+      promptBox.textContent = updatePrompt;
+      promptBox.hidden = false;
+      updateStatus.className = 'fetch-status';
+      updateStatus.textContent = 'Clipboard unavailable — copy the prompt below and paste it to Claude.';
+    }
+  });
+</script>
+</body>
+</html>
