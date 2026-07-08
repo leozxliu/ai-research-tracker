@@ -5,7 +5,7 @@
 const TABS = [
   { id: 'conferences', label: 'Conferences' },
   { id: 'papers', label: 'Trending Papers' },
-  { id: 'milestones', label: 'Milestones' },
+  { id: 'milestones', label: 'AI Timelines' },
   { id: 'areas', label: 'Area Timelines' },
   { id: 'companies', label: 'Companies' },
 ];

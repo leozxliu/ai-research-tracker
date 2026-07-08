@@ -1,182 +1,67 @@
 <p class="papers-note">
-      Overall milestones: the landmark papers that defined AI as a whole, from the perceptron
-      to modern reasoning models. For deeper per-field history — including recent LLM and
-      AI-agent work — see the <strong>Area Timelines</strong> tab.
-    </p>
-    <div class="table-scroll">
-      <table class="milestones">
-        <thead>
-          <tr><th>Year</th><th>Paper</th><th>Area</th><th>Why it matters</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="yr">1950</td>
-            <td class="paper"><a href="https://academic.oup.com/mind/article/LIX/236/433/986238">Computing Machinery and Intelligence</a><span class="by">Alan Turing</span></td>
-            <td><span class="tag">Foundations</span></td>
-            <td class="why">Posed "Can machines think?" and proposed the imitation game (Turing test), framing the field before it had a name.</td>
-          </tr>
-          <tr>
-            <td class="yr">1958</td>
-            <td class="paper"><a href="https://psycnet.apa.org/doi/10.1037/h0042519">The Perceptron</a><span class="by">Frank Rosenblatt</span></td>
-            <td><span class="tag">Neural Nets</span></td>
-            <td class="why">The first trainable artificial neuron — the ancestor of every neural network that followed.</td>
-          </tr>
-          <tr>
-            <td class="yr">1986</td>
-            <td class="paper"><a href="https://www.nature.com/articles/323533a0">Learning Representations by Back-Propagating Errors</a><span class="by">Rumelhart, Hinton &amp; Williams</span></td>
-            <td><span class="tag">Neural Nets</span></td>
-            <td class="why">Popularized backpropagation, making multi-layer networks trainable and reviving neural-network research.</td>
-          </tr>
-          <tr>
-            <td class="yr">1997</td>
-            <td class="paper"><a href="https://www.bioinf.jku.at/publications/older/2604.pdf">Long Short-Term Memory</a><span class="by">Hochreiter &amp; Schmidhuber</span></td>
-            <td><span class="tag">Sequences</span></td>
-            <td class="why">Solved vanishing gradients for recurrent networks; dominated speech and language modeling for two decades.</td>
-          </tr>
-          <tr>
-            <td class="yr">1998</td>
-            <td class="paper"><a href="https://ieeexplore.ieee.org/document/726791">Gradient-Based Learning Applied to Document Recognition (LeNet-5)</a><span class="by">LeCun et al.</span></td>
-            <td><span class="tag">CV</span></td>
-            <td class="why">Established convolutional neural networks as the way to read images, decades ahead of the hardware.</td>
-          </tr>
-          <tr>
-            <td class="yr">2012</td>
-            <td class="paper"><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks">ImageNet Classification with Deep CNNs (AlexNet)</a><span class="by">Krizhevsky, Sutskever &amp; Hinton</span></td>
-            <td><span class="tag">CV</span></td>
-            <td class="why">Crushed the ImageNet benchmark with GPUs and ignited the modern deep-learning era.</td>
-          </tr>
-          <tr>
-            <td class="yr">2013</td>
-            <td class="paper"><a href="https://arxiv.org/abs/1301.3781">Efficient Estimation of Word Representations (word2vec)</a><span class="by">Mikolov et al.</span></td>
-            <td><span class="tag">NLP</span></td>
-            <td class="why">Showed word meaning could be captured in vectors ("king − man + woman ≈ queen"), starting the embeddings era.</td>
-          </tr>
-          <tr>
-            <td class="yr">2013</td>
-            <td class="paper"><a href="https://arxiv.org/abs/1312.5602">Playing Atari with Deep Reinforcement Learning (DQN)</a><span class="by">Mnih et al., DeepMind</span></td>
-            <td><span class="tag">RL</span></td>
-            <td class="why">First deep network to learn control from raw pixels, launching deep reinforcement learning.</td>
-          </tr>
-          <tr>
-            <td class="yr">2014</td>
-            <td class="paper"><a href="https://arxiv.org/abs/1406.2661">Generative Adversarial Networks</a><span class="by">Goodfellow et al.</span></td>
-            <td><span class="tag">Generative</span></td>
-            <td class="why">Two networks competing — generator vs. discriminator — made realistic image generation possible.</td>
-          </tr>
-          <tr>
-            <td class="yr">2014</td>
-            <td class="paper"><a href="https://arxiv.org/abs/1409.3215">Sequence to Sequence Learning with Neural Networks</a><span class="by">Sutskever, Vinyals &amp; Le</span></td>
-            <td><span class="tag">NLP</span></td>
-            <td class="why">The encoder–decoder recipe behind neural machine translation and, later, chat models.</td>
-          </tr>
-          <tr>
-            <td class="yr">2014</td>
-            <td class="paper"><a href="https://arxiv.org/abs/1412.6980">Adam: A Method for Stochastic Optimization</a><span class="by">Kingma &amp; Ba</span></td>
-            <td><span class="tag">Optimization</span></td>
-            <td class="why">Became the default optimizer for nearly every deep model trained since.</td>
-          </tr>
-          <tr>
-            <td class="yr">2015</td>
-            <td class="paper"><a href="https://arxiv.org/abs/1512.03385">Deep Residual Learning (ResNet)</a><span class="by">He et al.</span></td>
-            <td><span class="tag">CV</span></td>
-            <td class="why">Skip connections let networks go from 20 layers to 1000+, a trick every modern architecture inherits.</td>
-          </tr>
-          <tr>
-            <td class="yr">2016</td>
-            <td class="paper"><a href="https://www.nature.com/articles/nature16961">Mastering the Game of Go (AlphaGo)</a><span class="by">Silver et al., DeepMind</span></td>
-            <td><span class="tag">RL</span></td>
-            <td class="why">Beat the world's best Go players a decade ahead of predictions; deep RL's defining public moment.</td>
-          </tr>
-          <tr>
-            <td class="yr">2017</td>
-            <td class="paper"><a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need (Transformer)</a><span class="by">Vaswani et al.</span></td>
-            <td><span class="tag">Architecture</span></td>
-            <td class="why">The Transformer replaced recurrence with attention — the architecture underneath every modern LLM.</td>
-          </tr>
-          <tr>
-            <td class="yr">2018</td>
-            <td class="paper"><a href="https://arxiv.org/abs/1810.04805">BERT: Pre-training of Deep Bidirectional Transformers</a><span class="by">Devlin et al., Google</span></td>
-            <td><span class="tag">NLP</span></td>
-            <td class="why">Made "pretrain, then fine-tune" the standard playbook for language understanding.</td>
-          </tr>
-          <tr>
-            <td class="yr">2020</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2001.08361">Scaling Laws for Neural Language Models</a><span class="by">Kaplan et al., OpenAI</span></td>
-            <td><span class="tag">Scaling</span></td>
-            <td class="why">Showed loss falls predictably with compute, data, and parameters — the argument for building ever-bigger models.</td>
-          </tr>
-          <tr>
-            <td class="yr">2020</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2005.14165">Language Models are Few-Shot Learners (GPT-3)</a><span class="by">Brown et al., OpenAI</span></td>
-            <td><span class="tag">LLM</span></td>
-            <td class="why">175B parameters revealed in-context learning: one model, many tasks, no fine-tuning.</td>
-          </tr>
-          <tr>
-            <td class="yr">2020</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a><span class="by">Ho, Jain &amp; Abbeel</span></td>
-            <td><span class="tag">Generative</span></td>
-            <td class="why">Made diffusion practical, displacing GANs as the engine of image generation.</td>
-          </tr>
-          <tr>
-            <td class="yr">2020</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2010.11929">An Image is Worth 16x16 Words (ViT)</a><span class="by">Dosovitskiy et al., Google</span></td>
-            <td><span class="tag">CV</span></td>
-            <td class="why">Brought the Transformer to vision, ending CNNs' monopoly on image models.</td>
-          </tr>
-          <tr>
-            <td class="yr">2021</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2103.00020">Learning Transferable Visual Models (CLIP)</a><span class="by">Radford et al., OpenAI</span></td>
-            <td><span class="tag">Multimodal</span></td>
-            <td class="why">Tied images and text into one embedding space — the connective tissue of multimodal AI.</td>
-          </tr>
-          <tr>
-            <td class="yr">2021</td>
-            <td class="paper"><a href="https://www.nature.com/articles/s41586-021-03819-2">Highly Accurate Protein Structure Prediction (AlphaFold 2)</a><span class="by">Jumper et al., DeepMind</span></td>
-            <td><span class="tag">AI for Science</span></td>
-            <td class="why">Effectively solved protein folding, a 50-year grand challenge; later earned a Nobel Prize in Chemistry.</td>
-          </tr>
-          <tr>
-            <td class="yr">2022</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2203.02155">Training LMs to Follow Instructions (InstructGPT)</a><span class="by">Ouyang et al., OpenAI</span></td>
-            <td><span class="tag">Alignment</span></td>
-            <td class="why">RLHF turned raw language models into helpful assistants — the technique behind ChatGPT.</td>
-          </tr>
-          <tr>
-            <td class="yr">2022</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2201.11903">Chain-of-Thought Prompting Elicits Reasoning</a><span class="by">Wei et al., Google</span></td>
-            <td><span class="tag">Reasoning</span></td>
-            <td class="why">"Think step by step" unlocked latent reasoning in LLMs and seeded today's reasoning models.</td>
-          </tr>
-          <tr>
-            <td class="yr">2022</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal LLMs (Chinchilla)</a><span class="by">Hoffmann et al., DeepMind</span></td>
-            <td><span class="tag">Scaling</span></td>
-            <td class="why">Showed most LLMs were undertrained on data, resetting how the field balances model size vs. tokens.</td>
-          </tr>
-          <tr>
-            <td class="yr">2022</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2112.10752">High-Resolution Image Synthesis with Latent Diffusion</a><span class="by">Rombach et al.</span></td>
-            <td><span class="tag">Generative</span></td>
-            <td class="why">Ran diffusion in latent space, making it cheap — the paper behind Stable Diffusion.</td>
-          </tr>
-          <tr>
-            <td class="yr">2023</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2302.13971">LLaMA: Open and Efficient Foundation Language Models</a><span class="by">Touvron et al., Meta</span></td>
-            <td><span class="tag">Open Models</span></td>
-            <td class="why">Put near-frontier weights in researchers' hands and ignited the open-model ecosystem.</td>
-          </tr>
-          <tr>
-            <td class="yr">2023</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2312.00752">Mamba: Linear-Time Sequence Modeling</a><span class="by">Gu &amp; Dao</span></td>
-            <td><span class="tag">Architecture</span></td>
-            <td class="why">State-space models as the first credible post-Transformer challenger for long sequences.</td>
-          </tr>
-          <tr>
-            <td class="yr">2025</td>
-            <td class="paper"><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning via RL</a><span class="by">DeepSeek</span></td>
-            <td><span class="tag">Reasoning</span></td>
-            <td class="why">Showed reasoning ability can emerge from pure reinforcement learning — and released it openly at a fraction of frontier cost.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  The landmark papers that defined AI as a whole, from the perceptron to modern reasoning
+  models, grouped by era. For deeper per-field history — including recent LLM and AI-agent
+  work — see the <strong>Area Timelines</strong> tab.
+</p>
+<nav class="area-nav" aria-label="Jump to era">
+  <a href="#era-foundations">Foundations</a>
+  <a href="#era-deep">Deep-Learning Revolution</a>
+  <a href="#era-scale">Transformers &amp; Scale</a>
+  <a href="#era-llm">The LLM Era</a>
+</nav>
+
+<section class="area" id="era-foundations">
+  <h2>Foundations <span class="era-range">1950 – 1998</span></h2>
+  <p class="area-sub">The ideas arrived decades before the hardware could prove them right.</p>
+  <ul class="tl">
+    <li><span class="yr">1950</span><h3><a href="https://academic.oup.com/mind/article/LIX/236/433/986238">Computing Machinery and Intelligence</a></h3><p class="who"><span class="tag">Foundations</span>Alan Turing</p><p>Posed "Can machines think?" and proposed the imitation game (Turing test), framing the field before it had a name.</p></li>
+    <li><span class="yr">1958</span><h3><a href="https://psycnet.apa.org/doi/10.1037/h0042519">The Perceptron</a></h3><p class="who"><span class="tag">Neural Nets</span>Frank Rosenblatt</p><p>The first trainable artificial neuron — the ancestor of every neural network that followed.</p></li>
+    <li><span class="yr">1986</span><h3><a href="https://www.nature.com/articles/323533a0">Learning Representations by Back-Propagating Errors</a></h3><p class="who"><span class="tag">Neural Nets</span>Rumelhart, Hinton &amp; Williams</p><p>Popularized backpropagation, making multi-layer networks trainable and reviving neural-network research.</p></li>
+    <li><span class="yr">1997</span><h3><a href="https://www.bioinf.jku.at/publications/older/2604.pdf">Long Short-Term Memory</a></h3><p class="who"><span class="tag">Sequences</span>Hochreiter &amp; Schmidhuber</p><p>Solved vanishing gradients for recurrent networks; dominated speech and language modeling for two decades.</p></li>
+    <li><span class="yr">1998</span><h3><a href="https://ieeexplore.ieee.org/document/726791">Gradient-Based Learning Applied to Document Recognition (LeNet-5)</a></h3><p class="who"><span class="tag">CV</span>LeCun et al.</p><p>Established convolutional neural networks as the way to read images, decades ahead of the hardware.</p></li>
+  </ul>
+</section>
+
+<section class="area" id="era-deep">
+  <h2>The Deep-Learning Revolution <span class="era-range">2012 – 2016</span></h2>
+  <p class="area-sub">GPUs plus data turned old ideas into a new field in four years flat.</p>
+  <ul class="tl">
+    <li><span class="yr">2012</span><h3><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks">ImageNet Classification with Deep CNNs (AlexNet)</a></h3><p class="who"><span class="tag">CV</span>Krizhevsky, Sutskever &amp; Hinton</p><p>Crushed the ImageNet benchmark with GPUs and ignited the modern deep-learning era.</p></li>
+    <li><span class="yr">2013</span><h3><a href="https://arxiv.org/abs/1301.3781">Efficient Estimation of Word Representations (word2vec)</a></h3><p class="who"><span class="tag">NLP</span>Mikolov et al.</p><p>Showed word meaning could be captured in vectors ("king − man + woman ≈ queen"), starting the embeddings era.</p></li>
+    <li><span class="yr">2013</span><h3><a href="https://arxiv.org/abs/1312.5602">Playing Atari with Deep Reinforcement Learning (DQN)</a></h3><p class="who"><span class="tag">RL</span>Mnih et al., DeepMind</p><p>First deep network to learn control from raw pixels, launching deep reinforcement learning.</p></li>
+    <li><span class="yr">2014</span><h3><a href="https://arxiv.org/abs/1406.2661">Generative Adversarial Networks</a></h3><p class="who"><span class="tag">Generative</span>Goodfellow et al.</p><p>Two networks competing — generator vs. discriminator — made realistic image generation possible.</p></li>
+    <li><span class="yr">2014</span><h3><a href="https://arxiv.org/abs/1409.3215">Sequence to Sequence Learning with Neural Networks</a></h3><p class="who"><span class="tag">NLP</span>Sutskever, Vinyals &amp; Le</p><p>The encoder–decoder recipe behind neural machine translation and, later, chat models.</p></li>
+    <li><span class="yr">2014</span><h3><a href="https://arxiv.org/abs/1412.6980">Adam: A Method for Stochastic Optimization</a></h3><p class="who"><span class="tag">Optimization</span>Kingma &amp; Ba</p><p>Became the default optimizer for nearly every deep model trained since.</p></li>
+    <li><span class="yr">2015</span><h3><a href="https://arxiv.org/abs/1512.03385">Deep Residual Learning (ResNet)</a></h3><p class="who"><span class="tag">CV</span>He et al.</p><p>Skip connections let networks go from 20 layers to 1000+, a trick every modern architecture inherits.</p></li>
+    <li><span class="yr">2016</span><h3><a href="https://www.nature.com/articles/nature16961">Mastering the Game of Go (AlphaGo)</a></h3><p class="who"><span class="tag">RL</span>Silver et al., DeepMind</p><p>Beat the world's best Go players a decade ahead of predictions; deep RL's defining public moment.</p></li>
+  </ul>
+</section>
+
+<section class="area" id="era-scale">
+  <h2>Transformers &amp; Scale <span class="era-range">2017 – 2021</span></h2>
+  <p class="area-sub">One architecture, ever-bigger training runs, and the discovery that scale itself is a strategy.</p>
+  <ul class="tl">
+    <li><span class="yr">2017</span><h3><a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need (Transformer)</a></h3><p class="who"><span class="tag">Architecture</span>Vaswani et al.</p><p>The Transformer replaced recurrence with attention — the architecture underneath every modern LLM.</p></li>
+    <li><span class="yr">2018</span><h3><a href="https://arxiv.org/abs/1810.04805">BERT: Pre-training of Deep Bidirectional Transformers</a></h3><p class="who"><span class="tag">NLP</span>Devlin et al., Google</p><p>Made "pretrain, then fine-tune" the standard playbook for language understanding.</p></li>
+    <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2001.08361">Scaling Laws for Neural Language Models</a></h3><p class="who"><span class="tag">Scaling</span>Kaplan et al., OpenAI</p><p>Showed loss falls predictably with compute, data, and parameters — the argument for building ever-bigger models.</p></li>
+    <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2005.14165">Language Models are Few-Shot Learners (GPT-3)</a></h3><p class="who"><span class="tag">LLM</span>Brown et al., OpenAI</p><p>175B parameters revealed in-context learning: one model, many tasks, no fine-tuning.</p></li>
+    <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a></h3><p class="who"><span class="tag">Generative</span>Ho, Jain &amp; Abbeel</p><p>Made diffusion practical, displacing GANs as the engine of image generation.</p></li>
+    <li><span class="yr">2020</span><h3><a href="https://arxiv.org/abs/2010.11929">An Image is Worth 16x16 Words (ViT)</a></h3><p class="who"><span class="tag">CV</span>Dosovitskiy et al., Google</p><p>Brought the Transformer to vision, ending CNNs' monopoly on image models.</p></li>
+    <li><span class="yr">2021</span><h3><a href="https://arxiv.org/abs/2103.00020">Learning Transferable Visual Models (CLIP)</a></h3><p class="who"><span class="tag">Multimodal</span>Radford et al., OpenAI</p><p>Tied images and text into one embedding space — the connective tissue of multimodal AI.</p></li>
+    <li><span class="yr">2021</span><h3><a href="https://www.nature.com/articles/s41586-021-03819-2">Highly Accurate Protein Structure Prediction (AlphaFold 2)</a></h3><p class="who"><span class="tag">AI for Science</span>Jumper et al., DeepMind</p><p>Effectively solved protein folding, a 50-year grand challenge; later earned a Nobel Prize in Chemistry.</p></li>
+  </ul>
+</section>
+
+<section class="area" id="era-llm">
+  <h2>The LLM Era <span class="era-range">2022 – today</span></h2>
+  <p class="area-sub">Models become assistants, weights go open, and reasoning becomes trainable.</p>
+  <ul class="tl">
+    <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2203.02155">Training LMs to Follow Instructions (InstructGPT)</a></h3><p class="who"><span class="tag">Alignment</span>Ouyang et al., OpenAI</p><p>RLHF turned raw language models into helpful assistants — the technique behind ChatGPT.</p></li>
+    <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2201.11903">Chain-of-Thought Prompting Elicits Reasoning</a></h3><p class="who"><span class="tag">Reasoning</span>Wei et al., Google</p><p>"Think step by step" unlocked latent reasoning in LLMs and seeded today's reasoning models.</p></li>
+    <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal LLMs (Chinchilla)</a></h3><p class="who"><span class="tag">Scaling</span>Hoffmann et al., DeepMind</p><p>Showed most LLMs were undertrained on data, resetting how the field balances model size vs. tokens.</p></li>
+    <li><span class="yr">2022</span><h3><a href="https://arxiv.org/abs/2112.10752">High-Resolution Image Synthesis with Latent Diffusion</a></h3><p class="who"><span class="tag">Generative</span>Rombach et al.</p><p>Ran diffusion in latent space, making it cheap — the paper behind Stable Diffusion.</p></li>
+    <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2302.13971">LLaMA: Open and Efficient Foundation Language Models</a></h3><p class="who"><span class="tag">Open Models</span>Touvron et al., Meta</p><p>Put near-frontier weights in researchers' hands and ignited the open-model ecosystem.</p></li>
+    <li><span class="yr">2023</span><h3><a href="https://arxiv.org/abs/2312.00752">Mamba: Linear-Time Sequence Modeling</a></h3><p class="who"><span class="tag">Architecture</span>Gu &amp; Dao</p><p>State-space models as the first credible post-Transformer challenger for long sequences.</p></li>
+    <li><span class="yr">2025</span><h3><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning via RL</a></h3><p class="who"><span class="tag">Reasoning</span>DeepSeek</p><p>Showed reasoning ability can emerge from pure reinforcement learning — and released it openly at a fraction of frontier cost.</p></li>
+  </ul>
+</section>

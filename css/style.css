@@ -393,39 +393,23 @@
   ul.tl h3 a { color: var(--ink); text-decoration: none; }
   ul.tl h3 a:hover, ul.tl h3 a:focus-visible { color: var(--accent); outline: none; }
   ul.tl p { color: var(--ink-soft); font-size: 0.86rem; max-width: 62ch; }
-
-  .table-scroll { overflow-x: auto; }
-  table.milestones {
-    border-collapse: collapse;
-    width: 100%;
-    min-width: 640px;
-    font-size: 0.88rem;
-  }
-  table.milestones th {
-    text-align: left;
-    font-size: 0.7rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+  ul.tl .who {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.55rem;
     color: var(--ink-faint);
-    padding: 0.5rem 0.9rem 0.5rem 0;
-    border-bottom: 1px solid var(--line);
+    font-size: 0.78rem;
+    margin: 0.2rem 0 0.15rem;
   }
-  table.milestones td {
-    padding: 0.6rem 0.9rem 0.6rem 0;
-    border-bottom: 1px solid var(--line);
-    vertical-align: top;
-  }
-  table.milestones td.yr {
+  section.area > h2 .era-range {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--ink-faint);
+    letter-spacing: 0.06em;
+    margin-left: 0.5rem;
     font-variant-numeric: tabular-nums;
-    font-weight: 700;
-    white-space: nowrap;
   }
-  table.milestones td.paper { min-width: 15rem; }
-  table.milestones td.paper a { color: var(--accent); text-decoration: none; font-weight: 600; }
-  table.milestones td.paper a:hover, table.milestones td.paper a:focus-visible { text-decoration: underline; outline: none; }
-  table.milestones td.paper .by { display: block; color: var(--ink-faint); font-size: 0.78rem; font-weight: 400; }
-  table.milestones td.why { color: var(--ink-soft); min-width: 18rem; }
 
   footer.page {
     border-top: 1px solid var(--line);
