@@ -130,13 +130,12 @@ function wireUpdateButton() {
   const updateStatus = document.getElementById('update-status');
   const promptBox = document.getElementById('update-prompt-box');
   const updatePrompt =
-    'Please update my AI tracker page (repo of the site at ' + location.href + ' ; content lives in ' +
-    'partials/*.html, data/papers.json, and data/meta.json): ' +
-    '(1) check official conference sites for newly announced dates/locations and update ' +
-    'partials/conferences.html; (2) re-fetch the Hugging Face trending papers and replace ' +
-    'data/papers.json; (3) update partials/areas.html and partials/companies.html with significant ' +
-    'developments since the snapshot date in data/meta.json. Keep the existing format, bump the ' +
-    'date in data/meta.json, then commit and push.';
+    'Run /update-tracker for my AI research tracker repo (site: ' + location.href + ' ). ' +
+    'If the skill is unavailable, do the equivalent: (1) check official conference sites for new ' +
+    'dates, locations, and submission/notification deadlines and update partials/conferences.html ' +
+    'including the keydates blocks; (2) re-fetch Hugging Face trending papers into data/papers.json; ' +
+    '(3) add significant developments to partials/areas.html and partials/companies.html; ' +
+    '(4) bump the date in data/meta.json, verify locally, then commit and push.';
 
   updateBtn.addEventListener('click', async () => {
     try {

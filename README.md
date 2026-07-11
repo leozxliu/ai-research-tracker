@@ -8,7 +8,7 @@ A single-page AI research tracker in the style of the former [Papers with Code](
 
 | Tab | What it shows |
 |---|---|
-| **Conferences** | Major AI/ML conference calendar through 2028 — NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ACL, EMNLP, AAAI, IJCAI, KDD, COLM, WACV — with dates, locations, and TBA status |
+| **Conferences** | Major AI/ML conference calendar through 2028 — NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ACL, EMNLP, AAAI, IJCAI, KDD, COLM, WACV — with dates, locations, and an expandable **Key dates** panel per conference (abstract/paper deadlines, notification, camera-ready, workshop and session days) |
 | **Trending Papers** | Snapshot of Hugging Face trending papers, ranked by upvotes, with a live-fetch button |
 | **AI Timelines** | Landmark AI papers from 1950 (Turing) to today, as a chronological timeline grouped by era |
 | **Area Timelines** | Per-field history: LLMs, AI agents, computer vision, generative media, reinforcement learning |
@@ -27,7 +27,9 @@ A single-page AI research tracker in the style of the former [Papers with Code](
 The page content is a static snapshot (date shown in the header). Two ways to refresh it:
 
 1. **Trending papers only** — click **Fetch latest papers** on the Trending Papers tab; this pulls live data in the browser and needs no deploy.
-2. **Everything** — click **Update this page** in the header. It copies a prompt to the clipboard; paste it into a [Claude Code](https://claude.com/claude-code) session opened in this repo. Claude re-checks conference sites, refreshes the paper snapshot, updates the timelines, bumps the snapshot date, and pushes. GitHub Pages redeploys automatically in about a minute.
+2. **Everything** — open a [Claude Code](https://claude.com/claude-code) session in this repo and run **`/update-tracker`** (the skill lives in `.claude/skills/update-tracker/`). It re-checks the official conference sites for dates and deadlines, refreshes the paper snapshot, appends significant news to the timelines, bumps the snapshot date, verifies locally, and pushes. GitHub Pages redeploys automatically in about a minute.
+
+   The **Update this page** button in the site header copies an equivalent prompt to the clipboard, for pasting into any Claude session.
 
 ## Project structure
 
