@@ -11,7 +11,7 @@ A single-page AI research tracker in the style of the former [Papers with Code](
 | **Conferences** | Major AI/ML conference calendar through 2028 — NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ACL, EMNLP, AAAI, IJCAI, KDD, COLM, WACV — with dates, locations, and an expandable **Key dates** panel per conference (abstract/paper deadlines, notification, camera-ready, workshop and session days) |
 | **Trending Papers** | Snapshot of Hugging Face trending papers, ranked by upvotes, with a live-fetch button |
 | **AI Timelines** | Landmark AI papers from 1950 (Turing) to today, as a chronological timeline grouped by era |
-| **Area Timelines** | Per-field history: LLMs, AI agents, computer vision, generative media, reinforcement learning |
+| **Area Timelines** | Per-field history: LLMs, AI agents, computer vision, generative media, reinforcement learning, robotics &amp; embodied AI (including the RaaS shift) |
 | **Companies** | Recent development timelines for OpenAI, Anthropic, Google DeepMind, Meta, DeepSeek, xAI, NVIDIA, Microsoft, Amazon, Apple, Tesla, and the open-weights ecosystem |
 
 ## Features
