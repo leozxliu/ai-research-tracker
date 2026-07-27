@@ -176,6 +176,7 @@
   .pill.field { background: var(--accent-soft); color: var(--accent); }
   .pill.live { background: var(--live-soft); color: var(--live); }
   .pill.tba { background: var(--tba-soft); color: var(--tba); }
+  .pill.done { background: var(--line); color: var(--ink-faint); }
   .pills { justify-self: end; display: flex; gap: 0.4rem; }
 
   .conf .keydates {

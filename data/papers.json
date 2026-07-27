@@ -1,101 +1,125 @@
 {
-  "snapshot": "July 8, 2026",
+  "snapshot": "July 27, 2026",
   "papers": [
     {
-      "votes": 253,
-      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
-      "arxiv": "2605.23904",
-      "desc": "A text-space optimizer that lets agents evolve their own skills, with zero added inference overhead at deployment.",
-      "tag": "Agents",
-      "extras": ["Microsoft Research", "May 2026"]
-    },
-    {
-      "votes": 225,
-      "title": "DataFlow: LLM-Driven Data Preparation Framework",
-      "arxiv": "2512.16676",
-      "desc": "An LLM-driven framework for data preparation that improves data quality and reproducibility across tasks.",
+      "votes": 38,
+      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "arxiv": "2607.20465",
+      "desc": "The first unified benchmark for how well LLMs, agents, and data-centric workflows actually prepare training data end to end.",
       "tag": "Data",
-      "extras": ["Peking University", "Dec 2025"]
+      "extras": ["14 authors", "May 2026"]
     },
     {
-      "votes": 209,
-      "title": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction",
-      "arxiv": "2606.14777",
-      "desc": "Continuous, real-time decision-making for interactive vision-language systems.",
-      "tag": "VLM",
-      "extras": ["JD.com", "Jun 2026"]
+      "votes": 22,
+      "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "arxiv": "2607.21653",
+      "desc": "A PyTorch-native framework that cuts the cost of changing algorithms, estimators, and rollout schemes in agentic RL research.",
+      "tag": "RL / Agents",
+      "extras": ["11 authors", "Jul 2026"]
     },
     {
-      "votes": 196,
-      "title": "GLM-5: Foundation Model Advances",
-      "arxiv": "2602.15763",
-      "desc": "Foundation-model release focused on stronger coding ability and lower cost for real-world software engineering.",
-      "tag": "LLM",
-      "extras": ["186 authors", "Feb 2026"]
-    },
-    {
-      "votes": 175,
-      "title": "MinerU2.5: Document Parsing Vision-Language Model",
-      "arxiv": "2509.22186",
-      "desc": "A 1.2B-parameter document-parsing model reaching state-of-the-art recognition with high computational efficiency.",
-      "tag": "OCR / VLM",
-      "extras": ["61 authors", "Sep 2025"]
-    },
-    {
-      "votes": 109,
-      "title": "TradingAgents: Multi-Agent LLM Financial Trading Framework",
-      "arxiv": "2412.20138",
-      "desc": "A multi-agent framework that simulates the structure of real-world trading firms.",
+      "votes": 16,
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "arxiv": "2607.21503",
+      "desc": "Argues production agents fail less from poor reasoning than from drowning in their own accumulating context, and treats memory as an architecture problem.",
       "tag": "Agents",
-      "extras": ["4 authors", "Dec 2024"]
-    },
-    {
-      "votes": 82,
-      "title": "OpenDevin: AI Software Developers Platform",
-      "arxiv": "2407.16741",
-      "desc": "A platform for building agents that write code, use the command line, and browse the web.",
-      "tag": "Code Agents",
-      "extras": ["24 authors", "Jul 2024"]
-    },
-    {
-      "votes": 51,
-      "title": "Unlimited OCR Works",
-      "arxiv": "2606.23050",
-      "desc": "Removes memory constraints for long-sequence OCR, scaling across many pages.",
-      "tag": "OCR",
-      "extras": ["Baidu", "Jun 2026"]
-    },
-    {
-      "votes": 34,
-      "title": "Vision Pretraining for Dense Spatial Perception",
-      "arxiv": "2607.05247",
-      "desc": "Boundary modeling enables dense spatial perception by learning sub-pixel representations.",
-      "tag": "CV",
       "extras": ["Jul 2026"]
     },
     {
-      "votes": 25,
-      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
-      "arxiv": "2604.14141",
-      "desc": "A real-time 3D foundation model with stable streaming reconstruction at 20 FPS.",
-      "tag": "3D",
-      "extras": ["Apr 2026"]
+      "votes": 15,
+      "title": "Interactive Training 2: Auditable Control Plane for Live Model Training",
+      "arxiv": "2607.18314",
+      "desc": "An open-source control plane for steering a live training run through a shared protocol instead of trainer-specific code.",
+      "tag": "Training",
+      "extras": ["5 authors", "Jul 2026"]
     },
     {
-      "votes": 15,
-      "title": "Multiplayer Interactive World Models",
-      "arxiv": "2607.05352",
-      "desc": "Stable long-horizon rollouts in a complex physics-based multiplayer environment.",
-      "tag": "World Models",
-      "extras": ["27 authors", "Jul 2026"]
+      "votes": 13,
+      "title": "Scaling Native Multimodal Pre-Training From Scratch",
+      "arxiv": "2607.22043",
+      "desc": "Trains models on multimodal inputs from scratch rather than bolting perception onto a text-only pretrained base.",
+      "tag": "Multimodal",
+      "extras": ["6 authors", "Jul 2026"]
+    },
+    {
+      "votes": 10,
+      "title": "Three-Body Scattering for Generative Modeling",
+      "arxiv": "2607.18198",
+      "desc": "A distributional energy induces sample-level motion, giving direct regression supervision for a one-step generator with no adversarial critic or prescribed noise path.",
+      "tag": "Generative",
+      "extras": ["6 authors", "Jul 2026"]
     },
     {
       "votes": 8,
-      "title": "Continuous Audio Language Models",
-      "arxiv": "2509.06926",
-      "desc": "Continuous generation to balance audio quality against computational cost.",
-      "tag": "Audio",
-      "extras": ["5 authors", "Sep 2025"]
+      "title": "O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning",
+      "arxiv": "2607.18142",
+      "desc": "Object-centric tracking plus reasoning to catch anomalous objects and events in industrial processes.",
+      "tag": "CV",
+      "extras": ["8 authors", "Jul 2026"]
+    },
+    {
+      "votes": 8,
+      "title": "LAMAR: An Open Language-Aware Multilingual Alignment Reranker",
+      "arxiv": "2607.22042",
+      "desc": "A reranker that accounts for document language when ordering results in multilingual retrieval-augmented generation.",
+      "tag": "Retrieval",
+      "extras": ["5 authors", "Jul 2026"]
+    },
+    {
+      "votes": 6,
+      "title": "Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making",
+      "arxiv": "2607.14277",
+      "desc": "One interface lets an agent decide at inference time whether to continue reasoning, defer to a stronger model, or request more information.",
+      "tag": "Agents",
+      "extras": ["4 authors", "Jul 2026"]
+    },
+    {
+      "votes": 5,
+      "title": "Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering",
+      "arxiv": "2607.21848",
+      "desc": "Keeps long-horizon autoregressive video generation consistent when revisiting a scene, without extra training.",
+      "tag": "Generative",
+      "extras": ["4 authors", "Jul 2026"]
+    },
+    {
+      "votes": 4,
+      "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "arxiv": "2607.22375",
+      "desc": "Optimizes research ideas for quality and diversity together, rather than collapsing into variations on one theme.",
+      "tag": "Agents",
+      "extras": ["4 authors", "Jul 2026"]
+    },
+    {
+      "votes": 4,
+      "title": "SceneActBench: Can Agents Act on the 3D Scenes They See?",
+      "arxiv": "2607.22393",
+      "desc": "A benchmark for VLM agents that use tools to act on complete multi-object 3D scenes, not just describe them.",
+      "tag": "3D / Agents",
+      "extras": ["14 authors", "Jul 2026"]
+    },
+    {
+      "votes": 3,
+      "title": "Spectral Prior for Reducing Exposure Bias in Diffusion Models",
+      "arxiv": "2607.22091",
+      "desc": "Identifies frequency-dependent train/inference mismatch as a driver of diffusion exposure bias and corrects for it.",
+      "tag": "Diffusion",
+      "extras": ["5 authors", "Jul 2026"]
+    },
+    {
+      "votes": 2,
+      "title": "VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression",
+      "arxiv": "2607.12756",
+      "desc": "Uses the language model itself as the encoder to compress visual tokens, cutting VLM latency and memory overhead.",
+      "tag": "VLM",
+      "extras": ["4 authors", "Jul 2026"]
+    },
+    {
+      "votes": 1,
+      "title": "Multimodal Speaker Verification as a Threat to Speaker Anonymization",
+      "arxiv": "2607.19636",
+      "desc": "Shows that accumulating acoustic, prosodic, and linguistic cues across many utterances undermines speaker anonymization.",
+      "tag": "Speech / Privacy",
+      "extras": ["4 authors", "Jul 2026"]
     }
   ]
 }
