@@ -357,7 +357,8 @@
     gap: 0.75rem;
     margin-bottom: 1.25rem;
   }
-  .fetch-bar button {
+  .fetch-bar button,
+  .fetch-bar a.btn {
     appearance: none;
     font: inherit;
     font-size: 0.88rem;
@@ -368,11 +369,17 @@
     border-radius: 6px;
     padding: 0.5rem 1.1rem;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.4;
   }
-  .fetch-bar button:hover { filter: brightness(1.08); }
-  .fetch-bar button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .fetch-bar button:hover,
+  .fetch-bar a.btn:hover { filter: brightness(1.08); }
+  .fetch-bar button:focus-visible,
+  .fetch-bar a.btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
   .fetch-bar button:disabled { opacity: 0.6; cursor: wait; }
-  .fetch-bar button.ghost {
+  .fetch-bar button.ghost,
+  .fetch-bar a.btn.ghost {
     background: var(--surface);
     color: var(--ink-soft);
     border: 1px solid var(--line);

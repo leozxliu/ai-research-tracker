@@ -21,8 +21,21 @@ if not os.path.isabs(ROOT):
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8123
 
+
+class NoCacheHandler(SimpleHTTPRequestHandler):
+    """Never let the browser cache during development.
+
+    Without this, an edit to a partial or to data/*.json can sit invisible behind
+    a cached copy, and you end up verifying the previous version of the page.
+    """
+
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-store, max-age=0")
+        super().end_headers()
+
+
 os.chdir(ROOT)
-handler = functools.partial(SimpleHTTPRequestHandler, directory=ROOT)
+handler = functools.partial(NoCacheHandler, directory=ROOT)
 server = HTTPServer(("127.0.0.1", PORT), handler)
 print(f"serving {ROOT} at http://127.0.0.1:{PORT}", flush=True)
 server.serve_forever()

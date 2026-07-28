@@ -1,0 +1,38 @@
+name: Refresh papers
+
+# Keeps data/papers.json current without anyone opening a laptop.
+# Only the papers snapshot is touched — conference dates and the timelines
+# need editorial judgement, so those stay on the manual /update-tracker run.
+
+on:
+  schedule:
+    - cron: "17 12 * * *" # daily, ~12:17 UTC (GitHub may delay under load)
+  workflow_dispatch: # "Run workflow" button — the one-click refresh
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-papers
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch trending papers
+        run: python3 scripts/refresh_papers.py
+
+      - name: Commit if the snapshot changed
+        run: |
+          if git diff --quiet -- data/papers.json; then
+            echo "No change in trending papers — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/papers.json
+          git commit -m "Auto-refresh trending papers snapshot"
+          git push

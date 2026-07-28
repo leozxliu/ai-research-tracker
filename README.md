@@ -24,12 +24,19 @@ A single-page AI research tracker in the style of the former [Papers with Code](
 
 ## Updating the content
 
-The page content is a static snapshot (date shown in the header). Two ways to refresh it:
+Papers refresh themselves; conference dates and timelines need a human-in-the-loop pass.
 
-1. **Trending papers only** — click **Fetch latest papers** on the Trending Papers tab; this pulls live data in the browser and needs no deploy.
-2. **Everything** — open a [Claude Code](https://claude.com/claude-code) session in this repo and run **`/update-tracker`** (the skill lives in `.claude/skills/update-tracker/`). It re-checks the official conference sites for dates and deadlines, refreshes the paper snapshot, appends significant news to the timelines, bumps the snapshot date, verifies locally, and pushes. GitHub Pages redeploys automatically in about a minute.
+**Papers — automatic, nothing to do.**
+- The Trending Papers tab calls the Hugging Face API on every page load. The stored snapshot renders instantly and stays put if the call fails, so the tab is never blank or stale.
+- `.github/workflows/refresh-papers.yml` runs `scripts/refresh_papers.py` daily and commits a fresh `data/papers.json`, keeping the stored copy current even with JavaScript disabled. It commits only when the content actually changed.
+- The **Refresh snapshot ↗** button in the header opens that workflow's page, where **Run workflow** triggers it on demand.
 
-   The **Update this page** button in the site header copies an equivalent prompt to the clipboard, for pasting into any Claude session.
+**Conferences and timelines — run `/update-tracker`.**
+These are deliberately *not* automated. The sources have no APIs, and the work is editorial: deciding that an aggregator reporting "ICLR 2027 in Brazil" has confused it with ICLR 2026 in Rio, or that a rumoured spec should be flagged `expected` rather than stated as fact. A cron job would publish those errors confidently.
+
+Open a [Claude Code](https://claude.com/claude-code) session in this repo and run **`/update-tracker`** (skill in `.claude/skills/update-tracker/`). It re-checks the official conference sites, refreshes the timelines, bumps `data/meta.json`, verifies locally, and pushes. The **Update this page** button copies an equivalent prompt for pasting into any Claude session.
+
+Note the two dates are independent: `data/meta.json` is the hand-checked editorial date shown in the header, while `data/papers.json` carries its own bot-updated snapshot date, so a nightly paper refresh never implies the conference data was re-verified.
 
 ## Project structure
 
@@ -39,6 +46,8 @@ Content, styling, and behavior are separated so updates touch only the relevant 
 .
 ├── index.html                 # thin shell: header, tab bar, empty panel host
 ├── serve.py                   # local preview server (dev only; not used by GitHub Pages)
+├── scripts/refresh_papers.py  # rewrites data/papers.json from the Hugging Face feed
+├── .github/workflows/         # refresh-papers.yml — daily paper refresh + manual trigger
 ├── css/style.css              # all styling (theme tokens, layout, components)
 ├── js/app.js                  # tab config + rendering, theme toggle, fetch & update buttons
 ├── data/

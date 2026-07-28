@@ -84,43 +84,50 @@ function renderPapers(items) {
   }).join('');
 }
 
-function wirePaperFetch(snapshotPapers) {
-  const fetchBtn = document.getElementById('fetch-btn');
-  const fetchStatus = document.getElementById('fetch-status');
-  fetchBtn.addEventListener('click', async () => {
-    fetchBtn.disabled = true;
-    fetchStatus.className = 'fetch-status';
-    fetchStatus.textContent = 'Fetching from huggingface.co…';
-    try {
-      const res = await fetch('https://huggingface.co/api/daily_papers?limit=15');
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const data = await res.json();
-      const items = data
-        .map(d => d.paper || d)
-        .filter(p => p && p.title)
-        .sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0))
-        .map(p => ({
-          votes: p.upvotes ?? 0,
-          title: p.title,
-          arxiv: p.id || '',
-          desc: (p.summary || '').split(/(?<=\.)\s/)[0],
-          extras: p.publishedAt
-            ? [new Date(p.publishedAt).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })]
-            : [],
-        }));
-      if (!items.length) throw new Error('empty response');
-      renderPapers(items);
-      fetchStatus.className = 'fetch-status ok';
-      fetchStatus.textContent = 'Live data fetched ' + new Date().toLocaleString();
-    } catch (err) {
-      renderPapers(snapshotPapers);
-      fetchStatus.className = 'fetch-status error';
-      fetchStatus.textContent = 'Live fetch failed (' + err.message + ') — the network or the ' +
-        'Hugging Face API may be unavailable. Showing the stored snapshot instead.';
-    } finally {
-      fetchBtn.disabled = false;
-    }
-  });
+const PAPERS_API = 'https://huggingface.co/api/daily_papers?limit=15';
+let snapshotPapers = [];
+let snapshotDate = '';
+
+/* Pull the live feed. Runs once on load (manual: false) and on every click of
+   the button (manual: true). The stored snapshot is already on screen either
+   way, so a failure here is a non-event — it just stays put. Only a click,
+   where someone is waiting on an answer, reports the failure loudly. */
+async function loadLivePapers({ manual }) {
+  const btn = document.getElementById('fetch-btn');
+  const status = document.getElementById('fetch-status');
+  if (manual) btn.disabled = true;
+  status.className = 'fetch-status';
+  status.textContent = manual ? 'Fetching from huggingface.co…' : 'Checking for newer papers…';
+  try {
+    const res = await fetch(PAPERS_API);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const items = data
+      .map(d => d.paper || d)
+      .filter(p => p && p.title)
+      .sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0))
+      .map(p => ({
+        votes: p.upvotes ?? 0,
+        title: p.title,
+        arxiv: p.id || '',
+        desc: (p.summary || '').split(/(?<=\.)\s/)[0],
+        extras: p.publishedAt
+          ? [new Date(p.publishedAt).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })]
+          : [],
+      }));
+    if (!items.length) throw new Error('empty response');
+    renderPapers(items);
+    status.className = 'fetch-status ok';
+    status.textContent = 'Live — fetched ' + new Date().toLocaleTimeString();
+  } catch (err) {
+    renderPapers(snapshotPapers);
+    status.className = manual ? 'fetch-status error' : 'fetch-status';
+    status.textContent = manual
+      ? `Live fetch failed (${err.message}) — showing the stored snapshot from ${snapshotDate}.`
+      : `Showing the stored snapshot from ${snapshotDate}.`;
+  } finally {
+    if (manual) btn.disabled = false;
+  }
 }
 
 /* ---------- update button ---------- */
@@ -163,8 +170,17 @@ async function boot() {
   ]);
   document.querySelectorAll('.snapshot-date').forEach(el => { el.textContent = meta.updated; });
   document.getElementById('update-status').textContent = 'Content snapshot: ' + meta.updated;
-  renderPapers(papersData.papers);
-  wirePaperFetch(papersData.papers);
+
+  // The papers tab carries its own date: a scheduled job refreshes that snapshot
+  // daily, while meta.updated tracks the hand-checked conference and timeline content.
+  snapshotPapers = papersData.papers;
+  snapshotDate = papersData.snapshot || meta.updated;
+  document.querySelectorAll('.papers-snapshot-date').forEach(el => { el.textContent = snapshotDate; });
+
+  renderPapers(snapshotPapers);
+  document.getElementById('fetch-btn')
+    .addEventListener('click', () => loadLivePapers({ manual: true }));
+  loadLivePapers({ manual: false }); // not awaited: the snapshot is already rendered
 }
 
 boot().catch(err => {

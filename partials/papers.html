@@ -1,10 +1,13 @@
 <p class="papers-note">
-  Trending papers ranked by community upvotes, from
-  <a href="https://huggingface.co/papers/trending" style="color: var(--accent);">Hugging&nbsp;Face Papers</a>.
-  The list below is a snapshot from <span class="snapshot-date">July 8, 2026</span> — use the button to pull the latest.
+  Trending papers from the
+  <a href="https://huggingface.co/papers/trending" style="color: var(--accent);">Hugging&nbsp;Face daily feed</a>,
+  ranked by community upvotes. This tab fetches live every time the page loads — the stored
+  snapshot (<span class="papers-snapshot-date">—</span>) appears instantly and stays put if the
+  network call fails. A scheduled job refreshes that stored snapshot daily, so it is current
+  even with JavaScript disabled.
 </p>
 <div class="fetch-bar">
   <button id="fetch-btn" type="button">Fetch latest papers</button>
-  <span id="fetch-status" class="fetch-status">Showing snapshot from <span class="snapshot-date">July 8, 2026</span></span>
+  <span id="fetch-status" class="fetch-status">Loading…</span>
 </div>
 <ul class="paper-list" id="paper-list"></ul>
