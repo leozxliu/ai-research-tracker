@@ -3,8 +3,7 @@
   "configurations": [
     {
       "name": "tracker",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8123"],
+      "url": "http://localhost:8123",
       "port": 8123
     }
   ]

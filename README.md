@@ -38,6 +38,7 @@ Content, styling, and behavior are separated so updates touch only the relevant 
 ```
 .
 ├── index.html                 # thin shell: header, tab bar, empty panel host
+├── serve.py                   # local preview server (dev only; not used by GitHub Pages)
 ├── css/style.css              # all styling (theme tokens, layout, components)
 ├── js/app.js                  # tab config + rendering, theme toggle, fetch & update buttons
 ├── data/
@@ -56,7 +57,12 @@ Content, styling, and behavior are separated so updates touch only the relevant 
 - **Add a tab** → add `partials/<id>.html` and one entry to the `TABS` array in `js/app.js`
 
 To preview locally, serve the folder (fetches don't work from `file://`):
-`python3 -m http.server` then open http://localhost:8000.
+
+```bash
+python3 serve.py
+```
+
+then open http://localhost:8123. Pass a port to override, e.g. `python3 serve.py 9000`.
 
 ## Deployment
 

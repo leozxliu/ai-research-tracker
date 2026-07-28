@@ -34,7 +34,16 @@ This repo is a static site (GitHub Pages, no build step). Content lives in:
 
 4. **Snapshot date** — set today's date in `data/meta.json` (format: "July 8, 2026"). It fills the header and all `.snapshot-date` spans.
 
-5. **Verify** — serve locally (`.claude/launch.json` has a `tracker` config: `python3 -m http.server 8123`), confirm every tab renders, keydates expand, and there are no console errors.
+5. **Verify** — serve locally, then confirm every tab renders, keydates expand, and the console is clean.
+   - Start the server from **Bash**, backgrounded: `python3 serve.py 8123`
+   - Then `preview_start` with the `tracker` config — it *attaches* to that server (url-only config, no command).
+   - Why two steps: this repo lives under `~/Desktop`, which macOS TCC protects. Processes the preview
+     harness spawns cannot read the folder at all (`Operation not permitted`), so a launch config cannot
+     start the server itself — but a Bash-started server can. Granting the app Files-and-Folders (or Full
+     Disk Access) in System Settings, or moving the repo out of `~/Desktop`, would remove this constraint.
+   - Reload once before asserting: `boot()` fetches the partials and JSON concurrently, so a query issued
+     mid-boot can show partials rendered while papers are still empty and the date still reads its fallback.
+   - `python3 serve.py` also works standalone for manual browsing (defaults to port 8123).
 
 6. **Ship** — commit with a message describing what changed, push to `main`. GitHub Pages redeploys automatically; confirm with `curl -s -o /dev/null -w '%{http_code}' https://leozxliu.github.io/ai-research-tracker/`.
 
