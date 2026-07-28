@@ -177,7 +177,14 @@
   .pill.live { background: var(--live-soft); color: var(--live); }
   .pill.tba { background: var(--tba-soft); color: var(--tba); }
   .pill.done { background: var(--line); color: var(--ink-faint); }
-  .pills { justify-self: end; display: flex; gap: 0.4rem; }
+  .pill.big3 { background: var(--accent); color: var(--bg); }
+  .pill.flagship { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .pill.top { background: transparent; color: var(--ink-soft); box-shadow: inset 0 0 0 1px var(--line); }
+  .pill.emerging { background: var(--tba-soft); color: var(--tba); }
+  .pill.applied { background: transparent; color: var(--ink-faint); box-shadow: inset 0 0 0 1px var(--line); }
+  /* tier chips shown inline inside the explanatory note */
+  .papers-note .pill { justify-self: auto; vertical-align: middle; margin: 0 0.1rem; }
+  .pills { justify-self: end; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.4rem; }
 
   .conf .keydates {
     grid-column: 1 / -1;
