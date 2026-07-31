@@ -1,65 +1,65 @@
 {
-  "snapshot": "July 30, 2026",
+  "snapshot": "July 31, 2026",
   "papers": [
     {
-      "votes": 114,
-      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
-      "arxiv": "2607.27205",
-      "desc": "Vision-language-action (VLA) models commonly adopt an LLM-centric V to L to A pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions.",
-      "tag": "VLM",
-      "extras": [
-        "10 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 64,
-      "title": "CoRT: Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization",
-      "arxiv": "2607.25659",
-      "desc": "Rubric-based reinforcement learning enriches language model training by evaluating model outputs against explicit criteria.",
-      "tag": "RL",
-      "extras": [
-        "8 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 63,
-      "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
-      "arxiv": "2607.27180",
-      "desc": "Evaluating whether a vision-language model (VLM) can act through a physical body is challenging.",
-      "tag": "VLM",
-      "extras": [
-        "18 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 52,
-      "title": "DecoEvo: Score-Decoupled Co-Evolution of Solver and Rubric-Generator Skills in Text Space",
-      "arxiv": "2607.25675",
-      "desc": "Text-space optimization adapts large language models (LLMs) by editing external natural-language artifacts rather than model weights, so the optimized artifacts remain inspectable and the model can be treated as a black box.",
+      "votes": 18,
+      "title": "See2Think: Do Multimodal Models Really Use Intermediate Visual States?",
+      "arxiv": "2607.26769",
+      "desc": "Multimodal large language models increasingly use sketches, annotations, tools, and intermediate images during reasoning, but it remains unclear whether they truly rely on these visual states.",
+      "tag": "Multimodal",
       "extras": [
         "13 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 39,
-      "title": "CLBench-V: Evaluating Multimodal Context Learning from Grounding to Knowledge Acquisition",
-      "arxiv": "2607.25294",
-      "desc": "Real-world tasks often require models to learn from task-specific context rather than relying only on pre-trained knowledge.",
-      "tag": "Multimodal",
+      "votes": 16,
+      "title": "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow",
+      "arxiv": "2607.28362",
+      "desc": "We present ShadowDancer, a novel approach to any-action, frame-level control of interactive video world models.",
+      "tag": "CV",
       "extras": [
-        "6 authors",
+        "3 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 27,
-      "title": "CAST: Game Solvers as Turn-Level Teachers for LLM Agents",
-      "arxiv": "2607.25308",
-      "desc": "Training large language models (LLMs) to act in long-horizon games is a promising step toward generalist decision-making, yet reinforcement learning with verifiable rewards (RLVR) relies on sparse final rewards that reveal little about which decisions determine success.",
+      "votes": 11,
+      "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
+      "arxiv": "2607.26056",
+      "desc": "Forward latent world models predict how actions change a scene, but recover actions for a desired change only through expensive test-time search.",
+      "extras": [
+        "3 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "LEDGERMIND: Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger",
+      "arxiv": "2607.28374",
+      "desc": "Multimodal agents for visual question answering increasingly operate as multi-step trajectories that interleave perception, retrieval, and reasoning, yet evaluation still largely reduces to final-answer accuracy.",
+      "tag": "Agents",
+      "extras": [
+        "7 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
+      "arxiv": "2607.27958",
+      "desc": "Memory is central to long-horizon LLM agents, yet existing memory systems primarily preserve interaction content rather than modeling which agents can be trusted and under what conditions.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
+      "arxiv": "2607.26637",
+      "desc": "Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that the agent itself reads, writes, and reorganizes through generic file tools.",
       "tag": "Agents",
       "extras": [
         "11 authors",
@@ -67,98 +67,96 @@
       ]
     },
     {
-      "votes": 17,
-      "title": "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution",
-      "arxiv": "2607.26784",
-      "desc": "Large language model agents often encounter related yet distinct tasks that share reusable solution patterns.",
-      "tag": "Agents",
+      "votes": 4,
+      "title": "Multi-Head Attention Residuals",
+      "arxiv": "2607.27230",
+      "desc": "Transformers propagate information across depth through a single additive residual stream: every sublayer reads only the most recent state.",
       "extras": [
-        "16 authors",
+        "3 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 12,
-      "title": "StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation",
-      "arxiv": "2607.26754",
-      "desc": "Recent game world models can generate visually realistic and interactive environments conditioned on player actions.",
+      "votes": 4,
+      "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
+      "arxiv": "2607.26627",
+      "desc": "Speculative Decoding (SD) accelerates large language model inference by allowing a lightweight draft model to propose tokens that are subsequently verified in parallel by a larger target model.",
+      "extras": [
+        "6 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+      "arxiv": "2607.28582",
+      "desc": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort.",
+      "tag": "Training",
       "extras": [
         "5 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 9,
-      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
-      "arxiv": "2607.27191",
-      "desc": "Forecasts of explosive AI progress hinge on AI agents automating AI research.",
-      "tag": "Agents",
+      "votes": 2,
+      "title": "Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation",
+      "arxiv": "2607.27372",
+      "desc": "The deep learning revolution, kicked off by AlexNet, taught us that end-to-end training beats decomposing a problem into hand-designed stages.",
+      "tag": "Training",
       "extras": [
-        "24 authors",
+        "3 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 7,
-      "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
-      "arxiv": "2607.27155",
-      "desc": "Large language model (LLM) agents are increasingly expected to assist users in completing tasks.",
-      "tag": "Agents",
+      "votes": 1,
+      "title": "Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations",
+      "arxiv": "2607.28319",
+      "desc": "This work presents Fairness Pruning, a lightweight structural intervention method designed for the management and future mitigation of demographic bias in large language models (LLMs).",
       "extras": [
-        "15 authors",
+        "3 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Memory for Large Language Models",
-      "arxiv": "2607.25380",
-      "desc": "Memory has evolved into a foundational architectural dimension in large language models (LLMs), shifting from an implicit byproduct of computation to a spectrum of explicit, controllable mechanisms.",
+      "votes": 1,
+      "title": "Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions",
+      "arxiv": "2607.20891",
+      "desc": "Deep Research agents extend LLM-based assistants into long-horizon workflows involving planning, retrieval, evidence synthesis, and report generation, yet their reliability in open information environments remains underexplored.",
+      "tag": "Agents",
       "extras": [
         "4 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation",
-      "arxiv": "2607.16955",
-      "desc": "On-policy knowledge distillation transfers reasoning from large teachers to compact students, but existing approaches suffer three compounding failure modes: (i) cold-start collapse, where a fresh student assigns near-zero mass to teacher-preferred tokens; (ii) state-agnostic divergence scheduling, where time-only forward/reverse-KL interpolation ignores the student's coverage state; and (iii) binary reward sparsity, where pass/fail signals discard information from partially correct traces.",
-      "tag": "Training",
+      "votes": 0,
+      "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
+      "arxiv": "2607.28308",
+      "desc": "Sparse mixture-of-experts (MoE) language models route each token to multiple experts, suggesting a geometric account of their benefit: co-selected experts should contribute distinct representation directions.",
       "extras": [
-        "2 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents",
-      "arxiv": "2607.26314",
-      "desc": "Stealth, the discipline of achieving an objective without revealing your presence, capabilities, or collected intelligence, is what separates sophisticated operators from detectable ones.",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Grading the Narrators: An Isnad-Rijal Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems",
-      "arxiv": "2607.24117",
-      "desc": "Modern multi-agent knowledge systems increasingly accumulate knowledge through chains of autonomous transformations rather than direct retrieval.",
-      "tag": "Agents",
-      "extras": [
+        "3 authors",
         "Jul 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "SecRespond: Benchmarking AI Agents for Real-World Post-Compromise Incident Response",
-      "arxiv": "2607.26791",
-      "desc": "Large Language Model (LLM) agents are increasingly adopted in real-world security operations with access to host artifacts and command-line interfaces (CLIs), making it critical to thoroughly assess their security capabilities.",
-      "tag": "Agents",
+      "title": "Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing",
+      "arxiv": "2607.16922",
+      "desc": "In our prior work, Pedestrian Archetypes, we defined pedestrian archetypes as collections of behaviors that uniquely identify a specific type of pedestrian.",
       "extras": [
-        "10 authors",
+        "9 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "AMRD: Adaptive Multi-Teacher Relational Distillation for Lightweight Speech Emotion Recognition",
+      "arxiv": "2607.25289",
+      "desc": "On-device speech emotion recognition (SER) is critical for real-time applications, yet large self-supervised models that excel at SER are too costly for edge devices.",
+      "tag": "Audio",
+      "extras": [
+        "8 authors",
         "Jul 2026"
       ]
     }
