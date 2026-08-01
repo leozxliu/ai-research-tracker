@@ -1,14 +1,25 @@
 {
-  "snapshot": "July 31, 2026",
+  "snapshot": "August 1, 2026",
   "papers": [
     {
-      "votes": 18,
+      "votes": 21,
       "title": "See2Think: Do Multimodal Models Really Use Intermediate Visual States?",
       "arxiv": "2607.26769",
       "desc": "Multimodal large language models increasingly use sketches, annotations, tools, and intermediate images during reasoning, but it remains unclear whether they truly rely on these visual states.",
       "tag": "Multimodal",
       "extras": [
         "13 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 17,
+      "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+      "arxiv": "2607.28582",
+      "desc": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort.",
+      "tag": "Training",
+      "extras": [
+        "5 authors",
         "Jul 2026"
       ]
     },
@@ -24,7 +35,7 @@
       ]
     },
     {
-      "votes": 11,
+      "votes": 12,
       "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
       "arxiv": "2607.26056",
       "desc": "Forward latent world models predict how actions change a scene, but recover actions for a desired change only through expensive test-time search.",
@@ -34,18 +45,7 @@
       ]
     },
     {
-      "votes": 9,
-      "title": "LEDGERMIND: Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger",
-      "arxiv": "2607.28374",
-      "desc": "Multimodal agents for visual question answering increasingly operate as multi-step trajectories that interleave perception, retrieval, and reasoning, yet evaluation still largely reduces to final-answer accuracy.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 5,
+      "votes": 11,
       "title": "Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
       "arxiv": "2607.27958",
       "desc": "Memory is central to long-horizon LLM agents, yet existing memory systems primarily preserve interaction content rather than modeling which agents can be trusted and under what conditions.",
@@ -56,49 +56,18 @@
       ]
     },
     {
-      "votes": 4,
-      "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
-      "arxiv": "2607.26637",
-      "desc": "Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that the agent itself reads, writes, and reorganizes through generic file tools.",
+      "votes": 10,
+      "title": "LEDGERMIND: Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger",
+      "arxiv": "2607.28374",
+      "desc": "Multimodal agents for visual question answering increasingly operate as multi-step trajectories that interleave perception, retrieval, and reasoning, yet evaluation still largely reduces to final-answer accuracy.",
       "tag": "Agents",
       "extras": [
-        "11 authors",
+        "7 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Multi-Head Attention Residuals",
-      "arxiv": "2607.27230",
-      "desc": "Transformers propagate information across depth through a single additive residual stream: every sublayer reads only the most recent state.",
-      "extras": [
-        "3 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
-      "arxiv": "2607.26627",
-      "desc": "Speculative Decoding (SD) accelerates large language model inference by allowing a lightweight draft model to propose tokens that are subsequently verified in parallel by a larger target model.",
-      "extras": [
-        "6 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
-      "arxiv": "2607.28582",
-      "desc": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort.",
-      "tag": "Training",
-      "extras": [
-        "5 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 2,
+      "votes": 9,
       "title": "Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation",
       "arxiv": "2607.27372",
       "desc": "The deep learning revolution, kicked off by AlexNet, taught us that end-to-end training beats decomposing a problem into hand-designed stages.",
@@ -109,17 +78,39 @@
       ]
     },
     {
-      "votes": 1,
-      "title": "Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations",
-      "arxiv": "2607.28319",
-      "desc": "This work presents Fairness Pruning, a lightweight structural intervention method designed for the management and future mitigation of demographic bias in large language models (LLMs).",
+      "votes": 8,
+      "title": "Multi-Head Attention Residuals",
+      "arxiv": "2607.27230",
+      "desc": "Transformers propagate information across depth through a single additive residual stream: every sublayer reads only the most recent state.",
       "extras": [
         "3 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 1,
+      "votes": 6,
+      "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
+      "arxiv": "2607.26637",
+      "desc": "Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that the agent itself reads, writes, and reorganizes through generic file tools.",
+      "tag": "Agents",
+      "extras": [
+        "11 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "OmniScope: Modality-Decoupled Token Compression for Omnimodal Large Language Models",
+      "arxiv": "2607.23193",
+      "desc": "Existing token compression methods for omnimodal large language models typically rely on one modality to determine what to retain in the other.",
+      "tag": "Audio",
+      "extras": [
+        "6 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 3,
       "title": "Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions",
       "arxiv": "2607.20891",
       "desc": "Deep Research agents extend LLM-based assistants into long-horizon workflows involving planning, retrieval, evidence synthesis, and report generation, yet their reliability in open information environments remains underexplored.",
@@ -130,10 +121,20 @@
       ]
     },
     {
-      "votes": 0,
+      "votes": 2,
       "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
       "arxiv": "2607.28308",
       "desc": "Sparse mixture-of-experts (MoE) language models route each token to multiple experts, suggesting a geometric account of their benefit: co-selected experts should contribute distinct representation directions.",
+      "extras": [
+        "3 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations",
+      "arxiv": "2607.28319",
+      "desc": "This work presents Fairness Pruning, a lightweight structural intervention method designed for the management and future mitigation of demographic bias in large language models (LLMs).",
       "extras": [
         "3 authors",
         "Jul 2026"
