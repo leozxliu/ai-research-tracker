@@ -1,8 +1,8 @@
 {
-  "snapshot": "August 1, 2026",
+  "snapshot": "August 2, 2026",
   "papers": [
     {
-      "votes": 21,
+      "votes": 22,
       "title": "See2Think: Do Multimodal Models Really Use Intermediate Visual States?",
       "arxiv": "2607.26769",
       "desc": "Multimodal large language models increasingly use sketches, annotations, tools, and intermediate images during reasoning, but it remains unclear whether they truly rely on these visual states.",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "votes": 17,
+      "votes": 18,
       "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
       "arxiv": "2607.28582",
       "desc": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort.",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "votes": 12,
+      "votes": 13,
       "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
       "arxiv": "2607.26056",
       "desc": "Forward latent world models predict how actions change a scene, but recover actions for a desired change only through expensive test-time search.",
@@ -45,11 +45,22 @@
       ]
     },
     {
-      "votes": 11,
+      "votes": 12,
       "title": "Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
       "arxiv": "2607.27958",
       "desc": "Memory is central to long-horizon LLM agents, yet existing memory systems primarily preserve interaction content rather than modeling which agents can be trusted and under what conditions.",
       "tag": "Agents",
+      "extras": [
+        "3 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation",
+      "arxiv": "2607.27372",
+      "desc": "The deep learning revolution, kicked off by AlexNet, taught us that end-to-end training beats decomposing a problem into hand-designed stages.",
+      "tag": "Training",
       "extras": [
         "3 authors",
         "Jul 2026"
@@ -67,17 +78,6 @@
       ]
     },
     {
-      "votes": 9,
-      "title": "Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation",
-      "arxiv": "2607.27372",
-      "desc": "The deep learning revolution, kicked off by AlexNet, taught us that end-to-end training beats decomposing a problem into hand-designed stages.",
-      "tag": "Training",
-      "extras": [
-        "3 authors",
-        "Jul 2026"
-      ]
-    },
-    {
       "votes": 8,
       "title": "Multi-Head Attention Residuals",
       "arxiv": "2607.27230",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "votes": 6,
+      "votes": 7,
       "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
       "arxiv": "2607.26637",
       "desc": "Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that the agent itself reads, writes, and reorganizes through generic file tools.",
