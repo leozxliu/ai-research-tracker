@@ -1,162 +1,165 @@
 {
-  "snapshot": "August 3, 2026",
+  "snapshot": "August 4, 2026",
   "papers": [
     {
-      "votes": 45,
-      "title": "Mental World Modeling",
-      "arxiv": "2607.27201",
-      "desc": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how will it evolve.",
-      "tag": "Agents",
+      "votes": 20,
+      "title": "Motion Beyond Morphology: Bootstrapping Cross-Category Motion Transfer from Abstract Motion Representations",
+      "arxiv": "2608.01628",
+      "desc": "Video motion transfer aims to animate a target object using dynamics from a reference video.",
       "extras": [
-        "2 authors",
-        "Jul 2026"
+        "9 authors",
+        "Aug 2026"
       ]
     },
     {
-      "votes": 24,
-      "title": "N_0-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation",
-      "arxiv": "2607.23783",
-      "desc": "We present N_0-TWAM, a tactile-native world-action model for contact-rich manipulation that predicts both future vision and future contact.",
-      "extras": [
-        "2 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 21,
-      "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
-      "arxiv": "2607.29209",
-      "desc": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while on-policy distillation (OPD) scores each token against a stronger teacher for a dense advantage but caps performance at teacher quality and discourages exploration beyond it.",
-      "tag": "Training",
-      "extras": [
-        "10 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 18,
-      "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
-      "arxiv": "2607.26611",
-      "desc": "AI-assisted coding increasingly translates informal user intent into executable software, yet coding requests often contain ambiguities that recur in user-specific ways across tasks and sessions.",
-      "tag": "Benchmark",
+      "votes": 19,
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "arxiv": "2608.02585",
+      "desc": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen.",
       "extras": [
         "7 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 16,
+      "title": "GPTQ-2D: Cubic-Time Two-Sided Adaptive Rounding",
+      "arxiv": "2607.27042",
+      "desc": "Adaptive rounding methods such as GPTQ, or equivalently Babai's nearest plane algorithm, round a real matrix to integers under a quadratic metric.",
+      "extras": [
+        "3 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 7,
-      "title": "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow",
-      "arxiv": "2607.27924",
-      "desc": "In the physical world we inhabit, space and time are fundamentally continuous.",
+      "votes": 14,
+      "title": "DeepVoyager-VL: Incentivizing Vision-in-the-Loop Search for Long-Horizon Multimodal Agents",
+      "arxiv": "2608.01827",
+      "desc": "Multimodal large language models (MLLMs) have advanced visual understanding and reasoning, yet their static parametric knowledge limits their ability to address knowledge-intensive and dynamically evolving open-world problems.",
+      "tag": "Agents",
+      "extras": [
+        "15 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 11,
+      "title": "DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents",
+      "arxiv": "2608.00486",
+      "desc": "Accurate prediction of object trajectories during manipulation is essential for closing the perception-action loop.",
+      "tag": "Diffusion",
+      "extras": [
+        "7 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems",
+      "arxiv": "2607.29241",
+      "desc": "Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objective, and training-strategy changes.",
+      "tag": "Agents",
       "extras": [
         "8 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "Relax Within, Balance Across: Geometry-Guided Load Balancing for Vision-Language Mixture-of-Experts",
+      "arxiv": "2608.00574",
+      "desc": "Vision-language MoE batches contain different numbers of image and text tokens.",
+      "tag": "VLM",
+      "extras": [
+        "7 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
+      "arxiv": "2607.28802",
+      "desc": "Existing evaluations often reduce agent failures to system-level outcomes, obscuring where the fault originated and which intervention would improve the agent system.",
+      "tag": "Agents",
+      "extras": [
+        "7 authors",
         "Jul 2026"
       ]
     },
     {
       "votes": 4,
-      "title": "RL^2-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
-      "arxiv": "2607.26991",
-      "desc": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often degrades on challenging and out-of-domain tasks.",
-      "tag": "RL",
+      "title": "ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures",
+      "arxiv": "2607.26848",
+      "desc": "Scientific figure comprehension and reasoning using multimodal AI requires integrating visual perception with domain-specific reasoning to extract meaningful knowledge, often not presented in the text of a research publication.",
+      "tag": "Multimodal",
       "extras": [
-        "7 authors",
+        "3 authors",
         "Jul 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "EMBL AI Librarian: Life-Sciences Knowledge Layer for AI Agents",
-      "arxiv": "2607.28229",
-      "desc": "The web is increasingly accessed by AI agents rather than humans.",
+      "votes": 1,
+      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+      "arxiv": "2607.29377",
+      "desc": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate that memory.",
       "tag": "Agents",
       "extras": [
-        "12 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "One Future, Every Robot: Label-Efficient Collective-State Prediction with Decentralized JEPA",
-      "arxiv": "2607.28443",
-      "desc": "Can every robot in a swarm predict the same future collective state from only local observations and bandwidth-limited messages? We formulate this as decentralized shared-state prediction and introduce Collective-State JEPA (CS-JEPA), a recurrent joint-embedding predictive architecture whose output at every robot represents one common future token field.",
-      "extras": [
-        "3 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Not All Tokens Deserve Equal Credit: Counterfactual Sensitivity Credit Reallocation for Long-CoT Reasoning",
-      "arxiv": "2607.27888",
-      "desc": "Reinforcement learning with verifiable rewards (RLVR) is central to improving long-CoT reasoning in large language models.",
-      "tag": "RL",
-      "extras": [
-        "3 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark",
-      "arxiv": "2607.29684",
-      "desc": "Robust low-light imaging remains challenging for the community.",
-      "tag": "3D",
-      "extras": [
-        "8 authors",
+        "11 authors",
         "Jul 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Beyond Feeling Better: Capability-Sustaining Emotional Dialogue as a Longitudinal Research Paradigm",
-      "arxiv": "2607.27851",
-      "desc": "Emotional dialogue research includes two influential strategy traditions.",
+      "title": "Loud or Silent? A Reusable Framework for Per-Modality Failure Analysis in Multimodal Clinical AI",
+      "arxiv": "2608.01462",
+      "desc": "Multimodal clinical models are usually judged on accuracy with every modality present, but deployment removes modalities; an echocardiogram is often unavailable where an ECG is routine.",
+      "tag": "Multimodal",
       "extras": [
-        "5 authors",
+        "17 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV",
+      "arxiv": "2607.23693",
+      "desc": "Long-horizon agents increasingly reuse their KV cache as memory: a serving system keeps a subset of cached entries and drops the rest.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
         "Jul 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing",
-      "arxiv": "2607.15820",
-      "desc": "Autonomous driving systems (ADS) are rapidly advancing and increasingly deployed in real-world applications.",
-      "extras": [
-        "6 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "SULAND v2: A Refined RGB Dataset and Deep Learning Object Detection Benchmark for UAV/UGV-Based SUrface LANDmine Detection Under Domain Shift",
-      "arxiv": "2607.28996",
-      "desc": "RGB imagery offers a practical, low-cost option for Unmanned Aerial/Ground Vehicle (UAV/UGV) survey support in surface-landmine detection, but object detectors remain underexplored in this safety-critical domain.",
+      "title": "GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation",
+      "arxiv": "2608.02315",
+      "desc": "Geospatial foundation models aim to learn representations that transfer across regions and sensors, yet evaluating them on specific tasks requires large, high-quality, multi-modal benchmarks that measure how well such models extract value from data.",
       "tag": "Benchmark",
       "extras": [
         "5 authors",
-        "Jul 2026"
+        "Aug 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing",
-      "arxiv": "2607.25388",
-      "desc": "Autonomous multi-vehicle racing requires real-time planning of diverse competitive behaviors in intense interactions.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
-      "arxiv": "2607.28478",
-      "desc": "As large language models (LLMs) continue to advance in complex reasoning tasks, they have learned to heavily prioritize explicit conditions provided in the input.",
+      "votes": 1,
+      "title": "A Frozen Pixel-Space Diffusion Model Can Guide Itself with Its Own Samples",
+      "arxiv": "2607.29122",
+      "desc": "Pixel-space diffusion models aim to learn an end-to-end generator directly over raw pixels.",
+      "tag": "Diffusion",
       "extras": [
         "6 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models",
+      "arxiv": "2607.26326",
+      "desc": "Multimodal Large Language Models (MLLMs) achieve strong performance by integrating visual inputs with the rich priors of pretrained language models.",
+      "tag": "Multimodal",
+      "extras": [
+        "7 authors",
         "Jul 2026"
       ]
     }
