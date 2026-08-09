@@ -1,8 +1,8 @@
 {
-  "snapshot": "August 8, 2026",
+  "snapshot": "August 9, 2026",
   "papers": [
     {
-      "votes": 56,
+      "votes": 59,
       "title": "Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the Stimulus Features That Drive Retrieval",
       "arxiv": "2608.01481",
       "desc": "Short segments of perceived speech can be retrieved from non-invasive magnetoencephalographic (MEG) recordings by deep networks trained with a CLIP-style objective against wav2vec 2.0 audio embeddings.",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "votes": 27,
+      "votes": 28,
       "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
       "arxiv": "2608.06020",
       "desc": "Economic World Models (EWMs) are generative economic models that simulate how economies evolve from within by modeling heterogeneous agents, their beliefs and actions, and the market and institutional mechanisms through which their interactions produce aggregate outcomes.",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "votes": 24,
+      "votes": 26,
       "title": "DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces",
       "arxiv": "2608.03451",
       "desc": "Data agents enable natural-language analytics over organizational workspaces, where relevant evidence may be scattered across databases, structured files, long documents, and multimedia.",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "votes": 22,
+      "votes": 25,
       "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
       "arxiv": "2608.05138",
       "desc": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications.",
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "votes": 15,
+      "votes": 18,
       "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
       "arxiv": "2608.05784",
       "desc": "Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did.",
@@ -56,24 +56,24 @@
       ]
     },
     {
-      "votes": 15,
-      "title": "EffectLearner: World-Aware Object-Effect Reasoning for Real-World Video Object Removal",
-      "arxiv": "2608.05565",
-      "desc": "Video object removal must eliminate not only the target object but also its induced effects while maintaining high-fidelity and spatiotemporally coherent restoration.",
-      "tag": "CV",
-      "extras": [
-        "11 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 14,
+      "votes": 16,
       "title": "KVAE: Family of Tokenizers for Multimodal Generative Models",
       "arxiv": "2608.05798",
       "desc": "Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representation.",
       "tag": "Multimodal",
       "extras": [
         "14 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 16,
+      "title": "EffectLearner: World-Aware Object-Effect Reasoning for Real-World Video Object Removal",
+      "arxiv": "2608.05565",
+      "desc": "Video object removal must eliminate not only the target object but also its induced effects while maintaining high-fidelity and spatiotemporally coherent restoration.",
+      "tag": "CV",
+      "extras": [
+        "11 authors",
         "Aug 2026"
       ]
     },
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "votes": 12,
+      "votes": 14,
       "title": "Continual Learning in Transition",
       "arxiv": "2608.06216",
       "desc": "Classical continual learning (CL) has primarily focused on enabling models to update and retain knowledge through parameter-centric mechanisms, e.g., training strategies, architectural designs, and weight adaptation.",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "votes": 7,
+      "votes": 9,
       "title": "MASS: Multiplayer World Models with Authoritative Shared State",
       "arxiv": "2608.06257",
       "desc": "Current video world models struggle in multiplayer environments because they entangle world state with view-dependent visual latents, leading to redundant compute, view inconsistencies, and poor scalability.",
@@ -121,13 +121,35 @@
       ]
     },
     {
-      "votes": 5,
+      "votes": 6,
+      "title": "Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills",
+      "arxiv": "2608.01851",
+      "desc": "Robot learning is splitting into two bets: policies that bake competence into frozen weights (vision-language-action, or VLA, models), and agents that write and refine their own executable skills as code.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 6,
       "title": "FactorJEPA: Factorizing Monolithic Futures into Layout-Agent-Interaction Channels for Crowded and Chaotic Global South Urban Worlds",
       "arxiv": "2608.01049",
       "desc": "World models have attracted significant attention for their ability to capture and predict the structure and dynamics of the physical world.",
       "tag": "Agents",
       "extras": [
         "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation",
+      "arxiv": "2608.05785",
+      "desc": "Multilingual text embedding models are commonly adapted using a single training objective across diverse tasks, despite different tasks requiring fundamentally different optimization strategies.",
+      "tag": "Retrieval",
+      "extras": [
+        "3 authors",
         "Aug 2026"
       ]
     },
@@ -139,28 +161,6 @@
       "tag": "3D",
       "extras": [
         "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills",
-      "arxiv": "2608.01851",
-      "desc": "Robot learning is splitting into two bets: policies that bake competence into frozen weights (vision-language-action, or VLA, models), and agents that write and refine their own executable skills as code.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation",
-      "arxiv": "2608.05785",
-      "desc": "Multilingual text embedding models are commonly adapted using a single training objective across diverse tasks, despite different tasks requiring fundamentally different optimization strategies.",
-      "tag": "Retrieval",
-      "extras": [
-        "3 authors",
         "Aug 2026"
       ]
     }
