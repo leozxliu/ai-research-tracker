@@ -1,85 +1,85 @@
 {
-  "snapshot": "August 10, 2026",
+  "snapshot": "August 11, 2026",
   "papers": [
     {
-      "votes": 26,
-      "title": "Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning",
-      "arxiv": "2608.03571",
-      "desc": "Recent works train agents by constructing large-scale multimodal environment pools.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 26,
-      "title": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
-      "arxiv": "2608.03573",
-      "desc": "Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing multi-task reasoning for large language models (LLMs).",
-      "tag": "RL",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles",
-      "arxiv": "2607.23379",
-      "desc": "Activation Oracles (AOs) are language models trained to answer natural-language questions about another model's internal activations.",
-      "extras": [
-        "2 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning",
-      "arxiv": "2608.02831",
-      "desc": "Audio reasoning is essential for machine understanding of the acoustic world.",
-      "tag": "RL",
+      "votes": 72,
+      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+      "arxiv": "2608.09888",
+      "desc": "We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning.",
       "extras": [
         "9 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 7,
-      "title": "Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss",
-      "arxiv": "2608.03796",
-      "desc": "Small language models are often the only option for deployment under tight latency, cost, and on-premises constraints, but they are rarely trained from scratch: a compressed model is usually recovered through knowledge distillation (KD).",
-      "tag": "Training",
+      "votes": 27,
+      "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
+      "arxiv": "2608.07169",
+      "desc": "Memory systems have shown promise for improving agent performance, but their potential remains largely unexplored for small language models, which struggle to generate sufficient successful trajectories on their own.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 21,
+      "title": "What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems",
+      "arxiv": "2608.07565",
+      "desc": "Conversational assistants increasingly recommend follow-up edits to help users continue a task.",
+      "tag": "CV",
+      "extras": [
+        "9 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching",
+      "arxiv": "2608.08097",
+      "desc": "Large language model (LLM) inference serving is increasingly constrained by memory rather than compute.",
+      "extras": [
+        "10 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "arxiv": "2608.09867",
+      "desc": "Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage.",
+      "tag": "Agents",
       "extras": [
         "8 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
-      "arxiv": "2608.04569",
-      "desc": "Hard prompt compression reduces long-context inference cost by independently scoring tokens, sentences, or chunks and retaining the highest-scoring units under a budget.",
+      "votes": 9,
+      "title": "Scaling Inherently Interpretable Language Models",
+      "arxiv": "2608.07594",
+      "desc": "Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained after the fact, with methods whose reliability is difficult to establish.",
+      "tag": "Diffusion",
       "extras": [
-        "8 authors",
+        "10 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Small Foundation Models of Human Cognition and Behaviour",
-      "arxiv": "2608.05224",
-      "desc": "Large language models fine-tuned on human behavioural data have emerged as general-purpose cognitive proxies, but the scale this requires, and whether these models process task structure or exploit statistical shortcuts, remain open questions.",
+      "votes": 6,
+      "title": "RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance",
+      "arxiv": "2608.09853",
+      "desc": "General-purpose reward models are increasingly the bottleneck for scaling robot learning, yet the recipe for learning value-related capabilities from large-scale heterogeneous corpora remains underexplored.",
       "extras": [
-        "2 authors",
+        "15 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events",
-      "arxiv": "2608.06485",
-      "desc": "Personality-conditioned LLM agents (PC-Agents) are increasingly used in emotional support, social simulation, and role-playing, motivating the development of lifelong agents that remain coherent over extended interactions.",
+      "votes": 5,
+      "title": "A^2E : An End-to-End Agent Auditing Engine",
+      "arxiv": "2608.07346",
+      "desc": "With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range of domains.",
       "tag": "Agents",
       "extras": [
         "7 authors",
@@ -88,76 +88,76 @@
     },
     {
       "votes": 2,
-      "title": "Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation and Step-wise Mitigation of Benchmark Contamination",
-      "arxiv": "2608.07341",
-      "desc": "Test data from public benchmarks inevitably leaks into pretraining corpora, inflating evaluation scores once memorized.",
-      "tag": "Benchmark",
-      "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle",
-      "arxiv": "2608.04314",
-      "desc": "Once visual content enters an AI pipeline, its owner often retains little technical control over how it is used.",
-      "tag": "CV",
-      "extras": [
-        "17 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "FATE: Frame-Level Audio-Visual Temporal Embedding",
-      "arxiv": "2608.01310",
-      "desc": "When a dog opens its mouth and barks, humans naturally recognize what the sound is and when it occurs.",
-      "tag": "Audio",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
-      "arxiv": "2608.06501",
-      "desc": "Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks.",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction",
-      "arxiv": "2608.06013",
-      "desc": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable capabilities in emotional intelligence.",
-      "tag": "Multimodal",
+      "title": "Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval",
+      "arxiv": "2608.06614",
+      "desc": "Large-taxonomy retrieval often assumes that the input already expresses the target concept.",
+      "tag": "Retrieval",
       "extras": [
         "6 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence",
-      "arxiv": "2608.06756",
-      "desc": "Vision-language models are increasingly serving as the reasoning core of embodied agents.",
+      "votes": 1,
+      "title": "MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models",
+      "arxiv": "2607.27637",
+      "desc": "Multimodal Large Language Models (MLLMs) have achieved strong performance on a wide range of vision-language tasks, but often fail under imperfect or shifted contexts.",
+      "tag": "Multimodal",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "The Loss Does Not See the Basis, but Adam Does",
+      "arxiv": "2608.05136",
+      "desc": "Gradient descent on a factored model W = UV^top is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not.",
+      "extras": [
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks",
+      "arxiv": "2608.03499",
+      "desc": "Recent advances in persistent personal-agent frameworks are making human-centered agent networks realistic deployment targets: each user can be served by an AI agent that acts on the user's behalf, maintains state, and communicates with other agents through social and task relations.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Ego-OSCAR: Egocentric Open source Stereo CAptuRe System",
+      "arxiv": "2608.08285",
+      "desc": "We present Ego-OSCAR, an open-hardware, low-cost, head-mounted stereo-inertial capture device for egocentric data collection in the wild.",
+      "tag": "3D",
+      "extras": [
+        "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Vision-Language Grounding as Bidirectional Concept Correspondence",
+      "arxiv": "2608.07886",
+      "desc": "Vision-language grounding connects language to visual content, yet most existing formulations reduce grounding to a unidirectional localization problem: given a prespecified text phrase or category name, identify the corresponding image region.",
       "tag": "VLM",
       "extras": [
-        "10 authors",
+        "4 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "Towards Interpretable Foundation Models for Retinal Fundus Images",
-      "arxiv": "2603.18846",
-      "desc": "Foundation models are used to extract transferable representations from large amounts of unlabeled data, typically via self-supervised learning (SSL).",
+      "title": "CEAA: A Cognitive Embodied Agents Architecture for Interactive Computing Systems",
+      "arxiv": "2608.09848",
+      "desc": "The development of embodied Intelligent Virtual Agents (IVAs) that have cognitive capabilities in real-time interactive virtual environments remains a challenge, even with today's advancements in technology.",
+      "tag": "Agents",
       "extras": [
-        "4 authors",
+        "2 authors",
         "Aug 2026"
       ]
     }
