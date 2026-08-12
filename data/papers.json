@@ -1,85 +1,76 @@
 {
-  "snapshot": "August 11, 2026",
+  "snapshot": "August 12, 2026",
   "papers": [
     {
-      "votes": 72,
-      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
-      "arxiv": "2608.09888",
-      "desc": "We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning.",
-      "extras": [
-        "9 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 27,
-      "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
-      "arxiv": "2608.07169",
-      "desc": "Memory systems have shown promise for improving agent performance, but their potential remains largely unexplored for small language models, which struggle to generate sufficient successful trajectories on their own.",
+      "votes": 123,
+      "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+      "arxiv": "2608.10915",
+      "desc": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bring the medication.",
       "tag": "Agents",
       "extras": [
-        "3 authors",
+        "22 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 21,
-      "title": "What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems",
-      "arxiv": "2608.07565",
-      "desc": "Conversational assistants increasingly recommend follow-up edits to help users continue a task.",
-      "tag": "CV",
-      "extras": [
-        "9 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 15,
-      "title": "OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching",
-      "arxiv": "2608.08097",
-      "desc": "Large language model (LLM) inference serving is increasingly constrained by memory rather than compute.",
-      "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "arxiv": "2608.09867",
-      "desc": "Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Scaling Inherently Interpretable Language Models",
-      "arxiv": "2608.07594",
-      "desc": "Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained after the fact, with methods whose reliability is difficult to establish.",
+      "votes": 31,
+      "title": "Articulated Object Reconstruction from Rest-State Observation",
+      "arxiv": "2607.27749",
+      "desc": "Building interactive digital twins requires recovering both 3D geometry and the kinematic structures that govern how objects articulate.",
       "tag": "Diffusion",
       "extras": [
-        "10 authors",
+        "5 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 16,
+      "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
+      "arxiv": "2608.11205",
+      "desc": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complementing the conventional sample-level diffusion and flow-matching losses.",
+      "tag": "CV",
+      "extras": [
+        "5 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance",
-      "arxiv": "2608.09853",
-      "desc": "General-purpose reward models are increasingly the bottleneck for scaling robot learning, yet the recipe for learning value-related capabilities from large-scale heterogeneous corpora remains underexplored.",
+      "votes": 9,
+      "title": "Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence",
+      "arxiv": "2608.10720",
+      "desc": "Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain visually disembodied.",
+      "tag": "CV",
       "extras": [
-        "15 authors",
+        "5 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+      "arxiv": "2608.09900",
+      "desc": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor.",
+      "extras": [
+        "5 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 5,
-      "title": "A^2E : An End-to-End Agent Auditing Engine",
-      "arxiv": "2608.07346",
-      "desc": "With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range of domains.",
+      "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
+      "arxiv": "2608.08389",
+      "desc": "Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but context grows rapidly while the marginal value of additional evidence often declines.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
+      "arxiv": "2608.10628",
+      "desc": "Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone to context rot.",
       "tag": "Agents",
       "extras": [
         "7 authors",
@@ -87,77 +78,85 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval",
-      "arxiv": "2608.06614",
-      "desc": "Large-taxonomy retrieval often assumes that the input already expresses the target concept.",
-      "tag": "Retrieval",
+      "votes": 4,
+      "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
+      "arxiv": "2608.08627",
+      "desc": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank.",
       "extras": [
-        "6 authors",
+        "12 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models",
-      "arxiv": "2607.27637",
-      "desc": "Multimodal Large Language Models (MLLMs) have achieved strong performance on a wide range of vision-language tasks, but often fail under imperfect or shifted contexts.",
-      "tag": "Multimodal",
+      "votes": 4,
+      "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
+      "arxiv": "2608.10812",
+      "desc": "We study reference-free post-training for multilingual machine translation with open large language models.",
+      "tag": "RL",
       "extras": [
         "4 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "The Loss Does Not See the Basis, but Adam Does",
-      "arxiv": "2608.05136",
-      "desc": "Gradient descent on a factored model W = UV^top is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not.",
-      "extras": [
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks",
-      "arxiv": "2608.03499",
-      "desc": "Recent advances in persistent personal-agent frameworks are making human-centered agent networks realistic deployment targets: each user can be served by an AI agent that acts on the user's behalf, maintains state, and communicates with other agents through social and task relations.",
+      "votes": 3,
+      "title": "360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents",
+      "arxiv": "2608.08814",
+      "desc": "We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a photorealistic environment constructed from 360-degree videos.",
       "tag": "Agents",
       "extras": [
-        "6 authors",
+        "5 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Ego-OSCAR: Egocentric Open source Stereo CAptuRe System",
-      "arxiv": "2608.08285",
-      "desc": "We present Ego-OSCAR, an open-hardware, low-cost, head-mounted stereo-inertial capture device for egocentric data collection in the wild.",
-      "tag": "3D",
-      "extras": [
-        "6 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Vision-Language Grounding as Bidirectional Concept Correspondence",
-      "arxiv": "2608.07886",
-      "desc": "Vision-language grounding connects language to visual content, yet most existing formulations reduce grounding to a unidirectional localization problem: given a prespecified text phrase or category name, identify the corresponding image region.",
-      "tag": "VLM",
+      "votes": 3,
+      "title": "DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation",
+      "arxiv": "2608.10636",
+      "desc": "Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus scale and expensive to serve.",
+      "tag": "CV",
       "extras": [
         "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "iFAN: Inference-Aware Learning for Plain Mask Transformers",
+      "arxiv": "2608.03216",
+      "desc": "Query-based mask transformers assemble segmentation outputs through pixel-wise competition among query predictions of the final layer, yet this inference process is not explicitly optimized during training.",
+      "extras": [
+        "10 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "TSDS-Toolbox: A Toolbox for Measuring Time-Series Dataset Similarity",
+      "arxiv": "2608.08119",
+      "desc": "The rapid advancement of artificial intelligence (AI) has significantly accelerated research in time-series analysis, particularly in forecasting, classification, and generation tasks.",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "JigShape: Evaluating Visual-Geometric Reasoning in VLMs through Jigsaw Puzzles",
+      "arxiv": "2607.27670",
+      "desc": "Jigsaw puzzle solving requires jointly reasoning about visual content and geometric constraints, yet existing benchmarks use rectangular cuts that create ambiguous ground truth in texture-repeated regions.",
+      "tag": "CV",
+      "extras": [
+        "14 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "CEAA: A Cognitive Embodied Agents Architecture for Interactive Computing Systems",
-      "arxiv": "2608.09848",
-      "desc": "The development of embodied Intelligent Virtual Agents (IVAs) that have cognitive capabilities in real-time interactive virtual environments remains a challenge, even with today's advancements in technology.",
-      "tag": "Agents",
+      "title": "Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference",
+      "arxiv": "2608.10288",
+      "desc": "The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention (PLGA), replace the fixed bilinear form of scaled dot-product attention (SDPA) with a learned, input-generated bilinear operator G_{LM}, built from a positive tensor A_{LM} by elementwise power laws.",
       "extras": [
-        "2 authors",
         "Aug 2026"
       ]
     }
