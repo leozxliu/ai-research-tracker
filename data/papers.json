@@ -1,76 +1,44 @@
 {
-  "snapshot": "August 12, 2026",
+  "snapshot": "August 13, 2026",
   "papers": [
     {
-      "votes": 123,
-      "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
-      "arxiv": "2608.10915",
-      "desc": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bring the medication.",
+      "votes": 125,
+      "title": "OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution",
+      "arxiv": "2608.00677",
+      "desc": "AI agents operate in persistent environments where early state changes can influence decisions far into the future.",
       "tag": "Agents",
       "extras": [
-        "22 authors",
+        "9 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 31,
-      "title": "Articulated Object Reconstruction from Rest-State Observation",
-      "arxiv": "2607.27749",
-      "desc": "Building interactive digital twins requires recovering both 3D geometry and the kinematic structures that govern how objects articulate.",
-      "tag": "Diffusion",
-      "extras": [
-        "5 authors",
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 16,
-      "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
-      "arxiv": "2608.11205",
-      "desc": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complementing the conventional sample-level diffusion and flow-matching losses.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence",
-      "arxiv": "2608.10720",
-      "desc": "Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain visually disembodied.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
-      "arxiv": "2608.09900",
-      "desc": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor.",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
-      "arxiv": "2608.08389",
-      "desc": "Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but context grows rapidly while the marginal value of additional evidence often declines.",
+      "votes": 68,
+      "title": "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
+      "arxiv": "2608.12036",
+      "desc": "AI models have achieved remarkable success across diverse domains, yet the mechanisms underlying their capabilities and the risks they may pose remain poorly understood.",
       "tag": "Agents",
       "extras": [
-        "10 authors",
+        "19 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
-      "arxiv": "2608.10628",
-      "desc": "Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone to context rot.",
+      "votes": 26,
+      "title": "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives",
+      "arxiv": "2608.08160",
+      "desc": "The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for Games by enabling open-ended and fluid interactive storytelling.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 23,
+      "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
+      "arxiv": "2608.05604",
+      "desc": "Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages and loaded at inference time.",
       "tag": "Agents",
       "extras": [
         "7 authors",
@@ -78,42 +46,32 @@
       ]
     },
     {
-      "votes": 4,
-      "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
-      "arxiv": "2608.08627",
-      "desc": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank.",
-      "extras": [
-        "12 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
-      "arxiv": "2608.10812",
-      "desc": "We study reference-free post-training for multilingual machine translation with open large language models.",
-      "tag": "RL",
+      "votes": 11,
+      "title": "Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models",
+      "arxiv": "2608.10708",
+      "desc": "Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap in a single forward pass without per-scene optimization, achieving strong generalization.",
+      "tag": "3D",
       "extras": [
         "4 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents",
-      "arxiv": "2608.08814",
-      "desc": "We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a photorealistic environment constructed from 360-degree videos.",
+      "votes": 6,
+      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "arxiv": "2608.11350",
+      "desc": "Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model weights but also on the skills, context, action interfaces, and execution harness surrounding the model.",
       "tag": "Agents",
       "extras": [
-        "5 authors",
+        "8 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation",
-      "arxiv": "2608.10636",
-      "desc": "Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus scale and expensive to serve.",
+      "votes": 6,
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "arxiv": "2608.06270",
+      "desc": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom.",
       "tag": "CV",
       "extras": [
         "4 authors",
@@ -122,41 +80,87 @@
     },
     {
       "votes": 3,
-      "title": "iFAN: Inference-Aware Learning for Plain Mask Transformers",
-      "arxiv": "2608.03216",
-      "desc": "Query-based mask transformers assemble segmentation outputs through pixel-wise competition among query predictions of the final layer, yet this inference process is not explicitly optimized during training.",
+      "title": "Simplex Relaxation for Discrete Diffusion",
+      "arxiv": "2608.10615",
+      "desc": "Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermediate state space and the associated reverse prediction problem.",
+      "tag": "Diffusion",
+      "extras": [
+        "7 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+      "arxiv": "2608.10450",
+      "desc": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Parameter Exploration for RLVR via Variational Learning",
+      "arxiv": "2608.09805",
+      "desc": "Exploration has been a focus of reinforcement learning research for a long time.",
+      "tag": "RL",
+      "extras": [
+        "3 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
+      "arxiv": "2608.12123",
+      "desc": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, update state, and emit the next effect.",
+      "tag": "Agents",
+      "extras": [
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "arxiv": "2608.11215",
+      "desc": "Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents N, not the cognition of any single agent.",
+      "tag": "Agents",
+      "extras": [
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
+      "arxiv": "2608.11574",
+      "desc": "Hand Pose Estimation (HPE) is a fundamental technology for various applications such as AR/VR and robotics.",
+      "tag": "3D",
+      "extras": [
+        "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
+      "arxiv": "2608.06729",
+      "desc": "While Vision-Language-Action (VLA) models have advanced embodied AI, their fundamentally reactive paradigm severely limits performance in partially observable and long-horizon tasks.",
+      "tag": "VLM",
       "extras": [
         "10 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "TSDS-Toolbox: A Toolbox for Measuring Time-Series Dataset Similarity",
-      "arxiv": "2608.08119",
-      "desc": "The rapid advancement of artificial intelligence (AI) has significantly accelerated research in time-series analysis, particularly in forecasting, classification, and generation tasks.",
+      "votes": 1,
+      "title": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
+      "arxiv": "2608.08107",
+      "desc": "Multimodal expansion of large language models (LLMs) enables new perceptual capabilities but often compromises the language intelligence acquired during pretraining.",
+      "tag": "Multimodal",
       "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "JigShape: Evaluating Visual-Geometric Reasoning in VLMs through Jigsaw Puzzles",
-      "arxiv": "2607.27670",
-      "desc": "Jigsaw puzzle solving requires jointly reasoning about visual content and geometric constraints, yet existing benchmarks use rectangular cuts that create ambiguous ground truth in texture-repeated regions.",
-      "tag": "CV",
-      "extras": [
-        "14 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference",
-      "arxiv": "2608.10288",
-      "desc": "The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention (PLGA), replace the fixed bilinear form of scaled dot-product attention (SDPA) with a learned, input-generated bilinear operator G_{LM}, built from a positive tensor A_{LM} by elementwise power laws.",
-      "extras": [
+        "5 authors",
         "Aug 2026"
       ]
     }
