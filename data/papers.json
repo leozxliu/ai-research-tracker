@@ -1,66 +1,32 @@
 {
-  "snapshot": "August 13, 2026",
+  "snapshot": "August 14, 2026",
   "papers": [
     {
-      "votes": 125,
-      "title": "OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution",
-      "arxiv": "2608.00677",
-      "desc": "AI agents operate in persistent environments where early state changes can influence decisions far into the future.",
-      "tag": "Agents",
+      "votes": 77,
+      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "arxiv": "2608.13489",
+      "desc": "We present DreamX-Phi 1.0, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper states, predicts the resulting future observations.",
+      "tag": "CV",
       "extras": [
-        "9 authors",
+        "10 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 68,
-      "title": "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
-      "arxiv": "2608.12036",
-      "desc": "AI models have achieved remarkable success across diverse domains, yet the mechanisms underlying their capabilities and the risks they may pose remain poorly understood.",
-      "tag": "Agents",
+      "votes": 56,
+      "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
+      "arxiv": "2608.06867",
+      "desc": "No single large language model (LLM) is optimal across all queries and budget constraints, making model routing essential for cost-effective deployment.",
       "extras": [
-        "19 authors",
+        "12 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 26,
-      "title": "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives",
-      "arxiv": "2608.08160",
-      "desc": "The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for Games by enabling open-ended and fluid interactive storytelling.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 23,
-      "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
-      "arxiv": "2608.05604",
-      "desc": "Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages and loaded at inference time.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 11,
-      "title": "Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models",
-      "arxiv": "2608.10708",
-      "desc": "Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap in a single forward pass without per-scene optimization, achieving strong generalization.",
-      "tag": "3D",
-      "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
-      "arxiv": "2608.11350",
-      "desc": "Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model weights but also on the skills, context, action interfaces, and execution harness surrounding the model.",
+      "votes": 25,
+      "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
+      "arxiv": "2608.12743",
+      "desc": "Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants.",
       "tag": "Agents",
       "extras": [
         "8 authors",
@@ -68,99 +34,129 @@
       ]
     },
     {
-      "votes": 6,
-      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
-      "arxiv": "2608.06270",
-      "desc": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom.",
-      "tag": "CV",
+      "votes": 11,
+      "title": "UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos",
+      "arxiv": "2608.11752",
+      "desc": "Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source motion, scene, linguistic content, and audio-video timing.",
+      "tag": "Audio",
       "extras": [
-        "4 authors",
+        "8 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Simplex Relaxation for Discrete Diffusion",
-      "arxiv": "2608.10615",
-      "desc": "Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermediate state space and the associated reverse prediction problem.",
+      "votes": 10,
+      "title": "LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time",
+      "arxiv": "2608.11745",
+      "desc": "Pose-driven human animation synthesizes a video of a target person from a single reference image and a driving pose stream.",
       "tag": "Diffusion",
       "extras": [
-        "7 authors",
+        "9 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
-      "arxiv": "2608.10450",
-      "desc": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Parameter Exploration for RLVR via Variational Learning",
-      "arxiv": "2608.09805",
-      "desc": "Exploration has been a focus of reinforcement learning research for a long time.",
-      "tag": "RL",
-      "extras": [
-        "3 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
-      "arxiv": "2608.12123",
-      "desc": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, update state, and emit the next effect.",
-      "tag": "Agents",
-      "extras": [
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-      "arxiv": "2608.11215",
-      "desc": "Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents N, not the cognition of any single agent.",
-      "tag": "Agents",
-      "extras": [
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
-      "arxiv": "2608.11574",
-      "desc": "Hand Pose Estimation (HPE) is a fundamental technology for various applications such as AR/VR and robotics.",
-      "tag": "3D",
+      "votes": 6,
+      "title": "An AI4AI Framework for Visual Token Pruning",
+      "arxiv": "2608.07193",
+      "desc": "Visual-token pruning can substantially reduce the inference cost of multimodal large language models (MLLMs), yet existing methods largely rely on fixed, handcrafted heuristics and costly expert trial and error.",
+      "tag": "CV",
       "extras": [
         "6 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
-      "arxiv": "2608.06729",
-      "desc": "While Vision-Language-Action (VLA) models have advanced embodied AI, their fundamentally reactive paradigm severely limits performance in partially observable and long-horizon tasks.",
-      "tag": "VLM",
+      "votes": 5,
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "arxiv": "2608.12313",
+      "desc": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos.",
+      "tag": "Agents",
       "extras": [
         "10 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
-      "arxiv": "2608.08107",
-      "desc": "Multimodal expansion of large language models (LLMs) enables new perceptual capabilities but often compromises the language intelligence acquired during pretraining.",
-      "tag": "Multimodal",
+      "votes": 5,
+      "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+      "arxiv": "2608.13049",
+      "desc": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive and difficult to scale.",
+      "tag": "Benchmark",
       "extras": [
-        "5 authors",
+        "9 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "SKILLER: Language-Level Reinforcement Learning for Reusable Skill Extraction in Small Language Models",
+      "arxiv": "2608.10538",
+      "desc": "Agent skills represent a standardized format for packaging procedural knowledge and domain expertise, serving within agent harness systems as an essential mechanism to continually constrain a language model's behavior space for repeatable, high-quality task execution.",
+      "tag": "RL",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
+      "arxiv": "2608.12440",
+      "desc": "This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding agent under a specification-first protocol, with no human review of the generated code and no pre-existing oracle to validate the target behaviour.",
+      "tag": "Agents",
+      "extras": [
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "PixSDS: Why Latent SDS Makes Noisy Pixels",
+      "arxiv": "2608.12997",
+      "desc": "Score Distillation Sampling (SDS) enables text-to-3D generation by optimizing rendered images with a pretrained diffusion prior, but latent SDS often produces structured color artifacts and high-frequency texture noise.",
+      "tag": "Diffusion",
+      "extras": [
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement",
+      "arxiv": "2608.11951",
+      "desc": "Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disruptions with substantial operational, economic, and safety costs.",
+      "extras": [
+        "3 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity",
+      "arxiv": "2608.13430",
+      "desc": "Instruction-tuned language models achieve strong performance across a range of generation tasks, but have also recently been shown to exhibit verbalized overconfidence.",
+      "extras": [
+        "3 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
+      "arxiv": "2607.29211",
+      "desc": "Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, creating risks where plausible-sounding but incorrect derivations mislead users.",
+      "tag": "RL",
+      "extras": [
+        "8 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "CW-BASS v2: Saturation-Aware Pseudo-Label Selection for Semi-Supervised Segmentation under Foundation-Model Teachers",
+      "arxiv": "2608.12773",
+      "desc": "Semi-supervised semantic segmentation has long turned on one question, which pseudo-labels to trust, and a generation of selection rules, dynamic thresholds, per-class curricula, soft confidence weights, answered it for the noisy, under-confident ResNet teachers of their day.",
+      "tag": "CV",
+      "extras": [
         "Aug 2026"
       ]
     }
