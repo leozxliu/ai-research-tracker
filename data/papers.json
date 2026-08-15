@@ -1,62 +1,8 @@
 {
-  "snapshot": "August 14, 2026",
+  "snapshot": "August 15, 2026",
   "papers": [
     {
-      "votes": 77,
-      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
-      "arxiv": "2608.13489",
-      "desc": "We present DreamX-Phi 1.0, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper states, predicts the resulting future observations.",
-      "tag": "CV",
-      "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 56,
-      "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
-      "arxiv": "2608.06867",
-      "desc": "No single large language model (LLM) is optimal across all queries and budget constraints, making model routing essential for cost-effective deployment.",
-      "extras": [
-        "12 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 25,
-      "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
-      "arxiv": "2608.12743",
-      "desc": "Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 11,
-      "title": "UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos",
-      "arxiv": "2608.11752",
-      "desc": "Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source motion, scene, linguistic content, and audio-video timing.",
-      "tag": "Audio",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time",
-      "arxiv": "2608.11745",
-      "desc": "Pose-driven human animation synthesizes a video of a target person from a single reference image and a driving pose stream.",
-      "tag": "Diffusion",
-      "extras": [
-        "9 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 6,
+      "votes": 7,
       "title": "An AI4AI Framework for Visual Token Pruning",
       "arxiv": "2608.07193",
       "desc": "Visual-token pruning can substantially reduce the inference cost of multimodal large language models (MLLMs), yet existing methods largely rely on fixed, handcrafted heuristics and costly expert trial and error.",
@@ -67,7 +13,7 @@
       ]
     },
     {
-      "votes": 5,
+      "votes": 6,
       "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
       "arxiv": "2608.12313",
       "desc": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos.",
@@ -79,17 +25,6 @@
     },
     {
       "votes": 5,
-      "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
-      "arxiv": "2608.13049",
-      "desc": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive and difficult to scale.",
-      "tag": "Benchmark",
-      "extras": [
-        "9 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
       "title": "SKILLER: Language-Level Reinforcement Learning for Reusable Skill Extraction in Small Language Models",
       "arxiv": "2608.10538",
       "desc": "Agent skills represent a standardized format for packaging procedural knowledge and domain expertise, serving within agent harness systems as an essential mechanism to continually constrain a language model's behavior space for repeatable, high-quality task execution.",
@@ -100,37 +35,48 @@
       ]
     },
     {
-      "votes": 0,
-      "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
-      "arxiv": "2608.12440",
-      "desc": "This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding agent under a specification-first protocol, with no human review of the generated code and no pre-existing oracle to validate the target behaviour.",
-      "tag": "Agents",
+      "votes": 4,
+      "title": "Maglev: Sliding Recurrent Memory",
+      "arxiv": "2608.02870",
+      "desc": "We introduce , a recurrent Transformer architecture with fixed-size memory that generalizes sliding-window attention while remaining parallelizable during training.",
       "extras": [
+        "2 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "PixSDS: Why Latent SDS Makes Noisy Pixels",
-      "arxiv": "2608.12997",
-      "desc": "Score Distillation Sampling (SDS) enables text-to-3D generation by optimizing rendered images with a pretrained diffusion prior, but latent SDS often produces structured color artifacts and high-frequency texture noise.",
-      "tag": "Diffusion",
+      "votes": 4,
+      "title": "Thought-Level Beam Search for Reasoning",
+      "arxiv": "2608.08020",
+      "desc": "Test-time compute scaling is a primary driver of performance in large reasoning models (LRMs), but extreme inefficiency bounds current approaches, shifting the critical question from how much compute to spend, to where to allocate it.",
       "extras": [
+        "5 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement",
-      "arxiv": "2608.11951",
-      "desc": "Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disruptions with substantial operational, economic, and safety costs.",
+      "votes": 4,
+      "title": "Context-Matched Distillation: Teacher Causality for Autoregressive Video Distillation",
+      "arxiv": "2608.13391",
+      "desc": "Interactive autoregressive video generation demands both low-latency rollouts and precise online control.",
+      "tag": "CV",
       "extras": [
-        "3 authors",
+        "10 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 0,
+      "votes": 4,
+      "title": "Hybrid-Policy Self-Editing for Composable Unstructured Knowledge Editing",
+      "arxiv": "2608.11660",
+      "desc": "Large language models (LLMs) achieve remarkable performance across natural language tasks, yet they are trained on static corpora and their knowledge quickly becomes outdated in a fast-changing world.",
+      "extras": [
+        "11 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
       "title": "Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity",
       "arxiv": "2608.13430",
       "desc": "Instruction-tuned language models achieve strong performance across a range of generation tasks, but have also recently been shown to exhibit verbalized overconfidence.",
@@ -140,7 +86,7 @@
       ]
     },
     {
-      "votes": 0,
+      "votes": 3,
       "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
       "arxiv": "2607.29211",
       "desc": "Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, creating risks where plausible-sounding but incorrect derivations mislead users.",
@@ -151,11 +97,62 @@
       ]
     },
     {
+      "votes": 2,
+      "title": "From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs",
+      "arxiv": "2608.09158",
+      "desc": "Large audio-language models (LALMs) have demonstrated strong capabilities in understanding diverse audio inputs.",
+      "tag": "Audio",
+      "extras": [
+        "10 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
+      "arxiv": "2608.12440",
+      "desc": "This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding agent under a specification-first protocol, with no human review of the generated code and no pre-existing oracle to validate the target behaviour.",
+      "tag": "Agents",
+      "extras": [
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement",
+      "arxiv": "2608.11951",
+      "desc": "Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disruptions with substantial operational, economic, and safety costs.",
+      "extras": [
+        "3 authors",
+        "Aug 2026"
+      ]
+    },
+    {
       "votes": 0,
-      "title": "CW-BASS v2: Saturation-Aware Pseudo-Label Selection for Semi-Supervised Segmentation under Foundation-Model Teachers",
-      "arxiv": "2608.12773",
-      "desc": "Semi-supervised semantic segmentation has long turned on one question, which pseudo-labels to trust, and a generation of selection rules, dynamic thresholds, per-class curricula, soft confidence weights, answered it for the noisy, under-confident ResNet teachers of their day.",
-      "tag": "CV",
+      "title": "RibAssist 3D: Biplanar Rib-Fracture Detection, Addressing, and Selective 3D Localization from CT-Derived Projections",
+      "arxiv": "2608.06914",
+      "desc": "Rib fractures are common and time-consuming to localize on computed tomography (CT).",
+      "tag": "3D",
+      "extras": [
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Mitigating Gender Bias in English to Romanian Machine Translation",
+      "arxiv": "2608.08606",
+      "desc": "Machine translation (MT) systems often fail to correctly translate gender, especially when converting from a gender-neutral language like English to a gendered target language such as Romanian.",
+      "extras": [
+        "2 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "PixSDS: Why Latent SDS Makes Noisy Pixels",
+      "arxiv": "2608.12997",
+      "desc": "Score Distillation Sampling (SDS) enables text-to-3D generation by optimizing rendered images with a pretrained diffusion prior, but latent SDS often produces structured color artifacts and high-frequency texture noise.",
+      "tag": "Diffusion",
       "extras": [
         "Aug 2026"
       ]
