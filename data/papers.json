@@ -1,163 +1,163 @@
 {
-  "snapshot": "August 17, 2026",
+  "snapshot": "August 18, 2026",
   "papers": [
     {
-      "votes": 93,
-      "title": "Self-Supervised Visual On-Policy Distillation",
-      "arxiv": "2608.14144",
-      "desc": "Visual on-policy distillation relies heavily on an informative teacher-student asymmetry, through either a larger, stronger teacher or privileged supervision, such as reference answers or ground-truth regions of interest.",
-      "tag": "CV",
+      "votes": 40,
+      "title": "Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization",
+      "arxiv": "2608.16072",
+      "desc": "Reinforcement learning (RL) with group-relative advantages has become the de facto standard for post-training language model reasoners.",
+      "tag": "RL",
       "extras": [
         "9 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 19,
-      "title": "MobileMem: Learning from a Year of Mobile Experiences",
-      "arxiv": "2608.13606",
-      "desc": "The next generation of AI agents is increasingly moving beyond systems that answer isolated questions toward persistent personal assistants that can understand, remember, and continuously learn from users' experiences.",
-      "tag": "Agents",
-      "extras": [
-        "17 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 17,
-      "title": "SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning",
-      "arxiv": "2608.14277",
-      "desc": "On-policy distillation (OPD) offers a promising way to transfer reasoning capabilities from stronger teacher models, but applying it to long-context reasoning teachers and short-context students introduces practical challenges, including tokenizer mismatch, teacher-student distribution mismatch, response length explosion, and training instability.",
-      "tag": "Training",
-      "extras": [
-        "16 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 12,
-      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
-      "arxiv": "2608.13517",
-      "desc": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data.",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 12,
-      "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
-      "arxiv": "2608.14546",
-      "desc": "With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios.",
-      "tag": "Benchmark",
-      "extras": [
-        "20 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "Latent On-Policy Self-Distillation",
-      "arxiv": "2608.13040",
-      "desc": "Enabling agents to learn from experience and internalize it into their policy has become a central problem in self-evolving AI.",
-      "tag": "Training",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
-      "arxiv": "2608.14284",
-      "desc": "Fine-grained robotic evaluation matters for understanding embodied models, going beyond binary success rates and rule-based process scores.",
-      "extras": [
-        "25 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Forecast Collapse in Time-Series Foundation Models",
-      "arxiv": "2608.14106",
-      "desc": "When forecasting hourly returns for 1,000 US equities, we observe an unexpected phenomenon: predictions become nearly flat and show poor stock ranking, as measured by cross-sectional correlation.",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
-      "arxiv": "2608.13667",
-      "desc": "LLM agents in the ReAct paradigm alternate between reasoning, acting, and observing, but deliberate reasoning is confined to the Thought phase: while the agent serializes an action and waits for the environment, its reasoning is frozen.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Multimodal Model Diffing for Feature Discovery and Control",
-      "arxiv": "2608.09928",
-      "desc": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control.",
-      "tag": "Multimodal",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
-      "arxiv": "2608.13545",
-      "desc": "Modern language models are trained on heterogeneous web-scale text corpora.",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations",
-      "arxiv": "2608.10835",
-      "desc": "Large Vision-Language Models (LVLMs) achieve impressive visual reasoning and dialogue capabilities, yet frequently hallucinate content unsupported by the visual input.",
-      "tag": "VLM",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "A Pathway to General-Purpose Scientific AI: Multimodal Comprehension of Scientific Images",
-      "arxiv": "2608.14075",
-      "desc": "Scientific figures and tables encode essential experimental evidence, yet remain difficult for digital libraries and multimodal AI systems to retrieve and interpret.",
-      "tag": "Multimodal",
+      "votes": 38,
+      "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+      "arxiv": "2608.15669",
+      "desc": "Scientific discovery often involves optimising expensive-to-evaluate objectives over vast, structured, and open-ended hypothesis spaces, such as molecules, protein sequences, and computer programs.",
       "extras": [
         "12 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "UNMASK: Discovering and Causally Verifying Spurious Shortcuts in Text Classifiers",
-      "arxiv": "2608.09209",
-      "desc": "Neural language models trained on large crowdsourced corpora frequently exploit spurious surface patterns tied to target labels without true linguistic or causal relevance, boosting benchmark performance while failing on adversarial or out-of-distribution inputs.",
+      "votes": 35,
+      "title": "MOSS-VL Technical Report",
+      "arxiv": "2608.15045",
+      "desc": "We present MOSS-VL, an open vision-language model family that treats real-time interaction -- perceiving while it speaks -- as a first-class capability.",
+      "tag": "VLM",
+      "extras": [
+        "32 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 19,
+      "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+      "arxiv": "2608.14905",
+      "desc": "AI has long assisted scientific research, but the rapid advance of LLMs and agentic scaffolds is reshaping the landscape; a single system can now carry whole-stage research from an initial hypothesis all the way to final published paper, which is a paradigm now referred to as AutoResearch.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI",
+      "arxiv": "2608.16319",
+      "desc": "This first release of Prior Labs in relational learning shows our continued commitment to open science.",
+      "extras": [
+        "47 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks",
+      "arxiv": "2608.16328",
+      "desc": "Instruction-based general video editing seeks to unify diverse editing operations within a single, intuitive interface.",
+      "tag": "CV",
+      "extras": [
+        "8 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+      "arxiv": "2608.16765",
+      "desc": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and little diagnostic value.",
+      "tag": "CV",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
+      "arxiv": "2608.16143",
+      "desc": "We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data.",
+      "tag": "Audio",
+      "extras": [
+        "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
+      "arxiv": "2608.14614",
+      "desc": "As AI datacenters retire functional GPUs, vast quantities of still capable accelerators enter secondary markets.",
+      "extras": [
+        "6 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Drive, Pack, Fly: The Travelling Thief Problem with Drone",
+      "arxiv": "2608.16435",
+      "desc": "In collection operations, accumulating payload progressively slows the vehicle, imposing a cumulative penalty on routing efficiency.",
+      "tag": "RL",
       "extras": [
         "2 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
-      "arxiv": "2608.03744",
-      "desc": "Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace.",
-      "tag": "Agents",
+      "votes": 2,
+      "title": "Prior Audit-Repair Context Shifts LLM Verifier Thresholds Toward Leniency",
+      "arxiv": "2608.16003",
+      "desc": "Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the fixer.",
       "extras": [
-        "16 authors",
+        "2 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models",
+      "arxiv": "2608.15984",
+      "desc": "Motion Language Models (MoLMs) typically understand human motions by tokenizing 3D motion and processing the resulting tokens using a language model.",
+      "tag": "3D",
+      "extras": [
+        "2 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "WorldRover: A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations",
+      "arxiv": "2608.15659",
+      "desc": "Learning to generate or reconstruct explorable worlds requires video paired with more than RGB: camera motion, scene geometry, temporal correspondence and, for interactive models, control signals.",
+      "tag": "CV",
+      "extras": [
+        "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift",
+      "arxiv": "2608.15037",
+      "desc": "Audio-Text Foundation Models (ATMs) fail catastrophically under severe acoustic noise, yet existing adaptation strategies either rely on gradient-based Test-Time Adaptation (TTA), which reinforces noise rather than signal, or on prompt tuning that requires privileged noise annotations unavailable at inference.",
+      "tag": "Multimodal",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation",
+      "arxiv": "2608.16485",
+      "desc": "Boundary representation (B-Rep) generation is a fundamental task in computer-aided design, yet the direct synthesis of high-fidelity and structurally valid B-Reps remains a major challenge.",
+      "extras": [
+        "8 authors",
         "Aug 2026"
       ]
     }
