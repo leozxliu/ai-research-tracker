@@ -1,11 +1,55 @@
 {
-  "snapshot": "August 19, 2026",
+  "snapshot": "August 20, 2026",
   "papers": [
     {
-      "votes": 51,
-      "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
-      "arxiv": "2608.14036",
-      "desc": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured packages of knowledge.",
+      "votes": 124,
+      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "arxiv": "2608.16590",
+      "desc": "Embodied agents are increasingly used to close the gap left by end-to-end policy models.",
+      "tag": "Agents",
+      "extras": [
+        "15 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 109,
+      "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+      "arxiv": "2608.18565",
+      "desc": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent program organization units (POUs) for them.",
+      "tag": "Agents",
+      "extras": [
+        "13 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 100,
+      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+      "arxiv": "2608.17426",
+      "desc": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task.",
+      "tag": "Benchmark",
+      "extras": [
+        "7 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 78,
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "arxiv": "2608.13558",
+      "desc": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 76,
+      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+      "arxiv": "2608.17253",
+      "desc": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward).",
       "tag": "Agents",
       "extras": [
         "9 authors",
@@ -13,55 +57,52 @@
       ]
     },
     {
-      "votes": 39,
-      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
-      "arxiv": "2608.16157",
-      "desc": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure.",
+      "votes": 32,
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "arxiv": "2608.19197",
+      "desc": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals.",
       "tag": "Agents",
       "extras": [
-        "11 authors",
+        "18 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 20,
-      "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
-      "arxiv": "2608.18063",
-      "desc": "High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models remain constrained to resolutions below 1K due to quadratic attention complexity and prohibitive memory requirements.",
-      "tag": "CV",
+      "votes": 24,
+      "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+      "arxiv": "2608.18940",
+      "desc": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-many nature is poorly captured by single-answer evaluation and benchmarking protocols.",
       "extras": [
         "8 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 14,
-      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
-      "arxiv": "2608.17528",
-      "desc": "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critical part of the agent system.",
-      "tag": "Agents",
+      "votes": 15,
+      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+      "arxiv": "2608.18746",
+      "desc": "JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MPC).",
       "extras": [
-        "10 authors",
+        "5 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification",
+      "arxiv": "2608.14929",
+      "desc": "Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented.",
+      "extras": [
+        "2 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 13,
-      "title": "CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing",
-      "arxiv": "2608.17566",
-      "desc": "The quality and diversity of instruction-based video editing datasets are steadily improving, yet existing datasets mainly focus on single editing operations and fall short in supporting compositional instruction-guided video editing.",
-      "tag": "CV",
-      "extras": [
-        "11 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 12,
-      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
-      "arxiv": "2608.13556",
-      "desc": "Latent video generation relies on autoencoders to define a compact space in which generative models operate.",
-      "tag": "CV",
+      "title": "Looped Language Models Improve Compositional Tool Calling",
+      "arxiv": "2608.18171",
+      "desc": "Looped language models have shown promising results on reasoning benchmarks, yet their potential for agentic tool use remains largely unexplored.",
+      "tag": "Agents",
       "extras": [
         "3 authors",
         "Aug 2026"
@@ -69,96 +110,50 @@
     },
     {
       "votes": 12,
-      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
-      "arxiv": "2608.17067",
-      "desc": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Safe-For-Work (NSFW) content such as violence and nudity, further exacerbated by red-teaming adversarial attacks.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
-      "arxiv": "2608.17597",
-      "desc": "Large language models are increasingly deployed through agent harnesses that manage tools, extensions, persistent state, permissions, and external actions.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement",
-      "arxiv": "2608.14221",
-      "desc": "Autoformalization is commonly framed as translating natural-language mathematical statements into machine-verifiable formal languages such as Lean 4.",
-      "tag": "Retrieval",
-      "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
-      "arxiv": "2608.14881",
-      "desc": "AI co-scientists that generate hypotheses, retrieve related work, design experiments, execute code, and draft full papers are beginning to change how research is carried out.",
-      "tag": "Retrieval",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
-      "arxiv": "2608.17050",
-      "desc": "Methods for improving knowledge use in large language models typically fall into two regimes.",
-      "tag": "Retrieval",
-      "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
-      "arxiv": "2608.12944",
-      "desc": "Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PCG) provide complementary views of the same cardiac cycle, yet existing cardiac foundation models are trained for a single sensing modality, leaving the shared physiology across sensors unexploited.",
+      "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
+      "arxiv": "2608.13947",
+      "desc": "High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting models' ability to follow the structural and functional conventions of diverse creative formats.",
       "extras": [
         "6 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
-      "arxiv": "2608.17402",
-      "desc": "Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves performance.",
-      "tag": "CV",
+      "votes": 12,
+      "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+      "arxiv": "2608.18701",
+      "desc": "Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success alone.",
+      "tag": "Benchmark",
       "extras": [
-        "12 authors",
+        "18 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
-      "arxiv": "2608.16097",
-      "desc": "Graph neural networks are commonly described through family-specific equations whose notation obscures shared computations and structural differences.",
+      "votes": 9,
+      "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
+      "arxiv": "2608.14229",
+      "desc": "Popular facts are memorised more deeply during pretraining and resist removal longer than rare ones, yet existing LLM unlearning methods apply uniform gradient pressure regardless of training-data frequency.",
       "extras": [
-        "12 authors",
+        "4 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "PixRestore: Unified Image Restoration via Pixel Diffusion Transformer",
-      "arxiv": "2608.16793",
-      "desc": "Unified image restoration (UIR) aims to recover high-quality (HQ) content from low-quality (LQ) images with different degradations using a single model.",
-      "tag": "Diffusion",
+      "votes": 2,
+      "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
+      "arxiv": "2608.18115",
+      "desc": "Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong.",
+      "extras": [
+        "Jun 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+      "arxiv": "2608.18852",
+      "desc": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while public libraries now hold thousands of them.",
+      "tag": "Agents",
       "extras": [
         "9 authors",
         "Aug 2026"
