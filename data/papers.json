@@ -1,95 +1,32 @@
 {
-  "snapshot": "August 23, 2026",
+  "snapshot": "August 24, 2026",
   "papers": [
     {
-      "votes": 61,
-      "title": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
-      "arxiv": "2608.19799",
-      "desc": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only program behavior but also the evidence underlying scientific conclusions.",
-      "tag": "Agents",
+      "votes": 25,
+      "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+      "arxiv": "2608.20061",
+      "desc": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost.",
       "extras": [
         "5 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 16,
-      "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
-      "arxiv": "2608.19758",
-      "desc": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase.",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 13,
-      "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
-      "arxiv": "2608.16885",
-      "desc": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks.",
-      "tag": "VLM",
-      "extras": [
-        "39 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 13,
-      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
-      "arxiv": "2608.17744",
-      "desc": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune them to reason in a low-resource language.",
-      "tag": "RL",
-      "extras": [
-        "2 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
-      "arxiv": "2608.12875",
-      "desc": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity (STS), clustering, pair classification, and retrieval.",
-      "tag": "Retrieval",
-      "extras": [
-        "3 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
-      "arxiv": "2608.08466",
-      "desc": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment.",
+      "votes": 25,
+      "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
+      "arxiv": "2608.21156",
+      "desc": "LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks.",
       "tag": "Agents",
       "extras": [
+        "35 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 10,
-      "title": "Towards Quantifying Benchmark Optimization in ASR Models",
-      "arxiv": "2608.19936",
-      "desc": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities.",
-      "tag": "Audio",
-      "extras": [
-        "6 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
-      "arxiv": "2608.15767",
-      "desc": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 parameters, on the premise that at this size the periodic structure of a context is worth computing rather than learning.",
-      "extras": [
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video",
-      "arxiv": "2608.13210",
-      "desc": "Long-form video understanding encompasses tasks that go beyond retrieving isolated events, including tracking an evolving narrative and interpreting social meaning that may remain implicit.",
+      "votes": 21,
+      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+      "arxiv": "2608.21360",
+      "desc": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals.",
       "tag": "Benchmark",
       "extras": [
         "9 authors",
@@ -97,51 +34,116 @@
       ]
     },
     {
-      "votes": 7,
-      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
-      "arxiv": "2608.13547",
-      "desc": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output.",
-      "tag": "Agents",
+      "votes": 21,
+      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+      "arxiv": "2608.20910",
+      "desc": "With large pretrained models, existing methods have effectively improved instruction-based video editing.",
+      "tag": "CV",
       "extras": [
-        "4 authors",
+        "12 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 7,
-      "title": "Chain-of-Experience for Continual LLM Improvement",
-      "arxiv": "2608.18027",
-      "desc": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction.",
+      "votes": 18,
+      "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
+      "arxiv": "2608.16425",
+      "desc": "Parallel reasoning improves the accuracy and robustness of large reasoning models by exploring multiple solution paths, but its computational cost grows with reasoning depth and branch count.",
       "extras": [
-        "5 authors",
+        "8 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
-      "arxiv": "2608.19759",
-      "desc": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generalize to new objects because they are trained on limited, object-specific datasets.",
+      "votes": 10,
+      "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
+      "arxiv": "2608.16647",
+      "desc": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own policy, yet its generalization behavior remains poorly understood, as most studies evaluate OPD on a single domain and on benchmarks close to the training data.",
+      "tag": "Training",
       "extras": [
-        "4 authors",
+        "16 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
-      "arxiv": "2608.19776",
-      "desc": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks.",
+      "votes": 9,
+      "title": "EviRank: Structured Relevance Evidence for Multimodal Image Re-ranking",
+      "arxiv": "2608.20886",
+      "desc": "Real-world image search queries are multimodal and compositional: ``find this shirt in pink'' specifies an entity to retain, an attribute to modify, and context to ignore.",
+      "tag": "Multimodal",
       "extras": [
-        "4 authors",
+        "11 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 5,
-      "title": "Listening Forward: Next Patch Embedding Prediction Enables Scalable Audio Learners",
-      "arxiv": "2608.19863",
-      "desc": "Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing methods have increasingly relied on elaborate pre-training recipes to reach competitive performance.",
+      "title": "UniSpace: Unified Visual Representation and Scalable Multimodal Modeling",
+      "arxiv": "2608.08676",
+      "desc": "Semantic vision encoders have become a central visual interface for multimodal understanding and semantic conditioning in image generation.",
+      "tag": "Multimodal",
+      "extras": [
+        "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+      "arxiv": "2608.20634",
+      "desc": "Agents learn to act through interaction with environments, yet the environments used for training are often manually constructed or synthesized around predefined tasks and benchmarks.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Towards Faithful Simulation of Human Shopping Behavior",
+      "arxiv": "2608.20707",
+      "desc": "Simulating realistic user shopping behavior underpins offline evaluation and reinforcement learning in e-commerce scenarios.",
+      "tag": "Agents",
+      "extras": [
+        "12 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Human-Centric Intelligence in the Era of Foundation Models: A Survey",
+      "arxiv": "2608.18184",
+      "desc": "Human-centric intelligence is evolving in the foundation-model era, with growing emphasis on scale, transferability, and general-purpose modeling.",
+      "tag": "Agents",
+      "extras": [
+        "16 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+      "arxiv": "2608.20210",
+      "desc": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards.",
+      "extras": [
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "FlavourBench: Ranking Frontier Language Models with Executable Culinary Ground Truth",
+      "arxiv": "2608.20574",
+      "desc": "Open-ended language-model benchmarks usually inherit a judge: a human preference panel, another model, or a brittle exact-match key.",
+      "extras": [
+        "2 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+      "arxiv": "2608.21278",
+      "desc": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign inputs.",
       "tag": "Audio",
       "extras": [
         "4 authors",
@@ -149,14 +151,14 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
-      "arxiv": "2607.21596",
-      "desc": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution.",
-      "tag": "Agents",
+      "votes": 0,
+      "title": "Hadith computational science in the age of large language models: a critical narrative review",
+      "arxiv": "2608.20364",
+      "desc": "We examine how hadith computational science is being reshaped by transformer models, retrieval-grounded pipelines, and large language models (LLMs).",
+      "tag": "Retrieval",
       "extras": [
-        "8 authors",
-        "Aug 2026"
+        "2 authors",
+        "Jun 2026"
       ]
     }
   ]
