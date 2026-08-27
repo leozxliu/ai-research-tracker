@@ -1,22 +1,141 @@
 {
-  "snapshot": "August 26, 2026",
+  "snapshot": "August 27, 2026",
   "papers": [
     {
-      "votes": 68,
-      "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
-      "arxiv": "2608.20492",
-      "desc": "Multimodal large language models (MLLMs) have become a prevailing paradigm for unified video perception.",
+      "votes": 19,
+      "title": "Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data",
+      "arxiv": "2608.23256",
+      "desc": "Recent work proposes next-chunk reasoning RL for leveraging no-CoT data---corpora such as worked solutions and textbook derivations that contain reasoning-rich content but lack explicit chain-of-thought annotations.",
       "tag": "RL",
+      "extras": [
+        "11 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 19,
+      "title": "Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds",
+      "arxiv": "2608.23383",
+      "desc": "Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities, follow user controls, and remain stable over extended rollouts.",
+      "tag": "Audio",
+      "extras": [
+        "16 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios",
+      "arxiv": "2608.25529",
+      "desc": "Multimodal Large Language Models (MLLMs) have shown strong performance in video understanding.",
+      "tag": "Multimodal",
+      "extras": [
+        "15 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 13,
+      "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "arxiv": "2608.23564",
+      "desc": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
+      "arxiv": "2608.24358",
+      "desc": "Coding agents perform long-running tasks spanning dozens of model calls, tool uses, and code edits.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "Rubrics as Visual-Repair Context for Self-Evolving UI-to-Code Generation",
+      "arxiv": "2608.24138",
+      "desc": "Large vision-language models have shown strong progress in UI-to-code generation, yet their test-time self-evolution remains unstable.",
+      "tag": "CV",
+      "extras": [
+        "13 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Pushing the Limits of High-Resolution Weather Forecasting through Data Scaling",
+      "arxiv": "2608.14652",
+      "desc": "The development of 0.1^{circ} global weather forecasting models based on machine learning (ML) is constrained by the limited availability of high-resolution data, as decades of reanalysis are only available at 0.25^{circ} resolution.",
+      "extras": [
+        "8 authors",
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Skill Issue: Are Skills Language-Invariant in LLMs?",
+      "arxiv": "2608.25832",
+      "desc": "Large language models access knowledge inconsistently across languages, but to what extent do they differ in their skill sets when interacting with different languages? This work quantifies cross-lingual skill inconsistency orthogonally from knowledge and general benchmark performance.",
       "extras": [
         "7 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 52,
-      "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
-      "arxiv": "2608.24053",
-      "desc": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to be represented in a shared space for applications such as retrieval, recommendation, classification, and agentic systems.",
+      "votes": 3,
+      "title": "Prefix Sliding for efficient test-time scaling",
+      "arxiv": "2608.26070",
+      "desc": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem.",
+      "tag": "RL",
+      "extras": [
+        "18 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "RetrievalRouter: Joint Modality and Architecture Selection for Document Retrieval",
+      "arxiv": "2608.25625",
+      "desc": "Document retrieval increasingly supports high-stakes information access in finance, healthcare, and law.",
+      "tag": "Retrieval",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "FIRM-Video: Check Before You Score for Reliable Text-to-Video Reward Modeling",
+      "arxiv": "2608.21839",
+      "desc": "Reliable reward models are essential for text-to-video evaluation and alignment.",
+      "tag": "CV",
+      "extras": [
+        "11 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "LibriBrain100: One Hundred Hours of Broad and Deep MEG Data for Neural Speech Decoding at Scale",
+      "arxiv": "2608.25204",
+      "desc": "We introduce LibriBrain100, a large-scale MEG dataset for speech decoding designed from the ground up for reproducible, standardised evaluation.",
+      "tag": "Audio",
+      "extras": [
+        "15 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "A Modular Agent for Reliable and Auditable Spatial Relation Verification in CT Scans",
+      "arxiv": "2608.21140",
+      "desc": "Reliable spatial understanding is an important prerequisite for future medical vision-language systems that aim to support radiological report generation and structured image understanding.",
       "tag": "Agents",
       "extras": [
         "6 authors",
@@ -24,142 +143,24 @@
       ]
     },
     {
-      "votes": 47,
-      "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
-      "arxiv": "2608.23041",
-      "desc": "LLM agents remain unreliable on long-horizon tasks, where small local failures can compound over extended interactions and lead to overall task failure.",
-      "tag": "Agents",
-      "extras": [
-        "13 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 44,
-      "title": "On-Policy Self-Distillation in Diffusion Models",
-      "arxiv": "2608.24646",
-      "desc": "Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rewards do not specify how an intermediate denoising prediction should change.",
-      "tag": "Diffusion",
-      "extras": [
-        "17 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 26,
-      "title": "CyberFactory: Scaling Cyber Security Capabilities with Instances from the Wild",
-      "arxiv": "2608.23181",
-      "desc": "As large language models (LLMs) continue to advance in coding capabilities, their potential in cybersecurity has drawn increasing research attention, with closed-source LLMs (e.g., Mythos) delivering advanced cybersecurity capabilities.",
-      "tag": "Agents",
-      "extras": [
-        "11 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "Best Practice Critic Optimization",
-      "arxiv": "2608.23566",
-      "desc": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt.",
-      "tag": "RL",
-      "extras": [
-        "3 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "On-policy Distillation with Verifiable Reward",
-      "arxiv": "2608.24696",
-      "desc": "Reinforcement Learning with Verifiable Rewards (RLVR) and on-policy distillation (OPD) have become two widely adopted paradigms for post-training large language models.",
-      "tag": "Training",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
-      "arxiv": "2608.24877",
-      "desc": "Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect human perception, persistent context, and digital or physical action.",
-      "tag": "Multimodal",
-      "extras": [
-        "3 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
-      "arxiv": "2608.24680",
-      "desc": "Video games provide a scalable source of training data for video world models, offering diverse environments, complex interactions, and abundant in-the-wild gameplay videos.",
-      "tag": "Multimodal",
-      "extras": [
-        "3 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "DREAM Technical Report",
-      "arxiv": "2608.09408",
-      "desc": "Industrial recommender systems commonly use cascaded retrieval, ranking, and re-ranking pipelines.",
-      "tag": "Agents",
-      "extras": [
-        "77 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
-      "arxiv": "2608.24845",
-      "desc": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl.",
-      "tag": "Multimodal",
-      "extras": [
-        "12 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Length-Adaptive Decoding for Masked Diffusion Machine Translation",
-      "arxiv": "2608.22274",
-      "desc": "Machine translation tests masked diffusion language models (dLLMs) because every source token must be rendered faithfully, while fixed canvas decoding must choose target length before denoising.",
-      "tag": "Diffusion",
-      "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
       "votes": 1,
-      "title": "MoTE: Mixture of Task Experts for Multi-Task Video Understanding",
-      "arxiv": "2608.24763",
-      "desc": "Procedural video-language models must solve heterogeneous tasks from the same visual evidence, including action recognition, forecasting, and procedure prediction.",
-      "tag": "CV",
+      "title": "GUI-Primitives: Diagnosing Spatial Reasoning Failures in Vision-Language GUI Grounding",
+      "arxiv": "2608.21832",
+      "desc": "Computer-use agents ground natural-language instructions in screenshots to locate interface elements, yet existing benchmarks do not isolate whether models bind relational language to the correct element.",
+      "tag": "VLM",
       "extras": [
-        "4 authors",
+        "2 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
-      "arxiv": "2608.24882",
-      "desc": "World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observations at test time incurs substantial latency.",
+      "title": "Real-TurnTurk: A Multimodal Turkish Corpus for Turn-Taking Prediction",
+      "arxiv": "2608.22071",
+      "desc": "Turn-taking is a basic organizational feature of human conversation and remains difficult to model in natural, synchronous dialog systems.",
+      "tag": "Multimodal",
       "extras": [
-        "13 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "TorchMorph: CUDA-accelerated Morphological Transforms",
-      "arxiv": "2608.24738",
-      "desc": "Morphological transforms are long-standing tools for shape and mask processing, but the de facto reference implementation in the Python ecosystem, i.e.",
-      "extras": [
+        "5 authors",
         "Aug 2026"
       ]
     }
