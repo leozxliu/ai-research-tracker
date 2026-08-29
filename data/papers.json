@@ -1,8 +1,8 @@
 {
-  "snapshot": "August 28, 2026",
+  "snapshot": "August 29, 2026",
   "papers": [
     {
-      "votes": 118,
+      "votes": 132,
       "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
       "arxiv": "2608.25518",
       "desc": "A common strategy for scaling world models is to train on more crawled video with more compute.",
@@ -13,17 +13,7 @@
       ]
     },
     {
-      "votes": 73,
-      "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
-      "arxiv": "2608.27345",
-      "desc": "Recent video generation models are increasingly framed as world models.",
-      "extras": [
-        "14 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 62,
+      "votes": 69,
       "title": "TTPO: Test-Time Policy Optimization",
       "arxiv": "2608.27448",
       "desc": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on ground-truth labels precludes test-time training (TTT).",
@@ -45,7 +35,7 @@
       ]
     },
     {
-      "votes": 37,
+      "votes": 39,
       "title": "GameWAM: A World Action Model for Video Games",
       "arxiv": "2608.26200",
       "desc": "Modern video games combine first-person perception, rapid visual changes, persistent world state, and heterogeneous native controls.",
@@ -56,7 +46,7 @@
       ]
     },
     {
-      "votes": 25,
+      "votes": 26,
       "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
       "arxiv": "2608.26530",
       "desc": "Long-horizon agent runs generate experience that can improve both the current run and future work.",
@@ -67,13 +57,34 @@
       ]
     },
     {
-      "votes": 7,
+      "votes": 10,
       "title": "Procedura: Agentic 3D Modeling with Procedural Control",
       "arxiv": "2608.26238",
       "desc": "Native 3D generators now recover impressive mesh geometry from a single image.",
       "tag": "Agents",
       "extras": [
         "8 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
+      "arxiv": "2608.23943",
+      "desc": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance.",
+      "tag": "3D",
+      "extras": [
+        "10 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "arxiv": "2608.27455",
+      "desc": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
+      "extras": [
+        "7 authors",
         "Aug 2026"
       ]
     },
@@ -90,23 +101,23 @@
     },
     {
       "votes": 5,
-      "title": "CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval",
-      "arxiv": "2608.25500",
-      "desc": "Reusable skill libraries allow large language model (LLM) agents to reuse procedural knowledge across tasks, but they also turn memory access into a challenging retrieval problem.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 4,
       "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
       "arxiv": "2608.25798",
       "desc": "Contact-rich manipulation requires adapting to contact states that can evolve substantially within an action horizon.",
       "tag": "VLM",
       "extras": [
         "11 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval",
+      "arxiv": "2608.25500",
+      "desc": "Reusable skill libraries allow large language model (LLM) agents to reuse procedural knowledge across tasks, but they also turn memory access into a challenging retrieval problem.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
         "Aug 2026"
       ]
     },
@@ -123,11 +134,12 @@
     },
     {
       "votes": 3,
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "arxiv": "2608.27455",
-      "desc": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
+      "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+      "arxiv": "2608.27123",
+      "desc": "Conventional video editing primarily focuses on scene-level content, whereas live streaming places greater emphasis on the human subject.",
+      "tag": "CV",
       "extras": [
-        "7 authors",
+        "5 authors",
         "Aug 2026"
       ]
     },
@@ -148,17 +160,6 @@
       "arxiv": "2608.19269",
       "desc": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric.",
       "extras": [
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "EditaLive! Unified Character Video Editing for Live Streaming",
-      "arxiv": "2608.27123",
-      "desc": "Conventional video editing primarily focuses on scene-level content, whereas live streaming places greater emphasis on the human subject.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
         "Aug 2026"
       ]
     }
