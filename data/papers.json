@@ -1,8 +1,8 @@
 {
-  "snapshot": "August 29, 2026",
+  "snapshot": "August 30, 2026",
   "papers": [
     {
-      "votes": 132,
+      "votes": 144,
       "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
       "arxiv": "2608.25518",
       "desc": "A common strategy for scaling world models is to train on more crawled video with more compute.",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "votes": 69,
+      "votes": 72,
       "title": "TTPO: Test-Time Policy Optimization",
       "arxiv": "2608.27448",
       "desc": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on ground-truth labels precludes test-time training (TTT).",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "votes": 43,
+      "votes": 45,
       "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
       "arxiv": "2608.15763",
       "desc": "AI-powered digital avatar streamers must answer product questions, engage viewers, and execute marketing strategies in real time, demanding low latency, frequent strategy updates, and accurate yet effective responses.",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "votes": 39,
+      "votes": 41,
       "title": "GameWAM: A World Action Model for Video Games",
       "arxiv": "2608.26200",
       "desc": "Modern video games combine first-person perception, rapid visual changes, persistent world state, and heterogeneous native controls.",
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "votes": 26,
+      "votes": 29,
       "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
       "arxiv": "2608.26530",
       "desc": "Long-horizon agent runs generate experience that can improve both the current run and future work.",
@@ -68,6 +68,16 @@
       ]
     },
     {
+      "votes": 8,
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "arxiv": "2608.27455",
+      "desc": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
+      "extras": [
+        "7 authors",
+        "Aug 2026"
+      ]
+    },
+    {
       "votes": 7,
       "title": "Luce: Relightable Gaussians for 3D Asset Generation",
       "arxiv": "2608.23943",
@@ -79,17 +89,7 @@
       ]
     },
     {
-      "votes": 6,
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "arxiv": "2608.27455",
-      "desc": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 6,
+      "votes": 7,
       "title": "CaRGo-T: Causal Reasoning Graph-of-Thought improves Multimodal Humor Comprehension",
       "arxiv": "2608.23172",
       "desc": "Large-scale vision-language models (VLMs) have demonstrated remarkable versatility across a wide range of multimodal tasks.",
@@ -134,6 +134,15 @@
     },
     {
       "votes": 3,
+      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
+      "arxiv": "2608.19269",
+      "desc": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric.",
+      "extras": [
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
       "title": "EditaLive! Unified Character Video Editing for Live Streaming",
       "arxiv": "2608.27123",
       "desc": "Conventional video editing primarily focuses on scene-level content, whereas live streaming places greater emphasis on the human subject.",
@@ -151,15 +160,6 @@
       "tag": "Multimodal",
       "extras": [
         "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
-      "arxiv": "2608.19269",
-      "desc": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric.",
-      "extras": [
         "Aug 2026"
       ]
     }
