@@ -1,151 +1,65 @@
 {
-  "snapshot": "August 30, 2026",
+  "snapshot": "August 31, 2026",
   "papers": [
     {
-      "votes": 144,
-      "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
-      "arxiv": "2608.25518",
-      "desc": "A common strategy for scaling world models is to train on more crawled video with more compute.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 72,
-      "title": "TTPO: Test-Time Policy Optimization",
-      "arxiv": "2608.27448",
-      "desc": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on ground-truth labels precludes test-time training (TTT).",
-      "tag": "RL",
-      "extras": [
-        "11 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 45,
-      "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
-      "arxiv": "2608.15763",
-      "desc": "AI-powered digital avatar streamers must answer product questions, engage viewers, and execute marketing strategies in real time, demanding low latency, frequent strategy updates, and accurate yet effective responses.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 41,
-      "title": "GameWAM: A World Action Model for Video Games",
-      "arxiv": "2608.26200",
-      "desc": "Modern video games combine first-person perception, rapid visual changes, persistent world state, and heterogeneous native controls.",
-      "tag": "CV",
-      "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 29,
-      "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
-      "arxiv": "2608.26530",
-      "desc": "Long-horizon agent runs generate experience that can improve both the current run and future work.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "Procedura: Agentic 3D Modeling with Procedural Control",
-      "arxiv": "2608.26238",
-      "desc": "Native 3D generators now recover impressive mesh geometry from a single image.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "arxiv": "2608.27455",
-      "desc": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
+      "votes": 82,
+      "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+      "arxiv": "2608.28281",
+      "desc": "Loop Engineering is emerging as a practice for organizing development work around coding agents.",
+      "tag": "Benchmark",
       "extras": [
         "7 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 7,
-      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
-      "arxiv": "2608.23943",
-      "desc": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance.",
-      "tag": "3D",
-      "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "CaRGo-T: Causal Reasoning Graph-of-Thought improves Multimodal Humor Comprehension",
-      "arxiv": "2608.23172",
-      "desc": "Large-scale vision-language models (VLMs) have demonstrated remarkable versatility across a wide range of multimodal tasks.",
-      "tag": "Multimodal",
+      "votes": 60,
+      "title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
+      "arxiv": "2608.18524",
+      "desc": "Equipping Large Language Models (LLMs) with multi-turn tool-calling capabilities is essential for building autonomous agents.",
+      "tag": "Agents",
       "extras": [
         "8 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
-      "arxiv": "2608.25798",
-      "desc": "Contact-rich manipulation requires adapting to contact states that can evolve substantially within an action horizon.",
+      "votes": 50,
+      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
+      "arxiv": "2608.28122",
+      "desc": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of producing drafts and components.",
+      "tag": "Agents",
+      "extras": [
+        "12 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 26,
+      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+      "arxiv": "2608.27370",
+      "desc": "Language model pretraining has become almost synonymous with prohibitive cost, placing it out of reach for much of the academic and open-source communities.",
+      "extras": [
+        "11 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 24,
+      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
+      "arxiv": "2608.23478",
+      "desc": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning.",
       "tag": "VLM",
       "extras": [
-        "11 authors",
+        "3 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval",
-      "arxiv": "2608.25500",
-      "desc": "Reusable skill libraries allow large language model (LLM) agents to reuse procedural knowledge across tasks, but they also turn memory access into a challenging retrieval problem.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning",
-      "arxiv": "2608.26809",
-      "desc": "While generative AI has significantly advanced video editing, existing methods primarily focus on single-shot or short video clips.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
-      "arxiv": "2608.19269",
-      "desc": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric.",
-      "extras": [
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "EditaLive! Unified Character Video Editing for Live Streaming",
-      "arxiv": "2608.27123",
-      "desc": "Conventional video editing primarily focuses on scene-level content, whereas live streaming places greater emphasis on the human subject.",
+      "votes": 24,
+      "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
+      "arxiv": "2608.28460",
+      "desc": "Autoregressive video diffusion enables scalable long-video generation by producing chunks from a bounded recent context.",
       "tag": "CV",
       "extras": [
         "5 authors",
@@ -153,13 +67,96 @@
       ]
     },
     {
-      "votes": 3,
-      "title": "Aphanta: Diagnosing Task-Aligned Image-Edited Intermediates for Multimodal Reasoning",
-      "arxiv": "2608.26993",
-      "desc": "Explicit visual intermediates can help multimodal large language models (MLLMs) externalize spatial evidence and updated visual states, but their utility depends on whether an image editor can faithfully realize the required transformation.",
-      "tag": "Multimodal",
+      "votes": 15,
+      "title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+      "arxiv": "2608.28192",
+      "desc": "Spatio-temporal video grounding (STVG) requires models to identify when a referred event occurs and localize the target entity throughout that interval.",
+      "tag": "CV",
       "extras": [
-        "7 authors",
+        "5 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 14,
+      "title": "Fast Weight Attention for Continual Learning",
+      "arxiv": "2608.27763",
+      "desc": "Recurrent fast-weight memories and selective state-space models compress an expanding context into a fixed-size recurrent state, making the state transition an online learning rule.",
+      "extras": [
+        "11 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "Sliding-window beats linear attention",
+      "arxiv": "2608.28444",
+      "desc": "Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy.",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion",
+      "arxiv": "2608.26794",
+      "desc": "Scaling video generation to long durations reveals a critical bottleneck: current models lack robust long-term memory.",
+      "tag": "Diffusion",
+      "extras": [
+        "9 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Language Chain in Alignment: Cross-lingual Ranking Preference Optimization",
+      "arxiv": "2608.23149",
+      "desc": "The alignment of Large Language Models heavily relies on English-centric high-quality preference data, which often leads to suboptimal performance in other languages.",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses",
+      "arxiv": "2608.28363",
+      "desc": "LLM agents increasingly modify their own prompts, tools, middleware, resources, and execution harnesses at runtime.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Generative Semantic Scene Completion",
+      "arxiv": "2608.26737",
+      "desc": "Outdoor LiDAR semantic scene completion (SSC) recovers a dense semantic voxel grid from a scan observing 1% of the target volume, under class imbalance beyond 7,000x.",
+      "tag": "Diffusion",
+      "extras": [
+        "2 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Lost in Compression: A Controlled Cross-Lingual Audit of Extractive Prompt Compressors",
+      "arxiv": "2608.26175",
+      "desc": "Extractive prompt compression promises to cut LLM inference costs by removing low-information tokens, and learned compressors such as LLMLingua-2 report strong results on English benchmarks.",
+      "extras": [
+        "Jul 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "GGSS: Geodesic-Gated Spherical Steering for Inference-Time Debiasing of Generative Vision-Language Models",
+      "arxiv": "2608.25375",
+      "desc": "Generative vision-language models (VLMs) are increasingly used in human-centered settings, yet they can produce demographically biased outputs even when images differ only in controlled attributes such as perceived race or gender.",
+      "tag": "VLM",
+      "extras": [
+        "4 authors",
         "Aug 2026"
       ]
     }
