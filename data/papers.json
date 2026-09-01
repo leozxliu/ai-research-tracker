@@ -1,162 +1,165 @@
 {
-  "snapshot": "August 31, 2026",
+  "snapshot": "September 1, 2026",
   "papers": [
     {
-      "votes": 82,
-      "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
-      "arxiv": "2608.28281",
-      "desc": "Loop Engineering is emerging as a practice for organizing development work around coding agents.",
-      "tag": "Benchmark",
+      "votes": 84,
+      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+      "arxiv": "2608.31106",
+      "desc": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual dynamics and acoustic events.",
+      "tag": "Audio",
       "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 60,
-      "title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
-      "arxiv": "2608.18524",
-      "desc": "Equipping Large Language Models (LLMs) with multi-turn tool-calling capabilities is essential for building autonomous agents.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 50,
-      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
-      "arxiv": "2608.28122",
-      "desc": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of producing drafts and components.",
-      "tag": "Agents",
-      "extras": [
-        "12 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 26,
-      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
-      "arxiv": "2608.27370",
-      "desc": "Language model pretraining has become almost synonymous with prohibitive cost, placing it out of reach for much of the academic and open-source communities.",
-      "extras": [
-        "11 authors",
+        "10 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 24,
-      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
-      "arxiv": "2608.23478",
-      "desc": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning.",
+      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+      "arxiv": "2608.30935",
+      "desc": "Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks, environments, and robot embodiments.",
       "tag": "VLM",
       "extras": [
-        "3 authors",
+        "20 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 24,
-      "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
-      "arxiv": "2608.28460",
-      "desc": "Autoregressive video diffusion enables scalable long-video generation by producing chunks from a bounded recent context.",
-      "tag": "CV",
+      "votes": 22,
+      "title": "Super Library Agent: Joint Generation and Maintenance of Multiple Applications Beyond the Single Codebase",
+      "arxiv": "2608.29310",
+      "desc": "Organizations often develop and maintain portfolios of related applications: independently deployable codebases that share substantial domain logic, interface patterns, or operational conventions.",
+      "tag": "Agents",
       "extras": [
         "5 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 15,
-      "title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
-      "arxiv": "2608.28192",
-      "desc": "Spatio-temporal video grounding (STVG) requires models to identify when a referred event occurs and localize the target entity throughout that interval.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 14,
-      "title": "Fast Weight Attention for Continual Learning",
-      "arxiv": "2608.27763",
-      "desc": "Recurrent fast-weight memories and selective state-space models compress an expanding context into a fixed-size recurrent state, making the state transition an online learning rule.",
-      "extras": [
-        "11 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "Sliding-window beats linear attention",
-      "arxiv": "2608.28444",
-      "desc": "Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy.",
-      "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion",
-      "arxiv": "2608.26794",
-      "desc": "Scaling video generation to long durations reveals a critical bottleneck: current models lack robust long-term memory.",
-      "tag": "Diffusion",
+      "votes": 18,
+      "title": "Evaluating the Hidden Costs of Personalization in Large Language Models",
+      "arxiv": "2608.28833",
+      "desc": "While Large language models (LLMs) incorporate user personalization signals to improve usability and helpfulness, they increasingly shift from providing balanced, informative responses toward optimizing for user satisfaction when conditioned on personal context such as conversation history, inferred preferences, and user profiles.",
       "extras": [
         "9 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Language Chain in Alignment: Cross-lingual Ranking Preference Optimization",
-      "arxiv": "2608.23149",
-      "desc": "The alignment of Large Language Models heavily relies on English-centric high-quality preference data, which often leads to suboptimal performance in other languages.",
+      "votes": 9,
+      "title": "Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation",
+      "arxiv": "2608.24293",
+      "desc": "Latent diffusion models have emerged as a dominant framework for high-fidelity image and video synthesis, operating in compact latent spaces with variational autoencoders (VAEs) to enhance computational efficiency without compromising visual quality.",
+      "tag": "CV",
       "extras": [
-        "4 authors",
+        "5 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses",
-      "arxiv": "2608.28363",
-      "desc": "LLM agents increasingly modify their own prompts, tools, middleware, resources, and execution harnesses at runtime.",
+      "votes": 8,
+      "title": "Chain-of-Thought Faithfulness of Reasoning Models Varies with Where and How Preference Cues Are Delivered",
+      "arxiv": "2608.29464",
+      "desc": "Chain-of-thought (CoT) monitoring assumes that reasoning traces faithfully record the information that shapes a model's answer.",
       "tag": "Agents",
       "extras": [
-        "4 authors",
+        "5 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "WebWorld: The Browser as a World Model for Self-Improving Web Code",
+      "arxiv": "2608.30530",
+      "desc": "VLM-driven self-improvement of web code has a structural flaw: the model that proposes the repair is the model that judges it, and visual plausibility under that judge is a poor proxy for whether the page actually works.",
+      "tag": "VLM",
+      "extras": [
+        "10 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "ContextBias: Controlled Evaluation of Bias Persistence Under Context Shift in Text-to-Image Models",
+      "arxiv": "2608.29847",
+      "desc": "Text-to-image models learn associations between concepts - in the case of this paper, people's professions, which we refer to as roles - and visual attributes.",
+      "tag": "CV",
+      "extras": [
+        "7 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "SafeAtlas-VL: Beyond Binary Multimodal Safety with Large-Scale Data and Guard Models",
+      "arxiv": "2608.29098",
+      "desc": "Multimodal safety moderation requires distinguishing risks arising from visual content, user intent, and assistant behavior.",
+      "tag": "Multimodal",
+      "extras": [
+        "16 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "Generative Semantic Scene Completion",
-      "arxiv": "2608.26737",
-      "desc": "Outdoor LiDAR semantic scene completion (SSC) recovers a dense semantic voxel grid from a scan observing 1% of the target volume, under class imbalance beyond 7,000x.",
-      "tag": "Diffusion",
+      "title": "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
+      "arxiv": "2608.29387",
+      "desc": "Large language models can generate interactive web interfaces, but reliable generative UI requires maintaining an executable artifact as user requests evolve.",
+      "extras": [
+        "6 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Chat-Edit-3D++: Interactive 3D and 4D Scene Editing via Large Language Models",
+      "arxiv": "2608.29137",
+      "desc": "Recent work on image content manipulation based on vision-language pre-training models has been effectively extended to text-driven 3D scene editing.",
+      "tag": "3D",
+      "extras": [
+        "7 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "DICS: Exploring Data Intrinsic Consistency for Visual Instruction Selection",
+      "arxiv": "2608.30209",
+      "desc": "Visual instruction tuning is crucial for advancing the vision-language alignment and instruction-following capabilities of Vision-Language Models (VLMs).",
+      "tag": "CV",
+      "extras": [
+        "9 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "MMMMM: A Unified Taxonomy for Investigating the Mechanisms of Multilingual MultiModal Misinformation",
+      "arxiv": "2608.29681",
+      "desc": "Multimodal misinformation on social media is highly prevalent, potent, and harmful, yet difficult to detect and counter, and still poorly understood compared to its text-only counterpart.",
+      "tag": "Multimodal",
+      "extras": [
+        "4 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
+      "arxiv": "2608.29974",
+      "desc": "Detecting hallucinations in Large Vision-Language Models (LVLMs) requires both accurate span localization and well-calibrated confidence scores.",
+      "tag": "VLM",
       "extras": [
         "2 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Lost in Compression: A Controlled Cross-Lingual Audit of Extractive Prompt Compressors",
-      "arxiv": "2608.26175",
-      "desc": "Extractive prompt compression promises to cut LLM inference costs by removing low-information tokens, and learned compressors such as LLMLingua-2 report strong results on English benchmarks.",
+      "votes": 1,
+      "title": "Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions",
+      "arxiv": "2608.30795",
+      "desc": "End-to-end weather forecasting systems produce skillful global gridded and station forecasts directly from raw Earth observations, replacing the numerical weather prediction pipeline, including data assimilation, at a fraction of its cost.",
       "extras": [
-        "Jul 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "GGSS: Geodesic-Gated Spherical Steering for Inference-Time Debiasing of Generative Vision-Language Models",
-      "arxiv": "2608.25375",
-      "desc": "Generative vision-language models (VLMs) are increasingly used in human-centered settings, yet they can produce demographically biased outputs even when images differ only in controlled attributes such as perceived race or gender.",
-      "tag": "VLM",
-      "extras": [
-        "4 authors",
+        "6 authors",
         "Aug 2026"
       ]
     }
