@@ -1,166 +1,162 @@
 {
-  "snapshot": "September 1, 2026",
+  "snapshot": "September 2, 2026",
   "papers": [
     {
-      "votes": 84,
-      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
-      "arxiv": "2608.31106",
-      "desc": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual dynamics and acoustic events.",
-      "tag": "Audio",
-      "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 24,
-      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
-      "arxiv": "2608.30935",
-      "desc": "Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks, environments, and robot embodiments.",
+      "votes": 335,
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "arxiv": "2609.00111",
+      "desc": "We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving.",
       "tag": "VLM",
-      "extras": [
-        "20 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "Super Library Agent: Joint Generation and Maintenance of Multiple Applications Beyond the Single Codebase",
-      "arxiv": "2608.29310",
-      "desc": "Organizations often develop and maintain portfolios of related applications: independently deployable codebases that share substantial domain logic, interface patterns, or operational conventions.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 18,
-      "title": "Evaluating the Hidden Costs of Personalization in Large Language Models",
-      "arxiv": "2608.28833",
-      "desc": "While Large language models (LLMs) incorporate user personalization signals to improve usability and helpfulness, they increasingly shift from providing balanced, informative responses toward optimizing for user satisfaction when conditioned on personal context such as conversation history, inferred preferences, and user profiles.",
-      "extras": [
-        "9 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation",
-      "arxiv": "2608.24293",
-      "desc": "Latent diffusion models have emerged as a dominant framework for high-fidelity image and video synthesis, operating in compact latent spaces with variational autoencoders (VAEs) to enhance computational efficiency without compromising visual quality.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "Chain-of-Thought Faithfulness of Reasoning Models Varies with Where and How Preference Cues Are Delivered",
-      "arxiv": "2608.29464",
-      "desc": "Chain-of-thought (CoT) monitoring assumes that reasoning traces faithfully record the information that shapes a model's answer.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "WebWorld: The Browser as a World Model for Self-Improving Web Code",
-      "arxiv": "2608.30530",
-      "desc": "VLM-driven self-improvement of web code has a structural flaw: the model that proposes the repair is the model that judges it, and visual plausibility under that judge is a poor proxy for whether the page actually works.",
-      "tag": "VLM",
-      "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "ContextBias: Controlled Evaluation of Bias Persistence Under Context Shift in Text-to-Image Models",
-      "arxiv": "2608.29847",
-      "desc": "Text-to-image models learn associations between concepts - in the case of this paper, people's professions, which we refer to as roles - and visual attributes.",
-      "tag": "CV",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "SafeAtlas-VL: Beyond Binary Multimodal Safety with Large-Scale Data and Guard Models",
-      "arxiv": "2608.29098",
-      "desc": "Multimodal safety moderation requires distinguishing risks arising from visual content, user intent, and assistant behavior.",
-      "tag": "Multimodal",
       "extras": [
         "16 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
-      "arxiv": "2608.29387",
-      "desc": "Large language models can generate interactive web interfaces, but reliable generative UI requires maintaining an executable artifact as user requests evolve.",
-      "extras": [
-        "6 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Chat-Edit-3D++: Interactive 3D and 4D Scene Editing via Large Language Models",
-      "arxiv": "2608.29137",
-      "desc": "Recent work on image content manipulation based on vision-language pre-training models has been effectively extended to text-driven 3D scene editing.",
-      "tag": "3D",
-      "extras": [
-        "7 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "DICS: Exploring Data Intrinsic Consistency for Visual Instruction Selection",
-      "arxiv": "2608.30209",
-      "desc": "Visual instruction tuning is crucial for advancing the vision-language alignment and instruction-following capabilities of Vision-Language Models (VLMs).",
-      "tag": "CV",
+      "votes": 68,
+      "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+      "arxiv": "2609.01343",
+      "desc": "Looped Transformers increase effective depth by iterating a shared block of layers, but most evaluations compare at fixed model size, conflating architectural advantage with extra FLOPs.",
       "extras": [
         "9 authors",
-        "Aug 2026"
+        "Sep 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "MMMMM: A Unified Taxonomy for Investigating the Mechanisms of Multilingual MultiModal Misinformation",
-      "arxiv": "2608.29681",
-      "desc": "Multimodal misinformation on social media is highly prevalent, potent, and harmful, yet difficult to detect and counter, and still poorly understood compared to its text-only counterpart.",
-      "tag": "Multimodal",
+      "votes": 53,
+      "title": "UI-Venus-2 Technical Report",
+      "arxiv": "2609.00028",
+      "desc": "Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmark-oriented models to dependable real-world applications remains challenging due to limited environment coverage, brittle task construction, and unreliable reward verification.",
+      "tag": "Agents",
       "extras": [
-        "4 authors",
+        "31 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
-      "arxiv": "2608.29974",
-      "desc": "Detecting hallucinations in Large Vision-Language Models (LVLMs) requires both accurate span localization and well-calibrated confidence scores.",
-      "tag": "VLM",
+      "votes": 39,
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "arxiv": "2609.01560",
+      "desc": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model.",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 38,
+      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+      "arxiv": "2609.00188",
+      "desc": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity.",
+      "tag": "CV",
+      "extras": [
+        "20 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 30,
+      "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
+      "arxiv": "2609.01572",
+      "desc": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool.",
+      "extras": [
+        "14 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 19,
+      "title": "Safin-1: Safety from Within through Memory-Native State Evolution",
+      "arxiv": "2609.00092",
+      "desc": "Long-horizon complex tasks require foundation models to accumulate information, maintain internal states, and adapt over extended interactions.",
+      "tag": "Retrieval",
+      "extras": [
+        "18 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 13,
+      "title": "DiagEvo: Diagnosis-Guided Self-Evolution via Hierarchical Error Memory",
+      "arxiv": "2609.00768",
+      "desc": "Self-play is an effective paradigm for language-model self-evolution, but without guidance, solver performance can plateau or decline across rounds.",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+      "arxiv": "2609.01481",
+      "desc": "This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements into complete, functional, and usable software systems without human intervention.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "Agents in the Large: Perception-Centered Architecture for Persistent Agents",
+      "arxiv": "2608.30478",
+      "desc": "Cognitive language agents have achieved substantial progress by equipping language models with memory, tools, and decision-making procedures, enabling agents to reason and act in interactive environments.",
+      "tag": "Agents",
+      "extras": [
+        "17 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
+      "arxiv": "2608.30730",
+      "desc": "Long-horizon agentic tasks go beyond chaining short tasks over more interaction turns.",
+      "tag": "Agents",
+      "extras": [
+        "11 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You",
+      "arxiv": "2609.00374",
+      "desc": "Test-time adaptation (TTA) typically assumes that model parameters can be updated at inference time.",
       "extras": [
         "2 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions",
-      "arxiv": "2608.30795",
-      "desc": "End-to-end weather forecasting systems produce skillful global gridded and station forecasts directly from raw Earth observations, replacing the numerical weather prediction pipeline, including data assimilation, at a fraction of its cost.",
+      "votes": 4,
+      "title": "Recursive Criticality of AI Self-Improvement",
+      "arxiv": "2609.00137",
+      "desc": "AI is increasingly used in the R\\&D process that produces future AI systems.",
       "extras": [
-        "6 authors",
         "Aug 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Learning Where Outcomes Change:Credit-Addressable Reasoning for Multimodal Geometry",
+      "arxiv": "2608.30457",
+      "desc": "Multimodal geometry reasoning requires VLMs to extract precise visual relations and preserve them through multi-step deduction.",
+      "tag": "Multimodal",
+      "extras": [
+        "8 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "DramaChain Bench: An End-to-End Benchmark for Short-Drama Generation",
+      "arxiv": "2609.00646",
+      "desc": "Commercial short-drama production follows a multi-stage chain: script, storyboard, keyframe imagery, shot-level video, and the finished short drama.",
+      "tag": "Benchmark",
+      "extras": [
+        "15 authors",
+        "Sep 2026"
       ]
     }
   ]
