@@ -1,162 +1,164 @@
 {
-  "snapshot": "September 2, 2026",
+  "snapshot": "September 3, 2026",
   "papers": [
     {
-      "votes": 335,
-      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
-      "arxiv": "2609.00111",
-      "desc": "We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving.",
-      "tag": "VLM",
-      "extras": [
-        "16 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 68,
-      "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
-      "arxiv": "2609.01343",
-      "desc": "Looped Transformers increase effective depth by iterating a shared block of layers, but most evaluations compare at fixed model size, conflating architectural advantage with extra FLOPs.",
+      "votes": 26,
+      "title": "Beyond Visual Similarity: Entity-Aligned Retrieval for Knowledge-Based Visual Question Answering",
+      "arxiv": "2608.21450",
+      "desc": "Knowledge-Based Visual Question Answering (KB-VQA) relies on retrieving external information to answer queries involving long-tail entities.",
+      "tag": "Retrieval",
       "extras": [
         "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 53,
-      "title": "UI-Venus-2 Technical Report",
-      "arxiv": "2609.00028",
-      "desc": "Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmark-oriented models to dependable real-world applications remains challenging due to limited environment coverage, brittle task construction, and unreliable reward verification.",
-      "tag": "Agents",
-      "extras": [
-        "31 authors",
         "Aug 2026"
-      ]
-    },
-    {
-      "votes": 39,
-      "title": "H3-World: Turning Language Understanding into World Control",
-      "arxiv": "2609.01560",
-      "desc": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model.",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 38,
-      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
-      "arxiv": "2609.00188",
-      "desc": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity.",
-      "tag": "CV",
-      "extras": [
-        "20 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 30,
-      "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
-      "arxiv": "2609.01572",
-      "desc": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool.",
-      "extras": [
-        "14 authors",
-        "Sep 2026"
       ]
     },
     {
       "votes": 19,
-      "title": "Safin-1: Safety from Within through Memory-Native State Evolution",
-      "arxiv": "2609.00092",
-      "desc": "Long-horizon complex tasks require foundation models to accumulate information, maintain internal states, and adapt over extended interactions.",
-      "tag": "Retrieval",
-      "extras": [
-        "18 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 13,
-      "title": "DiagEvo: Diagnosis-Guided Self-Evolution via Hierarchical Error Memory",
-      "arxiv": "2609.00768",
-      "desc": "Self-play is an effective paradigm for language-model self-evolution, but without guidance, solver performance can plateau or decline across rounds.",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
-      "arxiv": "2609.01481",
-      "desc": "This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements into complete, functional, and usable software systems without human intervention.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Agents in the Large: Perception-Centered Architecture for Persistent Agents",
-      "arxiv": "2608.30478",
-      "desc": "Cognitive language agents have achieved substantial progress by equipping language models with memory, tools, and decision-making procedures, enabling agents to reason and act in interactive environments.",
-      "tag": "Agents",
-      "extras": [
-        "17 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
-      "arxiv": "2608.30730",
-      "desc": "Long-horizon agentic tasks go beyond chaining short tasks over more interaction turns.",
-      "tag": "Agents",
-      "extras": [
-        "11 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You",
-      "arxiv": "2609.00374",
-      "desc": "Test-time adaptation (TTA) typically assumes that model parameters can be updated at inference time.",
+      "title": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
+      "arxiv": "2609.01657",
+      "desc": "Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models.",
+      "tag": "Multimodal",
       "extras": [
         "2 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Recursive Criticality of AI Self-Improvement",
-      "arxiv": "2609.00137",
-      "desc": "AI is increasingly used in the R\\&D process that produces future AI systems.",
+      "votes": 19,
+      "title": "ZipTok3D: High-Fidelity 3D Tokenization with Compact Token Prefixes",
+      "arxiv": "2609.01740",
+      "desc": "Compact token sequences are essential for efficient 3D generation.",
+      "tag": "3D",
       "extras": [
+        "10 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "A Glance Is All You Need: Single-Pass Fine-Grained Image Captioning with SimLoss",
+      "arxiv": "2609.00591",
+      "desc": "An image may be worth a thousand words, but most captioning models describe it in only a few.",
+      "tag": "CV",
+      "extras": [
+        "11 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "VibeVoice-ASR-Streaming Technical Report",
+      "arxiv": "2609.02812",
+      "desc": "Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks.",
+      "tag": "Audio",
+      "extras": [
+        "13 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers",
+      "arxiv": "2608.18972",
+      "desc": "Historical newspapers are an abundant record of public life, but their dense, irregular and sometimes noisy layouts make computational access to these materials both challenging and limited.",
+      "extras": [
+        "9 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
+      "arxiv": "2609.01925",
+      "desc": "The attention prefilling phase of long-context LLM inference scales quadratically, making self-attention a severe computational bottleneck.",
+      "tag": "Retrieval",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Exploring Collaboration between a language and a non-language agent",
+      "arxiv": "2609.00474",
+      "desc": "LLMs are increasingly deployed as orchestrators that coordinate specialized subagents to solve complex tasks through natural language.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "SnapBench: Benchmarking Snap-and-Ask Multimodal Retrieval for Mobile Interactions",
+      "arxiv": "2608.29607",
+      "desc": "Mobile AI acts as a visual oracle, empowering users to snap a picture of something and ask for information.",
+      "tag": "Multimodal",
+      "extras": [
+        "10 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "FoldingAgent: Inferring Parametric Origami Procedures from Demonstration Videos",
+      "arxiv": "2609.00377",
+      "desc": "We present FoldingAgent, an agentic framework for inferring explicit parametric folding programs directly from origami demonstration videos.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
         "Aug 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "Learning Where Outcomes Change:Credit-Addressable Reasoning for Multimodal Geometry",
-      "arxiv": "2608.30457",
-      "desc": "Multimodal geometry reasoning requires VLMs to extract precise visual relations and preserve them through multi-step deduction.",
-      "tag": "Multimodal",
+      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
+      "arxiv": "2609.02496",
+      "desc": "Model compression techniques such as pruning and quantization facilitate the efficient deployment and acceleration of Large Language Models (LLMs).",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Ignorance or Incompetence? Constructing Knowledge-Gated, Verifiable Tasks for LLM Agents",
+      "arxiv": "2608.30322",
+      "desc": "Professional agent tasks often depend on conventions that are absent from public corpora, yet benchmarks rarely control whether an agent has access to those conventions.",
+      "tag": "Agents",
       "extras": [
         "8 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "DramaChain Bench: An End-to-End Benchmark for Short-Drama Generation",
-      "arxiv": "2609.00646",
-      "desc": "Commercial short-drama production follows a multi-stage chain: script, storyboard, keyframe imagery, shot-level video, and the finished short drama.",
-      "tag": "Benchmark",
+      "votes": 2,
+      "title": "Autoregressive Mosaics: Probing 2D Spatial Reasoning in Text-Only Language Models",
+      "arxiv": "2608.30751",
+      "desc": "Large language models (LLMs) trained only on text and code can sometimes generate programs that draw recognizable images.",
       "extras": [
-        "15 authors",
+        "3 authors",
         "Sep 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations",
+      "arxiv": "2608.29692",
+      "desc": "Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficult to obtain in short, high-dimensional panels.",
+      "extras": [
+        "2 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Wasserstein-Barycentric Interaction Fields for Spatial Factor Models: Evidence from Language-Model Representations",
+      "arxiv": "2608.29669",
+      "desc": "Spatial return models take the interaction matrix as given and leave feedback uninterpreted.",
+      "extras": [
+        "2 authors",
+        "Aug 2026"
       ]
     }
   ]
