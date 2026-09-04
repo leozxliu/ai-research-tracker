@@ -1,34 +1,66 @@
 {
-  "snapshot": "September 3, 2026",
+  "snapshot": "September 4, 2026",
   "papers": [
     {
-      "votes": 26,
-      "title": "Beyond Visual Similarity: Entity-Aligned Retrieval for Knowledge-Based Visual Question Answering",
-      "arxiv": "2608.21450",
-      "desc": "Knowledge-Based Visual Question Answering (KB-VQA) relies on retrieving external information to answer queries involving long-tail entities.",
-      "tag": "Retrieval",
+      "votes": 150,
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "arxiv": "2609.04199",
+      "desc": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider.",
+      "tag": "3D",
       "extras": [
-        "9 authors",
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 139,
+      "title": "Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training",
+      "arxiv": "2608.26730",
+      "desc": "Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often entails repeated post-training.",
+      "extras": [
+        "6 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 19,
-      "title": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
-      "arxiv": "2609.01657",
-      "desc": "Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models.",
+      "votes": 56,
+      "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
+      "arxiv": "2609.04196",
+      "desc": "We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, and 3D world generation and reconstruction without relying on external offline modules.",
       "tag": "Multimodal",
       "extras": [
-        "2 authors",
-        "Aug 2026"
+        "10 authors",
+        "Sep 2026"
       ]
     },
     {
-      "votes": 19,
-      "title": "ZipTok3D: High-Fidelity 3D Tokenization with Compact Token Prefixes",
-      "arxiv": "2609.01740",
-      "desc": "Compact token sequences are essential for efficient 3D generation.",
+      "votes": 30,
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "arxiv": "2609.04201",
+      "desc": "Online 3D reconstruction models perform poorly on long videos.",
       "tag": "3D",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 25,
+      "title": "The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation",
+      "arxiv": "2609.02367",
+      "desc": "Joint audio-video generation models have made substantial progress in visual quality and audio-visual synchronization.",
+      "tag": "Audio",
+      "extras": [
+        "10 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 22,
+      "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
+      "arxiv": "2609.04131",
+      "desc": "Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and respond to user queries under strict causality and bounded memory.",
+      "tag": "Retrieval",
       "extras": [
         "10 authors",
         "Sep 2026"
@@ -36,95 +68,31 @@
     },
     {
       "votes": 15,
-      "title": "A Glance Is All You Need: Single-Pass Fine-Grained Image Captioning with SimLoss",
-      "arxiv": "2609.00591",
-      "desc": "An image may be worth a thousand words, but most captioning models describe it in only a few.",
-      "tag": "CV",
-      "extras": [
-        "11 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "VibeVoice-ASR-Streaming Technical Report",
-      "arxiv": "2609.02812",
-      "desc": "Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks.",
-      "tag": "Audio",
-      "extras": [
-        "13 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers",
-      "arxiv": "2608.18972",
-      "desc": "Historical newspapers are an abundant record of public life, but their dense, irregular and sometimes noisy layouts make computational access to these materials both challenging and limited.",
-      "extras": [
-        "9 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
-      "arxiv": "2609.01925",
-      "desc": "The attention prefilling phase of long-context LLM inference scales quadratically, making self-attention a severe computational bottleneck.",
-      "tag": "Retrieval",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Exploring Collaboration between a language and a non-language agent",
-      "arxiv": "2609.00474",
-      "desc": "LLMs are increasingly deployed as orchestrators that coordinate specialized subagents to solve complex tasks through natural language.",
+      "title": "PACE: Towards Surfacing Hidden Conflicts in User Requests",
+      "arxiv": "2609.03293",
+      "desc": "Personalized assistants should not only comply with user requests but also assess whether those requests are appropriate given the user's current circumstances.",
       "tag": "Agents",
       "extras": [
-        "6 authors",
+        "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "SnapBench: Benchmarking Snap-and-Ask Multimodal Retrieval for Mobile Interactions",
-      "arxiv": "2608.29607",
-      "desc": "Mobile AI acts as a visual oracle, empowering users to snap a picture of something and ask for information.",
-      "tag": "Multimodal",
+      "votes": 13,
+      "title": "Last Translation Benchmark",
+      "arxiv": "2609.04173",
+      "desc": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases.",
+      "tag": "Benchmark",
       "extras": [
-        "10 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "FoldingAgent: Inferring Parametric Origami Procedures from Demonstration Videos",
-      "arxiv": "2609.00377",
-      "desc": "We present FoldingAgent, an agentic framework for inferring explicit parametric folding programs directly from origami demonstration videos.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
-      "arxiv": "2609.02496",
-      "desc": "Model compression techniques such as pruning and quantization facilitate the efficient deployment and acceleration of Large Language Models (LLMs).",
-      "extras": [
-        "4 authors",
+        "244 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Ignorance or Incompetence? Constructing Knowledge-Gated, Verifiable Tasks for LLM Agents",
-      "arxiv": "2608.30322",
-      "desc": "Professional agent tasks often depend on conventions that are absent from public corpora, yet benchmarks rarely control whether an agent has access to those conventions.",
+      "votes": 11,
+      "title": "Using Grounded Theory for Agent Behavior Analysis at Scale",
+      "arxiv": "2608.30391",
+      "desc": "Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long, often unfamiliar tasks where pre-built classifiers fall short.",
       "tag": "Agents",
       "extras": [
         "8 authors",
@@ -132,33 +100,66 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "Autoregressive Mosaics: Probing 2D Spatial Reasoning in Text-Only Language Models",
-      "arxiv": "2608.30751",
-      "desc": "Large language models (LLMs) trained only on text and code can sometimes generate programs that draw recognizable images.",
+      "votes": 11,
+      "title": "FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow",
+      "arxiv": "2609.03563",
+      "desc": "We present FlashRender, a few-step generative rendering framework that retakes a source video along a target camera trajectory in seconds.",
+      "tag": "CV",
       "extras": [
         "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations",
-      "arxiv": "2608.29692",
-      "desc": "Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficult to obtain in short, high-dimensional panels.",
+      "votes": 8,
+      "title": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
+      "arxiv": "2609.03820",
+      "desc": "Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system keeps only a small fixed slice of that pool.",
+      "tag": "CV",
       "extras": [
-        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
+      "arxiv": "2609.01072",
+      "desc": "Post-hoc calibration corrects reported confidence, yet a multiclass calibrator can also change the associated top-1 prediction.",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "QCell: Recombining and Aligning Cell Queries for Overlapping Instance Segmentation",
+      "arxiv": "2608.29253",
+      "desc": "Instance segmentation of overlapping cells in microscopy remains challenging due to semi-transparent structures that produce weak boundaries and mixed visual evidence in overlap regions.",
+      "tag": "CV",
+      "extras": [
+        "3 authors",
         "Aug 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "Wasserstein-Barycentric Interaction Fields for Spatial Factor Models: Evidence from Language-Model Representations",
-      "arxiv": "2608.29669",
-      "desc": "Spatial return models take the interaction matrix as given and leave feedback uninterpreted.",
+      "votes": 7,
+      "title": "Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance",
+      "arxiv": "2609.02373",
+      "desc": "We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invariant sets that correspond to simpler subnetworks.",
       "extras": [
         "2 authors",
-        "Aug 2026"
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "arxiv": "2609.04094",
+      "desc": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon agent domains have none.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
       ]
     }
   ]
