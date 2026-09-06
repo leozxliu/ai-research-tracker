@@ -1,8 +1,8 @@
 {
-  "snapshot": "September 5, 2026",
+  "snapshot": "September 6, 2026",
   "papers": [
     {
-      "votes": 274,
+      "votes": 315,
       "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
       "arxiv": "2609.04199",
       "desc": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider.",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "votes": 47,
+      "votes": 114,
       "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
       "arxiv": "2609.03199",
       "desc": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks.",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "votes": 45,
+      "votes": 46,
       "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
       "arxiv": "2609.04201",
       "desc": "Online 3D reconstruction models perform poorly on long videos.",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "votes": 24,
+      "votes": 27,
       "title": "Last Translation Benchmark",
       "arxiv": "2609.04173",
       "desc": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases.",
