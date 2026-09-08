@@ -1,72 +1,8 @@
 {
-  "snapshot": "September 7, 2026",
+  "snapshot": "September 8, 2026",
   "papers": [
     {
-      "votes": 91,
-      "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
-      "arxiv": "2609.02750",
-      "desc": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 23,
-      "title": "The Attention Triangle in Audio-Video Models",
-      "arxiv": "2609.03586",
-      "desc": "Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same mechanism can introduce subtle and systematic semantic leakage.",
-      "tag": "Audio",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 15,
-      "title": "Enoki: Efficient Multi-Level Hallucination Detection",
-      "arxiv": "2609.00581",
-      "desc": "Ensuring factuality remains a critical challenge for deploying LLMs in high-stakes settings.",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs",
-      "arxiv": "2609.04753",
-      "desc": "Reasoning in large language models unfolds through diverse functional operations, such as problem formulation, goal decomposition, and deduction.",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
-      "arxiv": "2609.05415",
-      "desc": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck.",
-      "tag": "Diffusion",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
-      "arxiv": "2609.04190",
-      "desc": "Video editing spans diverse editing paradigms, yet achieving high-quality instruction-guided and subject-guided editing within a single unified framework remains challenging.",
-      "tag": "CV",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 5,
+      "votes": 123,
       "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
       "arxiv": "2609.00365",
       "desc": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments, and the decisions that make it auditable are rarely preserved.",
@@ -77,51 +13,83 @@
       ]
     },
     {
-      "votes": 4,
-      "title": "Training-Free Speech-Centric Omni Understanding with Frozen VLMs",
-      "arxiv": "2609.04242",
-      "desc": "Audio-visual understanding remains challenging because models must jointly interpret spoken content, visual events, and their temporal relationships.",
-      "tag": "Audio",
+      "votes": 53,
+      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+      "arxiv": "2609.04010",
+      "desc": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow, sequential token generation.",
+      "tag": "Diffusion",
       "extras": [
-        "5 authors",
-        "Aug 2026"
+        "17 authors",
+        "Sep 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "τ^τ-Bench: An Environment for End-To-End, Realistic Agent Construction",
-      "arxiv": "2609.04611",
-      "desc": "LLM agents are rapidly becoming production software, deployed to handle customer service, adjudicate disputes, and operate internal systems.",
-      "tag": "Agents",
+      "votes": 37,
+      "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
+      "arxiv": "2609.03241",
+      "desc": "A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers provide reliable yet sparse supervision, while dense same-model guidance can reinforce false confidence or overconcentrate learning on a narrow solution mode.",
       "extras": [
         "4 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "To See a World in a Living Context: Unified Indoor-Outdoor Urban World Generation",
-      "arxiv": "2608.05879",
-      "desc": "Text-driven 3D generation has advanced rapidly in creating large-scale outdoor environments and detailed indoor scenes, but these domains are usually synthesized independently, lacking the correspondence required for a coherent urban world.",
-      "tag": "3D",
-      "extras": [
-        "6 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
-      "arxiv": "2609.02780",
-      "desc": "Streaming video understanding is a critical capability for real-world applications, including embodied intelligence, autonomous driving, industrial monitoring, surveillance and early warning, and wearable assistants.",
+      "votes": 17,
+      "title": "ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation",
+      "arxiv": "2609.03756",
+      "desc": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery.",
       "tag": "CV",
       "extras": [
-        "4 authors",
+        "5 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 1,
+      "votes": 10,
+      "title": "One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",
+      "arxiv": "2608.25936",
+      "desc": "On-policy distillation trains a language model on its own generations while a teacher scores them token by token.",
+      "tag": "Training",
+      "extras": [
+        "2 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
+      "arxiv": "2609.01281",
+      "desc": "Vision-language-action (VLA) models map visual observations and language instructions directly to robot actions, but long-horizon tasks require more than action prediction.",
+      "tag": "Agents",
+      "extras": [
+        "17 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+      "arxiv": "2609.02998",
+      "desc": "On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher on the student's own rollouts.",
+      "tag": "Training",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
+      "arxiv": "2609.03729",
+      "desc": "Despite the remarkable prowess of Vision-Language Models (VLMs) in general multimodal tasks, they remain fundamentally ``flat'' when reasoning about the physical world.",
+      "tag": "RL",
+      "extras": [
+        "11 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 4,
       "title": "Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models",
       "arxiv": "2609.04720",
       "desc": "Vision-language models (VLMs) are expected to respond helpfully to appropriate requests while withholding compliance with requests that are incorrect, unsafe, infeasible, or unanswerable.",
@@ -132,33 +100,62 @@
       ]
     },
     {
-      "votes": 1,
-      "title": "Refuse without Refusal: A Structural Analysis of Safety-Tuning Responses for Reducing False Refusals in Language Models",
-      "arxiv": "2609.04714",
-      "desc": "Striking a balance between helpfulness and safety remains a fundamental challenge in aligning large language models.",
-      "tag": "Agents",
+      "votes": 3,
+      "title": "Causal Foundation Models",
+      "arxiv": "2609.03003",
+      "desc": "Causal inference is the practice of estimating the effect of a treatment or intervention from data.",
       "extras": [
-        "2 authors",
+        "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "The 2026 PNPL Competition: Word Classification and Efficient Cross-Subject Generalisation in LibriBrain100",
-      "arxiv": "2609.03231",
-      "desc": "The ambition of the 2025 PNPL competition (Landau et al., 2025) was to launch a multi-year curriculum for non-invasive speech decoding.",
-      "tag": "Audio",
+      "votes": 3,
+      "title": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
+      "arxiv": "2609.04482",
+      "desc": "Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one.",
+      "tag": "Training",
       "extras": [
-        "21 authors",
+        "5 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 0,
+      "votes": 3,
+      "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
+      "arxiv": "2609.03254",
+      "desc": "Large Language Models (LLMs) often help users generate artifacts through iterative cycles of generation and revision in conversation.",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
+      "arxiv": "2608.24263",
+      "desc": "Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of change detection models.",
+      "tag": "VLM",
+      "extras": [
+        "8 authors",
+        "Aug 2026"
+      ]
+    },
+    {
+      "votes": 3,
       "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
       "arxiv": "2609.04444",
       "desc": "Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature.",
       "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Unifying Conformal Language Tasks with In-Context Ensembles",
+      "arxiv": "2609.03005",
+      "desc": "Many NLP tasks, such as summarization and extractive question answering, reduce to retrieving relevant content from documents under two constraints: coverage, retaining enough pertinent information to achieve some goal, and conciseness, removing as much irrelevant information as possible.",
       "extras": [
         "5 authors",
         "Sep 2026"
