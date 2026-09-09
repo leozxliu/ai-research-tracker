@@ -1,43 +1,85 @@
 {
-  "snapshot": "September 8, 2026",
+  "snapshot": "September 9, 2026",
   "papers": [
     {
-      "votes": 123,
-      "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
-      "arxiv": "2609.00365",
-      "desc": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments, and the decisions that make it auditable are rarely preserved.",
-      "tag": "Agents",
+      "votes": 47,
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "arxiv": "2609.07398",
+      "desc": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience.",
+      "tag": "Training",
       "extras": [
-        "13 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 53,
-      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-      "arxiv": "2609.04010",
-      "desc": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow, sequential token generation.",
-      "tag": "Diffusion",
-      "extras": [
-        "17 authors",
+        "24 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 37,
-      "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
-      "arxiv": "2609.03241",
-      "desc": "A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers provide reliable yet sparse supervision, while dense same-model guidance can reinforce false confidence or overconcentrate learning on a narrow solution mode.",
+      "votes": 42,
+      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+      "arxiv": "2609.08084",
+      "desc": "Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in scene reconstruction, computational photography, and robotics, among others.",
+      "tag": "Diffusion",
       "extras": [
-        "4 authors",
+        "9 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 17,
-      "title": "ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation",
-      "arxiv": "2609.03756",
-      "desc": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery.",
+      "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
+      "arxiv": "2609.07470",
+      "desc": "Robot foundation models are trained and evaluated predominantly in English, and robot demonstration corpora do not exist for most languages.",
+      "tag": "VLM",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 16,
+      "title": "What Did I Just Say? Self-Listening for Full-Duplex Speech Models",
+      "arxiv": "2609.05592",
+      "desc": "Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backchannels in human conversation.",
+      "tag": "Audio",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "Harnessing CLIP and DINO: An Uncertainty-Aware Cascaded Fusion Network for Generalizable Deepfake Image Detection",
+      "arxiv": "2609.07670",
+      "desc": "The growing realism and accessibility of manipulated and generated faces threaten the trustworthiness of digital media.",
+      "tag": "CV",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "Encoded Early, Used Late: Where Transformers Begin to Act on an Inferred Partner's Expertise",
+      "arxiv": "2609.07139",
+      "desc": "A transformer can make an attribute linearly decodable in its residual stream at a depth where that attribute does not yet influence the output.",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "Cadence: Error-Bounded Lossy Compression of Demand Time Series with a Time-Series Foundation Model",
+      "arxiv": "2609.06008",
+      "desc": "We present Cadence, an error-bounded lossy compressor for numeric time series pairing a 330M-parameter time-series foundation model (Google TimesFM-3) with an adaptive arithmetic coder, guaranteeing |x_t-x_t|leτ on every sample.",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
+      "arxiv": "2609.07941",
+      "desc": "In this paper, we propose ReactVAU, a Slow-Fast Decoupled Framework for real-time streaming Video Anomaly Understanding (VAU).",
       "tag": "CV",
       "extras": [
         "5 authors",
@@ -45,119 +87,76 @@
       ]
     },
     {
-      "votes": 10,
-      "title": "One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",
-      "arxiv": "2608.25936",
-      "desc": "On-policy distillation trains a language model on its own generations while a teacher scores them token by token.",
-      "tag": "Training",
+      "votes": 14,
+      "title": "SQS: Bayesian DNN Compression through Sparse Quantized Sub-distributions",
+      "arxiv": "2510.08999",
+      "desc": "Compressing large-scale neural networks is essential for deploying models on resource-constrained devices.",
       "extras": [
-        "2 authors",
-        "Aug 2026"
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "SynthGait-19K: A Physically Grounded Synthetic Video Dataset for Gait Parameter Estimation",
+      "arxiv": "2609.08108",
+      "desc": "Accurate estimation of clinically meaningful gait parameters from monocular video is important for scalable mobility assessment, yet progress is limited by the small scale, restricted viewpoints, and limited visual diversity of existing datasets.",
+      "tag": "CV",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
       ]
     },
     {
       "votes": 9,
-      "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
-      "arxiv": "2609.01281",
-      "desc": "Vision-language-action (VLA) models map visual observations and language instructions directly to robot actions, but long-horizon tasks require more than action prediction.",
+      "title": "A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM",
+      "arxiv": "2609.07821",
+      "desc": "Chain-of-Thought (CoT) improves the reasoning ability of Large Language Models (LLMs) but incurs substantial computation and context costs.",
+      "tag": "3D",
+      "extras": [
+        "16 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "RelightFormer: Feed-forward Generative Transformer for Multiview Object Relighting",
+      "arxiv": "2609.07414",
+      "desc": "Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimization, or single-image generative models that ignore crucial multi-view cues necessary for understanding 3D geometry and material interactions.",
+      "tag": "3D",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "MasterControl Seventeen Every Time",
+      "arxiv": "2609.03209",
+      "desc": "We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approved analytical program that returns both results and evidence.",
       "tag": "Agents",
       "extras": [
-        "17 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 8,
-      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
-      "arxiv": "2609.02998",
-      "desc": "On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher on the student's own rollouts.",
-      "tag": "Training",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
-      "arxiv": "2609.03729",
-      "desc": "Despite the remarkable prowess of Vision-Language Models (VLMs) in general multimodal tasks, they remain fundamentally ``flat'' when reasoning about the physical world.",
-      "tag": "RL",
-      "extras": [
-        "11 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models",
-      "arxiv": "2609.04720",
-      "desc": "Vision-language models (VLMs) are expected to respond helpfully to appropriate requests while withholding compliance with requests that are incorrect, unsafe, infeasible, or unanswerable.",
-      "tag": "VLM",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Causal Foundation Models",
-      "arxiv": "2609.03003",
-      "desc": "Causal inference is the practice of estimating the effect of a treatment or intervention from data.",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
-      "arxiv": "2609.04482",
-      "desc": "Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one.",
-      "tag": "Training",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
-      "arxiv": "2609.03254",
-      "desc": "Large Language Models (LLMs) often help users generate artifacts through iterative cycles of generation and revision in conversation.",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
-      "arxiv": "2608.24263",
-      "desc": "Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of change detection models.",
-      "tag": "VLM",
-      "extras": [
-        "8 authors",
-        "Aug 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-      "arxiv": "2609.04444",
-      "desc": "Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature.",
+      "votes": 0,
+      "title": "Counter-Swarm Doctrine: Containing Coordinated Agent Intrusions",
+      "arxiv": "2609.06140",
+      "desc": "Agents can turn shared infrastructure into a channel for coordinated intrusion.",
       "tag": "Agents",
       "extras": [
-        "5 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Unifying Conformal Language Tasks with In-Context Ensembles",
-      "arxiv": "2609.03005",
-      "desc": "Many NLP tasks, such as summarization and extractive question answering, reduce to retrieving relevant content from documents under two constraints: coverage, retaining enough pertinent information to achieve some goal, and conciseness, removing as much irrelevant information as possible.",
+      "votes": 0,
+      "title": "Learning 3D Editing without Paired Supervision via Generative Prior Distillation",
+      "arxiv": "2609.04942",
+      "desc": "Instruction-guided 3D editing is essential for interactive content creation, yet it faces a significant bottleneck: the severe scarcity of high-quality paired training data.",
+      "tag": "3D",
       "extras": [
-        "5 authors",
+        "7 authors",
         "Sep 2026"
       ]
     }
