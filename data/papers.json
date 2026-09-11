@@ -1,11 +1,11 @@
 {
-  "snapshot": "September 10, 2026",
+  "snapshot": "September 11, 2026",
   "papers": [
     {
-      "votes": 48,
-      "title": "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
-      "arxiv": "2609.08572",
-      "desc": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple agents, yet their performance depends on the prompt design of each agent.",
+      "votes": 35,
+      "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+      "arxiv": "2609.05903",
+      "desc": "Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both indirect prompt injections and direct harmful requests.",
       "tag": "Agents",
       "extras": [
         "7 authors",
@@ -13,87 +13,105 @@
       ]
     },
     {
-      "votes": 18,
-      "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
-      "arxiv": "2609.08149",
-      "desc": "SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-level tasks.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 11,
-      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
-      "arxiv": "2609.09155",
-      "desc": "World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions.",
-      "tag": "CV",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Train Smarter, Not Harder: Switching Signal-Guided Training in Active Learning",
-      "arxiv": "2609.06806",
-      "desc": "Training strategy, namely whether to retrain from scratch or fine-tune from the previous checkpoint, is an overlooked decision variable in active learning.",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
-      "arxiv": "2609.06490",
-      "desc": "Recursive Super-Resolution (SR) extends fixed-scale SR to extreme magnification by repeatedly feeding predictions back into the same model, analogous to zooming an image repeatedly.",
-      "tag": "CV",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
-      "arxiv": "2609.10355",
-      "desc": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt.",
-      "tag": "CV",
+      "votes": 20,
+      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+      "arxiv": "2609.11317",
+      "desc": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digital ripple.",
       "extras": [
         "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
-      "arxiv": "2609.05463",
-      "desc": "AI-powered search products such as ChatGPT search, Google's AI Overviews, and Perplexity provide LLM-synthesized answers grounded in live web results.",
-      "tag": "Agents",
+      "votes": 12,
+      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+      "arxiv": "2609.11412",
+      "desc": "Reducing audio-encoder depth lowers the inference cost of speech large language models, but removing complete blocks perturbs the embeddings consumed by the decoder and can cause deletion and premature end-of-sequence errors.",
+      "tag": "Audio",
       "extras": [
-        "2 authors",
-        "Aug 2026"
+        "10 authors",
+        "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
-      "arxiv": "2609.09264",
-      "desc": "Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition math, such as the IMO and Putnam, that poorly represent field-specific applications.",
-      "tag": "Benchmark",
+      "votes": 8,
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "arxiv": "2609.11561",
+      "desc": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation.",
+      "tag": "Multimodal",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+      "arxiv": "2609.01515",
+      "desc": "Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors.",
+      "tag": "CV",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+      "arxiv": "2609.11486",
+      "desc": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, and iterative refinement, among others, to reach high accuracy.",
       "extras": [
         "4 authors",
         "Sep 2026"
       ]
     },
     {
+      "votes": 4,
+      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+      "arxiv": "2609.11699",
+      "desc": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging privileged information such as ground-truth solutions.",
+      "tag": "Training",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+      "arxiv": "2609.10016",
+      "desc": "We introduce MetroLLM-Bench, a 955-case benchmark for testing language models as the policy layer of a transit kiosk.",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+      "arxiv": "2608.27875",
+      "desc": "Quantization has been widely adopted in LLM training and inference to reduce cost and improve efficiency.",
+      "extras": [
+        "12 authors",
+        "Aug 2026"
+      ]
+    },
+    {
       "votes": 2,
-      "title": "SchemeArena: Factorized Stress Testing of Scheming in LLM Agents",
-      "arxiv": "2609.08126",
-      "desc": "We study scheming in LLM agents, in which agents covertly pursue misaligned goals.",
+      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
+      "arxiv": "2609.11155",
+      "desc": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous systems and air combat.",
       "tag": "Agents",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
+      "arxiv": "2609.11156",
+      "desc": "All-in-One medical image restoration (MedIR) aims to address diverse tasks across modalities and degradation types using a single universal model.",
+      "tag": "CV",
       "extras": [
         "6 authors",
         "Sep 2026"
@@ -101,30 +119,20 @@
     },
     {
       "votes": 2,
-      "title": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution",
-      "arxiv": "2609.02771",
-      "desc": "Training data attribution (TDA) aims to identify training examples that shape model behavior, but its intervention value depends on both which examples are selected and how they are modified.",
+      "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+      "arxiv": "2609.11808",
+      "desc": "Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage.",
+      "tag": "Retrieval",
       "extras": [
-        "4 authors",
+        "8 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "The Semantic Bottleneck: Leveraging Semantic Representations for Non-Invasive Speech Decoding",
-      "arxiv": "2609.10296",
-      "desc": "Non-invasive speech decoding remains constrained by the low signal-to-noise ratio of neural recordings, which makes fine-grained reconstruction of phonemes or individual words difficult.",
-      "tag": "Audio",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
-      "arxiv": "2609.08965",
-      "desc": "Ensuring the safety of autonomous driving is a critical challenge.",
+      "votes": 0,
+      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+      "arxiv": "2609.11085",
+      "desc": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization.",
       "tag": "Agents",
       "extras": [
         "8 authors",
@@ -132,20 +140,10 @@
       ]
     },
     {
-      "votes": 1,
-      "title": "Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States",
-      "arxiv": "2609.10060",
-      "desc": "Existing bias auditing methods typically rely on model outputs, requiring costly benchmarks or judge models and potentially missing internal shifts that never appear in generated text.",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "DF26: We Cannot Tell Fake From Real Anymore",
-      "arxiv": "2609.07369",
-      "desc": "We introduce DF26, a novel benchmark for detecting AI-generated videos containing fully synthetic clips produced by recent text-to-video and image-to-video models.",
+      "votes": 0,
+      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+      "arxiv": "2609.09076",
+      "desc": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions.",
       "extras": [
         "6 authors",
         "Sep 2026"
@@ -153,11 +151,12 @@
     },
     {
       "votes": 0,
-      "title": "The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements",
-      "arxiv": "2509.01809",
-      "desc": "We consider the problem of support recovery for sparse binary signals from noisy linear measurements.",
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "arxiv": "2609.10539",
+      "desc": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation.",
+      "tag": "Benchmark",
       "extras": [
-        "2 authors",
+        "5 authors",
         "Sep 2026"
       ]
     }
