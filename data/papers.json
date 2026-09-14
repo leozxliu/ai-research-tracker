@@ -1,161 +1,162 @@
 {
-  "snapshot": "September 13, 2026",
+  "snapshot": "September 14, 2026",
   "papers": [
     {
-      "votes": 49,
-      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
-      "arxiv": "2609.11317",
-      "desc": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digital ripple.",
+      "votes": 95,
+      "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
+      "arxiv": "2609.06107",
+      "desc": "Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly they are weighted, and which domains contribute to subsequent training batches.",
+      "tag": "RL",
       "extras": [
-        "3 authors",
+        "5 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 36,
-      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
-      "arxiv": "2609.11561",
-      "desc": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation.",
-      "tag": "Multimodal",
+      "votes": 74,
+      "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+      "arxiv": "2609.08418",
+      "desc": "Training capable cyber agents is often treated primarily as a problem of model scale, yet open-weight post-training is constrained more directly by the cost of executable environments, reliable multi-turn supervision, and access to strong teachers.",
+      "tag": "Agents",
       "extras": [
-        "8 authors",
+        "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 34,
-      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
-      "arxiv": "2609.11486",
-      "desc": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, and iterative refinement, among others, to reach high accuracy.",
+      "votes": 72,
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "arxiv": "2609.11115",
+      "desc": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores.",
+      "tag": "Benchmark",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 62,
+      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+      "arxiv": "2609.12641",
+      "desc": "Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts.",
+      "tag": "VLM",
       "extras": [
         "4 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 31,
-      "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
-      "arxiv": "2609.10016",
-      "desc": "We introduce MetroLLM-Bench, a 955-case benchmark for testing language models as the policy layer of a transit kiosk.",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
       "votes": 29,
-      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
-      "arxiv": "2609.11699",
-      "desc": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging privileged information such as ground-truth solutions.",
-      "tag": "Training",
+      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+      "arxiv": "2609.11682",
+      "desc": "Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing skill optimization methods often rely on costly execution-based evaluation and substantial task data.",
+      "tag": "Agents",
       "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 29,
-      "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
-      "arxiv": "2609.01515",
-      "desc": "Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors.",
-      "tag": "CV",
-      "extras": [
-        "7 authors",
+        "9 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 28,
-      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
-      "arxiv": "2609.09143",
-      "desc": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations.",
-      "tag": "Multimodal",
+      "title": "StepAudio 3 Gen Technical Report",
+      "arxiv": "2609.12945",
+      "desc": "We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types within a unified framework.",
+      "tag": "Diffusion",
       "extras": [
-        "5 authors",
+        "71 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 27,
-      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
-      "arxiv": "2609.10445",
-      "desc": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in.",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 27,
-      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
-      "arxiv": "2609.11085",
-      "desc": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization.",
+      "votes": 4,
+      "title": "Beyond Top-k Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents",
+      "arxiv": "2609.05824",
+      "desc": "Large language model (LLM) agents increasingly rely on external skills, but routing user requests over large skill registries is difficult because many skills are functionally redundant while complex tasks often require complementary skill sets.",
       "tag": "Agents",
       "extras": [
-        "8 authors",
+        "10 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 24,
-      "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
-      "arxiv": "2609.11156",
-      "desc": "All-in-One medical image restoration (MedIR) aims to address diverse tasks across modalities and degradation types using a single universal model.",
-      "tag": "CV",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
-      "arxiv": "2609.10745",
-      "desc": "Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries.",
-      "tag": "Retrieval",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
-      "arxiv": "2608.15380",
-      "desc": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical ones sharing the publisher, because the publisher's DDS writer can no longer accept new samples.",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
-      "arxiv": "2609.09076",
-      "desc": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions.",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
-      "arxiv": "2609.10539",
-      "desc": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation.",
-      "tag": "Benchmark",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
-      "arxiv": "2609.11155",
-      "desc": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous systems and air combat.",
-      "tag": "Agents",
+      "votes": 4,
+      "title": "Online Learning with LLM Experts from Limited Feedback",
+      "arxiv": "2609.05820",
+      "desc": "We study adaptive routing of prompts to large language model (LLM) experts to maximize response quality in an online setting with limited feedback.",
       "extras": [
         "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision",
+      "arxiv": "2609.07099",
+      "desc": "We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the large-model division and second in the <=2B division.",
+      "tag": "Agents",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model",
+      "arxiv": "2609.07154",
+      "desc": "We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B parameter division with 0.8279 on the held-out test set.",
+      "tag": "CV",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
+      "arxiv": "2609.10824",
+      "desc": "Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
+      "arxiv": "2609.08230",
+      "desc": "Chunk-autoregressive video world models typically condition each generated chunk on one action.",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
+      "arxiv": "2609.10297",
+      "desc": "GUI agents accumulate high-resolution screenshots as the trajectory unfolds, increasing inference latency and memory usage.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech",
+      "arxiv": "2609.03502",
+      "desc": "In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus.",
+      "tag": "Audio",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "How Far Can Synthetic Data Take Thai OCR?",
+      "arxiv": "2609.03595",
+      "desc": "We investigate what makes synthetic OCR supervision transfer to real Thai documents and use the resulting insights to build Wayu-Paxa-OCR-Zero, a Thai OCR model adapted without OCR labels from real Thai document pages.",
+      "extras": [
         "Sep 2026"
       ]
     }
