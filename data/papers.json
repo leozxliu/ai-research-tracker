@@ -1,11 +1,76 @@
 {
-  "snapshot": "September 14, 2026",
+  "snapshot": "September 15, 2026",
   "papers": [
     {
-      "votes": 95,
-      "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
-      "arxiv": "2609.06107",
-      "desc": "Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly they are weighted, and which domains contribute to subsequent training batches.",
+      "votes": 57,
+      "title": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
+      "arxiv": "2609.13285",
+      "desc": "The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with sequence length.",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 43,
+      "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+      "arxiv": "2609.15863",
+      "desc": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without guaranteed success, and long-horizon scenes drift in appearance, interactions, and temporal coherence.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 23,
+      "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+      "arxiv": "2609.15364",
+      "desc": "Digital agents must often adapt to new environments whose interfaces, tools, and failure modes are not fully captured by pretrained models.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 21,
+      "title": "How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus",
+      "arxiv": "2609.15504",
+      "desc": "Orthrus is a hybrid autoregressive-diffusion architecture that accelerates autoregressive language-model inference by generating multiple tokens in parallel while using a frozen autoregressive backbone.",
+      "tag": "Diffusion",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 20,
+      "title": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video",
+      "arxiv": "2609.14462",
+      "desc": "Interactive video world models must maintain broad scene context under camera motion while producing high-fidelity observations with low latency.",
+      "tag": "CV",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 13,
+      "title": "HazardAuditor: From Executable Threats to Safer Computer-Use Agents",
+      "arxiv": "2609.15134",
+      "desc": "Computer-use agents increasingly interact with browsers, terminals, file systems, and external services, introducing safety risks that emerge through runtime behavior rather than generated content alone.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "MInTRL: Off-policy Intervention can boost On-policy RL",
+      "arxiv": "2609.12419",
+      "desc": "Reinforcement learning with verifiable rewards is typically performed on-policy, keeping training data close to the current policy but limiting learning to trajectories that the policy can discover itself.",
       "tag": "RL",
       "extras": [
         "5 authors",
@@ -13,138 +78,32 @@
       ]
     },
     {
-      "votes": 74,
-      "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
-      "arxiv": "2609.08418",
-      "desc": "Training capable cyber agents is often treated primarily as a problem of model scale, yet open-weight post-training is constrained more directly by the cost of executable environments, reliable multi-turn supervision, and access to strong teachers.",
-      "tag": "Agents",
+      "votes": 4,
+      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+      "arxiv": "2609.13058",
+      "desc": "Reinforcement learning (RL) has become central to post-training of large language models.",
+      "tag": "RL",
       "extras": [
-        "7 authors",
+        "6 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 72,
-      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
-      "arxiv": "2609.11115",
-      "desc": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores.",
-      "tag": "Benchmark",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 62,
-      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
-      "arxiv": "2609.12641",
-      "desc": "Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts.",
-      "tag": "VLM",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 29,
-      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
-      "arxiv": "2609.11682",
-      "desc": "Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing skill optimization methods often rely on costly execution-based evaluation and substantial task data.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 28,
-      "title": "StepAudio 3 Gen Technical Report",
-      "arxiv": "2609.12945",
-      "desc": "We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types within a unified framework.",
+      "votes": 3,
+      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+      "arxiv": "2609.13053",
+      "desc": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a representation of action-dependent scene changes.",
       "tag": "Diffusion",
       "extras": [
-        "71 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Beyond Top-k Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents",
-      "arxiv": "2609.05824",
-      "desc": "Large language model (LLM) agents increasingly rely on external skills, but routing user requests over large skill registries is difficult because many skills are functionally redundant while complex tasks often require complementary skill sets.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Online Learning with LLM Experts from Limited Feedback",
-      "arxiv": "2609.05820",
-      "desc": "We study adaptive routing of prompts to large language model (LLM) experts to maximize response quality in an online setting with limited feedback.",
-      "extras": [
         "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision",
-      "arxiv": "2609.07099",
-      "desc": "We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the large-model division and second in the <=2B division.",
-      "tag": "Agents",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model",
-      "arxiv": "2609.07154",
-      "desc": "We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B parameter division with 0.8279 on the held-out test set.",
-      "tag": "CV",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
-      "arxiv": "2609.10824",
-      "desc": "Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
-      "arxiv": "2609.08230",
-      "desc": "Chunk-autoregressive video world models typically condition each generated chunk on one action.",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
-      "arxiv": "2609.10297",
-      "desc": "GUI agents accumulate high-resolution screenshots as the trajectory unfolds, increasing inference latency and memory usage.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech",
-      "arxiv": "2609.03502",
-      "desc": "In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus.",
+      "votes": 3,
+      "title": "Building a Production Greek-English Speech Recognizer",
+      "arxiv": "2609.13498",
+      "desc": "We report a multi-month engineering program to build Sophea, a production bilingual Greek-English automatic speech recognition system.",
       "tag": "Audio",
       "extras": [
         "6 authors",
@@ -152,11 +111,55 @@
       ]
     },
     {
-      "votes": 1,
-      "title": "How Far Can Synthetic Data Take Thai OCR?",
-      "arxiv": "2609.03595",
-      "desc": "We investigate what makes synthetic OCR supervision transfer to real Thai documents and use the resulting insights to build Wayu-Paxa-OCR-Zero, a Thai OCR model adapted without OCR labels from real Thai document pages.",
+      "votes": 2,
+      "title": "Thought without systematicity? Evaluating reasoning models on rule induction tasks",
+      "arxiv": "2609.13948",
+      "desc": "A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to understanding close variations of that concept.",
       "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
+      "arxiv": "2609.14302",
+      "desc": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated statements are supported, but not whether evidence remains traceable through rationale, confidence, and final action.",
+      "tag": "Benchmark",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Learning Sparse Decision Trees via Transformer Variational Auto-Encoders",
+      "arxiv": "2609.01430",
+      "desc": "Decision trees are among the most widely used models in machine learning, largely due to their transparent decision logic, making them well-suited for high-stakes decision-making contexts.",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs",
+      "arxiv": "2609.15635",
+      "desc": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also uses the image.",
+      "tag": "CV",
+      "extras": [
+        "12 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+      "arxiv": "2609.13463",
+      "desc": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
         "Sep 2026"
       ]
     }
