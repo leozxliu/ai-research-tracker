@@ -1,110 +1,106 @@
 {
-  "snapshot": "September 15, 2026",
+  "snapshot": "September 16, 2026",
   "papers": [
     {
-      "votes": 57,
-      "title": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
-      "arxiv": "2609.13285",
-      "desc": "The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with sequence length.",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 43,
-      "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
-      "arxiv": "2609.15863",
-      "desc": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without guaranteed success, and long-horizon scenes drift in appearance, interactions, and temporal coherence.",
+      "votes": 90,
+      "title": "StepAudio 3 Realtime Technical Report",
+      "arxiv": "2609.14005",
+      "desc": "Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking.",
       "tag": "Agents",
       "extras": [
-        "6 authors",
+        "90 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 23,
-      "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
-      "arxiv": "2609.15364",
-      "desc": "Digital agents must often adapt to new environments whose interfaces, tools, and failure modes are not fully captured by pretrained models.",
+      "votes": 86,
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "arxiv": "2609.11873",
+      "desc": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement.",
+      "extras": [
+        "33 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 70,
+      "title": "StepAudio 3 Music Technical Report",
+      "arxiv": "2609.16034",
+      "desc": "We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning and open-domain text-controlled generation.",
+      "tag": "RL",
+      "extras": [
+        "13 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 14,
+      "title": "HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness",
+      "arxiv": "2609.15195",
+      "desc": "Embodied navigation requires agents to interpret visual observations, accumulate spatial knowledge, and execute actions to follow instructions or locate objects.",
       "tag": "Agents",
       "extras": [
-        "6 authors",
+        "10 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 21,
-      "title": "How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus",
-      "arxiv": "2609.15504",
-      "desc": "Orthrus is a hybrid autoregressive-diffusion architecture that accelerates autoregressive language-model inference by generating multiple tokens in parallel while using a frozen autoregressive backbone.",
-      "tag": "Diffusion",
+      "votes": 6,
+      "title": "Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?",
+      "arxiv": "2609.14803",
+      "desc": "This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind.",
       "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 20,
-      "title": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video",
-      "arxiv": "2609.14462",
-      "desc": "Interactive video world models must maintain broad scene context under camera motion while producing high-fidelity observations with low latency.",
-      "tag": "CV",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 13,
-      "title": "HazardAuditor: From Executable Threats to Safer Computer-Use Agents",
-      "arxiv": "2609.15134",
-      "desc": "Computer-use agents increasingly interact with browsers, terminals, file systems, and external services, introducing safety risks that emerge through runtime behavior rather than generated content alone.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 5,
-      "title": "MInTRL: Off-policy Intervention can boost On-policy RL",
-      "arxiv": "2609.12419",
-      "desc": "Reinforcement learning with verifiable rewards is typically performed on-policy, keeping training data close to the current policy but limiting learning to trajectories that the policy can discover itself.",
-      "tag": "RL",
+      "title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
+      "arxiv": "2609.14857",
+      "desc": "Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from experience.",
+      "tag": "Agents",
       "extras": [
-        "5 authors",
+        "14 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
-      "arxiv": "2609.13058",
-      "desc": "Reinforcement learning (RL) has become central to post-training of large language models.",
-      "tag": "RL",
+      "votes": 5,
+      "title": "Modality-Autoregressive World-Action Models",
+      "arxiv": "2609.17524",
+      "desc": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images.",
       "extras": [
-        "6 authors",
+        "4 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 3,
-      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
-      "arxiv": "2609.13053",
-      "desc": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a representation of action-dependent scene changes.",
-      "tag": "Diffusion",
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "arxiv": "2609.17521",
+      "desc": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes.",
+      "tag": "CV",
       "extras": [
         "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Building a Production Greek-English Speech Recognizer",
-      "arxiv": "2609.13498",
-      "desc": "We report a multi-month engineering program to build Sophea, a production bilingual Greek-English automatic speech recognition system.",
-      "tag": "Audio",
+      "votes": 2,
+      "title": "ImpossibleRubrics: Stress-Testing Generated Rubrics as Reward Signals",
+      "arxiv": "2609.16816",
+      "desc": "Language model-generated rubrics are increasingly used as reward signals for rubric-based reinforcement learning, LLM-as-a-judge evaluation, and automated grading.",
+      "tag": "RL",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Convergent Emergence of In-Context Learning Across Modalities",
+      "arxiv": "2609.14011",
+      "desc": "Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provided in its prompt and apply them to new inputs, has been extensively studied in large language models trained for next-token prediction on human text.",
       "extras": [
         "6 authors",
         "Sep 2026"
@@ -112,54 +108,56 @@
     },
     {
       "votes": 2,
-      "title": "Thought without systematicity? Evaluating reasoning models on rule induction tasks",
-      "arxiv": "2609.13948",
-      "desc": "A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to understanding close variations of that concept.",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
-      "arxiv": "2609.14302",
-      "desc": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated statements are supported, but not whether evidence remains traceable through rationale, confidence, and final action.",
-      "tag": "Benchmark",
+      "title": "Decoy Direction Optimization: A Post-Hoc Defense Against LLM Abliteration",
+      "arxiv": "2609.16204",
+      "desc": "Safety guardrails in open-weight language models can be readily bypassed using Refusal Feature Ablation (RFA), a technique that identifies and projects out a linear refusal direction from the residual stream, often achieving a high attack success rate (ASR) while preserving model capability.",
+      "tag": "Audio",
       "extras": [
         "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Learning Sparse Decision Trees via Transformer Variational Auto-Encoders",
-      "arxiv": "2609.01430",
-      "desc": "Decision trees are among the most widely used models in machine learning, largely due to their transparent decision logic, making them well-suited for high-stakes decision-making contexts.",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs",
-      "arxiv": "2609.15635",
-      "desc": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also uses the image.",
-      "tag": "CV",
-      "extras": [
-        "12 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-      "arxiv": "2609.13463",
-      "desc": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs.",
+      "votes": 2,
+      "title": "Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems",
+      "arxiv": "2609.17320",
+      "desc": "As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other agents, and environmental state long after their interactions.",
       "tag": "Agents",
       "extras": [
-        "10 authors",
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models",
+      "arxiv": "2609.13680",
+      "desc": "Fine-tuning instruct models often improves target performance while inducing behavioral drift from the reference model, which can degrade existing capabilities.",
+      "tag": "RL",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+      "arxiv": "2609.13406",
+      "desc": "When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
+      "arxiv": "2609.16057",
+      "desc": "Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation.",
+      "tag": "CV",
+      "extras": [
+        "8 authors",
         "Sep 2026"
       ]
     }
