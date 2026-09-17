@@ -1,117 +1,128 @@
 {
-  "snapshot": "September 16, 2026",
+  "snapshot": "September 17, 2026",
   "papers": [
     {
-      "votes": 90,
-      "title": "StepAudio 3 Realtime Technical Report",
-      "arxiv": "2609.14005",
-      "desc": "Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking.",
-      "tag": "Agents",
-      "extras": [
-        "90 authors",
-        "Sep 2026"
-      ]
-    },
-    {
       "votes": 86,
-      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
-      "arxiv": "2609.11873",
-      "desc": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement.",
+      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+      "arxiv": "2609.17488",
+      "desc": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws.",
       "extras": [
-        "33 authors",
+        "60 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 70,
-      "title": "StepAudio 3 Music Technical Report",
-      "arxiv": "2609.16034",
-      "desc": "We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning and open-domain text-controlled generation.",
+      "votes": 58,
+      "title": "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening",
+      "arxiv": "2609.18708",
+      "desc": "In reinforcement learning for large language models, Proximal Policy Optimization (PPO) commonly uses a critic to estimate state values and reduce the variance of policy updates.",
       "tag": "RL",
       "extras": [
-        "13 authors",
+        "12 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 14,
-      "title": "HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness",
-      "arxiv": "2609.15195",
-      "desc": "Embodied navigation requires agents to interpret visual observations, accumulate spatial knowledge, and execute actions to follow instructions or locate objects.",
+      "votes": 46,
+      "title": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
+      "arxiv": "2609.17708",
+      "desc": "Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated estimate of the probability that an output is correct decides what to ship, what to escalate, and what to retry.",
       "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?",
-      "arxiv": "2609.14803",
-      "desc": "This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind.",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
-      "arxiv": "2609.14857",
-      "desc": "Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from experience.",
-      "tag": "Agents",
-      "extras": [
-        "14 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Modality-Autoregressive World-Action Models",
-      "arxiv": "2609.17524",
-      "desc": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images.",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
-      "arxiv": "2609.17521",
-      "desc": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes.",
-      "tag": "CV",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "ImpossibleRubrics: Stress-Testing Generated Rubrics as Reward Signals",
-      "arxiv": "2609.16816",
-      "desc": "Language model-generated rubrics are increasingly used as reward signals for rubric-based reinforcement learning, LLM-as-a-judge evaluation, and automated grading.",
-      "tag": "RL",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Convergent Emergence of In-Context Learning Across Modalities",
-      "arxiv": "2609.14011",
-      "desc": "Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provided in its prompt and apply them to new inputs, has been extensively studied in large language models trained for next-token prediction on human text.",
       "extras": [
         "6 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Decoy Direction Optimization: A Post-Hoc Defense Against LLM Abliteration",
-      "arxiv": "2609.16204",
-      "desc": "Safety guardrails in open-weight language models can be readily bypassed using Refusal Feature Ablation (RFA), a technique that identifies and projects out a linear refusal direction from the residual stream, often achieving a high attack success rate (ASR) while preserving model capability.",
-      "tag": "Audio",
+      "votes": 36,
+      "title": "ActionPiece: Rethinking Action Tokenization for Autoregressive Vision-Language-Action Models",
+      "arxiv": "2609.18487",
+      "desc": "Action tokenizers play a central role in autoregressive vision-language-action (VLA) models, determining both the targets for policy training and the executable commands recovered from predicted tokens.",
+      "tag": "VLM",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 25,
+      "title": "Zing-0.5: Toward Playable Worlds with Real-Time Joint Action and Text Control",
+      "arxiv": "2609.17909",
+      "desc": "We introduce Zing-0.5, a 5B autoregressive world model designed for playability: users can explore generated worlds, influence unfolding events, and respond to the resulting feedback through joint keyboard and online text control.",
+      "extras": [
+        "16 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 22,
+      "title": "SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization",
+      "arxiv": "2609.14320",
+      "desc": "Recently, linear attention layers have been increasingly adopted to replace softmax attention at scale for long-context modeling.",
+      "tag": "Retrieval",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 22,
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "arxiv": "2609.19144",
+      "desc": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency.",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 13,
+      "title": "In-Context Robot Learning with VLM Agents",
+      "arxiv": "2609.19138",
+      "desc": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI.",
+      "tag": "Agents",
+      "extras": [
+        "15 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "arxiv": "2609.19143",
+      "desc": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded.",
+      "tag": "VLM",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training",
+      "arxiv": "2609.14306",
+      "desc": "Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak allocation exceeds device memory, so the target is every peak at once, not the average footprint.",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+      "arxiv": "2609.18063",
+      "desc": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the bytes that must be held.",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
+      "arxiv": "2609.18779",
+      "desc": "Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, limiting their ability to respond to evolving agent capabilities.",
+      "tag": "Agents",
       "extras": [
         "3 authors",
         "Sep 2026"
@@ -119,45 +130,33 @@
     },
     {
       "votes": 2,
-      "title": "Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems",
-      "arxiv": "2609.17320",
-      "desc": "As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other agents, and environmental state long after their interactions.",
+      "title": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
+      "arxiv": "2609.17652",
+      "desc": "When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan that ranks all n keys for a top-k step becomes the traffic that bounds decoding.",
       "tag": "Agents",
       "extras": [
-        "8 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models",
-      "arxiv": "2609.13680",
-      "desc": "Fine-tuning instruct models often improves target performance while inducing behavioral drift from the reference model, which can degrade existing capabilities.",
+      "votes": 1,
+      "title": "Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand",
+      "arxiv": "2609.17172",
+      "desc": "A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environment.",
       "tag": "RL",
       "extras": [
-        "6 authors",
+        "3 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
-      "arxiv": "2609.13406",
-      "desc": "When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists.",
-      "tag": "Agents",
+      "title": "Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026",
+      "arxiv": "2609.15524",
+      "desc": "BraTS-GoAT evaluates tumor segmentation across heterogeneous populations.",
+      "tag": "3D",
       "extras": [
         "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
-      "arxiv": "2609.16057",
-      "desc": "Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation.",
-      "tag": "CV",
-      "extras": [
-        "8 authors",
         "Sep 2026"
       ]
     }
