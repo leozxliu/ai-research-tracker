@@ -1,162 +1,164 @@
 {
-  "snapshot": "September 17, 2026",
+  "snapshot": "September 18, 2026",
   "papers": [
     {
-      "votes": 86,
-      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
-      "arxiv": "2609.17488",
-      "desc": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws.",
-      "extras": [
-        "60 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 58,
-      "title": "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening",
-      "arxiv": "2609.18708",
-      "desc": "In reinforcement learning for large language models, Proximal Policy Optimization (PPO) commonly uses a critic to estimate state values and reduce the variance of policy updates.",
-      "tag": "RL",
-      "extras": [
-        "12 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 46,
-      "title": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
-      "arxiv": "2609.17708",
-      "desc": "Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated estimate of the probability that an output is correct decides what to ship, what to escalate, and what to retry.",
+      "votes": 51,
+      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "arxiv": "2609.19969",
+      "desc": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy.",
       "tag": "Agents",
+      "extras": [
+        "592 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 21,
+      "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
+      "arxiv": "2609.18323",
+      "desc": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio.",
+      "tag": "Multimodal",
+      "extras": [
+        "13 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 16,
+      "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
+      "arxiv": "2609.20511",
+      "desc": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget.",
+      "tag": "Training",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 14,
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "arxiv": "2609.20784",
+      "desc": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them.",
+      "tag": "Agents",
+      "extras": [
+        "11 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+      "arxiv": "2609.17653",
+      "desc": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+      "arxiv": "2609.20423",
+      "desc": "Document parsing converts document images into structured content and requires reliable performance across diverse layouts and acquisition conditions.",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "arxiv": "2609.20817",
+      "desc": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence.",
+      "tag": "3D",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
+      "arxiv": "2609.12397",
+      "desc": "Multi-modal image generation, particularly subject-driven customization, has garnered growing attention in recent years.",
+      "tag": "CV",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models",
+      "arxiv": "2609.19671",
+      "desc": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks but exhibit systematic inefficiency: they often overthink easy problems and underthink hard ones.",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
+      "arxiv": "2609.20612",
+      "desc": "On-policy self-distillation (OPSD) lets a language model learn from a frozen copy of itself that sees an answer or a worked solution.",
+      "tag": "Training",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
+      "arxiv": "2609.20715",
+      "desc": "Agent trajectories record what an agent does and what happens next.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+      "arxiv": "2609.18605",
+      "desc": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering",
+      "arxiv": "2609.19879",
+      "desc": "Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in both text and spoken settings.",
+      "tag": "Benchmark",
       "extras": [
         "6 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 36,
-      "title": "ActionPiece: Rethinking Action Tokenization for Autoregressive Vision-Language-Action Models",
-      "arxiv": "2609.18487",
-      "desc": "Action tokenizers play a central role in autoregressive vision-language-action (VLA) models, determining both the targets for policy training and the executable commands recovered from predicted tokens.",
-      "tag": "VLM",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 25,
-      "title": "Zing-0.5: Toward Playable Worlds with Real-Time Joint Action and Text Control",
-      "arxiv": "2609.17909",
-      "desc": "We introduce Zing-0.5, a 5B autoregressive world model designed for playability: users can explore generated worlds, influence unfolding events, and respond to the resulting feedback through joint keyboard and online text control.",
-      "extras": [
-        "16 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization",
-      "arxiv": "2609.14320",
-      "desc": "Recently, linear attention layers have been increasingly adopted to replace softmax attention at scale for long-context modeling.",
-      "tag": "Retrieval",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "arxiv": "2609.19144",
-      "desc": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency.",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 13,
-      "title": "In-Context Robot Learning with VLM Agents",
-      "arxiv": "2609.19138",
-      "desc": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI.",
-      "tag": "Agents",
-      "extras": [
-        "15 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
-      "arxiv": "2609.19143",
-      "desc": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded.",
-      "tag": "VLM",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training",
-      "arxiv": "2609.14306",
-      "desc": "Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak allocation exceeds device memory, so the target is every peak at once, not the average footprint.",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
-      "arxiv": "2609.18063",
-      "desc": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the bytes that must be held.",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
-      "arxiv": "2609.18779",
-      "desc": "Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, limiting their ability to respond to evolving agent capabilities.",
-      "tag": "Agents",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
-      "arxiv": "2609.17652",
-      "desc": "When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan that ranks all n keys for a top-k step becomes the traffic that bounds decoding.",
-      "tag": "Agents",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
       "votes": 1,
-      "title": "Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand",
-      "arxiv": "2609.17172",
-      "desc": "A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environment.",
-      "tag": "RL",
+      "title": "Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts",
+      "arxiv": "2609.05661",
+      "desc": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Bengali, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, and Odia.",
+      "tag": "Diffusion",
       "extras": [
-        "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026",
-      "arxiv": "2609.15524",
-      "desc": "BraTS-GoAT evaluates tumor segmentation across heterogeneous populations.",
-      "tag": "3D",
+      "votes": 0,
+      "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
+      "arxiv": "2609.19499",
+      "desc": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses.",
       "extras": [
-        "4 authors",
+        "2 authors",
         "Sep 2026"
       ]
     }
