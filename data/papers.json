@@ -1,8 +1,8 @@
 {
-  "snapshot": "September 19, 2026",
+  "snapshot": "September 20, 2026",
   "papers": [
     {
-      "votes": 91,
+      "votes": 113,
       "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
       "arxiv": "2609.18323",
       "desc": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio.",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "votes": 72,
+      "votes": 94,
       "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
       "arxiv": "2609.20511",
       "desc": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget.",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "votes": 31,
+      "votes": 47,
       "title": "Verifiable Social Reasoning for LLM Assistants",
       "arxiv": "2609.17496",
       "desc": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth.",
@@ -35,39 +35,7 @@
       ]
     },
     {
-      "votes": 26,
-      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-      "arxiv": "2609.20784",
-      "desc": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them.",
-      "tag": "Agents",
-      "extras": [
-        "11 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 25,
-      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
-      "arxiv": "2609.17653",
-      "desc": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 23,
-      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
-      "arxiv": "2609.20423",
-      "desc": "Document parsing converts document images into structured content and requires reliable performance across diverse layouts and acquisition conditions.",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 22,
+      "votes": 43,
       "title": "Self-Evolving Search Index",
       "arxiv": "2609.19656",
       "desc": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs.",
@@ -78,7 +46,39 @@
       ]
     },
     {
-      "votes": 18,
+      "votes": 39,
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "arxiv": "2609.20784",
+      "desc": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them.",
+      "tag": "Agents",
+      "extras": [
+        "11 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 37,
+      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+      "arxiv": "2609.17653",
+      "desc": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 35,
+      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+      "arxiv": "2609.20423",
+      "desc": "Document parsing converts document images into structured content and requires reliable performance across diverse layouts and acquisition conditions.",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 32,
       "title": "When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models",
       "arxiv": "2609.19671",
       "desc": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks but exhibit systematic inefficiency: they often overthink easy problems and underthink hard ones.",
@@ -88,18 +88,7 @@
       ]
     },
     {
-      "votes": 17,
-      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
-      "arxiv": "2609.20817",
-      "desc": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence.",
-      "tag": "3D",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 17,
+      "votes": 30,
       "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
       "arxiv": "2609.20612",
       "desc": "On-policy self-distillation (OPSD) lets a language model learn from a frozen copy of itself that sees an answer or a worked solution.",
@@ -110,7 +99,28 @@
       ]
     },
     {
-      "votes": 15,
+      "votes": 29,
+      "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
+      "arxiv": "2609.19499",
+      "desc": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses.",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 29,
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "arxiv": "2609.20817",
+      "desc": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence.",
+      "tag": "3D",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 28,
       "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
       "arxiv": "2609.20715",
       "desc": "Agent trajectories record what an agent does and what happens next.",
@@ -121,27 +131,7 @@
       ]
     },
     {
-      "votes": 14,
-      "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
-      "arxiv": "2609.19499",
-      "desc": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses.",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 14,
-      "title": "Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts",
-      "arxiv": "2609.05661",
-      "desc": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Bengali, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, and Odia.",
-      "tag": "Diffusion",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 14,
+      "votes": 26,
       "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
       "arxiv": "2609.18605",
       "desc": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance.",
@@ -152,7 +142,17 @@
       ]
     },
     {
-      "votes": 12,
+      "votes": 25,
+      "title": "Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts",
+      "arxiv": "2609.05661",
+      "desc": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Bengali, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, and Odia.",
+      "tag": "Diffusion",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 23,
       "title": "VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering",
       "arxiv": "2609.19879",
       "desc": "Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in both text and spoken settings.",
