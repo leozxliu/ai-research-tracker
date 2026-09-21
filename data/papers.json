@@ -1,164 +1,161 @@
 {
-  "snapshot": "September 20, 2026",
+  "snapshot": "September 21, 2026",
   "papers": [
     {
-      "votes": 113,
-      "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
-      "arxiv": "2609.18323",
-      "desc": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio.",
-      "tag": "Multimodal",
+      "votes": 90,
+      "title": "IntBMoE: Integrating Block-Level Conditioning into Expert Composition for Full-Participation Mixture-of-Experts",
+      "arxiv": "2609.21346",
+      "desc": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently.",
       "extras": [
-        "13 authors",
+        "5 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 94,
-      "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
-      "arxiv": "2609.20511",
-      "desc": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget.",
-      "tag": "Training",
+      "votes": 29,
+      "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
+      "arxiv": "2609.21465",
+      "desc": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model.",
+      "tag": "Audio",
       "extras": [
-        "9 authors",
+        "18 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 47,
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "arxiv": "2609.17496",
-      "desc": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth.",
+      "votes": 19,
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+      "arxiv": "2609.22086",
+      "desc": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle.",
       "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 43,
-      "title": "Self-Evolving Search Index",
-      "arxiv": "2609.19656",
-      "desc": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 39,
-      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-      "arxiv": "2609.20784",
-      "desc": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them.",
-      "tag": "Agents",
-      "extras": [
-        "11 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 37,
-      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
-      "arxiv": "2609.17653",
-      "desc": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 35,
-      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
-      "arxiv": "2609.20423",
-      "desc": "Document parsing converts document images into structured content and requires reliable performance across diverse layouts and acquisition conditions.",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 32,
-      "title": "When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models",
-      "arxiv": "2609.19671",
-      "desc": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks but exhibit systematic inefficiency: they often overthink easy problems and underthink hard ones.",
       "extras": [
         "4 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 30,
-      "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
-      "arxiv": "2609.20612",
-      "desc": "On-policy self-distillation (OPSD) lets a language model learn from a frozen copy of itself that sees an answer or a worked solution.",
-      "tag": "Training",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 29,
-      "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
-      "arxiv": "2609.19499",
-      "desc": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses.",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 29,
-      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
-      "arxiv": "2609.20817",
-      "desc": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence.",
-      "tag": "3D",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 28,
-      "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
-      "arxiv": "2609.20715",
-      "desc": "Agent trajectories record what an agent does and what happens next.",
+      "votes": 10,
+      "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
+      "arxiv": "2609.20886",
+      "desc": "Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau.",
       "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 26,
-      "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
-      "arxiv": "2609.18605",
-      "desc": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance.",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 25,
-      "title": "Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts",
-      "arxiv": "2609.05661",
-      "desc": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Bengali, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, and Odia.",
-      "tag": "Diffusion",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 23,
-      "title": "VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering",
-      "arxiv": "2609.19879",
-      "desc": "Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in both text and spoken settings.",
-      "tag": "Benchmark",
       "extras": [
         "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Gricea: An Open Science Platform for Conversational AI Research",
+      "arxiv": "2609.22039",
+      "desc": "We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design.",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
+      "arxiv": "2609.16251",
+      "desc": "Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limited coverage of professional engineering workflows whose outputs are persistent, structured artifacts.",
+      "tag": "Benchmark",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
+      "arxiv": "2609.19315",
+      "desc": "Large language models (LLMs) provide a flexible interface for long-horizon robot planning, but generated plans often fail to respect embodiment constraints, recover from planning errors, or reason effectively under partial observability.",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models",
+      "arxiv": "2609.21094",
+      "desc": "Large Language Models (LLMs) are increasingly deployed in applications that must weigh clashing moral values, yet even strong models exhibit hidden biases and brittle instruction-following across languages.",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+      "arxiv": "2609.18766",
+      "desc": "Large audio-language models have shown promise for anti-fraud detection by directly processing speech and reasoning over fraud-related evidence.",
+      "tag": "Audio",
+      "extras": [
+        "12 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
+      "arxiv": "2609.18748",
+      "desc": "Telecom fraud scripts evolve rapidly and are often designed to resemble routine service conversations, creating two key requirements for audio-based telecom-fraud evaluation.",
+      "tag": "Audio",
+      "extras": [
+        "14 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention",
+      "arxiv": "2609.21788",
+      "desc": "A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subtasks.",
+      "tag": "RL",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "SiliconBench: Speed, Memory, and Fidelity for LLM Serving on Unified-Memory Desktops",
+      "arxiv": "2609.19169",
+      "desc": "Concurrent local LLM serving on unified-memory desktops must preserve memory headroom and output fidelity, which speed-only rankings overlook.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport",
+      "arxiv": "2609.22076",
+      "desc": "APort Vault is a benchmark for payment authorization in tool-using AI agents.",
+      "tag": "Agents",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Refinement Is Inherently Editable: Training-Free Prompt-to-Prompt Image Editing with Generative Refinement Network",
+      "arxiv": "2609.20633",
+      "desc": "Text-guided image editing must introduce the requested changes while preserving unrelated source content.",
+      "tag": "CV",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy",
+      "arxiv": "2609.21038",
+      "desc": "Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on laboratory CPUs and edge hardware requires compression schemes that are both efficient and auditable.",
+      "extras": [
         "Sep 2026"
       ]
     }
