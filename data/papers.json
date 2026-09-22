@@ -1,43 +1,22 @@
 {
-  "snapshot": "September 21, 2026",
+  "snapshot": "September 22, 2026",
   "papers": [
     {
-      "votes": 90,
-      "title": "IntBMoE: Integrating Block-Level Conditioning into Expert Composition for Full-Participation Mixture-of-Experts",
-      "arxiv": "2609.21346",
-      "desc": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently.",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 29,
-      "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
-      "arxiv": "2609.21465",
-      "desc": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model.",
-      "tag": "Audio",
-      "extras": [
-        "18 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 19,
-      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
-      "arxiv": "2609.22086",
-      "desc": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle.",
-      "tag": "Agents",
+      "votes": 47,
+      "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
+      "arxiv": "2609.24220",
+      "desc": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables.",
+      "tag": "Multimodal",
       "extras": [
         "4 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 10,
-      "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
-      "arxiv": "2609.20886",
-      "desc": "Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau.",
+      "votes": 11,
+      "title": "Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations",
+      "arxiv": "2609.22255",
+      "desc": "Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptions that fail to sustain coherent character behavior across extended interactions.",
       "tag": "Agents",
       "extras": [
         "6 authors",
@@ -45,41 +24,43 @@
       ]
     },
     {
-      "votes": 3,
-      "title": "Gricea: An Open Science Platform for Conversational AI Research",
-      "arxiv": "2609.22039",
-      "desc": "We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design.",
+      "votes": 10,
+      "title": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+      "arxiv": "2609.13814",
+      "desc": "Natural interaction in digital and physical environments requires continuous perception and timely responses.",
+      "tag": "Audio",
       "extras": [
-        "4 authors",
+        "27 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
-      "arxiv": "2609.16251",
-      "desc": "Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limited coverage of professional engineering workflows whose outputs are persistent, structured artifacts.",
-      "tag": "Benchmark",
+      "votes": 10,
+      "title": "CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies",
+      "arxiv": "2609.24118",
+      "desc": "Vision-Language-Action (VLA) policies achieve strong performance in robotic manipulation but remain brittle once execution deviates from nominal trajectories.",
+      "tag": "VLM",
       "extras": [
         "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
-      "arxiv": "2609.19315",
-      "desc": "Large language models (LLMs) provide a flexible interface for long-horizon robot planning, but generated plans often fail to respect embodiment constraints, recover from planning errors, or reason effectively under partial observability.",
+      "votes": 5,
+      "title": "Streaming Video Editing with Easy Adaptation",
+      "arxiv": "2609.24788",
+      "desc": "In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusion model but supports high-quality streaming video editing in an auto-regressive fashion.",
+      "tag": "CV",
       "extras": [
-        "6 authors",
+        "4 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models",
-      "arxiv": "2609.21094",
-      "desc": "Large Language Models (LLMs) are increasingly deployed in applications that must weigh clashing moral values, yet even strong models exhibit hidden biases and brittle instruction-following across languages.",
+      "votes": 4,
+      "title": "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization",
+      "arxiv": "2609.15991",
+      "desc": "Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization.",
       "extras": [
         "2 authors",
         "Sep 2026"
@@ -87,75 +68,97 @@
     },
     {
       "votes": 3,
-      "title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
-      "arxiv": "2609.18766",
-      "desc": "Large audio-language models have shown promise for anti-fraud detection by directly processing speech and reasoning over fraud-related evidence.",
+      "title": "Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention",
+      "arxiv": "2609.24797",
+      "desc": "Linear RNNs based on the delta-rule enable efficient sequence modeling, but their linear updates with a low-rank correction constrain their expressivity.",
       "tag": "Audio",
       "extras": [
-        "12 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
-      "arxiv": "2609.18748",
-      "desc": "Telecom fraud scripts evolve rapidly and are often designed to resemble routine service conversations, creating two key requirements for audio-based telecom-fraud evaluation.",
-      "tag": "Audio",
-      "extras": [
-        "14 authors",
+        "11 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention",
-      "arxiv": "2609.21788",
-      "desc": "A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subtasks.",
-      "tag": "RL",
+      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene",
+      "arxiv": "2609.23796",
+      "desc": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge.",
+      "tag": "3D",
       "extras": [
-        "7 authors",
+        "10 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "SiliconBench: Speed, Memory, and Fidelity for LLM Serving on Unified-Memory Desktops",
-      "arxiv": "2609.19169",
-      "desc": "Concurrent local LLM serving on unified-memory desktops must preserve memory headroom and output fidelity, which speed-only rankings overlook.",
+      "votes": 1,
+      "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
+      "arxiv": "2609.06052",
+      "desc": "Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge and domain expertise.",
       "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport",
-      "arxiv": "2609.22076",
-      "desc": "APort Vault is a benchmark for payment authorization in tool-using AI agents.",
-      "tag": "Agents",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Refinement Is Inherently Editable: Training-Free Prompt-to-Prompt Image Editing with Generative Refinement Network",
-      "arxiv": "2609.20633",
-      "desc": "Text-guided image editing must introduce the requested changes while preserving unrelated source content.",
-      "tag": "CV",
       "extras": [
         "6 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy",
-      "arxiv": "2609.21038",
-      "desc": "Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on laboratory CPUs and edge hardware requires compression schemes that are both efficient and auditable.",
+      "votes": 1,
+      "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
+      "arxiv": "2609.21996",
+      "desc": "Large language models can hold knowledge they do not report.",
       "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision",
+      "arxiv": "2609.20869",
+      "desc": "We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured representation that encodes relations among perceptual elements before recognition.",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation",
+      "arxiv": "2609.24115",
+      "desc": "Tool-calling LLM agents are increasingly deployed in enterprise applications.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models",
+      "arxiv": "2609.13231",
+      "desc": "Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but existing fine-tuning methods provide limited safety guarantees.",
+      "tag": "VLM",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+      "arxiv": "2609.20758",
+      "desc": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing",
+      "arxiv": "2609.23169",
+      "desc": "High-quality texture generation is essential for creating realistic and production-ready 3D assets.",
+      "tag": "Diffusion",
+      "extras": [
+        "7 authors",
         "Sep 2026"
       ]
     }
