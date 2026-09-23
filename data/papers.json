@@ -1,150 +1,74 @@
 {
-  "snapshot": "September 22, 2026",
+  "snapshot": "September 23, 2026",
   "papers": [
     {
-      "votes": 47,
-      "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
-      "arxiv": "2609.24220",
-      "desc": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables.",
-      "tag": "Multimodal",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 11,
-      "title": "Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations",
-      "arxiv": "2609.22255",
-      "desc": "Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptions that fail to sustain coherent character behavior across extended interactions.",
+      "votes": 111,
+      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "arxiv": "2609.25804",
+      "desc": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run.",
       "tag": "Agents",
       "extras": [
-        "6 authors",
+        "9 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 10,
-      "title": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
-      "arxiv": "2609.13814",
-      "desc": "Natural interaction in digital and physical environments requires continuous perception and timely responses.",
-      "tag": "Audio",
-      "extras": [
-        "27 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies",
-      "arxiv": "2609.24118",
-      "desc": "Vision-Language-Action (VLA) policies achieve strong performance in robotic manipulation but remain brittle once execution deviates from nominal trajectories.",
+      "votes": 35,
+      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+      "arxiv": "2609.24058",
+      "desc": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model.",
       "tag": "VLM",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 20,
+      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
+      "arxiv": "2609.26774",
+      "desc": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models.",
       "extras": [
         "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "Streaming Video Editing with Easy Adaptation",
-      "arxiv": "2609.24788",
-      "desc": "In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusion model but supports high-quality streaming video editing in an auto-regressive fashion.",
-      "tag": "CV",
+      "votes": 11,
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "arxiv": "2609.25199",
+      "desc": "Lean Pool is a repository of formalized mathematics.",
+      "tag": "Agents",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "arxiv": "2609.26550",
+      "desc": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale.",
       "extras": [
         "4 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization",
-      "arxiv": "2609.15991",
-      "desc": "Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization.",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention",
-      "arxiv": "2609.24797",
-      "desc": "Linear RNNs based on the delta-rule enable efficient sequence modeling, but their linear updates with a low-rank correction constrain their expressivity.",
-      "tag": "Audio",
-      "extras": [
-        "11 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene",
-      "arxiv": "2609.23796",
-      "desc": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge.",
-      "tag": "3D",
-      "extras": [
-        "10 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
-      "arxiv": "2609.06052",
-      "desc": "Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge and domain expertise.",
+      "votes": 7,
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "arxiv": "2609.26781",
+      "desc": "A multi-agent system can reduce latency on complex tasks by executing work concurrently.",
       "tag": "Agents",
       "extras": [
-        "6 authors",
+        "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
-      "arxiv": "2609.21996",
-      "desc": "Large language models can hold knowledge they do not report.",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision",
-      "arxiv": "2609.20869",
-      "desc": "We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured representation that encodes relations among perceptual elements before recognition.",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation",
-      "arxiv": "2609.24115",
-      "desc": "Tool-calling LLM agents are increasingly deployed in enterprise applications.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models",
-      "arxiv": "2609.13231",
-      "desc": "Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but existing fine-tuning methods provide limited safety guarantees.",
-      "tag": "VLM",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
-      "arxiv": "2609.20758",
-      "desc": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents.",
+      "votes": 6,
+      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+      "arxiv": "2609.24967",
+      "desc": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination.",
       "tag": "Agents",
       "extras": [
         "3 authors",
@@ -152,13 +76,84 @@
       ]
     },
     {
-      "votes": 0,
-      "title": "UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing",
-      "arxiv": "2609.23169",
-      "desc": "High-quality texture generation is essential for creating realistic and production-ready 3D assets.",
-      "tag": "Diffusion",
+      "votes": 4,
+      "title": "Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament",
+      "arxiv": "2609.26346",
+      "desc": "Political discourse is widely perceived to be growing more hostile, yet robust evidence remains scarce.",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
+      "arxiv": "2609.25053",
+      "desc": "Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate useful persistent hybrid-state transfer across one architecture-matched Qwen3.5 4B-to-9B sibling pair.",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents",
+      "arxiv": "2609.25636",
+      "desc": "Modern embodied agents achieve impressive success rates, yet their actual instruction-following ability is far weaker than these numbers suggest.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
+      "arxiv": "2609.25247",
+      "desc": "Interaction understanding in 3D scenes requires a joint description of movable parts, their motion, and the regions through which they can be operated.",
+      "tag": "3D",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
+      "arxiv": "2609.25267",
+      "desc": "Degradations vary widely across images, so a practical restoration system has to handle many degradation types with one model.",
+      "tag": "CV",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts",
+      "arxiv": "2609.06011",
+      "desc": "Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-modal conflict remains underexplored.",
+      "tag": "Audio",
       "extras": [
         "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Embedding Physics Priors in Robot Learning: A Survey",
+      "arxiv": "2609.22319",
+      "desc": "The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based approaches.",
+      "extras": [
+        "13 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning",
+      "arxiv": "2609.22323",
+      "desc": "Few-shot learning research is predominantly evaluated on accuracy alone, with limited attention to the parameter and training-sample budgets required to reach that accuracy - a real constraint for practitioners without large-scale compute.",
+      "extras": [
         "Sep 2026"
       ]
     }
