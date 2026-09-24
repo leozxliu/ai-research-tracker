@@ -1,85 +1,44 @@
 {
-  "snapshot": "September 23, 2026",
+  "snapshot": "September 24, 2026",
   "papers": [
     {
-      "votes": 111,
-      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-      "arxiv": "2609.25804",
-      "desc": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 35,
-      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
-      "arxiv": "2609.24058",
-      "desc": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model.",
+      "votes": 43,
+      "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+      "arxiv": "2609.23038",
+      "desc": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
       "tag": "VLM",
       "extras": [
-        "9 authors",
+        "10 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 20,
-      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
-      "arxiv": "2609.26774",
-      "desc": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models.",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 11,
-      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "arxiv": "2609.25199",
-      "desc": "Lean Pool is a repository of formalized mathematics.",
-      "tag": "Agents",
-      "extras": [
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
-      "arxiv": "2609.26550",
-      "desc": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale.",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-      "arxiv": "2609.26781",
-      "desc": "A multi-agent system can reduce latency on complex tasks by executing work concurrently.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
-      "arxiv": "2609.24967",
-      "desc": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination.",
-      "tag": "Agents",
+      "votes": 10,
+      "title": "GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression",
+      "arxiv": "2609.25963",
+      "desc": "Transformer architectures exhibit cross-layer redundancies, yet post-training compression pipelines typically optimize layers in isolation or rely on heuristic grouping strategies that disregard layer-specific activation geometries.",
       "extras": [
         "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament",
-      "arxiv": "2609.26346",
-      "desc": "Political discourse is widely perceived to be growing more hostile, yet robust evidence remains scarce.",
+      "votes": 10,
+      "title": "PackLab: A Comprehensive Framework for Developing, Training, and Evaluating MLLMs in Robotic Bin Packing",
+      "arxiv": "2609.23784",
+      "desc": "Robotic bin packing requires long-horizon sequential decision-making, as each object placement affects the available space for subsequent packing.",
+      "tag": "RL",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "All modalities are equal, but video is more equal: Closing the Cross-Attention Gap in Joint Video Generation",
+      "arxiv": "2609.27901",
+      "desc": "Video is a rich representation of a physical event, capturing appearance, geometry, motion, and temporal evolution.",
+      "tag": "CV",
       "extras": [
         "4 authors",
         "Sep 2026"
@@ -87,30 +46,30 @@
     },
     {
       "votes": 3,
-      "title": "LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
-      "arxiv": "2609.25053",
-      "desc": "Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate useful persistent hybrid-state transfer across one architecture-matched Qwen3.5 4B-to-9B sibling pair.",
+      "title": "On the Diffusibility of High-Dimensional Latents",
+      "arxiv": "2609.28473",
+      "desc": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders.",
+      "tag": "Diffusion",
       "extras": [
+        "10 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents",
-      "arxiv": "2609.25636",
-      "desc": "Modern embodied agents achieve impressive success rates, yet their actual instruction-following ability is far weaker than these numbers suggest.",
-      "tag": "Agents",
+      "votes": 2,
+      "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+      "arxiv": "2609.26637",
+      "desc": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden.",
       "extras": [
-        "9 authors",
+        "6 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
-      "arxiv": "2609.25247",
-      "desc": "Interaction understanding in 3D scenes requires a joint description of movable parts, their motion, and the regions through which they can be operated.",
-      "tag": "3D",
+      "votes": 2,
+      "title": "Calibration as a First-Class Criterion in LLM Evaluation",
+      "arxiv": "2609.26489",
+      "desc": "Calibration of language models -- the alignment between expressed or implicit confidence and empirical correctness -- is a well-studied subfield within NLP.",
       "extras": [
         "2 authors",
         "Sep 2026"
@@ -118,10 +77,31 @@
     },
     {
       "votes": 2,
-      "title": "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
-      "arxiv": "2609.25267",
-      "desc": "Degradations vary widely across images, so a practical restoration system has to handle many degradation types with one model.",
-      "tag": "CV",
+      "title": "FLEET: From Logits Entropy to Enhanced Trajectories in Text Generation",
+      "arxiv": "2609.27657",
+      "desc": "Solutions based on large language models (LLMs) often rely on temperature sampling to improve accuracy and stability by aggregating multiple samples from the completion distribution.",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery",
+      "arxiv": "2609.27980",
+      "desc": "Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the decoder led to significant end-to-end transcription speedups.",
+      "tag": "Audio",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Self-Organizing Agent Teams Learn to Reason Together",
+      "arxiv": "2609.22682",
+      "desc": "Collective intelligence depends not only on what team members know, but also on how they organize their work.",
+      "tag": "Agents",
       "extras": [
         "8 authors",
         "Sep 2026"
@@ -129,31 +109,54 @@
     },
     {
       "votes": 1,
-      "title": "Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts",
-      "arxiv": "2609.06011",
-      "desc": "Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-modal conflict remains underexplored.",
-      "tag": "Audio",
+      "title": "The Linear Representation Hypothesis Needs a Group Action",
+      "arxiv": "2609.27158",
+      "desc": "To make claims about representations that generalize beyond a particular trained model, we need to specify when two representations should count as equivalent.",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Knowledge Pull Requests for Continual Document Authoring",
+      "arxiv": "2609.26634",
+      "desc": "We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interpretable.",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+      "arxiv": "2609.25187",
+      "desc": "Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit.",
+      "tag": "VLM",
+      "extras": [
+        "32 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Uranus: Building the Next-Generation Simulation Infrastructure for Embodied AI",
+      "arxiv": "2609.24815",
+      "desc": "Scalable simulation is essential for robot data generation, policy training, evaluation, and safe iteration, yet real-world interaction is costly and conventional simulators require labor-intensive construction.",
+      "tag": "Diffusion",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "MemoryAthena: Adaptive Routing over Latent and Generated Memories",
+      "arxiv": "2609.25853",
+      "desc": "Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addressing, storage, and reading to be modified independently.",
+      "tag": "Retrieval",
       "extras": [
         "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Embedding Physics Priors in Robot Learning: A Survey",
-      "arxiv": "2609.22319",
-      "desc": "The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based approaches.",
-      "extras": [
-        "13 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning",
-      "arxiv": "2609.22323",
-      "desc": "Few-shot learning research is predominantly evaluated on accuracy alone, with limited attention to the parameter and training-sample budgets required to reach that accuracy - a real constraint for practitioners without large-scale compute.",
-      "extras": [
         "Sep 2026"
       ]
     }
