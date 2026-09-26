@@ -1,24 +1,13 @@
 {
-  "snapshot": "September 25, 2026",
+  "snapshot": "September 26, 2026",
   "papers": [
     {
-      "votes": 44,
+      "votes": 63,
       "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
       "arxiv": "2609.29845",
       "desc": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions.",
       "extras": [
         "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 23,
-      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
-      "arxiv": "2609.30221",
-      "desc": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels.",
-      "tag": "CV",
-      "extras": [
-        "30 authors",
         "Sep 2026"
       ]
     },
@@ -34,6 +23,17 @@
       ]
     },
     {
+      "votes": 12,
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "arxiv": "2609.29421",
+      "desc": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF.",
+      "tag": "Agents",
+      "extras": [
+        "22 authors",
+        "Sep 2026"
+      ]
+    },
+    {
       "votes": 10,
       "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
       "arxiv": "2609.29362",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "votes": 7,
+      "votes": 9,
       "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
       "arxiv": "2609.29444",
       "desc": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet existing ReAct-style agents suffer from two limitations: role coupling, where one policy must handle planning, evidence use, and synthesis; and context accumulation, where growing search histories introduce noise and obscure useful information.",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "votes": 6,
+      "votes": 8,
       "title": "Coding Agents for Generalized Task and Motion Planning Problems",
       "arxiv": "2609.30233",
       "desc": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints.",
@@ -67,18 +67,28 @@
       ]
     },
     {
-      "votes": 5,
-      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-      "arxiv": "2609.29421",
-      "desc": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF.",
-      "tag": "Agents",
+      "votes": 7,
+      "title": "Learning to Discover Interesting Mathematics",
+      "arxiv": "2609.28603",
+      "desc": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades.",
       "extras": [
-        "22 authors",
+        "5 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 5,
+      "votes": 7,
+      "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+      "arxiv": "2609.29028",
+      "desc": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations.",
+      "tag": "Benchmark",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 7,
       "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
       "arxiv": "2609.23087",
       "desc": "Modern Transformer design and compression both reduce to allocating capacity under a budget.",
@@ -88,7 +98,7 @@
       ]
     },
     {
-      "votes": 4,
+      "votes": 6,
       "title": "AgentKernel: The Trust-Native Agentic Operating System",
       "arxiv": "2609.29647",
       "desc": "Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and invoke privileged tools.",
@@ -96,6 +106,17 @@
       "extras": [
         "6 authors",
         "Aug 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+      "arxiv": "2609.29429",
+      "desc": "Detectors of alignment failures screen deployed language models and score alignment benchmarks.",
+      "tag": "RL",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
       ]
     },
     {
@@ -111,17 +132,6 @@
     },
     {
       "votes": 3,
-      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
-      "arxiv": "2609.29964",
-      "desc": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act.",
-      "tag": "Agents",
-      "extras": [
-        "16 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
       "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
       "arxiv": "2609.29816",
       "desc": "Recent years have witnessed major progress in joint audio-video generation.",
@@ -132,13 +142,13 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
-      "arxiv": "2609.29429",
-      "desc": "Detectors of alignment failures screen deployed language models and score alignment benchmarks.",
-      "tag": "RL",
+      "votes": 3,
+      "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+      "arxiv": "2609.28923",
+      "desc": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training methods predominantly rely on Distribution Matching Distillation (DMD), requiring both a large pretrained teacher and an online critic to estimate distributional discrepancies through diffusion scores.",
+      "tag": "CV",
       "extras": [
-        "9 authors",
+        "5 authors",
         "Sep 2026"
       ]
     },
@@ -149,17 +159,6 @@
       "desc": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by jointly modeling visual dynamics and actions.",
       "extras": [
         "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
-      "arxiv": "2609.28923",
-      "desc": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training methods predominantly rely on Distribution Matching Distillation (DMD), requiring both a large pretrained teacher and an online critic to estimate distributional discrepancies through diffusion scores.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
         "Sep 2026"
       ]
     }
