@@ -1,8 +1,8 @@
 {
-  "snapshot": "September 26, 2026",
+  "snapshot": "September 27, 2026",
   "papers": [
     {
-      "votes": 63,
+      "votes": 75,
       "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
       "arxiv": "2609.29845",
       "desc": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions.",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "votes": 20,
+      "votes": 22,
       "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
       "arxiv": "2609.23407",
       "desc": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet this remains challenging for embodied agents.",
@@ -23,13 +23,23 @@
       ]
     },
     {
-      "votes": 12,
+      "votes": 17,
       "title": "Rufus-Air: An Open LLM Post-Training Recipe",
       "arxiv": "2609.29421",
       "desc": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF.",
       "tag": "Agents",
       "extras": [
         "22 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 11,
+      "title": "Learning to Discover Interesting Mathematics",
+      "arxiv": "2609.28603",
+      "desc": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades.",
+      "extras": [
+        "5 authors",
         "Sep 2026"
       ]
     },
@@ -41,6 +51,17 @@
       "tag": "Audio",
       "extras": [
         "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "arxiv": "2609.30233",
+      "desc": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints.",
+      "tag": "Agents",
+      "extras": [
+        "7 authors",
         "Sep 2026"
       ]
     },
@@ -57,27 +78,6 @@
     },
     {
       "votes": 8,
-      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
-      "arxiv": "2609.30233",
-      "desc": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Learning to Discover Interesting Mathematics",
-      "arxiv": "2609.28603",
-      "desc": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades.",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
       "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
       "arxiv": "2609.29028",
       "desc": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations.",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "votes": 7,
+      "votes": 8,
       "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
       "arxiv": "2609.23087",
       "desc": "Modern Transformer design and compression both reduce to allocating capacity under a budget.",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "votes": 6,
+      "votes": 7,
       "title": "AgentKernel: The Trust-Native Agentic Operating System",
       "arxiv": "2609.29647",
       "desc": "Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and invoke privileged tools.",
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "votes": 4,
+      "votes": 6,
       "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
       "arxiv": "2609.29429",
       "desc": "Detectors of alignment failures screen deployed language models and score alignment benchmarks.",
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "votes": 4,
+      "votes": 6,
       "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
       "arxiv": "2609.29837",
       "desc": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate.",
@@ -131,13 +131,23 @@
       ]
     },
     {
-      "votes": 3,
+      "votes": 5,
       "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
       "arxiv": "2609.29816",
       "desc": "Recent years have witnessed major progress in joint audio-video generation.",
       "tag": "RL",
       "extras": [
         "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+      "arxiv": "2609.28811",
+      "desc": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by jointly modeling visual dynamics and actions.",
+      "extras": [
+        "9 authors",
         "Sep 2026"
       ]
     },
@@ -149,16 +159,6 @@
       "tag": "CV",
       "extras": [
         "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
-      "arxiv": "2609.28811",
-      "desc": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by jointly modeling visual dynamics and actions.",
-      "extras": [
-        "9 authors",
         "Sep 2026"
       ]
     }
