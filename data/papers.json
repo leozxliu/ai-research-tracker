@@ -1,106 +1,66 @@
 {
-  "snapshot": "September 28, 2026",
+  "snapshot": "September 29, 2026",
   "papers": [
     {
-      "votes": 11,
-      "title": "Disaggregated Quantization: Specializing LLM Prefill and Decode",
-      "arxiv": "2609.26333",
-      "desc": "Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing, while compact weights reduce memory traffic during generation.",
+      "votes": 106,
+      "title": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+      "arxiv": "2609.33325",
+      "desc": "Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (ViTs) with global interactions, State-Space Models (SSMs) with input-dependent state transitions, and Test-Time Training (TTT) layers that adapt an inner learner while processing an image.",
+      "tag": "CV",
       "extras": [
-        "5 authors",
+        "11 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 10,
-      "title": "Tactile-JEPA: Topology-Aware Self-Supervised Representation Learning for Distributed Tactile Sensors",
-      "arxiv": "2609.24385",
-      "desc": "Tactile sensing is an essential modality for robots performing contact-rich, dexterous manipulation, particularly under visual occlusion.",
+      "votes": 69,
+      "title": "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
+      "arxiv": "2609.32577",
+      "desc": "Reinforcement learning (RL) for code agents often uses executable tests to provide binary rewards.",
+      "tag": "Agents",
       "extras": [
-        "4 authors",
+        "10 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 8,
-      "title": "Enhancing Photogrammetric Digital Surface Models with Pretrained Diffusion Models and Multimodal Conditioning",
-      "arxiv": "2609.31199",
-      "desc": "Large-scale Digital Surface Models (DSMs) can be produced cost-effectively from satellite images via stereo-photogrammetry.",
-      "tag": "Diffusion",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
-      "arxiv": "2609.30192",
-      "desc": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes.",
+      "votes": 25,
+      "title": "SentZero: An Enhanced Sentence-Centric Vision-Language Pretraining for Multi-Task Zero-Shot Chest X-Ray Analysis",
+      "arxiv": "2609.34479",
+      "desc": "Vision-language (VL) pretraining using paired chest X-ray (CXR) images and radiology reports has shown strong potential for medical image understanding.",
+      "tag": "VLM",
       "extras": [
         "4 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "IndicBankBench: Evaluating Safety and Reliability of Language Model Assistants in Indian Retail Banking",
-      "arxiv": "2609.29167",
-      "desc": "Banking assistants must use account-specific information to answer requests and, in many cases, take actions through tools.",
+      "votes": 13,
+      "title": "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
+      "arxiv": "2609.35718",
+      "desc": "Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally handled by dedicated computer-vision models.",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
+      "arxiv": "2609.35706",
+      "desc": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ended scientific ideation.",
+      "tag": "Agents",
       "extras": [
         "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding",
-      "arxiv": "2609.30670",
-      "desc": "Streaming video understanding requires models to interpret evidence as it arrives, yet current evaluations often report task scores without specifying when evidence becomes valid, how visual history is maintained, or how responses are triggered.",
+      "votes": 2,
+      "title": "Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation",
+      "arxiv": "2609.34722",
+      "desc": "Long-horizon camera-controlled video generation requires recovering previously observed content from an ever-growing visual history.",
       "tag": "CV",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
-      "arxiv": "2609.28327",
-      "desc": "We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmentation without a learned stage-wise decoder.",
-      "tag": "CV",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Softmax Reparameterization for Output-Head Quantization",
-      "arxiv": "2609.31291",
-      "desc": "Large vocabularies make output heads a substantial inference cost in small language models.",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding",
-      "arxiv": "2609.29474",
-      "desc": "Public software repositories, like GitHub and Software Heritage Archive, store billions of files, yet extracting their implicit engineering knowledge ---i.e., the algorithms they implement, the paradigms they follow, the patterns they instantiate, and the application domains they serve--- remains challenging, as current tools are constrained to syntactic and token-level analysis.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation",
-      "arxiv": "2609.30837",
-      "desc": "Multi-teacher on-policy distillation (MOPD) integrates specialized capabilities into a single student, but existing practice typically hard-routes each prompt to a domain-matched teacher for the entire rollout.",
-      "tag": "Training",
       "extras": [
         "13 authors",
         "Sep 2026"
@@ -108,20 +68,42 @@
     },
     {
       "votes": 2,
-      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
-      "arxiv": "2609.04355",
-      "desc": "Pretrained vision-language-action (VLA) models enable broad manipulation but remain unreliable in tasks demanding precision and repeatability.",
-      "tag": "RL",
+      "title": "SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models",
+      "arxiv": "2609.34044",
+      "desc": "Reasoning vision-language models (VLMs) process images and videos as long sequences of visual tokens, making inference expensive.",
+      "tag": "VLM",
       "extras": [
-        "11 authors",
+        "15 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "Evidence-Grounded Auditing of Identification Assumptions in Climate-Policy Causal Evaluations",
-      "arxiv": "2609.30867",
-      "desc": "Difference-in-differences (DID) studies are widely used to evaluate climate policy, but assessing the evidence supporting their identification assumptions remains challenging.",
+      "title": "Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training",
+      "arxiv": "2609.33645",
+      "desc": "Connectionist temporal classification (CTC) naturally supports offline and streaming speech recognition with utterance-level supervision, but conventional implementations materialize frame-by-vocabulary activations in memory, making CTC training with native LLM vocabularies prohibitively memory-intensive.",
+      "tag": "Audio",
+      "extras": [
+        "13 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "AnswerMap: Faithful Spatial Interpretability of VLMs from Answer Posteriors",
+      "arxiv": "2609.35247",
+      "desc": "When a VLM answers a visual query, current interpretability tools rely on text rationales, which use a mismatched modality, or on internal read-outs, which originate too early to reflect the final output and require white-box access to the model.",
+      "tag": "VLM",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "FactorEngram: Factorized N-gram Memory with Basis-Level Gating for Language Models",
+      "arxiv": "2609.35578",
+      "desc": "Lookup-based memory has been a promising way to scale the parameters of large language models (LLMs).",
       "extras": [
         "4 authors",
         "Sep 2026"
@@ -129,30 +111,54 @@
     },
     {
       "votes": 2,
-      "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
-      "arxiv": "2608.09444",
-      "desc": "A main promise of looped language models is depth-adaptive inference.",
+      "title": "DISCO: Distributed Long Context Scaling with Grounding-Reasoning Disaggregation",
+      "arxiv": "2609.33485",
+      "desc": "While Large Language Models (LLMs) advertise million-token context windows, reasoning quality often collapses as inputs grow -- a phenomenon termed context rot.",
+      "tag": "RL",
       "extras": [
-        "3 authors",
+        "8 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "Paragraph Boundaries Are Not White Space:Compression Depth as the Signature of Hierarchical Structure",
-      "arxiv": "2609.23551",
-      "desc": "Standard positional encodings represent position as a one-dimensional reading-order coordinate, but reading order alone does not determine hierarchical textual structure.",
+      "title": "G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
+      "arxiv": "2609.31009",
+      "desc": "Post-training quantization (PTQ) is a practical approach to reducing the memory and computational footprint of large language models (LLMs) without retraining.",
       "extras": [
+        "11 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "BoundInk: Boundary-Aware Online Handwriting Generation",
-      "arxiv": "2604.02103",
-      "desc": "Realistic online handwriting depends not only on individual character shapes, but also on how a writer connects, spaces, and aligns adjacent characters.",
+      "title": "Who Gets a Token, and What Does It Carry? Unequal Name Support and Concept Access in Large Language Models",
+      "arxiv": "2609.34065",
+      "desc": "Names are personal identifiers, but they also carry social meaning and are widely used to evaluate how language models treat different people.",
       "extras": [
-        "3 authors",
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Distillation Defenses Easily Break After Reinforcement Learning",
+      "arxiv": "2609.35699",
+      "desc": "Distillation attacks copy the reasoning capabilities of closed-source large language models, allowing bad actors to replicate state-of-the-art performance at low cost.",
+      "tag": "RL",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Playing to Par: Reinforcement Learning for Provably Optimal Quadrilateral Block Decompositions",
+      "arxiv": "2609.32146",
+      "desc": "A quadrilateral block decomposition of a planar domain is judged by whether it is complete, whether its elements are well shaped, and how many of its vertices are irregular.",
+      "tag": "RL",
+      "extras": [
+        "2 authors",
         "Sep 2026"
       ]
     }
