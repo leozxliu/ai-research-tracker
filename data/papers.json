@@ -1,55 +1,98 @@
 {
-  "snapshot": "September 29, 2026",
+  "snapshot": "September 30, 2026",
   "papers": [
     {
-      "votes": 106,
-      "title": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
-      "arxiv": "2609.33325",
-      "desc": "Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (ViTs) with global interactions, State-Space Models (SSMs) with input-dependent state transitions, and Test-Time Training (TTT) layers that adapt an inner learner while processing an image.",
-      "tag": "CV",
+      "votes": 41,
+      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+      "arxiv": "2609.36322",
+      "desc": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stride.",
+      "tag": "Retrieval",
       "extras": [
-        "11 authors",
+        "9 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 69,
-      "title": "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
-      "arxiv": "2609.32577",
-      "desc": "Reinforcement learning (RL) for code agents often uses executable tests to provide binary rewards.",
-      "tag": "Agents",
+      "votes": 19,
+      "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
+      "arxiv": "2609.37559",
+      "desc": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences for later use.",
+      "tag": "Benchmark",
       "extras": [
-        "10 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 25,
-      "title": "SentZero: An Enhanced Sentence-Centric Vision-Language Pretraining for Multi-Task Zero-Shot Chest X-Ray Analysis",
-      "arxiv": "2609.34479",
-      "desc": "Vision-language (VL) pretraining using paired chest X-ray (CXR) images and radiology reports has shown strong potential for medical image understanding.",
-      "tag": "VLM",
-      "extras": [
-        "4 authors",
+        "12 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 13,
-      "title": "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
-      "arxiv": "2609.35718",
-      "desc": "Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally handled by dedicated computer-vision models.",
+      "title": "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
+      "arxiv": "2609.36651",
+      "desc": "Long-context reasoning in large language models incurs substantial computation and memory costs.",
+      "tag": "CV",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "Scheduling Recursive Reasoning in Looped Transformers",
+      "arxiv": "2609.36653",
+      "desc": "Recurrent reasoning models have attracted growing attention for scaling test-time computation, typically by iteratively refining latent states with shared parameters.",
       "extras": [
         "6 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
-      "arxiv": "2609.35706",
-      "desc": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ended scientific ideation.",
+      "votes": 8,
+      "title": "AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation",
+      "arxiv": "2609.35530",
+      "desc": "Recent image generation models can take multiple reference images as input and combine them into a new image.",
       "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
+      "arxiv": "2609.37402",
+      "desc": "Large language model (LLM) routing reduces serving cost by assigning each query to an appropriate model while preserving response quality.",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+      "arxiv": "2609.38146",
+      "desc": "We introduce LIFT, a unified image-to-video generation framework that complements camera control with Layout-In-FuTure control, enabling users to specify what should appear in a future view and where it should appear.",
+      "tag": "CV",
+      "extras": [
+        "12 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "PMOPD: Task Ordering, Cycling, and Parameter-Update Subspace Protection in Multi-Teacher On-Policy Distillation",
+      "arxiv": "2609.34605",
+      "desc": "Multi-teacher on-policy distillation (MOPD) has emerged as a popular post-training paradigm for integrating specialized capabilities in frontier language models.",
+      "tag": "Training",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Improved Distributional Diffusion Models",
+      "arxiv": "2609.37147",
+      "desc": "Distributional Diffusion Models (DDMs) replace the standard mean-prediction denoiser with a distributional denoiser trained via a scoring rule objective, learning a stochastic approximation to p(x_1 mid x_t) rather than its conditional mean.",
+      "tag": "Diffusion",
       "extras": [
         "7 authors",
         "Sep 2026"
@@ -57,95 +100,21 @@
     },
     {
       "votes": 2,
-      "title": "Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation",
-      "arxiv": "2609.34722",
-      "desc": "Long-horizon camera-controlled video generation requires recovering previously observed content from an ever-growing visual history.",
-      "tag": "CV",
-      "extras": [
-        "13 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models",
-      "arxiv": "2609.34044",
-      "desc": "Reasoning vision-language models (VLMs) process images and videos as long sequences of visual tokens, making inference expensive.",
-      "tag": "VLM",
-      "extras": [
-        "15 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training",
-      "arxiv": "2609.33645",
-      "desc": "Connectionist temporal classification (CTC) naturally supports offline and streaming speech recognition with utterance-level supervision, but conventional implementations materialize frame-by-vocabulary activations in memory, making CTC training with native LLM vocabularies prohibitively memory-intensive.",
-      "tag": "Audio",
-      "extras": [
-        "13 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "AnswerMap: Faithful Spatial Interpretability of VLMs from Answer Posteriors",
-      "arxiv": "2609.35247",
-      "desc": "When a VLM answers a visual query, current interpretability tools rely on text rationales, which use a mismatched modality, or on internal read-outs, which originate too early to reflect the final output and require white-box access to the model.",
-      "tag": "VLM",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "FactorEngram: Factorized N-gram Memory with Basis-Level Gating for Language Models",
-      "arxiv": "2609.35578",
-      "desc": "Lookup-based memory has been a promising way to scale the parameters of large language models (LLMs).",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "DISCO: Distributed Long Context Scaling with Grounding-Reasoning Disaggregation",
-      "arxiv": "2609.33485",
-      "desc": "While Large Language Models (LLMs) advertise million-token context windows, reasoning quality often collapses as inputs grow -- a phenomenon termed context rot.",
-      "tag": "RL",
+      "title": "Scaling Properties of Same-Family On-Policy Distillation",
+      "arxiv": "2609.32722",
+      "desc": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear.",
+      "tag": "Training",
       "extras": [
         "8 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
-      "arxiv": "2609.31009",
-      "desc": "Post-training quantization (PTQ) is a practical approach to reducing the memory and computational footprint of large language models (LLMs) without retraining.",
-      "extras": [
-        "11 authors",
-        "Sep 2026"
-      ]
-    },
-    {
       "votes": 1,
-      "title": "Who Gets a Token, and What Does It Carry? Unequal Name Support and Concept Access in Large Language Models",
-      "arxiv": "2609.34065",
-      "desc": "Names are personal identifiers, but they also carry social meaning and are widely used to evaluate how language models treat different people.",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Distillation Defenses Easily Break After Reinforcement Learning",
-      "arxiv": "2609.35699",
-      "desc": "Distillation attacks copy the reasoning capabilities of closed-source large language models, allowing bad actors to replicate state-of-the-art performance at low cost.",
-      "tag": "RL",
+      "title": "Org-Agent: Beyond Personal Assistants Towards Organizational Agents",
+      "arxiv": "2609.34392",
+      "desc": "Language model agents serving organizations must coordinate requests from multiple users while using knowledge distributed across their interactions.",
+      "tag": "Agents",
       "extras": [
         "5 authors",
         "Sep 2026"
@@ -153,12 +122,43 @@
     },
     {
       "votes": 1,
-      "title": "Playing to Par: Reinforcement Learning for Provably Optimal Quadrilateral Block Decompositions",
-      "arxiv": "2609.32146",
-      "desc": "A quadrilateral block decomposition of a planar domain is judged by whether it is complete, whether its elements are well shaped, and how many of its vertices are irregular.",
-      "tag": "RL",
+      "title": "Can Agents Design Libraries for Agents?",
+      "arxiv": "2609.36730",
+      "desc": "Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebases later agents must work in.",
+      "tag": "Agents",
       "extras": [
-        "2 authors",
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Learning Dynamics of Continual Learning: A Unified View of Data Attribution, Forgetting, and Plasticity Loss",
+      "arxiv": "2609.33620",
+      "desc": "Modern language models are likely to be updated throughout their lifetime rather than trained once and frozen.",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "ALICE: In-context, Zero-shot, Mutual Information Estimation",
+      "arxiv": "2609.34962",
+      "desc": "Estimating mutual information (MI) from samples is a central objective in a variety of scientific fields.",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning",
+      "arxiv": "2608.19669",
+      "desc": "Latent reasoning has advanced multimodal reasoning through a two-stage training paradigm: (1) a helper image is encoded into latent tokens to teach visual chain-of-thought during a supervised fine-tuning (SFT) stage, and (2) these latent tokens are further refined with reward feedback during a reinforcement learning (RL) stage.",
+      "tag": "Multimodal",
+      "extras": [
+        "8 authors",
         "Sep 2026"
       ]
     }
