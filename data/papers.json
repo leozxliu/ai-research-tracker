@@ -1,164 +1,165 @@
 {
-  "snapshot": "September 30, 2026",
+  "snapshot": "October 1, 2026",
   "papers": [
     {
-      "votes": 41,
-      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
-      "arxiv": "2609.36322",
-      "desc": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stride.",
-      "tag": "Retrieval",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 19,
-      "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
-      "arxiv": "2609.37559",
-      "desc": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences for later use.",
-      "tag": "Benchmark",
-      "extras": [
-        "12 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 13,
-      "title": "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
-      "arxiv": "2609.36651",
-      "desc": "Long-context reasoning in large language models incurs substantial computation and memory costs.",
+      "votes": 93,
+      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "arxiv": "2609.34563",
+      "desc": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words.",
       "tag": "CV",
       "extras": [
-        "7 authors",
+        "13 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 9,
-      "title": "Scheduling Recursive Reasoning in Looped Transformers",
-      "arxiv": "2609.36653",
-      "desc": "Recurrent reasoning models have attracted growing attention for scaling test-time computation, typically by iteratively refining latent states with shared parameters.",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation",
-      "arxiv": "2609.35530",
-      "desc": "Recent image generation models can take multiple reference images as input and combine them into a new image.",
+      "votes": 23,
+      "title": "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
+      "arxiv": "2609.38653",
+      "desc": "Recent advances in musculoskeletal modeling and reinforcement learning have enabled muscle-actuated agents to reproduce increasingly complex human motions.",
       "tag": "Agents",
       "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
-      "arxiv": "2609.37402",
-      "desc": "Large language model (LLM) routing reduces serving cost by assigning each query to an appropriate model while preserving response quality.",
-      "extras": [
-        "8 authors",
+        "4 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 6,
-      "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
-      "arxiv": "2609.38146",
-      "desc": "We introduce LIFT, a unified image-to-video generation framework that complements camera control with Layout-In-FuTure control, enabling users to specify what should appear in a future view and where it should appear.",
-      "tag": "CV",
+      "title": "Rubric Rewards from Item Response Theory",
+      "arxiv": "2609.35646",
+      "desc": "Many language tasks have no single answer that can be checked automatically.",
+      "tag": "RL",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
+      "arxiv": "2609.32720",
+      "desc": "Reward models score responses from large language models (LLMs) and guide LLM training toward human preferences.",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution",
+      "arxiv": "2609.38349",
+      "desc": "Modern agentic systems combine an AI model with a harness that controls execution and environmental interactions.",
+      "tag": "Agents",
       "extras": [
         "12 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "PMOPD: Task Ordering, Cycling, and Parameter-Update Subspace Protection in Multi-Teacher On-Policy Distillation",
-      "arxiv": "2609.34605",
-      "desc": "Multi-teacher on-policy distillation (MOPD) has emerged as a popular post-training paradigm for integrating specialized capabilities in frontier language models.",
-      "tag": "Training",
+      "votes": 2,
+      "title": "BIABench: Evaluating AI agents on real-world bioimage analysis tasks",
+      "arxiv": "2609.34274",
+      "desc": "Artificial-intelligence (AI) agents hold promise for automating bioimage analysis, yet no benchmark evaluates whether they can carry out real-world analyses end to end.",
+      "tag": "Agents",
       "extras": [
         "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Improved Distributional Diffusion Models",
-      "arxiv": "2609.37147",
-      "desc": "Distributional Diffusion Models (DDMs) replace the standard mean-prediction denoiser with a distributional denoiser trained via a scoring rule objective, learning a stochastic approximation to p(x_1 mid x_t) rather than its conditional mean.",
-      "tag": "Diffusion",
-      "extras": [
-        "7 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "Scaling Properties of Same-Family On-Policy Distillation",
-      "arxiv": "2609.32722",
-      "desc": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear.",
-      "tag": "Training",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Org-Agent: Beyond Personal Assistants Towards Organizational Agents",
-      "arxiv": "2609.34392",
-      "desc": "Language model agents serving organizations must coordinate requests from multiple users while using knowledge distributed across their interactions.",
+      "title": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
+      "arxiv": "2609.39154",
+      "desc": "Deep research tasks require agents to navigate large knowledge spaces, synthesize evidence across many sources, and adapt their plans as findings emerge.",
       "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Can Agents Design Libraries for Agents?",
-      "arxiv": "2609.36730",
-      "desc": "Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebases later agents must work in.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Learning Dynamics of Continual Learning: A Unified View of Data Attribution, Forgetting, and Plasticity Loss",
-      "arxiv": "2609.33620",
-      "desc": "Modern language models are likely to be updated throughout their lifetime rather than trained once and frozen.",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "ALICE: In-context, Zero-shot, Mutual Information Estimation",
-      "arxiv": "2609.34962",
-      "desc": "Estimating mutual information (MI) from samples is a central objective in a variety of scientific fields.",
       "extras": [
         "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning",
-      "arxiv": "2608.19669",
-      "desc": "Latent reasoning has advanced multimodal reasoning through a two-stage training paradigm: (1) a helper image is encoded into latent tokens to teach visual chain-of-thought during a supervised fine-tuning (SFT) stage, and (2) these latent tokens are further refined with reward feedback during a reinforcement learning (RL) stage.",
-      "tag": "Multimodal",
+      "votes": 2,
+      "title": "SeLMRoute: Probabilistic Semantic Evidence for Large Language Model Routing",
+      "arxiv": "2609.34736",
+      "desc": "Large language model (LLM) routing aims to select the most suitable model for each incoming query.",
       "extras": [
-        "8 authors",
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Mitigating the Length-Scaling Tax with Online Distillation",
+      "arxiv": "2609.38854",
+      "desc": "Length scaling during reinforcement-learning (RL) post-training is often viewed as a sign of improved reasoning ability, especially on difficult problems, but may also make responses to already-solved problems unnecessarily verbose.",
+      "tag": "Training",
+      "extras": [
+        "4 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Prompted Identity Degrades Cooperation in Multi-Agent LLM Systems",
+      "arxiv": "2609.35928",
+      "desc": "Multi-agent LLM systems increasingly mix models from several providers, yet exposing each agent's underlying model identity to its peers significantly impairs cooperation.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+      "arxiv": "2609.40195",
+      "desc": "Long-term egocentric video enables personalized AI assistants to reason about daily life.",
+      "tag": "CV",
+      "extras": [
+        "17 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text",
+      "arxiv": "2609.40295",
+      "desc": "Web text makes up the majority of pretraining data and is increasingly AI-generated.",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Who Said What, and Will It Be Remembered? Evaluating Persistent Speaker Attribution Across Meetings",
+      "arxiv": "2609.39344",
+      "desc": "Speech transcripts used as long-term memory must preserve both words and stable speaker identities.",
+      "tag": "Audio",
+      "extras": [
+        "3 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "SpatialCORE: Confidence-Aware Grounded Spatial Reasoning in Large Vision--Language Models",
+      "arxiv": "2609.38716",
+      "desc": "Large Vision-Language Models (LVLMs) have made remarkable progress across visual perception tasks, yet spatial reasoning remains a persistent weakness, especially for questions that require reasoning over visual space.",
+      "tag": "VLM",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Soft Spatial Reasoning",
+      "arxiv": "2609.38717",
+      "desc": "Large Vision-Language Models (LVLMs) commonly perform spatial reasoning through chain-of-thought (CoT), encoding intermediate reasoning as autoregressive sequences of discrete language tokens.",
+      "tag": "VLM",
+      "extras": [
+        "7 authors",
         "Sep 2026"
       ]
     }
