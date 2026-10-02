@@ -1,108 +1,65 @@
 {
-  "snapshot": "October 1, 2026",
+  "snapshot": "October 2, 2026",
   "papers": [
     {
-      "votes": 93,
-      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
-      "arxiv": "2609.34563",
-      "desc": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words.",
-      "tag": "CV",
+      "votes": 10,
+      "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+      "arxiv": "2609.35259",
+      "desc": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation.",
+      "tag": "Training",
       "extras": [
-        "13 authors",
+        "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 23,
-      "title": "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
-      "arxiv": "2609.38653",
-      "desc": "Recent advances in musculoskeletal modeling and reinforcement learning have enabled muscle-actuated agents to reproduce increasingly complex human motions.",
+      "votes": 10,
+      "title": "Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans",
+      "arxiv": "2606.10953",
+      "desc": "Furnished floor plans support real-estate visualization, interior design, and architectural workflows, yet automatic furnishing remains challenged by limited real-world data and the need to satisfy interacting geometric and functional constraints.",
       "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "Rubric Rewards from Item Response Theory",
-      "arxiv": "2609.35646",
-      "desc": "Many language tasks have no single answer that can be checked automatically.",
-      "tag": "RL",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
-      "arxiv": "2609.32720",
-      "desc": "Reward models score responses from large language models (LLMs) and guide LLM training toward human preferences.",
       "extras": [
         "5 authors",
         "Sep 2026"
       ]
     },
     {
+      "votes": 6,
+      "title": "Decoding Looped Transformers Better for (Almost) Free",
+      "arxiv": "2610.02185",
+      "desc": "Looped Transformers achieve parameter efficiency by repeatedly executing a shared block across recurrent loops.",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
       "votes": 5,
-      "title": "MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution",
-      "arxiv": "2609.38349",
-      "desc": "Modern agentic systems combine an AI model with a harness that controls execution and environmental interactions.",
-      "tag": "Agents",
+      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+      "arxiv": "2610.02117",
+      "desc": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information.",
+      "tag": "Training",
+      "extras": [
+        "5 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
+      "arxiv": "2609.32810",
+      "desc": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through specialist discussions, yet benchmarks rarely capture these real-world trajectories.",
+      "tag": "Benchmark",
       "extras": [
         "12 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "BIABench: Evaluating AI agents on real-world bioimage analysis tasks",
-      "arxiv": "2609.34274",
-      "desc": "Artificial-intelligence (AI) agents hold promise for automating bioimage analysis, yet no benchmark evaluates whether they can carry out real-world analyses end to end.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
-      "arxiv": "2609.39154",
-      "desc": "Deep research tasks require agents to navigate large knowledge spaces, synthesize evidence across many sources, and adapt their plans as findings emerge.",
-      "tag": "Agents",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "SeLMRoute: Probabilistic Semantic Evidence for Large Language Model Routing",
-      "arxiv": "2609.34736",
-      "desc": "Large language model (LLM) routing aims to select the most suitable model for each incoming query.",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Mitigating the Length-Scaling Tax with Online Distillation",
-      "arxiv": "2609.38854",
-      "desc": "Length scaling during reinforcement-learning (RL) post-training is often viewed as a sign of improved reasoning ability, especially on difficult problems, but may also make responses to already-solved problems unnecessarily verbose.",
-      "tag": "Training",
-      "extras": [
-        "4 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Prompted Identity Degrades Cooperation in Multi-Agent LLM Systems",
-      "arxiv": "2609.35928",
-      "desc": "Multi-agent LLM systems increasingly mix models from several providers, yet exposing each agent's underlying model identity to its peers significantly impairs cooperation.",
+      "votes": 3,
+      "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
+      "arxiv": "2609.34210",
+      "desc": "Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in robotics.",
       "tag": "Agents",
       "extras": [
         "5 authors",
@@ -110,57 +67,99 @@
       ]
     },
     {
-      "votes": 1,
-      "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
-      "arxiv": "2609.40195",
-      "desc": "Long-term egocentric video enables personalized AI assistants to reason about daily life.",
+      "votes": 3,
+      "title": "SemanTok: Predictable Semantic Tokens for Efficient Autoregressive Video Generation",
+      "arxiv": "2610.00686",
+      "desc": "Recent video-based world models pair the scalability of autoregressive (AR) prediction with the visual quality of diffusion models.",
       "tag": "CV",
       "extras": [
-        "17 authors",
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "LOCI: Spatial Linear Memory for Streaming World Models",
+      "arxiv": "2609.40222",
+      "desc": "When a camera revisits a previously observed region, a video world model should reproduce what was there before.",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
+      "arxiv": "2609.32993",
+      "desc": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-procedures that recur across tasks, the hierarchy that lets humans plan top-down from reusable routines.",
+      "tag": "Agents",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+      "arxiv": "2610.02202",
+      "desc": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs.",
+      "tag": "Benchmark",
+      "extras": [
+        "14 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport",
+      "arxiv": "2609.36602",
+      "desc": "Transferring human motion to humanoid robots requires adapting the demonstrated motion to the robot morphology while preserving interactions with the environment.",
+      "tag": "RL",
+      "extras": [
+        "8 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text",
-      "arxiv": "2609.40295",
-      "desc": "Web text makes up the majority of pretraining data and is increasingly AI-generated.",
+      "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
+      "arxiv": "2609.37690",
+      "desc": "Video world models require persistent scene memory to maintain consistency during long-horizon video generation.",
+      "tag": "CV",
       "extras": [
-        "7 authors",
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
+      "arxiv": "2610.00437",
+      "desc": "LLM agents generate intermediate reasoning and actions token by token, making extended interactions slow and computationally expensive.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "When Does Correction Become Repair? Mechanistic Auditing of Internal Interventions in Tool-Using LLMs",
+      "arxiv": "2609.36138",
+      "desc": "Before invoking external tools, an agentic LLM must select among a K-way action space: executing a call, seeking clarification, answering directly, or declining.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "Who Said What, and Will It Be Remembered? Evaluating Persistent Speaker Attribution Across Meetings",
-      "arxiv": "2609.39344",
-      "desc": "Speech transcripts used as long-term memory must preserve both words and stable speaker identities.",
-      "tag": "Audio",
+      "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
+      "arxiv": "2610.02142",
+      "desc": "Keyword-matching benchmarks can credit small models for tool use they never perform.",
       "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "SpatialCORE: Confidence-Aware Grounded Spatial Reasoning in Large Vision--Language Models",
-      "arxiv": "2609.38716",
-      "desc": "Large Vision-Language Models (LVLMs) have made remarkable progress across visual perception tasks, yet spatial reasoning remains a persistent weakness, especially for questions that require reasoning over visual space.",
-      "tag": "VLM",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Soft Spatial Reasoning",
-      "arxiv": "2609.38717",
-      "desc": "Large Vision-Language Models (LVLMs) commonly perform spatial reasoning through chain-of-thought (CoT), encoding intermediate reasoning as autoregressive sequences of discrete language tokens.",
-      "tag": "VLM",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
+        "Oct 2026"
       ]
     }
   ]
