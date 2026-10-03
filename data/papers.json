@@ -1,8 +1,8 @@
 {
-  "snapshot": "October 2, 2026",
+  "snapshot": "October 3, 2026",
   "papers": [
     {
-      "votes": 10,
+      "votes": 151,
       "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
       "arxiv": "2609.35259",
       "desc": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation.",
@@ -13,82 +13,38 @@
       ]
     },
     {
-      "votes": 10,
-      "title": "Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans",
-      "arxiv": "2606.10953",
-      "desc": "Furnished floor plans support real-estate visualization, interior design, and architectural workflows, yet automatic furnishing remains challenged by limited real-world data and the need to satisfy interacting geometric and functional constraints.",
-      "tag": "Agents",
+      "votes": 61,
+      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+      "arxiv": "2609.36585",
+      "desc": "Pretrained transformers use little of their depth to follow references in context.",
       "extras": [
-        "5 authors",
+        "3 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "Decoding Looped Transformers Better for (Almost) Free",
-      "arxiv": "2610.02185",
-      "desc": "Looped Transformers achieve parameter efficiency by repeatedly executing a shared block across recurrent loops.",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-      "arxiv": "2610.02117",
-      "desc": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information.",
-      "tag": "Training",
-      "extras": [
-        "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
-      "arxiv": "2609.32810",
-      "desc": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through specialist discussions, yet benchmarks rarely capture these real-world trajectories.",
-      "tag": "Benchmark",
-      "extras": [
-        "12 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
-      "arxiv": "2609.34210",
-      "desc": "Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in robotics.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "SemanTok: Predictable Semantic Tokens for Efficient Autoregressive Video Generation",
-      "arxiv": "2610.00686",
-      "desc": "Recent video-based world models pair the scalability of autoregressive (AR) prediction with the visual quality of diffusion models.",
+      "votes": 43,
+      "title": "Video Generation Models: A Survey of Post-Training and Alignment",
+      "arxiv": "2610.00812",
+      "desc": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics.",
       "tag": "CV",
       "extras": [
-        "6 authors",
+        "13 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "LOCI: Spatial Linear Memory for Streaming World Models",
-      "arxiv": "2609.40222",
-      "desc": "When a camera revisits a previously observed region, a video world model should reproduce what was there before.",
+      "votes": 40,
+      "title": "Persona Dosing: Calibrated Activation Steering for Graded Trait Control",
+      "arxiv": "2609.36388",
+      "desc": "An activation-steering coefficient sets intervention strength, but requesting a particular degree of persona expression requires a behavioral scale.",
       "extras": [
-        "5 authors",
+        "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 2,
+      "votes": 26,
       "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
       "arxiv": "2609.32993",
       "desc": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-procedures that recur across tasks, the hierarchy that lets humans plan top-down from reusable routines.",
@@ -99,7 +55,51 @@
       ]
     },
     {
-      "votes": 2,
+      "votes": 20,
+      "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
+      "arxiv": "2610.01092",
+      "desc": "Video generation models are increasingly being explored as world simulators for embodied planning and learning.",
+      "tag": "CV",
+      "extras": [
+        "13 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 14,
+      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+      "arxiv": "2610.02117",
+      "desc": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information.",
+      "tag": "Training",
+      "extras": [
+        "5 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 11,
+      "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
+      "arxiv": "2609.32810",
+      "desc": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through specialist discussions, yet benchmarks rarely capture these real-world trajectories.",
+      "tag": "Benchmark",
+      "extras": [
+        "12 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "SemanTok: Predictable Semantic Tokens for Efficient Autoregressive Video Generation",
+      "arxiv": "2610.00686",
+      "desc": "Recent video-based world models pair the scalability of autoregressive (AR) prediction with the visual quality of diffusion models.",
+      "tag": "CV",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
       "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
       "arxiv": "2610.02202",
       "desc": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs.",
@@ -110,18 +110,38 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport",
-      "arxiv": "2609.36602",
-      "desc": "Transferring human motion to humanoid robots requires adapting the demonstrated motion to the robot morphology while preserving interactions with the environment.",
-      "tag": "RL",
+      "votes": 9,
+      "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
+      "arxiv": "2609.34210",
+      "desc": "Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in robotics.",
+      "tag": "Agents",
       "extras": [
-        "8 authors",
+        "5 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 1,
+      "votes": 6,
+      "title": "MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization",
+      "arxiv": "2609.36435",
+      "desc": "An assistant that serves the same user over a long horizon has to answer from what that user has revealed: which preferences still hold, which were revised, and which constraints apply now.",
+      "extras": [
+        "9 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration",
+      "arxiv": "2609.22753",
+      "desc": "Natural-language service requests can require a language-model decision before execution starts, consuming part of the request's latency budget.",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
       "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
       "arxiv": "2609.37690",
       "desc": "Video world models require persistent scene memory to maintain consistency during long-horizon video generation.",
@@ -132,29 +152,7 @@
       ]
     },
     {
-      "votes": 1,
-      "title": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
-      "arxiv": "2610.00437",
-      "desc": "LLM agents generate intermediate reasoning and actions token by token, making extended interactions slow and computationally expensive.",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "When Does Correction Become Repair? Mechanistic Auditing of Internal Interventions in Tool-Using LLMs",
-      "arxiv": "2609.36138",
-      "desc": "Before invoking external tools, an agentic LLM must select among a K-way action space: executing a call, seeking clarification, answering directly, or declining.",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 0,
+      "votes": 5,
       "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
       "arxiv": "2610.02142",
       "desc": "Keyword-matching benchmarks can credit small models for tool use they never perform.",
