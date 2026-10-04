@@ -1,8 +1,8 @@
 {
-  "snapshot": "October 3, 2026",
+  "snapshot": "October 4, 2026",
   "papers": [
     {
-      "votes": 151,
+      "votes": 168,
       "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
       "arxiv": "2609.35259",
       "desc": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation.",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "votes": 61,
+      "votes": 63,
       "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
       "arxiv": "2609.36585",
       "desc": "Pretrained transformers use little of their depth to follow references in context.",
@@ -23,13 +23,24 @@
       ]
     },
     {
-      "votes": 43,
+      "votes": 44,
       "title": "Video Generation Models: A Survey of Post-Training and Alignment",
       "arxiv": "2610.00812",
       "desc": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics.",
       "tag": "CV",
       "extras": [
         "13 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 43,
+      "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
+      "arxiv": "2609.32993",
+      "desc": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-procedures that recur across tasks, the hierarchy that lets humans plan top-down from reusable routines.",
+      "tag": "Agents",
+      "extras": [
+        "7 authors",
         "Sep 2026"
       ]
     },
@@ -44,18 +55,7 @@
       ]
     },
     {
-      "votes": 26,
-      "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
-      "arxiv": "2609.32993",
-      "desc": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-procedures that recur across tasks, the hierarchy that lets humans plan top-down from reusable routines.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 20,
+      "votes": 21,
       "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
       "arxiv": "2610.01092",
       "desc": "Video generation models are increasingly being explored as world simulators for embodied planning and learning.",
@@ -77,13 +77,24 @@
       ]
     },
     {
-      "votes": 11,
+      "votes": 12,
       "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
       "arxiv": "2609.32810",
       "desc": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through specialist discussions, yet benchmarks rarely capture these real-world trajectories.",
       "tag": "Benchmark",
       "extras": [
         "12 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
+      "arxiv": "2609.34210",
+      "desc": "Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in robotics.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
         "Sep 2026"
       ]
     },
@@ -107,17 +118,6 @@
       "extras": [
         "14 authors",
         "Oct 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
-      "arxiv": "2609.34210",
-      "desc": "Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in robotics.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
       ]
     },
     {
