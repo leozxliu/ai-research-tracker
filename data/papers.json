@@ -1,108 +1,129 @@
 {
-  "snapshot": "October 4, 2026",
+  "snapshot": "October 5, 2026",
   "papers": [
     {
-      "votes": 168,
-      "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
-      "arxiv": "2609.35259",
-      "desc": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation.",
-      "tag": "Training",
+      "votes": 184,
+      "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+      "arxiv": "2610.01780",
+      "desc": "A companion that talks with a person for months should come to understand them.",
+      "tag": "Benchmark",
       "extras": [
         "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 63,
-      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
-      "arxiv": "2609.36585",
-      "desc": "Pretrained transformers use little of their depth to follow references in context.",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 44,
-      "title": "Video Generation Models: A Survey of Post-Training and Alignment",
-      "arxiv": "2610.00812",
-      "desc": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics.",
-      "tag": "CV",
-      "extras": [
-        "13 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 43,
-      "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
-      "arxiv": "2609.32993",
-      "desc": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-procedures that recur across tasks, the hierarchy that lets humans plan top-down from reusable routines.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 40,
-      "title": "Persona Dosing: Calibrated Activation Steering for Graded Trait Control",
-      "arxiv": "2609.36388",
-      "desc": "An activation-steering coefficient sets intervention strength, but requesting a particular degree of persona expression requires a behavioral scale.",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 21,
-      "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
-      "arxiv": "2610.01092",
-      "desc": "Video generation models are increasingly being explored as world simulators for embodied planning and learning.",
-      "tag": "CV",
-      "extras": [
-        "13 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 14,
-      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-      "arxiv": "2610.02117",
-      "desc": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information.",
+      "votes": 28,
+      "title": "Latent-MOPD: Latent Multi-Teacher On-Policy Distillation",
+      "arxiv": "2610.02381",
+      "desc": "On-policy distillation (OPD) trains a student on the responses it generates.",
       "tag": "Training",
       "extras": [
+        "7 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 17,
+      "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+      "arxiv": "2609.38096",
+      "desc": "Policies with similar mean returns can differ sharply in rare failures, yet estimating lower-tail conditional value-at-risk (CVaR) accurately can require many costly rollouts.",
+      "extras": [
         "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 14,
+      "title": "Language Models that Play Chess and Explain Their Moves",
+      "arxiv": "2610.03695",
+      "desc": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play.",
+      "extras": [
+        "3 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 12,
-      "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
-      "arxiv": "2609.32810",
-      "desc": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through specialist discussions, yet benchmarks rarely capture these real-world trajectories.",
-      "tag": "Benchmark",
+      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "arxiv": "2610.03715",
+      "desc": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs.",
+      "tag": "Agents",
       "extras": [
-        "12 authors",
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "Beyond Future Prediction: Denoising as Generative Adaptation for Robot Control",
+      "arxiv": "2609.28339",
+      "desc": "Pretrained generative Diffusion Transformers (DiTs) capture rich pixel-level visual and language-conditioned structure through large-scale image and video generation training.",
+      "tag": "Diffusion",
+      "extras": [
+        "7 authors",
         "Sep 2026"
       ]
     },
     {
       "votes": 10,
-      "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
-      "arxiv": "2609.34210",
-      "desc": "Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in robotics.",
+      "title": "WEFT: Scaling Tool-Use Post-Training for General-Purpose Agents",
+      "arxiv": "2609.36887",
+      "desc": "Recent efforts to scale tool-use post-training have largely centered on the synthesis of executable environments, which constitute only one component of a broader agentic interaction system comprising the environment, task, agent harness, and evaluator.",
       "tag": "Agents",
+      "extras": [
+        "20 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "MinkowskiPE: Minkowski Positional Encoding for Spatiotemporal Perception",
+      "arxiv": "2609.33804",
+      "desc": "Modeling spatiotemporal coupling is a key challenge in building physical intelligence across scales, from microscopic to macroscopic.",
+      "extras": [
+        "7 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models",
+      "arxiv": "2609.39820",
+      "desc": "Vision-language-action (VLA) models generalize broadly across robotic manipulation tasks, but complex environments require balancing task success with unintended contact.",
+      "tag": "VLM",
       "extras": [
         "5 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 10,
-      "title": "SemanTok: Predictable Semantic Tokens for Efficient Autoregressive Video Generation",
-      "arxiv": "2610.00686",
-      "desc": "Recent video-based world models pair the scalability of autoregressive (AR) prediction with the visual quality of diffusion models.",
+      "votes": 7,
+      "title": "Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification",
+      "arxiv": "2609.30467",
+      "desc": "Retrieval-based factuality evaluation, where LLM-generated claims are verified against evidence from authoritative medical corpora, has become the dominant paradigm for scalable hallucination detection in high-stakes clinical settings.",
+      "tag": "Retrieval",
+      "extras": [
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "From Gradients to Capabilities: Understanding Multi-Teacher On-Policy Distillation",
+      "arxiv": "2610.02179",
+      "desc": "Multi-teacher on-policy distillation (MOPD) aims to combine the strengths of RL-trained teachers in a single student, but how teacher signals affect parameter changes remains underexplored.",
+      "tag": "Training",
+      "extras": [
+        "7 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models",
+      "arxiv": "2609.26425",
+      "desc": "Video world models achieve long-range temporal consistency by storing KV cache during generation, but the growing cache makes KV cache memory a major deployment bottleneck, which motivates low-bit quantization study for efficiency.",
       "tag": "CV",
       "extras": [
         "6 authors",
@@ -110,54 +131,34 @@
       ]
     },
     {
-      "votes": 9,
-      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-      "arxiv": "2610.02202",
-      "desc": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs.",
-      "tag": "Benchmark",
+      "votes": 4,
+      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+      "arxiv": "2610.03710",
+      "desc": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera.",
+      "tag": "RL",
       "extras": [
-        "14 authors",
+        "10 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization",
-      "arxiv": "2609.36435",
-      "desc": "An assistant that serves the same user over a long horizon has to answer from what that user has revealed: which preferences still hold, which were revised, and which constraints apply now.",
-      "extras": [
-        "9 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration",
-      "arxiv": "2609.22753",
-      "desc": "Natural-language service requests can require a language-model decision before execution starts, consuming part of the request's latency budget.",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
-      "arxiv": "2609.37690",
-      "desc": "Video world models require persistent scene memory to maintain consistency during long-horizon video generation.",
+      "votes": 3,
+      "title": "KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding",
+      "arxiv": "2609.32182",
+      "desc": "Vision-language models are increasingly used to understand long videos and continuous streams.",
       "tag": "CV",
       "extras": [
-        "9 authors",
+        "7 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
-      "arxiv": "2610.02142",
-      "desc": "Keyword-matching benchmarks can credit small models for tool use they never perform.",
+      "votes": 1,
+      "title": "The Extender: A Log-Structured Transformer",
+      "arxiv": "2609.32759",
+      "desc": "We introduce the Extender, a log-structured variant of the standard Transformer architecture.",
       "extras": [
-        "Oct 2026"
+        "Sep 2026"
       ]
     }
   ]
