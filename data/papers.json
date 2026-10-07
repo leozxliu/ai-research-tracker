@@ -1,165 +1,162 @@
 {
-  "snapshot": "October 6, 2026",
+  "snapshot": "October 7, 2026",
   "papers": [
     {
-      "votes": 7,
-      "title": "Video2Skill: From Streaming Experience to Reusable Embodied Skills",
-      "arxiv": "2609.36691",
-      "desc": "Manipulation behaviors vary widely across objects and scenes, but they share a small set of reusable skills, and planning with these skills helps embodied agents generalize to new tasks.",
+      "votes": 52,
+      "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+      "arxiv": "2610.07557",
+      "desc": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback.",
       "tag": "Agents",
       "extras": [
-        "9 authors",
-        "Sep 2026"
+        "12 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "DiffGate: Difficulty-Gated Teacher Guidance for On-Policy Distillation",
+      "arxiv": "2610.04596",
+      "desc": "On-policy distillation (OPD) has emerged as a widely used paradigm for post-training large language models, reducing the train--test mismatch of conventional distillation by supervising the student on its own generated trajectories.",
+      "tag": "Training",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "Rationale-Guided Policy Optimization: Learning to Reason with Adaptive Rationale Scaffolding",
+      "arxiv": "2610.07342",
+      "desc": "On-policy reinforcement learning has become a central paradigm for improving the reasoning abilities of large language models.",
+      "tag": "RL",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
       ]
     },
     {
       "votes": 6,
-      "title": "ProgressCompass: Embodied Progress Reward Models Are Lost Without the Right Context",
-      "arxiv": "2609.36684",
-      "desc": "Embodied agents now take on ever longer tasks.",
-      "tag": "Agents",
+      "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+      "arxiv": "2610.08778",
+      "desc": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it.",
+      "tag": "RL",
       "extras": [
-        "9 authors",
-        "Sep 2026"
+        "5 authors",
+        "Oct 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents",
-      "arxiv": "2610.02320",
-      "desc": "Computer-use agents need to reliably ground action targets in complex desktop scenes, where multiple applications, overlapping windows, and visually similar controls compete for attention.",
-      "tag": "Agents",
+      "votes": 4,
+      "title": "A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies",
+      "arxiv": "2610.05166",
+      "desc": "A safe action is not necessarily a viable one.",
+      "tag": "VLM",
       "extras": [
-        "5 authors",
+        "7 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 3,
-      "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
-      "arxiv": "2610.02331",
-      "desc": "Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored.",
-      "tag": "Agents",
+      "title": "Learning Functional Subspaces for Neural Network Compression",
+      "arxiv": "2609.40127",
+      "desc": "Modern transformers pair impressive capabilities with substantial memory and compute demands.",
       "extras": [
-        "18 authors",
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "OPD Before RL: Warm-Starting Rubric-Based RL with On-Policy Distillation",
+      "arxiv": "2610.02781",
+      "desc": "Many useful language-model tasks cannot be evaluated by exact outcome verification.",
+      "tag": "RL",
+      "extras": [
+        "6 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "COSMI: COmpositional Synthesis of Multi-object Interactions",
-      "arxiv": "2610.03252",
-      "desc": "Generative models of human-object interaction are bounded by the data that exists: everyday activities involve several objects, but most captured datasets record one at a time, as multi-object capture is combinatorially expensive.",
-      "tag": "Diffusion",
+      "title": "Stepped MoE: Segment-Level Routing with Configurable Inference Complexity",
+      "arxiv": "2610.07348",
+      "desc": "Training large language models (LLMs) is resource-intensive, and adapting them for diverse deployment scenarios with varying computational constraints remains challenging.",
       "extras": [
-        "3 authors",
+        "6 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Adaptive Fused Prior Transfer for Controllable Generative Image Compression",
-      "arxiv": "2605.16817",
-      "desc": "Learned image compression achieves competitive rate-distortion performance, but very-low-bitrate reconstruction remains challenging because the transmitted representation cannot preserve fine textures and local structures.",
-      "tag": "CV",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "LLM-as-Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
-      "arxiv": "2610.02076",
-      "desc": "Jev-style decision models return categorical probability distributions over predefined options without generating free-form text, enabling software systems to act on their outputs directly.",
-      "tag": "Multimodal",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Collaborative Personalized Preference Alignment for LLMs under Data Deficiency",
-      "arxiv": "2610.05898",
-      "desc": "Real-world users often exhibit highly heterogeneous preferences over multiple objectives for LLM responses.",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
-      "arxiv": "2610.05750",
-      "desc": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data.",
+      "votes": 2,
+      "title": "Multilinguality in Hybrid Attention LLMs",
+      "arxiv": "2609.35378",
+      "desc": "In response to the growing demand for long sequences in agentic and reasoning use cases, many state-of-the-art LLMs combine multiple variants of attention to mitigate the quadratic complexity of traditional softmax attention.",
       "tag": "Agents",
       "extras": [
-        "11 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Learning Latent Protein Languages for Autoregressive Generation",
-      "arxiv": "2610.03978",
-      "desc": "Autoregressive transformers remain comparatively weak for protein sequence and structure generation.",
-      "extras": [
         "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
-      "arxiv": "2610.05790",
-      "desc": "Remote sensing foundation models (RSFMs) are commonly evaluated using aggregate metrics, which can hide systematic performance disparities across ecological regions.",
-      "tag": "Benchmark",
-      "extras": [
-        "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "MM-ABC: Towards Generalist Mobile Manipulation via Seeing, Coordinating and Imagining",
-      "arxiv": "2609.35652",
-      "desc": "Mobile manipulation extends robot interaction beyond a fixed kinematic workspace by making the reachable region itself controllable.",
-      "tag": "VLM",
-      "extras": [
-        "9 authors",
         "Sep 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "Labels Override Definitions in Jev-Style Typed Decision Models",
-      "arxiv": "2610.02586",
-      "desc": "A typed decision model answers a fixed question about an input by returning a probability for each of several caller-defined options.",
+      "votes": 2,
+      "title": "Do Language Models Need a Trainable Input Embedding Table? Fixed Minimal Token Codes at 1.7B-Class Scale",
+      "arxiv": "2610.04002",
+      "desc": "A trainable input embedding table assigns each vocabulary item an independently adjustable vector.",
+      "extras": [
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Sensor-Language-Action Models",
+      "arxiv": "2610.08244",
+      "desc": "Sensors are useful not only for understanding the world but also for deciding what to do next.",
+      "tag": "Multimodal",
       "extras": [
         "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "iADD: Improving Alignment and Diversity in Diffusion Policy Optimization",
-      "arxiv": "2610.01789",
-      "desc": "Reinforcement learning based post training of diffusion models, such as Denoising Diffusion Policy Optimization (DDPO), optimizes a reverse diffusion process under a reward function.",
-      "tag": "Diffusion",
+      "votes": 1,
+      "title": "Kinematic MeanFlow: One-Step Action Generation Policy for Robotic Foundation Models",
+      "arxiv": "2610.00864",
+      "desc": "In this paper, we study how to achieve one-step action generation in Robotic Foundation Models (RFMs), aiming to overcome the high inference latency of multi-step flow matching.",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Cross-Lingual Alignment for Decoder-Only Models using MoE Routers",
+      "arxiv": "2610.01921",
+      "desc": "Cross-lingual contrastive learning has been a core component of multilingual encoder training, but the ability to explicitly align representations is not possible in decoder-only LLMs because of varying multilingual tokenization.",
       "extras": [
         "5 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "Foresight: planning future perception in streaming VLMs without retraining",
-      "arxiv": "2610.03123",
-      "desc": "Existing streaming vision-language models (VLMs) continuously perceive and reason over visual streams, but their computational pathways remain fixed throughout inference.",
-      "tag": "VLM",
+      "votes": 1,
+      "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
+      "arxiv": "2610.06847",
+      "desc": "Bidirectional video diffusion models denoise entire videos in parallel, yet when trained on effectively unlimited in-distribution data from procedural generators, continue to violate physical laws and simple symbolic rules.",
+      "tag": "Diffusion",
       "extras": [
-        "8 authors",
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Conditional Trajectory Peaks: Single-Pass Multimodal Policies over Action Chunks",
+      "arxiv": "2610.06104",
+      "desc": "Multimodal imitation learning requires diverse executable futures under the same observation and consistent behavior across replanning cycles.",
+      "tag": "Multimodal",
+      "extras": [
+        "7 authors",
         "Oct 2026"
       ]
     }
