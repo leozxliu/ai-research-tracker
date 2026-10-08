@@ -1,33 +1,22 @@
 {
-  "snapshot": "October 7, 2026",
+  "snapshot": "October 8, 2026",
   "papers": [
     {
-      "votes": 52,
-      "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
-      "arxiv": "2610.07557",
-      "desc": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback.",
-      "tag": "Agents",
+      "votes": 19,
+      "title": "NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis",
+      "arxiv": "2610.04722",
+      "desc": "Sparse-view novel view synthesis is a central problem in 3D content creation, but diffusion-based approaches remain limited by iterative denoising, making multi-view generation expensive at inference time.",
+      "tag": "CV",
       "extras": [
-        "12 authors",
+        "6 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 12,
-      "title": "DiffGate: Difficulty-Gated Teacher Guidance for On-Policy Distillation",
-      "arxiv": "2610.04596",
-      "desc": "On-policy distillation (OPD) has emerged as a widely used paradigm for post-training large language models, reducing the train--test mismatch of conventional distillation by supervising the student on its own generated trajectories.",
-      "tag": "Training",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "Rationale-Guided Policy Optimization: Learning to Reason with Adaptive Rationale Scaffolding",
-      "arxiv": "2610.07342",
-      "desc": "On-policy reinforcement learning has become a central paradigm for improving the reasoning abilities of large language models.",
+      "votes": 14,
+      "title": "Q-Learning with Scalar Adjoint Matching",
+      "arxiv": "2610.10437",
+      "desc": "Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond the demonstrations has drawn growing interest.",
       "tag": "RL",
       "extras": [
         "6 authors",
@@ -35,128 +24,142 @@
       ]
     },
     {
-      "votes": 6,
-      "title": "Sherpa: Teaching LLMs to Teach Adaptively",
-      "arxiv": "2610.08778",
-      "desc": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it.",
-      "tag": "RL",
+      "votes": 9,
+      "title": "A self-learning scientific agent for X-ray diffraction",
+      "arxiv": "2610.07862",
+      "desc": "A central challenge for scientific agents is to turn analytical experience into reusable expertise grounded in physical evidence.",
+      "tag": "Agents",
       "extras": [
-        "5 authors",
+        "10 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies",
-      "arxiv": "2610.05166",
-      "desc": "A safe action is not necessarily a viable one.",
-      "tag": "VLM",
+      "votes": 7,
+      "title": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
+      "arxiv": "2610.09484",
+      "desc": "Training and evaluating interactive language agents typically requires rich user interactions, yet collecting human feedback is expensive and difficult to scale.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "SheetSage2: Coherent Lead-Sheet Transcription with Synthetic Supervision",
+      "arxiv": "2610.05336",
+      "desc": "Transcribing music into a human-readable score requires a coherent understanding of rhythm, harmony, melody, and form.",
+      "tag": "Audio",
       "extras": [
         "7 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Learning Functional Subspaces for Neural Network Compression",
-      "arxiv": "2609.40127",
-      "desc": "Modern transformers pair impressive capabilities with substantial memory and compute demands.",
+      "votes": 6,
+      "title": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
+      "arxiv": "2610.09450",
+      "desc": "Pixel-space diffusion models avoid the lossy VAE of latent models, which suggests an advantage on downstream tasks where fine-grained detail matters.",
+      "tag": "Diffusion",
       "extras": [
-        "8 authors",
-        "Sep 2026"
+        "2 authors",
+        "Oct 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "OPD Before RL: Warm-Starting Rubric-Based RL with On-Policy Distillation",
-      "arxiv": "2610.02781",
-      "desc": "Many useful language-model tasks cannot be evaluated by exact outcome verification.",
-      "tag": "RL",
+      "votes": 5,
+      "title": "Composing What Each Teacher Learned: Multi-Teacher On-Policy Distillation through Teacher-Relative Shifts",
+      "arxiv": "2610.10460",
+      "desc": "Multi-teacher on-policy distillation (MOPD) is used in two settings.",
+      "tag": "Training",
       "extras": [
         "6 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Stepped MoE: Segment-Level Routing with Configurable Inference Complexity",
-      "arxiv": "2610.07348",
-      "desc": "Training large language models (LLMs) is resource-intensive, and adapting them for diverse deployment scenarios with varying computational constraints remains challenging.",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Multilinguality in Hybrid Attention LLMs",
-      "arxiv": "2609.35378",
-      "desc": "In response to the growing demand for long sequences in agentic and reasoning use cases, many state-of-the-art LLMs combine multiple variants of attention to mitigate the quadratic complexity of traditional softmax attention.",
+      "votes": 5,
+      "title": "UniSkill: Learning Actor-Aligned Skill Proposals for an Evolving Policy",
+      "arxiv": "2610.10164",
+      "desc": "Large language model agents can improve across tasks by retaining reusable skills distilled from prior interactions.",
       "tag": "Agents",
       "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Do Language Models Need a Trainable Input Embedding Table? Fixed Minimal Token Codes at 1.7B-Class Scale",
-      "arxiv": "2610.04002",
-      "desc": "A trainable input embedding table assigns each vocabulary item an independently adjustable vector.",
-      "extras": [
+        "7 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Sensor-Language-Action Models",
-      "arxiv": "2610.08244",
-      "desc": "Sensors are useful not only for understanding the world but also for deciding what to do next.",
-      "tag": "Multimodal",
+      "votes": 2,
+      "title": "CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video",
+      "arxiv": "2610.05324",
+      "desc": "Partnered human-humanoid interaction couples locomotion with continuous physical contact.",
+      "tag": "CV",
       "extras": [
         "3 authors",
         "Oct 2026"
       ]
     },
     {
+      "votes": 2,
+      "title": "FastOPD: On-Policy Distillation for Lightweight VLA Deployment",
+      "arxiv": "2610.02832",
+      "desc": "Vision-Language-Action (VLA) foundation models have scaled rapidly to enhance manipulation performance and generalizability, but this scaling incurs high computational costs that render real-world deployment increasingly challenging.",
+      "tag": "Training",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
       "votes": 1,
-      "title": "Kinematic MeanFlow: One-Step Action Generation Policy for Robotic Foundation Models",
-      "arxiv": "2610.00864",
-      "desc": "In this paper, we study how to achieve one-step action generation in Robotic Foundation Models (RFMs), aiming to overcome the high inference latency of multi-step flow matching.",
+      "title": "Lineage-Aware Memory Governance: A Derivation-Gated Framework for Privacy-Preserving Column-Level Access Control in Enterprise AI Agents",
+      "arxiv": "2610.07258",
+      "desc": "Enterprise AI agents that share a memory store face two unaddressed risks: sensitive data can leak through legitimately computed results the requester could not derive, and departments can silently compute a same-named key performance indicator (KPI) through conflicting logic.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation",
+      "arxiv": "2609.38466",
+      "desc": "Text-conditioned full-body human-object interaction (HOI) generation requires synthesizing human motion and object trajectories that match the input text while remaining precisely coordinated over time.",
+      "extras": [
+        "5 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "TIDES: Implicit Time-Awareness in Selective State Space Models",
+      "arxiv": "2605.09742",
+      "desc": "Selective state space models (SSMs), such as Mamba, achieve strong per-token expressivity by making the time discretization step TildeΔ a learned function of the input.",
       "extras": [
         "4 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Cross-Lingual Alignment for Decoder-Only Models using MoE Routers",
-      "arxiv": "2610.01921",
-      "desc": "Cross-lingual contrastive learning has been a core component of multilingual encoder training, but the ability to explicitly align representations is not possible in decoder-only LLMs because of varying multilingual tokenization.",
+      "votes": 0,
+      "title": "How corner is a corner case? Percentile control for highway scenario generation",
+      "arxiv": "2610.05003",
+      "desc": "Generating corner-case scenarios with appropriate adversity in a simulation environment is critical for testing an autonomous vehicle (AV) software stack's safety performance before deployment.",
+      "tag": "Agents",
       "extras": [
-        "5 authors",
+        "8 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
-      "arxiv": "2610.06847",
-      "desc": "Bidirectional video diffusion models denoise entire videos in parallel, yet when trained on effectively unlimited in-distribution data from procedural generators, continue to violate physical laws and simple symbolic rules.",
-      "tag": "Diffusion",
+      "votes": 0,
+      "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
+      "arxiv": "2610.09683",
+      "desc": "Dual-process agents pair a fast policy with a slow deliberative model.",
+      "tag": "Agents",
       "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Conditional Trajectory Peaks: Single-Pass Multimodal Policies over Action Chunks",
-      "arxiv": "2610.06104",
-      "desc": "Multimodal imitation learning requires diverse executable futures under the same observation and consistent behavior across replanning cycles.",
-      "tag": "Multimodal",
-      "extras": [
-        "7 authors",
         "Oct 2026"
       ]
     }
