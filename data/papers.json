@@ -1,152 +1,11 @@
 {
-  "snapshot": "October 8, 2026",
+  "snapshot": "October 9, 2026",
   "papers": [
     {
-      "votes": 19,
-      "title": "NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis",
-      "arxiv": "2610.04722",
-      "desc": "Sparse-view novel view synthesis is a central problem in 3D content creation, but diffusion-based approaches remain limited by iterative denoising, making multi-view generation expensive at inference time.",
-      "tag": "CV",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 14,
-      "title": "Q-Learning with Scalar Adjoint Matching",
-      "arxiv": "2610.10437",
-      "desc": "Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond the demonstrations has drawn growing interest.",
-      "tag": "RL",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "A self-learning scientific agent for X-ray diffraction",
-      "arxiv": "2610.07862",
-      "desc": "A central challenge for scientific agents is to turn analytical experience into reusable expertise grounded in physical evidence.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
-      "arxiv": "2610.09484",
-      "desc": "Training and evaluating interactive language agents typically requires rich user interactions, yet collecting human feedback is expensive and difficult to scale.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "SheetSage2: Coherent Lead-Sheet Transcription with Synthetic Supervision",
-      "arxiv": "2610.05336",
-      "desc": "Transcribing music into a human-readable score requires a coherent understanding of rhythm, harmony, melody, and form.",
-      "tag": "Audio",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
-      "arxiv": "2610.09450",
-      "desc": "Pixel-space diffusion models avoid the lossy VAE of latent models, which suggests an advantage on downstream tasks where fine-grained detail matters.",
-      "tag": "Diffusion",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Composing What Each Teacher Learned: Multi-Teacher On-Policy Distillation through Teacher-Relative Shifts",
-      "arxiv": "2610.10460",
-      "desc": "Multi-teacher on-policy distillation (MOPD) is used in two settings.",
-      "tag": "Training",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "UniSkill: Learning Actor-Aligned Skill Proposals for an Evolving Policy",
-      "arxiv": "2610.10164",
-      "desc": "Large language model agents can improve across tasks by retaining reusable skills distilled from prior interactions.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video",
-      "arxiv": "2610.05324",
-      "desc": "Partnered human-humanoid interaction couples locomotion with continuous physical contact.",
-      "tag": "CV",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "FastOPD: On-Policy Distillation for Lightweight VLA Deployment",
-      "arxiv": "2610.02832",
-      "desc": "Vision-Language-Action (VLA) foundation models have scaled rapidly to enhance manipulation performance and generalizability, but this scaling incurs high computational costs that render real-world deployment increasingly challenging.",
-      "tag": "Training",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Lineage-Aware Memory Governance: A Derivation-Gated Framework for Privacy-Preserving Column-Level Access Control in Enterprise AI Agents",
-      "arxiv": "2610.07258",
-      "desc": "Enterprise AI agents that share a memory store face two unaddressed risks: sensitive data can leak through legitimately computed results the requester could not derive, and departments can silently compute a same-named key performance indicator (KPI) through conflicting logic.",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation",
-      "arxiv": "2609.38466",
-      "desc": "Text-conditioned full-body human-object interaction (HOI) generation requires synthesizing human motion and object trajectories that match the input text while remaining precisely coordinated over time.",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "TIDES: Implicit Time-Awareness in Selective State Space Models",
-      "arxiv": "2605.09742",
-      "desc": "Selective state space models (SSMs), such as Mamba, achieve strong per-token expressivity by making the time discretization step TildeΔ a learned function of the input.",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "How corner is a corner case? Percentile control for highway scenario generation",
-      "arxiv": "2610.05003",
-      "desc": "Generating corner-case scenarios with appropriate adversity in a simulation environment is critical for testing an autonomous vehicle (AV) software stack's safety performance before deployment.",
+      "votes": 22,
+      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+      "arxiv": "2610.11794",
+      "desc": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives.",
       "tag": "Agents",
       "extras": [
         "8 authors",
@@ -154,12 +13,154 @@
       ]
     },
     {
-      "votes": 0,
-      "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
-      "arxiv": "2610.09683",
-      "desc": "Dual-process agents pair a fast policy with a slow deliberative model.",
+      "votes": 4,
+      "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
+      "arxiv": "2610.12183",
+      "desc": "Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited.",
       "tag": "Agents",
       "extras": [
+        "11 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "arxiv": "2610.10549",
+      "desc": "Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+      "arxiv": "2610.08927",
+      "desc": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+      "arxiv": "2610.12448",
+      "desc": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation.",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI",
+      "arxiv": "2610.09146",
+      "desc": "Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve.",
+      "tag": "Multimodal",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Incremental Open-Ended Deep Research with Structured Harness",
+      "arxiv": "2610.11566",
+      "desc": "Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges.",
+      "tag": "Retrieval",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
+      "arxiv": "2606.03335",
+      "desc": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation.",
+      "tag": "RL",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution",
+      "arxiv": "2609.35855",
+      "desc": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights.",
+      "tag": "Retrieval",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
+      "arxiv": "2610.08585",
+      "desc": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning.",
+      "tag": "Audio",
+      "extras": [
+        "7 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
+      "arxiv": "2610.04875",
+      "desc": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in a single forward pass.",
+      "tag": "Diffusion",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
+      "arxiv": "2610.10355",
+      "desc": "Text-to-music systems produce increasingly convincing audio, yet evaluation reveals little about whether the result matches user intent.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
+      "arxiv": "2610.12423",
+      "desc": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors.",
+      "tag": "Benchmark",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation",
+      "arxiv": "2610.03136",
+      "desc": "Reasoning traces improve large language models (LLMs), but current models are trained to reason mostly in English.",
+      "tag": "Retrieval",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "You Changed Your Mind, The Model Didn't: Demystifying Intent in Multi-Turn Dialogue",
+      "arxiv": "2610.06496",
+      "desc": "When a large language model handles a multi-turn task and a user proposes a change but ultimately rejects it, the model should continue as if nothing changed.",
+      "extras": [
+        "8 authors",
         "Oct 2026"
       ]
     }
