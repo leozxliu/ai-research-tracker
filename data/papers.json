@@ -1,25 +1,58 @@
 {
-  "snapshot": "October 9, 2026",
+  "snapshot": "October 10, 2026",
   "papers": [
     {
-      "votes": 22,
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "arxiv": "2610.11794",
-      "desc": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives.",
-      "tag": "Agents",
+      "votes": 15,
+      "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
+      "arxiv": "2610.12423",
+      "desc": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors.",
+      "tag": "Benchmark",
       "extras": [
-        "8 authors",
+        "9 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
-      "arxiv": "2610.12183",
-      "desc": "Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited.",
+      "votes": 10,
+      "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+      "arxiv": "2609.33987",
+      "desc": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem.",
       "tag": "Agents",
       "extras": [
-        "11 authors",
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
+      "arxiv": "2606.03335",
+      "desc": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation.",
+      "tag": "RL",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution",
+      "arxiv": "2609.35855",
+      "desc": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights.",
+      "tag": "Retrieval",
+      "extras": [
+        "6 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+      "arxiv": "2610.08927",
+      "desc": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
         "Oct 2026"
       ]
     },
@@ -36,22 +69,23 @@
     },
     {
       "votes": 3,
-      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
-      "arxiv": "2610.08927",
-      "desc": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear.",
-      "tag": "Agents",
+      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
+      "arxiv": "2610.04875",
+      "desc": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in a single forward pass.",
+      "tag": "Diffusion",
       "extras": [
-        "2 authors",
+        "6 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
-      "arxiv": "2610.12448",
-      "desc": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation.",
+      "votes": 2,
+      "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
+      "arxiv": "2610.08585",
+      "desc": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning.",
+      "tag": "Audio",
       "extras": [
-        "3 authors",
+        "7 authors",
         "Oct 2026"
       ]
     },
@@ -68,61 +102,6 @@
     },
     {
       "votes": 2,
-      "title": "Incremental Open-Ended Deep Research with Structured Harness",
-      "arxiv": "2610.11566",
-      "desc": "Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges.",
-      "tag": "Retrieval",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
-      "arxiv": "2606.03335",
-      "desc": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation.",
-      "tag": "RL",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution",
-      "arxiv": "2609.35855",
-      "desc": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights.",
-      "tag": "Retrieval",
-      "extras": [
-        "6 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
-      "arxiv": "2610.08585",
-      "desc": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning.",
-      "tag": "Audio",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
-      "arxiv": "2610.04875",
-      "desc": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in a single forward pass.",
-      "tag": "Diffusion",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
       "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
       "arxiv": "2610.10355",
       "desc": "Text-to-music systems produce increasingly convincing audio, yet evaluation reveals little about whether the result matches user intent.",
@@ -134,33 +113,52 @@
     },
     {
       "votes": 1,
-      "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
-      "arxiv": "2610.12423",
-      "desc": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors.",
-      "tag": "Benchmark",
-      "extras": [
-        "9 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation",
-      "arxiv": "2610.03136",
-      "desc": "Reasoning traces improve large language models (LLMs), but current models are trained to reason mostly in English.",
-      "tag": "Retrieval",
+      "title": "The Lattice of Transition Laws",
+      "arxiv": "2610.11216",
+      "desc": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens.",
+      "tag": "Diffusion",
       "extras": [
         "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "You Changed Your Mind, The Model Didn't: Demystifying Intent in Multi-Turn Dialogue",
-      "arxiv": "2610.06496",
-      "desc": "When a large language model handles a multi-turn task and a user proposes a change but ultimately rejects it, the model should continue as if nothing changed.",
+      "votes": 1,
+      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+      "arxiv": "2610.11169",
+      "desc": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user.",
+      "tag": "Agents",
       "extras": [
-        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Predicting Cable Dynamics with Physical Attention Bias",
+      "arxiv": "2610.11975",
+      "desc": "Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts.",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
+      "arxiv": "2609.38527",
+      "desc": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights.",
+      "tag": "Agents",
+      "extras": [
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+      "arxiv": "2610.09280",
+      "desc": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D).",
+      "tag": "3D",
+      "extras": [
         "Oct 2026"
       ]
     }
