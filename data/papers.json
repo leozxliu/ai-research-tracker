@@ -1,163 +1,161 @@
 {
-  "snapshot": "October 13, 2026",
+  "snapshot": "October 14, 2026",
   "papers": [
     {
-      "votes": 241,
-      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-      "arxiv": "2609.39601",
-      "desc": "Precise grounding matters.",
-      "tag": "CV",
+      "votes": 21,
+      "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
+      "arxiv": "2610.14766",
+      "desc": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear.",
+      "tag": "Benchmark",
       "extras": [
-        "26 authors",
-        "Sep 2026"
+        "15 authors",
+        "Oct 2026"
       ]
     },
     {
-      "votes": 201,
-      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
-      "arxiv": "2610.13361",
-      "desc": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows.",
+      "votes": 7,
+      "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
+      "arxiv": "2610.14158",
+      "desc": "Understanding and tracking a dynamic world are fundamental to visual intelligence.",
       "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
+      "arxiv": "2610.18579",
+      "desc": "System One models choose an agent's next action by scoring a supplied set of options in a single pass.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Omni-Modal LLMs Know More Than They Say",
+      "arxiv": "2610.16135",
+      "desc": "Omni-modal large language models (Omni-LLMs) extend LLMs to process heterogeneous modalities (e.g., vision, audio, and IMU signals) alongside language, enabling a broader range of multimodal tasks.",
+      "tag": "Multimodal",
       "extras": [
         "5 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 132,
-      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
-      "arxiv": "2610.13166",
-      "desc": "Terminal agents are moving beyond local operations toward completing real-world professional tasks.",
+      "votes": 2,
+      "title": "WorldCast: Distributed Multiplayer World Models",
+      "arxiv": "2610.12412",
+      "desc": "Multiplayer world models must generate independently controlled views with consistent representations of both players and their shared environment.",
+      "extras": [
+        "12 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
+      "arxiv": "2610.18760",
+      "desc": "Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier attempt.",
       "tag": "Agents",
       "extras": [
-        "9 authors",
+        "7 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 75,
-      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
-      "arxiv": "2610.09326",
-      "desc": "Video interactive storytelling enables viewers to actively steer how a video unfolds.",
-      "tag": "CV",
-      "extras": [
-        "13 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 69,
-      "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
-      "arxiv": "2609.39600",
-      "desc": "Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens.",
-      "tag": "CV",
-      "extras": [
-        "22 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 20,
-      "title": "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
-      "arxiv": "2609.36616",
-      "desc": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records.",
+      "votes": 1,
+      "title": "ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models",
+      "arxiv": "2610.18596",
+      "desc": "Reinforcement learning (RL) post-training improves robot foundation models (RFMs) beyond their demonstrations, but real-world deployment demands more: learning new tasks efficiently while retaining previously acquired behaviors.",
       "tag": "RL",
-      "extras": [
-        "7 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
-      "arxiv": "2610.12933",
-      "desc": "Large language models have achieved remarkable advances in complex reasoning.",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Branching On-Policy Distillation",
-      "arxiv": "2610.13481",
-      "desc": "On-policy distillation (OPD) provides teacher supervision on student-generated trajectories, but a single trajectory realizes only one continuation at each decision, limiting supervision coverage under a finite sampling budget.",
-      "tag": "Training",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Initialization Improves LLM-Driven Discovery",
-      "arxiv": "2610.00707",
-      "desc": "Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through the use of harnesses that prompt an LLM to iteratively optimize an objective.",
-      "extras": [
-        "3 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps",
-      "arxiv": "2610.02740",
-      "desc": "Reinforcement learning for long-horizon agents relies on purely retrospective training signals: credit is assigned only after observing environmental consequences, leaving the agent's belief at action time invisible to the gradient.",
-      "tag": "RL",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Evaluating LLM Creativity through Long-Tail Performance",
-      "arxiv": "2610.12998",
-      "desc": "Creativity benchmarks for large language models (LLMs) vary widely in task and metric design.",
       "extras": [
         "4 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
-      "arxiv": "2610.03825",
-      "desc": "A benchmark score compares a system output against a reference, and methodological attention falls almost entirely on the first term.",
-      "tag": "Benchmark",
+      "votes": 1,
+      "title": "Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents",
+      "arxiv": "2610.18614",
+      "desc": "Controlling an acting LLM agent means deciding, at each step of a long-horizon task, whether to trust its next action, abstain, or hand off to a human.",
+      "tag": "Agents",
+      "extras": [
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation",
+      "arxiv": "2610.18352",
+      "desc": "A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene changes.",
+      "tag": "Multimodal",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Scaling Repeated-Data Pretraining: Batch Size, Regularization, and GPU-Time Tradeoffs",
+      "arxiv": "2610.15965",
+      "desc": "We study pretraining when compute is abundant but unique training data are finite, requiring repeated training on the same data.",
+      "tag": "Training",
+      "extras": [
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
+      "arxiv": "2610.14351",
+      "desc": "World-action models inherit broad visual and physical priors from video pre-training.",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Privacy-Preserving Intent Fulfilment and Assurance for 6G RAN",
+      "arxiv": "2607.08809",
+      "desc": "Intent-based network management automates 6G service lifecycles, but existing fulfilment and assurance approaches require traffic inspection, per-flow tracking, or vendor-internal telemetry.",
+      "tag": "Agents",
+      "extras": [
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Image Tokenizers Should Be Trained Between Images",
+      "arxiv": "2610.16759",
+      "desc": "Latent diffusion models generate images as codes of an image tokenizer, whose decoder turns them into the pixel image.",
+      "tag": "CV",
       "extras": [
         "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
-      "arxiv": "2610.12099",
-      "desc": "World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surrounding world? Most existing WAMs build on pretrained video generators and represent world evolution through images or visual latents.",
-      "tag": "3D",
+      "votes": 0,
+      "title": "Words to World: Benchmarking LLMs in Interactive Physical Environments",
+      "arxiv": "2610.15228",
+      "desc": "Words are increasingly becoming an interface for action: large language models (LLMs) can now invoke tools, operate devices, and make decisions that affect the physical world.",
+      "tag": "Benchmark",
       "extras": [
-        "17 authors",
+        "12 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Visual Grounding Safety in Vision-Language Models",
-      "arxiv": "2610.05637",
-      "desc": "Vision-language models (VLMs) are increasingly trained to generate structured outputs like points and bounding boxes that downstream interfaces, agents, and robots can act on, yet safety alignment of this output channel has not been systematically analyzed.",
-      "tag": "VLM",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
-      "arxiv": "2610.09116",
-      "desc": "The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant effort to reimplement papers before building on them.",
-      "tag": "Agents",
+      "votes": 0,
+      "title": "Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization",
+      "arxiv": "2610.18738",
+      "desc": "Off-policy data in reinforcement learning with verifiable rewards (RLVR) can arise from asynchronous generation, rollout-training mismatch, and response reuse.",
+      "tag": "RL",
       "extras": [
         "3 authors",
         "Oct 2026"
