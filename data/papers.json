@@ -1,66 +1,119 @@
 {
-  "snapshot": "October 14, 2026",
+  "snapshot": "October 15, 2026",
   "papers": [
     {
-      "votes": 21,
-      "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
-      "arxiv": "2610.14766",
-      "desc": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear.",
+      "votes": 18,
+      "title": "The Thinking Leakage in Reinforcement Learning for LLMs",
+      "arxiv": "2610.14270",
+      "desc": "Hybrid reasoning models such as the Qwen3 series switch between a THINK mode and a NO-THINK mode through a few chat-template tokens.",
+      "tag": "RL",
+      "extras": [
+        "7 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
+      "arxiv": "2610.14020",
+      "desc": "Self-driving laboratories (SDLs) aim to automate the full experimental loop, from scientific decision-making to physical execution.",
       "tag": "Benchmark",
       "extras": [
-        "15 authors",
+        "8 authors",
+        "Sep 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "Rethinking Projector Training in Multimodal LLMs",
+      "arxiv": "2610.18598",
+      "desc": "Multimodal LLMs are typically trained by first aligning a vision encoder with a language model via projector training on large image-caption datasets, followed by joint training of the full multimodal model.",
+      "tag": "Multimodal",
+      "extras": [
+        "4 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 7,
-      "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
-      "arxiv": "2610.14158",
-      "desc": "Understanding and tracking a dynamic world are fundamental to visual intelligence.",
-      "tag": "Agents",
+      "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+      "arxiv": "2610.17309",
+      "desc": "We introduce StartLux-Decision, decision models from 0.8B to 27B parameters that combine efficient single-pass prediction with adaptive, confidence-guided reasoning.",
+      "tag": "RL",
       "extras": [
-        "10 authors",
+        "6 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
-      "arxiv": "2610.18579",
-      "desc": "System One models choose an agent's next action by scoring a supplied set of options in a single pass.",
+      "votes": 6,
+      "title": "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
+      "arxiv": "2610.19420",
+      "desc": "Simulated environments enable scalable training data generation for embodied agents, but more data does not necessarily provide what a particular agent needs to learn.",
       "tag": "Agents",
       "extras": [
-        "3 authors",
+        "6 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Omni-Modal LLMs Know More Than They Say",
-      "arxiv": "2610.16135",
-      "desc": "Omni-modal large language models (Omni-LLMs) extend LLMs to process heterogeneous modalities (e.g., vision, audio, and IMU signals) alongside language, enabling a broader range of multimodal tasks.",
-      "tag": "Multimodal",
+      "votes": 5,
+      "title": "Choosing LLMs for Strategic Agent Interactions",
+      "arxiv": "2610.18354",
+      "desc": "Game-theoretic benchmarks claim that large language model (LLM) strategic decision-making varies across game types, interaction structures, and capability dimensions.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "VASPO: Self-Distillation with Privileged Value Estimation",
+      "arxiv": "2610.20516",
+      "desc": "On-policy self-distillation provides dense supervision for reasoning models via a privileged self-teacher.",
+      "tag": "Training",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Rethinking LLM-Guided Visual Question Answering: Does Deeper Knowledge Integration Really Help?",
+      "arxiv": "2610.17079",
+      "desc": "Knowledge-based Visual Question Answering (VQA) requires reasoning that extends beyond visible image content, demanding external commonsense and factual knowledge.",
+      "tag": "CV",
       "extras": [
         "5 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "WorldCast: Distributed Multiplayer World Models",
-      "arxiv": "2610.12412",
-      "desc": "Multiplayer world models must generate independently controlled views with consistent representations of both players and their shared environment.",
+      "votes": 4,
+      "title": "To Align or Not To Align: Check Your COMPASS Before You Train",
+      "arxiv": "2610.18638",
+      "desc": "Combining pretrained models is a common strategy for building AI systems, whether by aligning a vision encoder with a language model or merging fine-tuned checkpoints.",
       "extras": [
-        "12 authors",
+        "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
-      "arxiv": "2610.18760",
-      "desc": "Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier attempt.",
-      "tag": "Agents",
+      "votes": 3,
+      "title": "Your Transformer Is Secretly Elastic",
+      "arxiv": "2610.20588",
+      "desc": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads.",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching",
+      "arxiv": "2610.19628",
+      "desc": "Recent work has explored visual reasoning through image generation, where models solve visual-reasoning problems by directly generating solution images.",
       "extras": [
         "7 authors",
         "Oct 2026"
@@ -68,72 +121,32 @@
     },
     {
       "votes": 1,
-      "title": "ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models",
-      "arxiv": "2610.18596",
-      "desc": "Reinforcement learning (RL) post-training improves robot foundation models (RFMs) beyond their demonstrations, but real-world deployment demands more: learning new tasks efficiently while retaining previously acquired behaviors.",
-      "tag": "RL",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents",
-      "arxiv": "2610.18614",
-      "desc": "Controlling an acting LLM agent means deciding, at each step of a long-horizon task, whether to trust its next action, abstain, or hand off to a human.",
+      "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+      "arxiv": "2610.13623",
+      "desc": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications.",
       "tag": "Agents",
       "extras": [
+        "5 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation",
-      "arxiv": "2610.18352",
-      "desc": "A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene changes.",
+      "title": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use via a Controllable and Verifiable Generation Pipeline",
+      "arxiv": "2610.19128",
+      "desc": "Vision-language models (VLMs) are increasingly deployed in multi-agent systems to automate complex computer-use workflows, yet existing benchmarks mostly assume consistent, cooperative environments.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "VLX-Go: Robust Embodied Tracking through Multi-Stage Learning and On-Policy Refinement",
+      "arxiv": "2610.19361",
+      "desc": "Embodied visual tracking requires a robot to identify a designated target from visual observations and control its own motion to follow that target through an environment.",
       "tag": "Multimodal",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Scaling Repeated-Data Pretraining: Batch Size, Regularization, and GPU-Time Tradeoffs",
-      "arxiv": "2610.15965",
-      "desc": "We study pretraining when compute is abundant but unique training data are finite, requiring repeated training on the same data.",
-      "tag": "Training",
-      "extras": [
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
-      "arxiv": "2610.14351",
-      "desc": "World-action models inherit broad visual and physical priors from video pre-training.",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Privacy-Preserving Intent Fulfilment and Assurance for 6G RAN",
-      "arxiv": "2607.08809",
-      "desc": "Intent-based network management automates 6G service lifecycles, but existing fulfilment and assurance approaches require traffic inspection, per-flow tracking, or vendor-internal telemetry.",
-      "tag": "Agents",
-      "extras": [
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Image Tokenizers Should Be Trained Between Images",
-      "arxiv": "2610.16759",
-      "desc": "Latent diffusion models generate images as codes of an image tokenizer, whose decoder turns them into the pixel image.",
-      "tag": "CV",
       "extras": [
         "3 authors",
         "Oct 2026"
@@ -141,21 +154,9 @@
     },
     {
       "votes": 0,
-      "title": "Words to World: Benchmarking LLMs in Interactive Physical Environments",
-      "arxiv": "2610.15228",
-      "desc": "Words are increasingly becoming an interface for action: large language models (LLMs) can now invoke tools, operate devices, and make decisions that affect the physical world.",
-      "tag": "Benchmark",
-      "extras": [
-        "12 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization",
-      "arxiv": "2610.18738",
-      "desc": "Off-policy data in reinforcement learning with verifiable rewards (RLVR) can arise from asynchronous generation, rollout-training mismatch, and response reuse.",
-      "tag": "RL",
+      "title": "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
+      "arxiv": "2610.19729",
+      "desc": "Monocular world-space human recovery methods excel on current benchmarks, but these rarely include fast camera motion.",
       "extras": [
         "3 authors",
         "Oct 2026"
