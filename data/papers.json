@@ -1,141 +1,54 @@
 {
-  "snapshot": "October 15, 2026",
+  "snapshot": "October 16, 2026",
   "papers": [
     {
-      "votes": 18,
-      "title": "The Thinking Leakage in Reinforcement Learning for LLMs",
-      "arxiv": "2610.14270",
-      "desc": "Hybrid reasoning models such as the Qwen3 series switch between a THINK mode and a NO-THINK mode through a few chat-template tokens.",
-      "tag": "RL",
+      "votes": 207,
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "arxiv": "2610.22350",
+      "desc": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets.",
+      "tag": "Agents",
       "extras": [
-        "7 authors",
+        "26 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 15,
-      "title": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
-      "arxiv": "2610.14020",
-      "desc": "Self-driving laboratories (SDLs) aim to automate the full experimental loop, from scientific decision-making to physical execution.",
-      "tag": "Benchmark",
+      "votes": 10,
+      "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+      "arxiv": "2610.21095",
+      "desc": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear.",
+      "extras": [
+        "12 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+      "arxiv": "2610.22352",
+      "desc": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image.",
+      "tag": "3D",
       "extras": [
         "8 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Rethinking Projector Training in Multimodal LLMs",
-      "arxiv": "2610.18598",
-      "desc": "Multimodal LLMs are typically trained by first aligning a vision encoder with a language model via projector training on large image-caption datasets, followed by joint training of the full multimodal model.",
-      "tag": "Multimodal",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
-      "arxiv": "2610.17309",
-      "desc": "We introduce StartLux-Decision, decision models from 0.8B to 27B parameters that combine efficient single-pass prediction with adaptive, confidence-guided reasoning.",
-      "tag": "RL",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
-      "arxiv": "2610.19420",
-      "desc": "Simulated environments enable scalable training data generation for embodied agents, but more data does not necessarily provide what a particular agent needs to learn.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Choosing LLMs for Strategic Agent Interactions",
-      "arxiv": "2610.18354",
-      "desc": "Game-theoretic benchmarks claim that large language model (LLM) strategic decision-making varies across game types, interaction structures, and capability dimensions.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "VASPO: Self-Distillation with Privileged Value Estimation",
-      "arxiv": "2610.20516",
-      "desc": "On-policy self-distillation provides dense supervision for reasoning models via a privileged self-teacher.",
-      "tag": "Training",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Rethinking LLM-Guided Visual Question Answering: Does Deeper Knowledge Integration Really Help?",
-      "arxiv": "2610.17079",
-      "desc": "Knowledge-based Visual Question Answering (VQA) requires reasoning that extends beyond visible image content, demanding external commonsense and factual knowledge.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "To Align or Not To Align: Check Your COMPASS Before You Train",
-      "arxiv": "2610.18638",
-      "desc": "Combining pretrained models is a common strategy for building AI systems, whether by aligning a vision encoder with a language model or merging fine-tuned checkpoints.",
-      "extras": [
-        "3 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 3,
-      "title": "Your Transformer Is Secretly Elastic",
-      "arxiv": "2610.20588",
-      "desc": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads.",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching",
-      "arxiv": "2610.19628",
-      "desc": "Recent work has explored visual reasoning through image generation, where models solve visual-reasoning problems by directly generating solution images.",
+      "title": "Virtual Head Attention",
+      "arxiv": "2610.17959",
+      "desc": "The design of attention mechanisms in long-context large language models faces an ``impossible triangle'' among KV cache size, training and prefill FLOPs, and model quality.",
       "extras": [
         "7 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-      "arxiv": "2610.13623",
-      "desc": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use via a Controllable and Verifiable Generation Pipeline",
-      "arxiv": "2610.19128",
-      "desc": "Vision-language models (VLMs) are increasingly deployed in multi-agent systems to automate complex computer-use workflows, yet existing benchmarks mostly assume consistent, cooperative environments.",
-      "tag": "Agents",
+      "votes": 3,
+      "title": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+      "arxiv": "2610.17901",
+      "desc": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the mask a dominant bottleneck.",
+      "tag": "Multimodal",
       "extras": [
         "9 authors",
         "Oct 2026"
@@ -143,22 +56,107 @@
     },
     {
       "votes": 1,
-      "title": "VLX-Go: Robust Embodied Tracking through Multi-Stage Learning and On-Policy Refinement",
-      "arxiv": "2610.19361",
-      "desc": "Embodied visual tracking requires a robot to identify a designated target from visual observations and control its own motion to follow that target through an environment.",
-      "tag": "Multimodal",
+      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
+      "arxiv": "2610.21025",
+      "desc": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token.",
+      "tag": "Training",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Copy-Paste Language Models",
+      "arxiv": "2610.19247",
+      "desc": "Transformers are intuitively considered to be efficient at copying from their inputs.",
+      "tag": "Retrieval",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
+      "arxiv": "2610.22127",
+      "desc": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding and controlling it.",
       "extras": [
         "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
-      "arxiv": "2610.19729",
-      "desc": "Monocular world-space human recovery methods excel on current benchmarks, but these rarely include fast camera motion.",
+      "votes": 1,
+      "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+      "arxiv": "2610.09016",
+      "desc": "Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions.",
+      "tag": "VLM",
       "extras": [
         "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+      "arxiv": "2610.16105",
+      "desc": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sampling from the same policy can yield highly similar trajectories, reducing within-group reward variation and weakening group-relative advantage signals.",
+      "tag": "RL",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
+      "arxiv": "2610.20993",
+      "desc": "Reordering multiple-choice options can change a model's answer, an effect studied as selection bias (a preference for certain option letters) and as order sensitivity (changes in answers across option orderings).",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Gen4P: Video Generators are 4D Perceivers",
+      "arxiv": "2610.22371",
+      "desc": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video.",
+      "tag": "CV",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Speech event detector: Timestamped detection of non-verbal vocalizations and background sounds for rich speech transcription",
+      "arxiv": "2610.14232",
+      "desc": "Automatic speech recognition produces words but drops the non-verbal content of a recording: the breaths, coughs, sighs and laughter of the speaker, and the horns, music or barking around them.",
+      "tag": "Audio",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "ForcingBooster: Adaptive Patch-wise Denoising for Fast Autoregressive Video Diffusion",
+      "arxiv": "2610.12625",
+      "desc": "Autoregressive video diffusion models have become a leading approach to real-time interactive video generation and video world modeling.",
+      "tag": "Diffusion",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+      "arxiv": "2610.21500",
+      "desc": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and production systems increasingly back the per-engine cache with a remote tier shared by every engine.",
+      "extras": [
         "Oct 2026"
       ]
     }
