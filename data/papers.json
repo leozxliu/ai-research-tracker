@@ -1,8 +1,8 @@
 {
-  "snapshot": "October 17, 2026",
+  "snapshot": "October 18, 2026",
   "papers": [
     {
-      "votes": 104,
+      "votes": 106,
       "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
       "arxiv": "2610.21261",
       "desc": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively.",
@@ -23,13 +23,24 @@
       ]
     },
     {
-      "votes": 6,
+      "votes": 7,
       "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
       "arxiv": "2610.22280",
       "desc": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails.",
       "tag": "Agents",
       "extras": [
         "7 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "Gen4P: Video Generators are 4D Perceivers",
+      "arxiv": "2610.22371",
+      "desc": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video.",
+      "tag": "CV",
+      "extras": [
+        "3 authors",
         "Oct 2026"
       ]
     },
@@ -46,17 +57,6 @@
     },
     {
       "votes": 5,
-      "title": "Gen4P: Video Generators are 4D Perceivers",
-      "arxiv": "2610.22371",
-      "desc": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video.",
-      "tag": "CV",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
       "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
       "arxiv": "2610.17697",
       "desc": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bottleneck.",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "votes": 4,
+      "votes": 5,
       "title": "Copy-Paste Language Models",
       "arxiv": "2610.19247",
       "desc": "Transformers are intuitively considered to be efficient at copying from their inputs.",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "votes": 3,
+      "votes": 4,
       "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
       "arxiv": "2610.15924",
       "desc": "Agent environments are essential for large language model (LLM) development.",
@@ -99,6 +99,17 @@
     },
     {
       "votes": 3,
+      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
+      "arxiv": "2610.21025",
+      "desc": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token.",
+      "tag": "Training",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
       "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
       "arxiv": "2610.22127",
       "desc": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding and controlling it.",
@@ -115,17 +126,6 @@
       "tag": "VLM",
       "extras": [
         "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
-      "arxiv": "2610.21025",
-      "desc": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token.",
-      "tag": "Training",
-      "extras": [
-        "6 authors",
         "Oct 2026"
       ]
     },
