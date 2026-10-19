@@ -1,149 +1,89 @@
 {
-  "snapshot": "October 18, 2026",
+  "snapshot": "October 19, 2026",
   "papers": [
     {
-      "votes": 106,
-      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
-      "arxiv": "2610.21261",
-      "desc": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively.",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
-      "arxiv": "2610.16105",
-      "desc": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sampling from the same policy can yield highly similar trajectories, reducing within-group reward variation and weakening group-relative advantage signals.",
-      "tag": "RL",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
-      "arxiv": "2610.22280",
-      "desc": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails.",
+      "votes": 110,
+      "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+      "arxiv": "2610.09872",
+      "desc": "Evaluating agents by outcomes alone can obscure the capabilities that produce them.",
       "tag": "Agents",
+      "extras": [
+        "12 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 49,
+      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
+      "arxiv": "2610.23121",
+      "desc": "Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: the ability to design high-quality scenes and critique their quality.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 26,
+      "title": "Xiaomi-Lens-0 Technical Report",
+      "arxiv": "2610.23279",
+      "desc": "Multimodal large language models (MLLMs) answer questions about whole images well, yet they still struggle with fine-grained region understanding.",
+      "tag": "Multimodal",
+      "extras": [
+        "15 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 13,
+      "title": "OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing",
+      "arxiv": "2610.22744",
+      "desc": "Creative intent in video editing can be expressed through text instructions (e.g., \"remove the people\"), image references (e.g., subject appearance), video references (e.g., camera movement), or a combination of the above.",
+      "tag": "Multimodal",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications",
+      "arxiv": "2610.16402",
+      "desc": "Web application development often proceeds through successive requests that extend an existing implementation.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
+      "arxiv": "2610.23751",
+      "desc": "Multi-turn image editing aims to modify an image according to a sequence of instructions, making it better aligned with human-AI collaborative creation than single-turn editing.",
+      "tag": "CV",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Consistent Distribution Matching for Data-Free Diffusion Distillation",
+      "arxiv": "2610.09221",
+      "desc": "Flow and diffusion models suffer from slow inference due to computationally expensive numerical integration.",
+      "tag": "Diffusion",
       "extras": [
         "7 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "Gen4P: Video Generators are 4D Perceivers",
-      "arxiv": "2610.22371",
-      "desc": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video.",
-      "tag": "CV",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
-      "arxiv": "2610.21185",
-      "desc": "Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly instructed to do so.",
-      "tag": "Agents",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
-      "arxiv": "2610.17697",
-      "desc": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bottleneck.",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Copy-Paste Language Models",
-      "arxiv": "2610.19247",
-      "desc": "Transformers are intuitively considered to be efficient at copying from their inputs.",
-      "tag": "Retrieval",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
-      "arxiv": "2610.15924",
-      "desc": "Agent environments are essential for large language model (LLM) development.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "arxiv": "2610.22358",
-      "desc": "Time series foundation models are becoming increasingly popular for general-purpose forecasting.",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
-      "arxiv": "2610.21025",
-      "desc": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token.",
-      "tag": "Training",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
-      "arxiv": "2610.22127",
-      "desc": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding and controlling it.",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
       "votes": 2,
-      "title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
-      "arxiv": "2610.20461",
-      "desc": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a wrong name.",
-      "tag": "VLM",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
-      "arxiv": "2610.20993",
-      "desc": "Reordering multiple-choice options can change a model's answer, an effect studied as selection bias (a preference for certain option letters) and as order sensitivity (changes in answers across option orderings).",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
-      "arxiv": "2610.20680",
-      "desc": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little work has tested whether this scale is necessary.",
+      "title": "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
+      "arxiv": "2610.22708",
+      "desc": "Text-based world models have recently shown potential to simulate complex RL environment state transitions for a diverse set of use cases.",
+      "tag": "Agents",
       "extras": [
         "4 authors",
         "Oct 2026"
@@ -151,12 +91,73 @@
     },
     {
       "votes": 1,
-      "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
-      "arxiv": "2610.09016",
-      "desc": "Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions.",
-      "tag": "VLM",
+      "title": "Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards",
+      "arxiv": "2610.22448",
+      "desc": "Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems is a pressing challenge.",
+      "tag": "Agents",
       "extras": [
-        "3 authors",
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics",
+      "arxiv": "2610.22697",
+      "desc": "AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing their LLMs to unvetted third-party content.",
+      "tag": "Agents",
+      "extras": [
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "AI-Driven Disaster Response and Displacement Monitoring",
+      "arxiv": "2610.21482",
+      "desc": "ARTIFICIAL INTELLIGENCE (AI) has demonstrated its potential across a wide range of humanitarian tasks, offering scalable and data-driven solutions to some of the world's most pressing challenges.",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "DisaggKD: Efficient Knowledge Distillation through Teacher-Student Disaggregation and a Fused Loss",
+      "arxiv": "2610.17644",
+      "desc": "Knowledge distillation (KD) frameworks place teacher and student on the same GPUs, so per-GPU memory limits the teachers that fit.",
+      "tag": "Training",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+      "arxiv": "2610.22273",
+      "desc": "Reasoning over long document contexts remains a challenge for large language models (LLMs).",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Relational Learning as World Modeling",
+      "arxiv": "2610.16763",
+      "desc": "Relational learning typically predicts from a database state, but decision making asks a different question: how will that state change under an action? In operational systems, the answer depends on system-specific dynamics that may not be visible in the database itself.",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models",
+      "arxiv": "2610.22306",
+      "desc": "Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, and the camera pans and zooms at the same time.",
+      "extras": [
         "Oct 2026"
       ]
     }
