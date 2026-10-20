@@ -1,141 +1,44 @@
 {
-  "snapshot": "October 19, 2026",
+  "snapshot": "October 20, 2026",
   "papers": [
     {
-      "votes": 110,
-      "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
-      "arxiv": "2610.09872",
-      "desc": "Evaluating agents by outcomes alone can obscure the capabilities that produce them.",
-      "tag": "Agents",
+      "votes": 23,
+      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
+      "arxiv": "2610.26663",
+      "desc": "Robotic value models assess task execution from visual observations and instructions, providing feedback for policy learning and execution monitoring.",
+      "tag": "Benchmark",
       "extras": [
-        "12 authors",
+        "19 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 49,
-      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
-      "arxiv": "2610.23121",
-      "desc": "Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: the ability to design high-quality scenes and critique their quality.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 26,
-      "title": "Xiaomi-Lens-0 Technical Report",
-      "arxiv": "2610.23279",
-      "desc": "Multimodal large language models (MLLMs) answer questions about whole images well, yet they still struggle with fine-grained region understanding.",
+      "votes": 11,
+      "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
+      "arxiv": "2606.31876",
+      "desc": "Safety in Multimodal Large Language Models (MLLMs) depends on unsafe multimodal data for post-training alignment or activation steering.",
       "tag": "Multimodal",
       "extras": [
-        "15 authors",
+        "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 13,
-      "title": "OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing",
-      "arxiv": "2610.22744",
-      "desc": "Creative intent in video editing can be expressed through text instructions (e.g., \"remove the people\"), image references (e.g., subject appearance), video references (e.g., camera movement), or a combination of the above.",
-      "tag": "Multimodal",
+      "votes": 10,
+      "title": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
+      "arxiv": "2610.22328",
+      "desc": "Image editing models produce impressive results for individual edits, but their quality often deteriorates over multiple editing turns.",
+      "tag": "CV",
       "extras": [
-        "10 authors",
+        "5 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 6,
-      "title": "EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications",
-      "arxiv": "2610.16402",
-      "desc": "Web application development often proceeds through successive requests that extend an existing implementation.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
-      "arxiv": "2610.23751",
-      "desc": "Multi-turn image editing aims to modify an image according to a sequence of instructions, making it better aligned with human-AI collaborative creation than single-turn editing.",
-      "tag": "CV",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Consistent Distribution Matching for Data-Free Diffusion Distillation",
-      "arxiv": "2610.09221",
-      "desc": "Flow and diffusion models suffer from slow inference due to computationally expensive numerical integration.",
-      "tag": "Diffusion",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
-      "arxiv": "2610.22708",
-      "desc": "Text-based world models have recently shown potential to simulate complex RL environment state transitions for a diverse set of use cases.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards",
-      "arxiv": "2610.22448",
-      "desc": "Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems is a pressing challenge.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics",
-      "arxiv": "2610.22697",
-      "desc": "AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing their LLMs to unvetted third-party content.",
-      "tag": "Agents",
-      "extras": [
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "AI-Driven Disaster Response and Displacement Monitoring",
-      "arxiv": "2610.21482",
-      "desc": "ARTIFICIAL INTELLIGENCE (AI) has demonstrated its potential across a wide range of humanitarian tasks, offering scalable and data-driven solutions to some of the world's most pressing challenges.",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "DisaggKD: Efficient Knowledge Distillation through Teacher-Student Disaggregation and a Fused Loss",
-      "arxiv": "2610.17644",
-      "desc": "Knowledge distillation (KD) frameworks place teacher and student on the same GPUs, so per-GPU memory limits the teachers that fit.",
-      "tag": "Training",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
-      "arxiv": "2610.22273",
-      "desc": "Reasoning over long document contexts remains a challenge for large language models (LLMs).",
+      "title": "Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents",
+      "arxiv": "2610.19439",
+      "desc": "While LLM-based agent systems have demonstrated remarkable proficiency in reasoning and solving complex real-world tasks, they also come with substantial token consumption and inference latency, limiting their practical deployment.",
       "tag": "Agents",
       "extras": [
         "6 authors",
@@ -143,21 +46,121 @@
       ]
     },
     {
-      "votes": 0,
-      "title": "Relational Learning as World Modeling",
-      "arxiv": "2610.16763",
-      "desc": "Relational learning typically predicts from a database state, but decision making asks a different question: how will that state change under an action? In operational systems, the answer depends on system-specific dynamics that may not be visible in the database itself.",
+      "votes": 5,
+      "title": "N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models",
+      "arxiv": "2610.21810",
+      "desc": "Conditional memory expands language-model capacity through selective lookup, but the full embedding table must remain available for every possible input.",
+      "extras": [
+        "5 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale",
+      "arxiv": "2604.11331",
+      "desc": "Scene-level 3D generation has long been dominated by 2D multi-view or video diffusion models.",
+      "tag": "3D",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention",
+      "arxiv": "2610.06563",
+      "desc": "Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often fail to recognize when tasks are infeasible and no valid solution exists.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
+      "arxiv": "2610.22324",
+      "desc": "One of the first steps of a research pipeline is generating ideas.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Heterogeneous Agentic Coevolution",
+      "arxiv": "2610.16078",
+      "desc": "Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelligence.",
+      "tag": "Agents",
+      "extras": [
+        "17 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
+      "arxiv": "2610.19005",
+      "desc": "AI agents are demonstrating increasingly strong offensive and defensive cybersecurity capabilities in the real world.",
+      "tag": "Agents",
+      "extras": [
+        "21 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Beyond Maliciousness: Static and Runtime Attack-Surface Profiling of Agent Skills",
+      "arxiv": "2610.19264",
+      "desc": "Agent skills are Markdown documents that a tool-using agent reads as instructions and then acts on with the privileges of the session that loaded them.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation",
+      "arxiv": "2610.25964",
+      "desc": "We set out to reproduce a recent hallucination-mitigation result on the POPE benchmark.",
+      "tag": "VLM",
       "extras": [
         "2 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models",
-      "arxiv": "2610.22306",
-      "desc": "Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, and the camera pans and zooms at the same time.",
+      "votes": 1,
+      "title": "RealityBench: Simulated Environments to Evaluate a Vision Language Model's Ability to Document Human Physical Work",
+      "arxiv": "2610.14397",
+      "desc": "Augmenting worker capabilities in the physical world through guidance has been a decades-long goal for AI agents.",
+      "tag": "VLM",
       "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness",
+      "arxiv": "2610.22636",
+      "desc": "Large language models (LLMs) are increasingly used in critical domains, where their susceptibility to hallucinations makes reliable and interpretable uncertainty quantification essential.",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "StopLoss: Teaching Agents to Predict Failure and Stop Early",
+      "arxiv": "2610.25525",
+      "desc": "Coding agents keep working on runs that will fail verification, and asking a frontier model to watch for this is expensive in its own right.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
         "Oct 2026"
       ]
     }
