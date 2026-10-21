@@ -1,44 +1,22 @@
 {
-  "snapshot": "October 20, 2026",
+  "snapshot": "October 21, 2026",
   "papers": [
     {
-      "votes": 23,
-      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
-      "arxiv": "2610.26663",
-      "desc": "Robotic value models assess task execution from visual observations and instructions, providing feedback for policy learning and execution monitoring.",
-      "tag": "Benchmark",
+      "votes": 15,
+      "title": "FlowState: Execution State as Memory for Long-Horizon LLM Agents",
+      "arxiv": "2609.34565",
+      "desc": "Long-horizon tasks require LLM agents to continually draw on information from earlier interactions.",
+      "tag": "Agents",
       "extras": [
-        "19 authors",
+        "8 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 11,
-      "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
-      "arxiv": "2606.31876",
-      "desc": "Safety in Multimodal Large Language Models (MLLMs) depends on unsafe multimodal data for post-training alignment or activation steering.",
-      "tag": "Multimodal",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
-      "arxiv": "2610.22328",
-      "desc": "Image editing models produce impressive results for individual edits, but their quality often deteriorates over multiple editing turns.",
-      "tag": "CV",
-      "extras": [
-        "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents",
-      "arxiv": "2610.19439",
-      "desc": "While LLM-based agent systems have demonstrated remarkable proficiency in reasoning and solving complex real-world tasks, they also come with substantial token consumption and inference latency, limiting their practical deployment.",
+      "votes": 8,
+      "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+      "arxiv": "2610.16523",
+      "desc": "Training LLM agents to interact with users over multiple turns is challenging because the learning signal depends not only on the agent, but also on the user simulator and environment, which jointly shape the agent's experience.",
       "tag": "Agents",
       "extras": [
         "6 authors",
@@ -46,20 +24,42 @@
       ]
     },
     {
-      "votes": 5,
-      "title": "N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models",
-      "arxiv": "2610.21810",
-      "desc": "Conditional memory expands language-model capacity through selective lookup, but the full embedding table must remain available for every possible input.",
+      "votes": 6,
+      "title": "On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models",
+      "arxiv": "2610.27190",
+      "desc": "Modern language models are increasingly asked to handle several tasks within a single prompt.",
       "extras": [
         "5 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale",
-      "arxiv": "2604.11331",
-      "desc": "Scene-level 3D generation has long been dominated by 2D multi-view or video diffusion models.",
+      "votes": 5,
+      "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
+      "arxiv": "2610.26711",
+      "desc": "Recent video generation models produce visually compelling outputs, yet their physical plausibility remains poorly measured.",
+      "tag": "CV",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "OverSeer: Multi-Agent World Models Beyond What Agents See",
+      "arxiv": "2610.28554",
+      "desc": "Despite the success of video world models, extending them to multiple agents is difficult because it requires generating several agent-specific video streams that are consistent in time and between agents.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "HRoPE: Homography Relative Positional Encoding",
+      "arxiv": "2610.28284",
+      "desc": "Geometric Relative Positional Encoding has become the primary mechanism for injecting spatial inductive biases into multi-view transformers.",
       "tag": "3D",
       "extras": [
         "9 authors",
@@ -67,11 +67,21 @@
       ]
     },
     {
+      "votes": 3,
+      "title": "PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation",
+      "arxiv": "2610.07609",
+      "desc": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI.",
+      "tag": "Diffusion",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
       "votes": 2,
-      "title": "HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention",
-      "arxiv": "2610.06563",
-      "desc": "Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often fail to recognize when tasks are infeasible and no valid solution exists.",
-      "tag": "Agents",
+      "title": "On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs",
+      "arxiv": "2610.23400",
+      "desc": "Large language models often answer factual questions incorrectly in closed-book settings, and such errors are usually attributed to missing knowledge.",
       "extras": [
         "6 authors",
         "Oct 2026"
@@ -79,10 +89,9 @@
     },
     {
       "votes": 2,
-      "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
-      "arxiv": "2610.22324",
-      "desc": "One of the first steps of a research pipeline is generating ideas.",
-      "tag": "Agents",
+      "title": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
+      "arxiv": "2610.28074",
+      "desc": "As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic representations.",
       "extras": [
         "6 authors",
         "Oct 2026"
@@ -90,77 +99,67 @@
     },
     {
       "votes": 1,
-      "title": "Heterogeneous Agentic Coevolution",
-      "arxiv": "2610.16078",
-      "desc": "Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelligence.",
-      "tag": "Agents",
+      "title": "BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks",
+      "arxiv": "2610.25459",
+      "desc": "Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models.",
+      "tag": "Benchmark",
       "extras": [
-        "17 authors",
+        "6 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
-      "arxiv": "2610.19005",
-      "desc": "AI agents are demonstrating increasingly strong offensive and defensive cybersecurity capabilities in the real world.",
+      "title": "Training the Whole Agent, Not Just the Model",
+      "arxiv": "2610.28069",
+      "desc": "Training coding agents typically updates the policy while keeping the harness fixed.",
       "tag": "Agents",
       "extras": [
-        "21 authors",
+        "4 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Beyond Maliciousness: Static and Runtime Attack-Surface Profiling of Agent Skills",
-      "arxiv": "2610.19264",
-      "desc": "Agent skills are Markdown documents that a tool-using agent reads as instructions and then acts on with the privileges of the session that loaded them.",
+      "title": "Axiomatic World Modeling for Physics Reasoning",
+      "arxiv": "2610.24519",
+      "desc": "Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or execution, but in modeling the world being reasoned about.",
+      "tag": "RL",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
+      "arxiv": "2610.28388",
+      "desc": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challenging, especially for long-horizon tasks.",
       "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
+      "arxiv": "2610.26857",
+      "desc": "Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data.",
+      "tag": "CV",
       "extras": [
         "5 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation",
-      "arxiv": "2610.25964",
-      "desc": "We set out to reproduce a recent hallucination-mitigation result on the POPE benchmark.",
-      "tag": "VLM",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "RealityBench: Simulated Environments to Evaluate a Vision Language Model's Ability to Document Human Physical Work",
-      "arxiv": "2610.14397",
-      "desc": "Augmenting worker capabilities in the physical world through guidance has been a decades-long goal for AI agents.",
-      "tag": "VLM",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
       "votes": 0,
-      "title": "Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness",
-      "arxiv": "2610.22636",
-      "desc": "Large language models (LLMs) are increasingly used in critical domains, where their susceptibility to hallucinations makes reliable and interpretable uncertainty quantification essential.",
+      "title": "World Models with Configurable Perception",
+      "arxiv": "2610.27914",
+      "desc": "Real-world observations are noisy and often contain excessive task-irrelevant information.",
+      "tag": "Retrieval",
       "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "StopLoss: Teaching Agents to Predict Failure and Stop Early",
-      "arxiv": "2610.25525",
-      "desc": "Coding agents keep working on runs that will fail verification, and asking a frontier model to watch for this is expensive in its own right.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
+        "5 authors",
         "Oct 2026"
       ]
     }
