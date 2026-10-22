@@ -1,140 +1,11 @@
 {
-  "snapshot": "October 21, 2026",
+  "snapshot": "October 22, 2026",
   "papers": [
     {
-      "votes": 15,
-      "title": "FlowState: Execution State as Memory for Long-Horizon LLM Agents",
-      "arxiv": "2609.34565",
-      "desc": "Long-horizon tasks require LLM agents to continually draw on information from earlier interactions.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
-      "arxiv": "2610.16523",
-      "desc": "Training LLM agents to interact with users over multiple turns is challenging because the learning signal depends not only on the agent, but also on the user simulator and environment, which jointly shape the agent's experience.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models",
-      "arxiv": "2610.27190",
-      "desc": "Modern language models are increasingly asked to handle several tasks within a single prompt.",
-      "extras": [
-        "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
-      "arxiv": "2610.26711",
-      "desc": "Recent video generation models produce visually compelling outputs, yet their physical plausibility remains poorly measured.",
-      "tag": "CV",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "OverSeer: Multi-Agent World Models Beyond What Agents See",
-      "arxiv": "2610.28554",
-      "desc": "Despite the success of video world models, extending them to multiple agents is difficult because it requires generating several agent-specific video streams that are consistent in time and between agents.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "HRoPE: Homography Relative Positional Encoding",
-      "arxiv": "2610.28284",
-      "desc": "Geometric Relative Positional Encoding has become the primary mechanism for injecting spatial inductive biases into multi-view transformers.",
-      "tag": "3D",
-      "extras": [
-        "9 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation",
-      "arxiv": "2610.07609",
-      "desc": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI.",
-      "tag": "Diffusion",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs",
-      "arxiv": "2610.23400",
-      "desc": "Large language models often answer factual questions incorrectly in closed-book settings, and such errors are usually attributed to missing knowledge.",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
-      "arxiv": "2610.28074",
-      "desc": "As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic representations.",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks",
-      "arxiv": "2610.25459",
-      "desc": "Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models.",
-      "tag": "Benchmark",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Training the Whole Agent, Not Just the Model",
-      "arxiv": "2610.28069",
-      "desc": "Training coding agents typically updates the policy while keeping the harness fixed.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Axiomatic World Modeling for Physics Reasoning",
-      "arxiv": "2610.24519",
-      "desc": "Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or execution, but in modeling the world being reasoned about.",
-      "tag": "RL",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
-      "arxiv": "2610.28388",
-      "desc": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challenging, especially for long-horizon tasks.",
+      "votes": 128,
+      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "arxiv": "2610.26659",
+      "desc": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world.",
       "tag": "Agents",
       "extras": [
         "10 authors",
@@ -142,22 +13,152 @@
       ]
     },
     {
-      "votes": 1,
-      "title": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
-      "arxiv": "2610.26857",
-      "desc": "Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data.",
-      "tag": "CV",
+      "votes": 32,
+      "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+      "arxiv": "2610.11942",
+      "desc": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack.",
+      "tag": "Agents",
       "extras": [
-        "5 authors",
+        "6 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "World Models with Configurable Perception",
-      "arxiv": "2610.27914",
-      "desc": "Real-world observations are noisy and often contain excessive task-irrelevant information.",
+      "votes": 22,
+      "title": "Retrieval Augmented Generation Compositionality",
+      "arxiv": "2610.29722",
+      "desc": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge.",
       "tag": "Retrieval",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 19,
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "arxiv": "2610.30113",
+      "desc": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep.",
+      "tag": "Agents",
+      "extras": [
+        "12 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 11,
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+      "arxiv": "2610.29560",
+      "desc": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation.",
+      "tag": "Agents",
+      "extras": [
+        "12 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 11,
+      "title": "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
+      "arxiv": "2610.13177",
+      "desc": "Reconstructing 3D scenes from sparse views without per-scene optimization remains highly challenging, especially for recovering accurate geometry and fine textures.",
+      "tag": "3D",
+      "extras": [
+        "7 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
+      "arxiv": "2610.28827",
+      "desc": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits.",
+      "tag": "3D",
+      "extras": [
+        "14 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
+      "arxiv": "2610.28027",
+      "desc": "Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a framework includes is one configuration change away for its users.",
+      "tag": "RL",
+      "extras": [
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
+      "arxiv": "2610.28905",
+      "desc": "Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usually discard those states and make agents communicate only after decoding text.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+      "arxiv": "2610.28909",
+      "desc": "Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use.",
+      "tag": "Diffusion",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Design Anything, Design at Scale",
+      "arxiv": "2610.24771",
+      "desc": "As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent over long horizons.",
+      "tag": "Agents",
+      "extras": [
+        "11 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Looped Uniform Diffusion Language Models",
+      "arxiv": "2610.30066",
+      "desc": "Uniform diffusion language models (UDLMs) generate text by iteratively denoising sequences of ordinary vocabulary tokens, any of which may be corrupted and subsequently revised.",
+      "tag": "Diffusion",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation",
+      "arxiv": "2610.27861",
+      "desc": "Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual executions change under distribution shifts and where failures emerge in long-horizon tasks.",
+      "tag": "VLM",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Exploring The Empirical Privacy Landscape of Synthetic Data",
+      "arxiv": "2610.22659",
+      "desc": "Methods for training language models on sensitive data differ in how they balance capability gains against the risk of leaking private information.",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+      "arxiv": "2610.29934",
+      "desc": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states.",
+      "tag": "Agents",
       "extras": [
         "5 authors",
         "Oct 2026"
