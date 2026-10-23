@@ -1,11 +1,77 @@
 {
-  "snapshot": "October 22, 2026",
+  "snapshot": "October 23, 2026",
   "papers": [
     {
-      "votes": 128,
-      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
-      "arxiv": "2610.26659",
-      "desc": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world.",
+      "votes": 220,
+      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+      "arxiv": "2610.31329",
+      "desc": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception.",
+      "tag": "CV",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 53,
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "arxiv": "2610.30949",
+      "desc": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated).",
+      "tag": "Agents",
+      "extras": [
+        "177 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 32,
+      "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+      "arxiv": "2610.23987",
+      "desc": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models.",
+      "tag": "Multimodal",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
+      "arxiv": "2610.27712",
+      "desc": "Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets.",
+      "tag": "3D",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+      "arxiv": "2610.30753",
+      "desc": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 11,
+      "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
+      "arxiv": "2610.20091",
+      "desc": "Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos.",
+      "tag": "CV",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+      "arxiv": "2610.31372",
+      "desc": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process.",
       "tag": "Agents",
       "extras": [
         "10 authors",
@@ -13,10 +79,21 @@
       ]
     },
     {
-      "votes": 32,
-      "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
-      "arxiv": "2610.11942",
-      "desc": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack.",
+      "votes": 5,
+      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+      "arxiv": "2610.31576",
+      "desc": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed.",
+      "tag": "Diffusion",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
+      "arxiv": "2610.27148",
+      "desc": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help.",
       "tag": "Agents",
       "extras": [
         "6 authors",
@@ -24,87 +101,11 @@
       ]
     },
     {
-      "votes": 22,
-      "title": "Retrieval Augmented Generation Compositionality",
-      "arxiv": "2610.29722",
-      "desc": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge.",
-      "tag": "Retrieval",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 19,
-      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-      "arxiv": "2610.30113",
-      "desc": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep.",
-      "tag": "Agents",
-      "extras": [
-        "12 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 11,
-      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
-      "arxiv": "2610.29560",
-      "desc": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation.",
-      "tag": "Agents",
-      "extras": [
-        "12 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 11,
-      "title": "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
-      "arxiv": "2610.13177",
-      "desc": "Reconstructing 3D scenes from sparse views without per-scene optimization remains highly challenging, especially for recovering accurate geometry and fine textures.",
-      "tag": "3D",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
-      "arxiv": "2610.28827",
-      "desc": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits.",
-      "tag": "3D",
-      "extras": [
-        "14 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
-      "arxiv": "2610.28027",
-      "desc": "Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a framework includes is one configuration change away for its users.",
-      "tag": "RL",
-      "extras": [
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
-      "arxiv": "2610.28905",
-      "desc": "Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usually discard those states and make agents communicate only after decoding text.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
-      "arxiv": "2610.28909",
-      "desc": "Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use.",
-      "tag": "Diffusion",
+      "votes": 2,
+      "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
+      "arxiv": "2610.22951",
+      "desc": "Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control.",
+      "tag": "VLM",
       "extras": [
         "4 authors",
         "Oct 2026"
@@ -112,55 +113,56 @@
     },
     {
       "votes": 2,
-      "title": "Design Anything, Design at Scale",
-      "arxiv": "2610.24771",
-      "desc": "As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent over long horizons.",
-      "tag": "Agents",
+      "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
+      "arxiv": "2610.30468",
+      "desc": "Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed.",
+      "tag": "3D",
       "extras": [
-        "11 authors",
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
+      "arxiv": "2610.25376",
+      "desc": "Large-scale action pretraining equips Embodied Foundation Models (EFMs) with strong manipulation capabilities, with particular strengths in generalization and closed-loop robustness, but reproducing such pretraining requires substantial robot data and computation.",
+      "tag": "Training",
+      "extras": [
+        "7 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Looped Uniform Diffusion Language Models",
-      "arxiv": "2610.30066",
-      "desc": "Uniform diffusion language models (UDLMs) generate text by iteratively denoising sequences of ordinary vocabulary tokens, any of which may be corrupted and subsequently revised.",
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "arxiv": "2610.31651",
+      "desc": "Frontier coding agents are becoming increasingly adept at 3D modeling.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
+      "arxiv": "2610.12586",
+      "desc": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features.",
       "tag": "Diffusion",
       "extras": [
-        "4 authors",
+        "8 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation",
-      "arxiv": "2610.27861",
-      "desc": "Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual executions change under distribution shifts and where failures emerge in long-horizon tasks.",
-      "tag": "VLM",
+      "votes": 0,
+      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
+      "arxiv": "2610.28950",
+      "desc": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators.",
+      "tag": "3D",
       "extras": [
-        "9 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Exploring The Empirical Privacy Landscape of Synthetic Data",
-      "arxiv": "2610.22659",
-      "desc": "Methods for training language models on sensitive data differ in how they balance capability gains against the risk of leaking private information.",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
-      "arxiv": "2610.29934",
-      "desc": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
+        "2 authors",
         "Oct 2026"
       ]
     }
