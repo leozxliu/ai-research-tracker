@@ -1,52 +1,8 @@
 {
-  "snapshot": "October 23, 2026",
+  "snapshot": "October 24, 2026",
   "papers": [
     {
-      "votes": 220,
-      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
-      "arxiv": "2610.31329",
-      "desc": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception.",
-      "tag": "CV",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 53,
-      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
-      "arxiv": "2610.30949",
-      "desc": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated).",
-      "tag": "Agents",
-      "extras": [
-        "177 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 32,
-      "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
-      "arxiv": "2610.23987",
-      "desc": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models.",
-      "tag": "Multimodal",
-      "extras": [
-        "9 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 15,
-      "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
-      "arxiv": "2610.27712",
-      "desc": "Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets.",
-      "tag": "3D",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 12,
+      "votes": 26,
       "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
       "arxiv": "2610.30753",
       "desc": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging.",
@@ -57,18 +13,29 @@
       ]
     },
     {
-      "votes": 11,
-      "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
-      "arxiv": "2610.20091",
-      "desc": "Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos.",
-      "tag": "CV",
+      "votes": 16,
+      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+      "arxiv": "2610.30418",
+      "desc": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them.",
+      "tag": "Agents",
       "extras": [
         "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 5,
+      "votes": 14,
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "arxiv": "2610.31198",
+      "desc": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process.",
+      "tag": "Diffusion",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 8,
       "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
       "arxiv": "2610.31372",
       "desc": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process.",
@@ -80,17 +47,17 @@
     },
     {
       "votes": 5,
-      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
-      "arxiv": "2610.31576",
-      "desc": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed.",
-      "tag": "Diffusion",
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "arxiv": "2610.31651",
+      "desc": "Frontier coding agents are becoming increasingly adept at 3D modeling.",
+      "tag": "Agents",
       "extras": [
-        "3 authors",
+        "10 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 4,
+      "votes": 5,
       "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
       "arxiv": "2610.27148",
       "desc": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help.",
@@ -101,7 +68,28 @@
       ]
     },
     {
-      "votes": 2,
+      "votes": 4,
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "arxiv": "2610.22722",
+      "desc": "Split language models keep input text on a client but send intermediate representations to a server.",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+      "arxiv": "2610.25835",
+      "desc": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend.",
+      "tag": "Diffusion",
+      "extras": [
+        "5 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
       "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
       "arxiv": "2610.22951",
       "desc": "Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control.",
@@ -113,9 +101,42 @@
     },
     {
       "votes": 2,
-      "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
-      "arxiv": "2610.30468",
-      "desc": "Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed.",
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "arxiv": "2610.30043",
+      "desc": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+      "arxiv": "2610.04184",
+      "desc": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
+      "arxiv": "2610.24383",
+      "desc": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
+      "arxiv": "2610.28950",
+      "desc": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators.",
       "tag": "3D",
       "extras": [
         "2 authors",
@@ -123,24 +144,13 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
-      "arxiv": "2610.25376",
-      "desc": "Large-scale action pretraining equips Embodied Foundation Models (EFMs) with strong manipulation capabilities, with particular strengths in generalization and closed-loop robustness, but reproducing such pretraining requires substantial robot data and computation.",
-      "tag": "Training",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
       "votes": 1,
-      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-      "arxiv": "2610.31651",
-      "desc": "Frontier coding agents are becoming increasingly adept at 3D modeling.",
+      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
+      "arxiv": "2610.24385",
+      "desc": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction.",
       "tag": "Agents",
       "extras": [
-        "10 authors",
+        "7 authors",
         "Oct 2026"
       ]
     },
@@ -152,17 +162,6 @@
       "tag": "Diffusion",
       "extras": [
         "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
-      "arxiv": "2610.28950",
-      "desc": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators.",
-      "tag": "3D",
-      "extras": [
-        "2 authors",
         "Oct 2026"
       ]
     }
