@@ -1,8 +1,8 @@
 {
-  "snapshot": "October 24, 2026",
+  "snapshot": "October 25, 2026",
   "papers": [
     {
-      "votes": 26,
+      "votes": 31,
       "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
       "arxiv": "2610.30753",
       "desc": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging.",
@@ -13,18 +13,7 @@
       ]
     },
     {
-      "votes": 16,
-      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-      "arxiv": "2610.30418",
-      "desc": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them.",
-      "tag": "Agents",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 14,
+      "votes": 23,
       "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
       "arxiv": "2610.31198",
       "desc": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process.",
@@ -35,83 +24,18 @@
       ]
     },
     {
-      "votes": 8,
-      "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
-      "arxiv": "2610.31372",
-      "desc": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process.",
+      "votes": 22,
+      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+      "arxiv": "2610.30418",
+      "desc": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them.",
       "tag": "Agents",
       "extras": [
-        "10 authors",
+        "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-      "arxiv": "2610.31651",
-      "desc": "Frontier coding agents are becoming increasingly adept at 3D modeling.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
-      "arxiv": "2610.27148",
-      "desc": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
-      "arxiv": "2610.22722",
-      "desc": "Split language models keep input text on a client but send intermediate representations to a server.",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
-      "arxiv": "2610.25835",
-      "desc": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend.",
-      "tag": "Diffusion",
-      "extras": [
-        "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
-      "arxiv": "2610.22951",
-      "desc": "Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control.",
-      "tag": "VLM",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
-      "arxiv": "2610.30043",
-      "desc": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
+      "votes": 21,
       "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
       "arxiv": "2610.04184",
       "desc": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration.",
@@ -122,18 +46,61 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
-      "arxiv": "2610.24383",
-      "desc": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources.",
+      "votes": 14,
+      "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+      "arxiv": "2610.31372",
+      "desc": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process.",
       "tag": "Agents",
       "extras": [
-        "9 authors",
+        "10 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 2,
+      "votes": 13,
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "arxiv": "2610.31651",
+      "desc": "Frontier coding agents are becoming increasingly adept at 3D modeling.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
+      "arxiv": "2610.27148",
+      "desc": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "arxiv": "2610.22722",
+      "desc": "Split language models keep input text on a client but send intermediate representations to a server.",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+      "arxiv": "2610.25835",
+      "desc": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend.",
+      "tag": "Diffusion",
+      "extras": [
+        "5 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 9,
       "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
       "arxiv": "2610.28950",
       "desc": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators.",
@@ -144,7 +111,40 @@
       ]
     },
     {
-      "votes": 1,
+      "votes": 8,
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "arxiv": "2610.30043",
+      "desc": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
+      "arxiv": "2610.24383",
+      "desc": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources.",
+      "tag": "Agents",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
+      "arxiv": "2610.22951",
+      "desc": "Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control.",
+      "tag": "VLM",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 7,
       "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
       "arxiv": "2610.24385",
       "desc": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction.",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "votes": 1,
+      "votes": 7,
       "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
       "arxiv": "2610.12586",
       "desc": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features.",
