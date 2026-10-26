@@ -1,22 +1,22 @@
 {
-  "snapshot": "October 25, 2026",
+  "snapshot": "October 26, 2026",
   "papers": [
     {
-      "votes": 31,
-      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
-      "arxiv": "2610.30753",
-      "desc": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging.",
-      "tag": "Agents",
+      "votes": 219,
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "arxiv": "2610.31668",
+      "desc": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict.",
+      "tag": "CV",
       "extras": [
         "8 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 23,
-      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
-      "arxiv": "2610.31198",
-      "desc": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process.",
+      "votes": 3,
+      "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
+      "arxiv": "2610.31819",
+      "desc": "Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs) by sampling from a faster, lower quality draft model.",
       "tag": "Diffusion",
       "extras": [
         "4 authors",
@@ -24,10 +24,42 @@
       ]
     },
     {
-      "votes": 22,
-      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-      "arxiv": "2610.30418",
-      "desc": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them.",
+      "votes": 3,
+      "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+      "arxiv": "2610.27782",
+      "desc": "Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions.",
+      "tag": "Multimodal",
+      "extras": [
+        "11 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks",
+      "arxiv": "2610.20117",
+      "desc": "KANLab is a browser-based visualization tool designed to interactively teach the core concepts of Kolmogorov-Arnold Networks (KAN), forked from the widely successful TensorFlow Playground.",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
+      "arxiv": "2610.19589",
+      "desc": "Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across successive decisions.",
+      "tag": "Agents",
+      "extras": [
+        "11 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "arxiv": "2610.31810",
+      "desc": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions.",
       "tag": "Agents",
       "extras": [
         "3 authors",
@@ -35,97 +67,30 @@
       ]
     },
     {
-      "votes": 21,
-      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
-      "arxiv": "2610.04184",
-      "desc": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 14,
-      "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
-      "arxiv": "2610.31372",
-      "desc": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 13,
-      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-      "arxiv": "2610.31651",
-      "desc": "Frontier coding agents are becoming increasingly adept at 3D modeling.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
-      "arxiv": "2610.27148",
-      "desc": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
-      "arxiv": "2610.22722",
-      "desc": "Split language models keep input text on a client but send intermediate representations to a server.",
+      "votes": 2,
+      "title": "Does LeWorldModel Preserve Local Action Geometry?",
+      "arxiv": "2610.31716",
+      "desc": "We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes.",
       "extras": [
         "2 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 9,
-      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
-      "arxiv": "2610.25835",
-      "desc": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend.",
-      "tag": "Diffusion",
+      "votes": 1,
+      "title": "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
+      "arxiv": "2610.27528",
+      "desc": "Generative reward models (GenRMs) generate natural language rationales to justify preference judgments, yet a correct verdict does not guarantee a sound justification.",
       "extras": [
-        "5 authors",
+        "4 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 9,
-      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
-      "arxiv": "2610.28950",
-      "desc": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators.",
-      "tag": "3D",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
-      "arxiv": "2610.30043",
-      "desc": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
-      "arxiv": "2610.24383",
-      "desc": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources.",
+      "votes": 1,
+      "title": "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
+      "arxiv": "2610.30524",
+      "desc": "Lyapunov functions and barrier certificates give state-space guarantees of stability and safety, but synthesizing and verifying them---especially for nonlinear, high-dimensional systems---remains an open challenge.",
       "tag": "Agents",
       "extras": [
         "9 authors",
@@ -133,35 +98,66 @@
       ]
     },
     {
-      "votes": 8,
-      "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
-      "arxiv": "2610.22951",
-      "desc": "Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control.",
+      "votes": 1,
+      "title": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+      "arxiv": "2610.31423",
+      "desc": "Vision-language-action (VLA) models have become an important paradigm for robotic manipulation by unifying visual perception, language understanding, and action generation.",
       "tag": "VLM",
       "extras": [
-        "4 authors",
+        "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 7,
-      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
-      "arxiv": "2610.24385",
-      "desc": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
-      "arxiv": "2610.12586",
-      "desc": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features.",
-      "tag": "Diffusion",
+      "votes": 1,
+      "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+      "arxiv": "2610.14253",
+      "desc": "Slider-based control aims to give users continuous, fine-grained control over the intensity of individual edits in instruction-based image editing.",
+      "tag": "CV",
       "extras": [
         "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection",
+      "arxiv": "2610.27364",
+      "desc": "In joint-embedding predictive architectures (JEPA), an encoder and a predictor are trained together to produce a representation that minimizes the error in predicting the representation of the next observation.",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+      "arxiv": "2610.31572",
+      "desc": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts.",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+      "arxiv": "2610.31779",
+      "desc": "The life-cycle of robotics foundation models crucially depends on data labels.",
+      "tag": "RL",
+      "extras": [
+        "17 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
+      "arxiv": "2610.28655",
+      "desc": "Publishers and funders increasingly ask authors to disclose how AI tools contributed to a piece of research.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
         "Oct 2026"
       ]
     }
