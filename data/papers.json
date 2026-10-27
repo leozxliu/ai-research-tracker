@@ -1,76 +1,119 @@
 {
-  "snapshot": "October 26, 2026",
+  "snapshot": "October 27, 2026",
   "papers": [
     {
-      "votes": 219,
-      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
-      "arxiv": "2610.31668",
-      "desc": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict.",
+      "votes": 33,
+      "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+      "arxiv": "2610.33413",
+      "desc": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis.",
+      "tag": "Audio",
+      "extras": [
+        "11 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
+      "arxiv": "2610.33024",
+      "desc": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
+      "arxiv": "2610.29915",
+      "desc": "Diffusion-based video generation models (VGMs) can produce visually plausible videos, yet their camera ego-motion often drifts over long horizons.",
       "tag": "CV",
       "extras": [
-        "8 authors",
+        "10 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
+      "arxiv": "2610.33718",
+      "desc": "Many robot manipulation videos do not indicate whether the task was successfully completed.",
+      "tag": "VLM",
+      "extras": [
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
+      "arxiv": "2610.21561",
+      "desc": "Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic.",
+      "tag": "Agents",
+      "extras": [
+        "7 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 3,
-      "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
-      "arxiv": "2610.31819",
-      "desc": "Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs) by sampling from a faster, lower quality draft model.",
-      "tag": "Diffusion",
+      "title": "CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments",
+      "arxiv": "2610.32004",
+      "desc": "Deploying language agents in real applications demands more than the right answer: an agent must execute a multi-step business process correctly, follow domain-specific rules, and interact with a user across a dialogue, where the gap between saying and doing is the gap between a satisfied customer and a real loss.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
+      "arxiv": "2610.35328",
+      "desc": "Constrained decoding guarantees that Large Language Models (LLMs) produce outputs conforming to predefined formats, but is often assumed to inherently degrade reasoning.",
       "extras": [
         "4 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
-      "arxiv": "2610.27782",
-      "desc": "Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions.",
-      "tag": "Multimodal",
-      "extras": [
-        "11 authors",
-        "Oct 2026"
-      ]
-    },
-    {
       "votes": 2,
-      "title": "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks",
-      "arxiv": "2610.20117",
-      "desc": "KANLab is a browser-based visualization tool designed to interactively teach the core concepts of Kolmogorov-Arnold Networks (KAN), forked from the widely successful TensorFlow Playground.",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
-      "arxiv": "2610.19589",
-      "desc": "Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across successive decisions.",
+      "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
+      "arxiv": "2610.34735",
+      "desc": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants.",
       "tag": "Agents",
       "extras": [
-        "11 authors",
+        "10 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
-      "arxiv": "2610.31810",
-      "desc": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions.",
+      "title": "Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures Future Volitional Action in Drosophila",
+      "arxiv": "2610.34638",
+      "desc": "Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or extrinsic objectives, yet the computational mechanisms behind this ability largely remain a mystery.",
       "tag": "Agents",
       "extras": [
-        "3 authors",
+        "5 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "Does LeWorldModel Preserve Local Action Geometry?",
-      "arxiv": "2610.31716",
-      "desc": "We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes.",
+      "title": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
+      "arxiv": "2610.35450",
+      "desc": "Referring expression grounding in overhead imagery requires oriented bounding boxes rather than horizontal ones, since aerial objects appear at arbitrary orientations.",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Trust Mechanisms for Offline Generative AI at the Edge: A Connectivity-Regime Framework and an Empirical Study on a Raspberry Pi 5",
+      "arxiv": "2610.33732",
+      "desc": "Generative AI and large language models (LLMs) are moving into the Internet of Things, yet most deployments assume cloud connectivity, and many IoT settings have intermittent, restricted, or no connectivity.",
+      "tag": "Retrieval",
       "extras": [
         "2 authors",
         "Oct 2026"
@@ -78,52 +121,9 @@
     },
     {
       "votes": 1,
-      "title": "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
-      "arxiv": "2610.27528",
-      "desc": "Generative reward models (GenRMs) generate natural language rationales to justify preference judgments, yet a correct verdict does not guarantee a sound justification.",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
-      "arxiv": "2610.30524",
-      "desc": "Lyapunov functions and barrier certificates give state-space guarantees of stability and safety, but synthesizing and verifying them---especially for nonlinear, high-dimensional systems---remains an open challenge.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
-      "arxiv": "2610.31423",
-      "desc": "Vision-language-action (VLA) models have become an important paradigm for robotic manipulation by unifying visual perception, language understanding, and action generation.",
-      "tag": "VLM",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
-      "arxiv": "2610.14253",
-      "desc": "Slider-based control aims to give users continuous, fine-grained control over the intensity of individual edits in instruction-based image editing.",
-      "tag": "CV",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection",
-      "arxiv": "2610.27364",
-      "desc": "In joint-embedding predictive architectures (JEPA), an encoder and a predictor are trained together to produce a representation that minimizes the error in predicting the representation of the next observation.",
+      "title": "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
+      "arxiv": "2610.33877",
+      "desc": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation drift: models maintain predictive accuracy while silently shifting attention from diagnostic features to spurious correlations.",
       "extras": [
         "3 authors",
         "Oct 2026"
@@ -131,33 +131,33 @@
     },
     {
       "votes": 0,
-      "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
-      "arxiv": "2610.31572",
-      "desc": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts.",
+      "title": "Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations",
+      "arxiv": "2610.17117",
+      "desc": "Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing changes.",
+      "tag": "Retrieval",
       "extras": [
-        "6 authors",
+        "2 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
-      "arxiv": "2610.31779",
-      "desc": "The life-cycle of robotics foundation models crucially depends on data labels.",
-      "tag": "RL",
+      "title": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
+      "arxiv": "2610.34886",
+      "desc": "Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth, so storing weights in two bits instead of bfloat16 can potentially make inference 8times cheaper.",
       "extras": [
-        "17 authors",
+        "2 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
-      "arxiv": "2610.28655",
-      "desc": "Publishers and funders increasingly ask authors to disclose how AI tools contributed to a piece of research.",
-      "tag": "Agents",
+      "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
+      "arxiv": "2610.28490",
+      "desc": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene.",
+      "tag": "3D",
       "extras": [
-        "3 authors",
+        "2 authors",
         "Oct 2026"
       ]
     }
