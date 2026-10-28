@@ -1,97 +1,65 @@
 {
-  "snapshot": "October 27, 2026",
+  "snapshot": "October 28, 2026",
   "papers": [
     {
-      "votes": 33,
-      "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
-      "arxiv": "2610.33413",
-      "desc": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis.",
-      "tag": "Audio",
+      "votes": 247,
+      "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+      "arxiv": "2610.35013",
+      "desc": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token.",
+      "tag": "Agents",
       "extras": [
-        "11 authors",
+        "19 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 122,
+      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "arxiv": "2610.35864",
+      "desc": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events.",
+      "tag": "Agents",
+      "extras": [
+        "24 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 87,
+      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+      "arxiv": "2610.37662",
+      "desc": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective.",
+      "tag": "CV",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 26,
+      "title": "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation",
+      "arxiv": "2610.26030",
+      "desc": "Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of trainable parameters.",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 22,
+      "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
+      "arxiv": "2610.37037",
+      "desc": "Multimodal perception forms the foundation of multimodal intelligence.",
+      "tag": "Multimodal",
+      "extras": [
+        "13 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 12,
-      "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
-      "arxiv": "2610.33024",
-      "desc": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 9,
-      "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
-      "arxiv": "2610.29915",
-      "desc": "Diffusion-based video generation models (VGMs) can produce visually plausible videos, yet their camera ego-motion often drifts over long horizons.",
-      "tag": "CV",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
-      "arxiv": "2610.33718",
-      "desc": "Many robot manipulation videos do not indicate whether the task was successfully completed.",
-      "tag": "VLM",
-      "extras": [
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
-      "arxiv": "2610.21561",
-      "desc": "Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic.",
-      "tag": "Agents",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments",
-      "arxiv": "2610.32004",
-      "desc": "Deploying language agents in real applications demands more than the right answer: an agent must execute a multi-step business process correctly, follow domain-specific rules, and interact with a user across a dialogue, where the gap between saying and doing is the gap between a satisfied customer and a real loss.",
-      "tag": "Agents",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
-      "arxiv": "2610.35328",
-      "desc": "Constrained decoding guarantees that Large Language Models (LLMs) produce outputs conforming to predefined formats, but is often assumed to inherently degrade reasoning.",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
-      "arxiv": "2610.34735",
-      "desc": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures Future Volitional Action in Drosophila",
-      "arxiv": "2610.34638",
-      "desc": "Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or extrinsic objectives, yet the computational mechanisms behind this ability largely remain a mystery.",
+      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "arxiv": "2610.35962",
+      "desc": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers.",
       "tag": "Agents",
       "extras": [
         "5 authors",
@@ -99,21 +67,75 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
-      "arxiv": "2610.35450",
-      "desc": "Referring expression grounding in overhead imagery requires oriented bounding boxes rather than horizontal ones, since aerial objects appear at arbitrary orientations.",
+      "votes": 9,
+      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+      "arxiv": "2610.37364",
+      "desc": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space.",
+      "tag": "Multimodal",
+      "extras": [
+        "73 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
+      "arxiv": "2610.36791",
+      "desc": "Learning controllable world dynamics from heterogeneous interaction videos is challenging because robot embodiments use incompatible action spaces, while human videos lack native control labels.",
+      "tag": "3D",
+      "extras": [
+        "14 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
+      "arxiv": "2610.36192",
+      "desc": "Learning velocity fields directly in pixel space is difficult and slow.",
       "extras": [
         "2 authors",
         "Oct 2026"
       ]
     },
     {
+      "votes": 7,
+      "title": "The Lexical Imprint of Pre-training Data",
+      "arxiv": "2602.10657",
+      "desc": "How much of zero-shot benchmark accuracy is captured by word-level alignment between a pre-training corpus and the benchmark target? We study this question through word-level unigram cross-entropy (UCE), a tokenizer-agnostic, model-free measure of lexical alignment between a reference corpus and a target benchmark.",
+      "tag": "Training",
+      "extras": [
+        "6 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+      "arxiv": "2610.37624",
+      "desc": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Oct 2026"
+      ]
+    },
+    {
       "votes": 2,
-      "title": "Trust Mechanisms for Offline Generative AI at the Edge: A Connectivity-Regime Framework and an Empirical Study on a Raspberry Pi 5",
-      "arxiv": "2610.33732",
-      "desc": "Generative AI and large language models (LLMs) are moving into the Internet of Things, yet most deployments assume cloud connectivity, and many IoT settings have intermittent, restricted, or no connectivity.",
-      "tag": "Retrieval",
+      "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
+      "arxiv": "2610.34894",
+      "desc": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025).",
+      "tag": "RL",
+      "extras": [
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
+      "arxiv": "2610.36082",
+      "desc": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to locally host, which trail frontier systems on multi-step quantitative reasoning.",
+      "tag": "Training",
       "extras": [
         "2 authors",
         "Oct 2026"
@@ -121,43 +143,23 @@
     },
     {
       "votes": 1,
-      "title": "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
-      "arxiv": "2610.33877",
-      "desc": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation drift: models maintain predictive accuracy while silently shifting attention from diagnostic features to spurious correlations.",
+      "title": "T-DIG: Text-Conditioned Diversity for Image Generation",
+      "arxiv": "2610.29003",
+      "desc": "Text-to-image (T2I) platforms typically return several images per prompt so users can explore different visual interpretations and choose one that matches their intent.",
+      "tag": "CV",
       "extras": [
-        "3 authors",
+        "4 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations",
-      "arxiv": "2610.17117",
-      "desc": "Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing changes.",
-      "tag": "Retrieval",
+      "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
+      "arxiv": "2610.36184",
+      "desc": "Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research.",
+      "tag": "Audio",
       "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
-      "arxiv": "2610.34886",
-      "desc": "Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth, so storing weights in two bits instead of bfloat16 can potentially make inference 8times cheaper.",
-      "extras": [
-        "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
-      "arxiv": "2610.28490",
-      "desc": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene.",
-      "tag": "3D",
-      "extras": [
-        "2 authors",
+        "4 authors",
         "Oct 2026"
       ]
     }
