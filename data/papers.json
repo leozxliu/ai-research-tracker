@@ -1,22 +1,44 @@
 {
-  "snapshot": "October 28, 2026",
+  "snapshot": "October 29, 2026",
   "papers": [
     {
-      "votes": 247,
-      "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
-      "arxiv": "2610.35013",
-      "desc": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token.",
-      "tag": "Agents",
+      "votes": 147,
+      "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+      "arxiv": "2610.32749",
+      "desc": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications.",
+      "tag": "Audio",
       "extras": [
-        "19 authors",
+        "5 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 122,
-      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
-      "arxiv": "2610.35864",
-      "desc": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events.",
+      "votes": 41,
+      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+      "arxiv": "2610.35684",
+      "desc": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input.",
+      "tag": "CV",
+      "extras": [
+        "7 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 20,
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "arxiv": "2610.31670",
+      "desc": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability.",
+      "tag": "VLM",
+      "extras": [
+        "5 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 15,
+      "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+      "arxiv": "2610.22507",
+      "desc": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality.",
       "tag": "Agents",
       "extras": [
         "24 authors",
@@ -24,42 +46,10 @@
       ]
     },
     {
-      "votes": 87,
-      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
-      "arxiv": "2610.37662",
-      "desc": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective.",
-      "tag": "CV",
-      "extras": [
-        "9 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 26,
-      "title": "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation",
-      "arxiv": "2610.26030",
-      "desc": "Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of trainable parameters.",
-      "extras": [
-        "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 22,
-      "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
-      "arxiv": "2610.37037",
-      "desc": "Multimodal perception forms the foundation of multimodal intelligence.",
-      "tag": "Multimodal",
-      "extras": [
-        "13 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 12,
-      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
-      "arxiv": "2610.35962",
-      "desc": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers.",
+      "votes": 15,
+      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+      "arxiv": "2610.37230",
+      "desc": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs.",
       "tag": "Agents",
       "extras": [
         "5 authors",
@@ -68,74 +58,86 @@
     },
     {
       "votes": 9,
-      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
-      "arxiv": "2610.37364",
-      "desc": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space.",
-      "tag": "Multimodal",
-      "extras": [
-        "73 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
-      "arxiv": "2610.36791",
-      "desc": "Learning controllable world dynamics from heterogeneous interaction videos is challenging because robot embodiments use incompatible action spaces, while human videos lack native control labels.",
-      "tag": "3D",
-      "extras": [
-        "14 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
-      "arxiv": "2610.36192",
-      "desc": "Learning velocity fields directly in pixel space is difficult and slow.",
+      "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+      "arxiv": "2610.30161",
+      "desc": "Many Indian banks serve customers through FAQ pages and scripted chatbots.",
+      "tag": "Agents",
       "extras": [
         "2 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "The Lexical Imprint of Pre-training Data",
-      "arxiv": "2602.10657",
-      "desc": "How much of zero-shot benchmark accuracy is captured by word-level alignment between a pre-training corpus and the benchmark target? We study this question through word-level unigram cross-entropy (UCE), a tokenizer-agnostic, model-free measure of lexical alignment between a reference corpus and a target benchmark.",
-      "tag": "Training",
-      "extras": [
-        "6 authors",
-        "Oct 2026"
+        "Sep 2026"
       ]
     },
     {
       "votes": 4,
-      "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-      "arxiv": "2610.37624",
-      "desc": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria.",
-      "tag": "Agents",
+      "title": "Amortizing Sequential Experimental Design in Reasoning LLMs",
+      "arxiv": "2610.20832",
+      "desc": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks.",
       "extras": [
         "4 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
-      "arxiv": "2610.34894",
-      "desc": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025).",
+      "votes": 3,
+      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "arxiv": "2610.30132",
+      "desc": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable.",
       "tag": "RL",
       "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
+      "arxiv": "2610.30435",
+      "desc": "Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information.",
+      "tag": "RL",
+      "extras": [
+        "9 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
-      "arxiv": "2610.36082",
-      "desc": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to locally host, which trail frontier systems on multi-step quantitative reasoning.",
-      "tag": "Training",
+      "title": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
+      "arxiv": "2610.35671",
+      "desc": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks.",
+      "tag": "Agents",
+      "extras": [
+        "17 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "CausGround: Causal Interaction Grounding for Adaptive Embodied Planning",
+      "arxiv": "2610.29702",
+      "desc": "Multimodal large language models (MLLMs) show promising reasoning capabilities, but reliable physical interaction requires planning that accounts for when actions are executable and how they change the world.",
+      "tag": "Multimodal",
+      "extras": [
+        "9 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
+      "arxiv": "2610.33245",
+      "desc": "Data science agents can automate end-to-end machine learning workflows, yet they remain far from competitive on human leaderboards.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
+      "arxiv": "2509.05512",
+      "desc": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection.",
+      "tag": "CV",
       "extras": [
         "2 authors",
         "Oct 2026"
@@ -143,21 +145,20 @@
     },
     {
       "votes": 1,
-      "title": "T-DIG: Text-Conditioned Diversity for Image Generation",
-      "arxiv": "2610.29003",
-      "desc": "Text-to-image (T2I) platforms typically return several images per prompt so users can explore different visual interpretations and choose one that matches their intent.",
-      "tag": "CV",
+      "title": "HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience",
+      "arxiv": "2610.34186",
+      "desc": "Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios.",
+      "tag": "VLM",
       "extras": [
-        "4 authors",
+        "17 authors",
         "Oct 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
-      "arxiv": "2610.36184",
-      "desc": "Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research.",
-      "tag": "Audio",
+      "title": "OmniSpectra: A Unified Foundation Model for Universal Spectra Representation Learning",
+      "arxiv": "2601.15351",
+      "desc": "Standard sequence models encode position by token rank rather than physical coordinate, typically forcing practitioners to destructively resample continuous physical signals such as spectra observed across heterogeneous instruments.",
       "extras": [
         "4 authors",
         "Oct 2026"
