@@ -1,24 +1,24 @@
 {
-  "snapshot": "October 31, 2026",
+  "snapshot": "November 1, 2026",
   "papers": [
     {
-      "votes": 160,
+      "votes": 62,
+      "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "arxiv": "2610.39302",
+      "desc": "Whether models trained on different modalities converge to the same representation of the world is central to AI.",
+      "extras": [
+        "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 13,
       "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
       "arxiv": "2610.39301",
       "desc": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities.",
       "tag": "Agents",
       "extras": [
         "30 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 56,
-      "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
-      "arxiv": "2610.39302",
-      "desc": "Whether models trained on different modalities converge to the same representation of the world is central to AI.",
-      "extras": [
-        "2 authors",
         "Oct 2026"
       ]
     },
@@ -44,6 +44,28 @@
       ]
     },
     {
+      "votes": 6,
+      "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+      "arxiv": "2610.39287",
+      "desc": "Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act.",
+      "tag": "VLM",
+      "extras": [
+        "12 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+      "arxiv": "2610.34298",
+      "desc": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
       "votes": 5,
       "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
       "arxiv": "2609.05881",
@@ -54,12 +76,12 @@
     },
     {
       "votes": 5,
-      "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
-      "arxiv": "2610.39287",
-      "desc": "Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act.",
-      "tag": "VLM",
+      "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+      "arxiv": "2610.38174",
+      "desc": "We present EasyProver, a Lean proving system built from recursive agents with isolated contexts, asynchronous search, parallel tactic probing, and an elastic elaboration service.",
+      "tag": "Agents",
       "extras": [
-        "12 authors",
+        "9 authors",
         "Oct 2026"
       ]
     },
@@ -75,17 +97,6 @@
       ]
     },
     {
-      "votes": 4,
-      "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
-      "arxiv": "2610.34298",
-      "desc": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process.",
-      "tag": "Agents",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
       "votes": 3,
       "title": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
       "arxiv": "2610.23656",
@@ -93,17 +104,6 @@
       "tag": "Agents",
       "extras": [
         "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
-      "arxiv": "2610.38174",
-      "desc": "We present EasyProver, a Lean proving system built from recursive agents with isolated contexts, asynchronous search, parallel tactic probing, and an elastic elaboration service.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
         "Oct 2026"
       ]
     },
