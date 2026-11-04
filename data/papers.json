@@ -1,165 +1,162 @@
 {
-  "snapshot": "November 3, 2026",
+  "snapshot": "November 4, 2026",
   "papers": [
     {
-      "votes": 83,
-      "title": "Advances in Agentic Computer Graphics",
-      "arxiv": "2611.01860",
-      "desc": "Computer graphics is built on code.",
-      "tag": "Agents",
+      "votes": 64,
+      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+      "arxiv": "2611.04814",
+      "desc": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained.",
       "extras": [
-        "14 authors",
+        "7 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 33,
-      "title": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
-      "arxiv": "2611.02074",
-      "desc": "Coding agents solve repository issues through long sequences of exploration, editing, and validation.",
-      "tag": "Agents",
+      "votes": 49,
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "arxiv": "2611.05377",
+      "desc": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance.",
+      "tag": "Diffusion",
       "extras": [
-        "6 authors",
+        "9 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 26,
-      "title": "PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments",
-      "arxiv": "2611.02897",
-      "desc": "Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop.",
+      "votes": 42,
+      "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
+      "arxiv": "2611.05193",
+      "desc": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text.",
+      "tag": "Retrieval",
       "extras": [
         "4 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 22,
-      "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
-      "arxiv": "2611.01815",
-      "desc": "Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance, static content, motion, or ordinary prediction difficulty.",
-      "tag": "CV",
+      "votes": 23,
+      "title": "VidUEU-Agent: A Data-Curation Agent for Multimodal Understanding, Editing, and Unified Tasks",
+      "arxiv": "2611.04418",
+      "desc": "The advancement of multimodal learning is heavily constrained by the scarcity and high annotation cost of high-quality instruction data.",
+      "tag": "Agents",
       "extras": [
-        "3 authors",
+        "15 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 19,
-      "title": "Order-Only On-Policy Distillation",
-      "arxiv": "2611.02112",
-      "desc": "On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities.",
+      "votes": 8,
+      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+      "arxiv": "2610.40574",
+      "desc": "On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references.",
       "tag": "Training",
       "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 17,
-      "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
-      "arxiv": "2611.03424",
-      "desc": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research.",
-      "tag": "Agents",
-      "extras": [
         "6 authors",
-        "Nov 2026"
+        "Oct 2026"
       ]
     },
     {
-      "votes": 9,
-      "title": "LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents",
-      "arxiv": "2611.02332",
-      "desc": "Tool-using language-model agents often execute actions that their domain policies forbid.",
+      "votes": 6,
+      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+      "arxiv": "2611.05345",
+      "desc": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior.",
       "tag": "Agents",
       "extras": [
-        "20 authors",
+        "8 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 6,
-      "title": "Multi-Agent Relay Thinking",
-      "arxiv": "2610.35219",
-      "desc": "Existing multi-agent collaboration (MAC) methods have primarily explored a group thinking collaboration topology, where agents independently generate solutions and aggregate their outputs.",
-      "tag": "Agents",
+      "title": "You don't need long context",
+      "arxiv": "2611.05306",
+      "desc": "Later tokens are costlier to generate than earlier tokens.",
       "extras": [
-        "5 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Cross-Primitive Consistency in Jev",
-      "arxiv": "2610.38623",
-      "desc": "Jev enables efficient decision-making with large language models (LLMs) through typed querying primitives, allowing the same semantic state to be expressed in different formats, such as binary and multiple-choice queries.",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
-      "arxiv": "2610.32878",
-      "desc": "Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs.",
-      "extras": [
-        "11 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "DR Pixel: Page-Native Deep Research with Vision-Language Models",
-      "arxiv": "2611.03097",
-      "desc": "Complex documents such as scientific papers contain rich information in tables, figures, and equations; however, existing deep research (DR) agents typically reduce papers to OCR-extracted text.",
-      "tag": "VLM",
-      "extras": [
-        "6 authors",
+        "12 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 4,
-      "title": "Can Large Language Model Agents Learn by Watching Tutorial Videos?",
-      "arxiv": "2611.01460",
-      "desc": "Humans continuously acquire knowledge from carefully crafted materials such as books and tutorial videos, carrying that understanding into future tasks.",
+      "title": "Dory1.0-4B: A Looped Normalized-GPT",
+      "arxiv": "2611.03998",
+      "desc": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets.",
       "tag": "Agents",
       "extras": [
-        "3 authors",
+        "9 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
-      "arxiv": "2610.41994",
-      "desc": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval.",
-      "tag": "Retrieval",
+      "votes": 2,
+      "title": "BEND 2.0: Benchmarking the Capabilities Needed to Design DNA",
+      "arxiv": "2611.03806",
+      "desc": "Genomic foundation models are increasingly used to propose DNA sequences and edits.",
+      "tag": "Benchmark",
       "extras": [
-        "5 authors",
+        "9 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Muon Makes the First Mixture-of-Experts Layer Harder to Balance",
+      "arxiv": "2610.37914",
+      "desc": "Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW.",
+      "extras": [
         "Oct 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "Where Do Vision Language Models Fail at 3D Reasoning?",
-      "arxiv": "2610.39639",
-      "desc": "Vision-language models can get individual judgments right while struggling to recover and consistently use the exact properties of a 3D object.",
+      "title": "Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry",
+      "arxiv": "2611.03360",
+      "desc": "**Purpose:** Ultrasound biometry is widely used across various clinical applications, including prenatal and cardiac examinations, to obtain quantitative measurements by placing calipers at anatomical landmarks.",
       "tag": "VLM",
       "extras": [
-        "14 authors",
-        "Oct 2026"
+        "9 authors",
+        "Nov 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "TaoMate-FVSR:Audio-Guided Facial Video Restoration",
-      "arxiv": "2611.03393",
-      "desc": "AI-generated videos often depict people within detailed scenes while leaving their small facial regions poorly resolved.",
+      "votes": 1,
+      "title": "Kierston & KierstonBench: Simulation of Allentown, PA and Evaluation of Language Models in Crime Investigation and Surveillance Tasks",
+      "arxiv": "2611.04785",
+      "desc": "Large language models are candidates for collecting and analyzing records in criminal investigations and mass surveillance.",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data",
+      "arxiv": "2611.02476",
+      "desc": "Dialectal Arabic speech recognition remains constrained by the scarcity of dialect-resolved transcribed speech despite the abundance of web audio.",
       "tag": "Audio",
       "extras": [
-        "6 authors",
+        "16 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction",
+      "arxiv": "2611.03183",
+      "desc": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing.",
+      "tag": "Agents",
+      "extras": [
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board",
+      "arxiv": "2611.01598",
+      "desc": "Heterogeneous embedded boards pair a Linux application processor with a real-time microcontroller (MCU), which suggests moving a task between the two domains when its timing degrades.",
+      "extras": [
+        "2 authors",
         "Nov 2026"
       ]
     }
