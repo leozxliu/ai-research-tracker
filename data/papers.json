@@ -1,162 +1,164 @@
 {
-  "snapshot": "November 4, 2026",
+  "snapshot": "November 5, 2026",
   "papers": [
     {
-      "votes": 64,
-      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
-      "arxiv": "2611.04814",
-      "desc": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained.",
+      "votes": 26,
+      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "arxiv": "2611.04408",
+      "desc": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once.",
       "extras": [
-        "7 authors",
+        "2 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 49,
-      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
-      "arxiv": "2611.05377",
-      "desc": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance.",
-      "tag": "Diffusion",
-      "extras": [
-        "9 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 42,
-      "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
-      "arxiv": "2611.05193",
-      "desc": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text.",
-      "tag": "Retrieval",
+      "votes": 11,
+      "title": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
+      "arxiv": "2611.01926",
+      "desc": "LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation.",
+      "tag": "Agents",
       "extras": [
         "4 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 23,
-      "title": "VidUEU-Agent: A Data-Curation Agent for Multimodal Understanding, Editing, and Unified Tasks",
-      "arxiv": "2611.04418",
-      "desc": "The advancement of multimodal learning is heavily constrained by the scarcity and high annotation cost of high-quality instruction data.",
+      "votes": 7,
+      "title": "The SIMPLE Law for Energy Cost of LLM Inference",
+      "arxiv": "2611.03330",
+      "desc": "Generative AI is billed per token, yet tokens are not equally expensive.",
       "tag": "Agents",
       "extras": [
-        "15 authors",
+        "5 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 8,
-      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
-      "arxiv": "2610.40574",
-      "desc": "On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references.",
-      "tag": "Training",
+      "votes": 7,
+      "title": "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
+      "arxiv": "2611.05648",
+      "desc": "Adversarial diffusion distillation has conventionally relied on image features for discrimination.",
+      "tag": "Diffusion",
       "extras": [
-        "6 authors",
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+      "arxiv": "2610.41432",
+      "desc": "Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
-      "arxiv": "2611.05345",
-      "desc": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior.",
+      "votes": 3,
+      "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
+      "arxiv": "2611.05593",
+      "desc": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly.",
+      "tag": "3D",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+      "arxiv": "2611.03852",
+      "desc": "Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make these gains expensive.",
       "tag": "Agents",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
+      "arxiv": "2611.05988",
+      "desc": "Streaming video-to-audio (V2A) generation is essential for immersive interactive applications.",
+      "tag": "Audio",
+      "extras": [
+        "9 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling",
+      "arxiv": "2611.06042",
+      "desc": "Universal image restoration aims to handle diverse degradations within a single model, but a reliable scaling strategy remains underexplored.",
+      "tag": "CV",
       "extras": [
         "8 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "You don't need long context",
-      "arxiv": "2611.05306",
-      "desc": "Later tokens are costlier to generate than earlier tokens.",
+      "votes": 1,
+      "title": "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
+      "arxiv": "2611.03768",
+      "desc": "Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only a subset of the sequence, chosen by a fixed pattern or, in recent production LLMs, learned per query.",
       "extras": [
-        "12 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Dory1.0-4B: A Looped Normalized-GPT",
-      "arxiv": "2611.03998",
-      "desc": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets.",
-      "tag": "Agents",
-      "extras": [
-        "9 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "BEND 2.0: Benchmarking the Capabilities Needed to Design DNA",
-      "arxiv": "2611.03806",
-      "desc": "Genomic foundation models are increasingly used to propose DNA sequences and edits.",
-      "tag": "Benchmark",
-      "extras": [
-        "9 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Muon Makes the First Mixture-of-Experts Layer Harder to Balance",
-      "arxiv": "2610.37914",
-      "desc": "Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW.",
-      "extras": [
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry",
-      "arxiv": "2611.03360",
-      "desc": "**Purpose:** Ultrasound biometry is widely used across various clinical applications, including prenatal and cardiac examinations, to obtain quantitative measurements by placing calipers at anatomical landmarks.",
-      "tag": "VLM",
-      "extras": [
-        "9 authors",
+        "4 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Kierston & KierstonBench: Simulation of Allentown, PA and Evaluation of Language Models in Crime Investigation and Surveillance Tasks",
-      "arxiv": "2611.04785",
-      "desc": "Large language models are candidates for collecting and analyzing records in criminal investigations and mass surveillance.",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data",
-      "arxiv": "2611.02476",
-      "desc": "Dialectal Arabic speech recognition remains constrained by the scarcity of dialect-resolved transcribed speech despite the abundance of web audio.",
+      "title": "TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation",
+      "arxiv": "2611.03394",
+      "desc": "Streaming digital humans produce detailed video while continuing speech as new text arrives.",
       "tag": "Audio",
       "extras": [
-        "16 authors",
+        "6 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction",
-      "arxiv": "2611.03183",
-      "desc": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing.",
-      "tag": "Agents",
+      "title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
+      "arxiv": "2611.04949",
+      "desc": "Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers.",
+      "tag": "Retrieval",
       "extras": [
-        "7 authors",
+        "2 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board",
-      "arxiv": "2611.01598",
-      "desc": "Heterogeneous embedded boards pair a Linux application processor with a real-time microcontroller (MCU), which suggests moving a task between the two domains when its timing degrades.",
+      "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
+      "arxiv": "2610.36544",
+      "desc": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success.",
+      "tag": "Agents",
       "extras": [
         "2 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
+      "arxiv": "2611.03517",
+      "desc": "LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI",
+      "arxiv": "2611.05029",
+      "desc": "Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can accumulate over a trajectory.",
+      "tag": "Agents",
+      "extras": [
         "Nov 2026"
       ]
     }
