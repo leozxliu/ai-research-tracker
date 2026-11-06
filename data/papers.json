@@ -1,119 +1,129 @@
 {
-  "snapshot": "November 5, 2026",
+  "snapshot": "November 6, 2026",
   "papers": [
     {
-      "votes": 26,
-      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
-      "arxiv": "2611.04408",
-      "desc": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once.",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 11,
-      "title": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
-      "arxiv": "2611.01926",
-      "desc": "LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "The SIMPLE Law for Energy Cost of LLM Inference",
-      "arxiv": "2611.03330",
-      "desc": "Generative AI is billed per token, yet tokens are not equally expensive.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
-      "arxiv": "2611.05648",
-      "desc": "Adversarial diffusion distillation has conventionally relied on image features for discrimination.",
-      "tag": "Diffusion",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
-      "arxiv": "2610.41432",
-      "desc": "Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows.",
+      "votes": 113,
+      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "arxiv": "2611.02075",
+      "desc": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved.",
       "tag": "Agents",
       "extras": [
         "8 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
-      "arxiv": "2611.05593",
-      "desc": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly.",
-      "tag": "3D",
-      "extras": [
-        "2 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
-      "arxiv": "2611.03852",
-      "desc": "Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make these gains expensive.",
-      "tag": "Agents",
-      "extras": [
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
-      "arxiv": "2611.05988",
-      "desc": "Streaming video-to-audio (V2A) generation is essential for immersive interactive applications.",
-      "tag": "Audio",
+      "votes": 35,
+      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "arxiv": "2611.06741",
+      "desc": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift.",
+      "tag": "CV",
       "extras": [
         "9 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling",
-      "arxiv": "2611.06042",
-      "desc": "Universal image restoration aims to handle diverse degradations within a single model, but a reliable scaling strategy remains underexplored.",
-      "tag": "CV",
+      "votes": 12,
+      "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+      "arxiv": "2611.06976",
+      "desc": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations with a smaller model's efficient generation, offering a promising way to balance capability and inference cost.",
       "extras": [
-        "8 authors",
+        "11 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
-      "arxiv": "2611.03768",
-      "desc": "Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only a subset of the sequence, chosen by a fixed pattern or, in recent production LLMs, learned per query.",
+      "votes": 7,
+      "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
+      "arxiv": "2611.02660",
+      "desc": "Recent advances in Vision-Language-Action (VLA) models have enabled fine manipulation capabilities, yet performing tasks that require working memory remains a key challenge.",
+      "tag": "VLM",
       "extras": [
         "4 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation",
-      "arxiv": "2611.03394",
-      "desc": "Streaming digital humans produce detailed video while continuing speech as new text arrives.",
-      "tag": "Audio",
+      "votes": 6,
+      "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+      "arxiv": "2611.08089",
+      "desc": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled.",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+      "arxiv": "2611.08237",
+      "desc": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "arxiv": "2611.05376",
+      "desc": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own.",
+      "tag": "Agents",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "arxiv": "2611.08376",
+      "desc": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference.",
+      "tag": "Retrieval",
+      "extras": [
+        "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "arxiv": "2611.08483",
+      "desc": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
+      "arxiv": "2609.37820",
+      "desc": "When firms respond to new market opportunities, their capacity choices alter the future discounted free cash flows available to both competitors and investors.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+      "arxiv": "2611.07298",
+      "desc": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention sink behavior.",
+      "tag": "Retrieval",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+      "arxiv": "2611.07613",
+      "desc": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces.",
       "extras": [
         "6 authors",
         "Nov 2026"
@@ -121,45 +131,34 @@
     },
     {
       "votes": 1,
-      "title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
-      "arxiv": "2611.04949",
-      "desc": "Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers.",
-      "tag": "Retrieval",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "arxiv": "2610.37739",
+      "desc": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging.",
+      "tag": "Benchmark",
       "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
-      "arxiv": "2610.36544",
-      "desc": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success.",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
+        "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
-      "arxiv": "2611.03517",
-      "desc": "LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff.",
-      "tag": "Agents",
+      "votes": 1,
+      "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
+      "arxiv": "2610.41789",
+      "desc": "Multi-head attention in Vision Transformers (ViTs) allows independent attention patterns across heads, but without explicit regularization, heads may learn redundant patterns rather than complementary roles.",
       "extras": [
-        "6 authors",
-        "Nov 2026"
+        "5 authors",
+        "Oct 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI",
-      "arxiv": "2611.05029",
-      "desc": "Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can accumulate over a trajectory.",
-      "tag": "Agents",
+      "votes": 1,
+      "title": "SynthFaces: Balanced Large Scale Human Dataset",
+      "arxiv": "2610.40119",
+      "desc": "The pursuit of fair and equitable AI in human-centric tasks is critically hindered by the inherent biases and privacy risks of real-world datasets, which offer imbalanced representations of identity and often contain sensitive personal information.",
+      "tag": "Diffusion",
       "extras": [
-        "Nov 2026"
+        "4 authors",
+        "Oct 2026"
       ]
     }
   ]
