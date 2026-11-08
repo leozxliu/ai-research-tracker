@@ -1,8 +1,8 @@
 {
-  "snapshot": "November 7, 2026",
+  "snapshot": "November 8, 2026",
   "papers": [
     {
-      "votes": 79,
+      "votes": 81,
       "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
       "arxiv": "2611.02075",
       "desc": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved.",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "votes": 13,
+      "votes": 15,
       "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
       "arxiv": "2611.06976",
       "desc": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations with a smaller model's efficient generation, offering a promising way to balance capability and inference cost.",
@@ -23,39 +23,7 @@
       ]
     },
     {
-      "votes": 9,
-      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
-      "arxiv": "2611.08237",
-      "desc": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-      "arxiv": "2611.08483",
-      "desc": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods.",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
-      "arxiv": "2611.08089",
-      "desc": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled.",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 6,
+      "votes": 12,
       "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
       "arxiv": "2611.08376",
       "desc": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference.",
@@ -66,7 +34,61 @@
       ]
     },
     {
-      "votes": 5,
+      "votes": 11,
+      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+      "arxiv": "2611.08237",
+      "desc": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "arxiv": "2611.08483",
+      "desc": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 9,
+      "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+      "arxiv": "2611.08089",
+      "desc": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled.",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "arxiv": "2611.06500",
+      "desc": "Large language model (LLM) agents typically append raw tool outputs to their context.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "arxiv": "2610.37739",
+      "desc": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging.",
+      "tag": "Benchmark",
+      "extras": [
+        "3 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 6,
       "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
       "arxiv": "2611.07298",
       "desc": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention sink behavior.",
@@ -88,6 +110,17 @@
     },
     {
       "votes": 4,
+      "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+      "arxiv": "2611.06498",
+      "desc": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors.",
+      "tag": "Retrieval",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
       "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
       "arxiv": "2611.04386",
       "desc": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text rendering and human preference, and must sample in a few steps.",
@@ -98,44 +131,11 @@
       ]
     },
     {
-      "votes": 4,
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "arxiv": "2610.37739",
-      "desc": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging.",
-      "tag": "Benchmark",
-      "extras": [
-        "3 authors",
-        "Oct 2026"
-      ]
-    },
-    {
       "votes": 3,
       "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
       "arxiv": "2609.37820",
       "desc": "When firms respond to new market opportunities, their capacity choices alter the future discounted free cash flows available to both competitors and investors.",
       "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
-      "arxiv": "2611.06500",
-      "desc": "Large language model (LLM) agents typically append raw tool outputs to their context.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
-      "arxiv": "2611.06498",
-      "desc": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors.",
-      "tag": "Retrieval",
       "extras": [
         "2 authors",
         "Nov 2026"
