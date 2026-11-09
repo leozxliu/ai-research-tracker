@@ -5,142 +5,125 @@
       "votes": 29,
       "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
       "arxiv": "2611.07025",
-      "desc": "Compresses the KV cache at inference time by storing low-rank keys and predicting values from those keys, so long contexts use less memory without a retraining pass.",
-      "tag": "Inference",
+      "desc": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput.",
       "extras": [
         "5 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 24,
+      "votes": 26,
       "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
       "arxiv": "2611.06856",
-      "desc": "An expert-checked benchmark for composing one image from many scattered references while ignoring distractors, aimed at agent-driven image generation.",
-      "tag": "Generative",
+      "desc": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation.",
+      "tag": "Benchmark",
       "extras": [
         "19 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 17,
+      "votes": 23,
+      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+      "arxiv": "2611.08175",
+      "desc": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 19,
       "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
       "arxiv": "2611.01182",
-      "desc": "Makes relative-position attention exact and fast with structure-aware kernels, a RoPE alternative that has been especially strong in audio.",
-      "tag": "Architecture",
+      "desc": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in domains such as audio.",
+      "tag": "Audio",
       "extras": [
         "3 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 9,
-      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
-      "arxiv": "2611.08175",
-      "desc": "A multimodal agent that splits circuit-board routing into a global plan and local geometric edits inside a real routing tool.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
       "votes": 8,
       "title": "AutoCompress: Automated Hardware-Guided Model Compression",
       "arxiv": "2611.08290",
-      "desc": "Prunes language models against measured latency, throughput, and memory limits instead of asking practitioners to guess a parameter budget.",
-      "tag": "Efficiency",
+      "desc": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory.",
       "extras": [
         "7 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
-      "arxiv": "2611.09113",
-      "desc": "Measures agents that quietly step past their permissions while chasing a user goal, using a benchmark that pairs a compliant path with an attractive shortcut.",
-      "tag": "Agents",
-      "extras": [
-        "10 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
+      "votes": 7,
       "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
       "arxiv": "2611.09634",
-      "desc": "LambdaMix trains a family of preference-conditioned policies with low-rank adapters so one model can shift objective trade-offs without a full retrain.",
-      "tag": "Training",
+      "desc": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting.",
+      "tag": "RL",
       "extras": [
         "2 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
-      "arxiv": "2610.41711",
-      "desc": "Widens the residual stream that carries state through a Transformer while leaving each layer's compute width unchanged.",
-      "tag": "Architecture",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
+      "votes": 6,
       "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
       "arxiv": "2611.09891",
-      "desc": "Caches a solved reasoning trace so later instances of the same task can be executed cheaply on CPU, with the language model mostly out of the loop.",
-      "tag": "Inference",
+      "desc": "Large language models reinvent the wheel all the time.",
+      "tag": "Agents",
       "extras": [
         "5 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 3,
+      "votes": 5,
       "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
       "arxiv": "2611.02775",
-      "desc": "Argues financial OCR should be scored on whether the facts a decision depends on survive, not on character error rate.",
-      "tag": "Evaluation",
+      "desc": "Financial document recognition is often assessed using character and word error rates, although these metrics do not express whether a system preserves the financial facts on which people and organisations act.",
       "extras": [
-        "1 author",
         "Nov 2026"
       ]
     },
     {
-      "votes": 2,
+      "votes": 5,
+      "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
+      "arxiv": "2610.41711",
+      "desc": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer.",
+      "extras": [
+        "7 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
+      "arxiv": "2611.09113",
+      "desc": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
       "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
       "arxiv": "2611.08647",
-      "desc": "A benchmark for editing another model's weights directly, without gradients, from lexical tweaks to factual updates.",
-      "tag": "Evaluation",
+      "desc": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients.",
       "extras": [
         "4 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 2,
+      "votes": 3,
       "title": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
       "arxiv": "2611.08179",
-      "desc": "Studies on-policy self-distillation for multilingual reasoning, and when a teacher conditioned on the answer stops giving useful feedback.",
+      "desc": "On-Policy Self-Distillation (OPSD) improves reasoning by training a student on its own reasoning, using the same model conditioned on reference solutions as a teacher.",
       "tag": "Training",
       "extras": [
         "7 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
-      "arxiv": "2611.06844",
-      "desc": "Lets a multimodal model choose, layer by layer, which vision features to feed into which language-model layers.",
-      "tag": "VLM",
-      "extras": [
-        "10 authors",
         "Nov 2026"
       ]
     },
@@ -148,19 +131,29 @@
       "votes": 2,
       "title": "Learning to evolve by matching velocities",
       "arxiv": "2611.00448",
-      "desc": "Trains continuous dynamical systems by matching velocities instead of backpropagating through a long simulated rollout.",
-      "tag": "Dynamics",
+      "desc": "Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which require simulating the learned dynamics during training and backpropagating through the numerical scheme, at a cost that grows with the rollout horizon.",
       "extras": [
         "2 authors",
         "Oct 2026"
       ]
     },
     {
-      "votes": 1,
+      "votes": 2,
+      "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
+      "arxiv": "2611.06844",
+      "desc": "A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual information from a hierarchical vision encoder should be wired into the layer-wise semantics of a large language model.",
+      "tag": "Multimodal",
+      "extras": [
+        "10 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
       "title": "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding",
       "arxiv": "2611.07723",
-      "desc": "Shows protein-scaffold benchmarks that only check a static fold miss whether the designed protein stays stable as it moves.",
-      "tag": "Biology",
+      "desc": "Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues.",
+      "tag": "Benchmark",
       "extras": [
         "12 authors",
         "Nov 2026"
