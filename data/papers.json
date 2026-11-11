@@ -1,162 +1,160 @@
 {
-  "snapshot": "November 10, 2026",
+  "snapshot": "November 11, 2026",
   "papers": [
     {
       "votes": 19,
-      "title": "Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages",
-      "arxiv": "2611.10304",
-      "desc": "Challenging repository-level benchmarks remain limited for many programming language ecosystems, where filtering scarce candidates with ambiguous descriptions or defective tests can discard valuable engineering problems.",
+      "title": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
+      "arxiv": "2611.10649",
+      "desc": "Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers.",
+      "tag": "Diffusion",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 12,
+      "title": "Embodied First Exam",
+      "arxiv": "2611.12177",
+      "desc": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots.",
       "tag": "Agents",
       "extras": [
-        "3 authors",
+        "30 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 14,
-      "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
-      "arxiv": "2611.11558",
-      "desc": "While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training depends on tightly coupled launch settings, operator kernels, and communication schedules, where single edits often hit out-of-memory (OOM) boundaries, compiler conflicts, measurement jitter, or silent numerical drift.",
+      "votes": 12,
+      "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+      "arxiv": "2611.10866",
+      "desc": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifiable rewards, supervised fine-tuning, and on-policy distillation.",
+      "tag": "RL",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
+      "arxiv": "2611.13576",
+      "desc": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense.",
+      "tag": "CV",
+      "extras": [
+        "8 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents",
+      "arxiv": "2611.01527",
+      "desc": "A scientific agent can give the same verdict while reading and citing different evidence.",
       "tag": "Agents",
-      "extras": [
-        "11 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
-      "arxiv": "2611.01112",
-      "desc": "Vision-language models can interpret instructions and plan manipulation tasks, yet struggle when acting directly as robot policies.",
-      "tag": "Agents",
-      "extras": [
-        "21 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
-      "arxiv": "2611.11890",
-      "desc": "Self-supervised learning in Vision Transformer models, such as DINO, enables robust visual perception without requiring labeled data by leveraging large-scale image datasets.",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
-      "arxiv": "2610.37570",
-      "desc": "We present LCM-Promo, an LLM-based uplift model for promotion allocation.",
-      "extras": [
-        "7 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
-      "arxiv": "2611.12870",
-      "desc": "World action models jointly predict video and actions conditioned on language.",
-      "extras": [
-        "11 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
-      "arxiv": "2611.08935",
-      "desc": "Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sources.",
-      "tag": "Agents",
-      "extras": [
-        "14 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "onóna: Twin Embeddings with Tied Unembeddings",
-      "arxiv": "2611.10556",
-      "desc": "Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softmax.",
-      "extras": [
-        "7 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
-      "arxiv": "2611.09709",
-      "desc": "RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt.",
-      "tag": "Retrieval",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
-      "arxiv": "2611.09195",
-      "desc": "Real-time 3D human mesh recovery from a single image on mobile devices is a challenging problem with many applications, including robotics, biomechanics, AR/VR, and exergames.",
-      "tag": "3D",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Spatial Harness: Grounding Spatial Reasoning in Executable World States with Physics Engines",
-      "arxiv": "2611.11344",
-      "desc": "Spatial reasoning requires understanding how objects and observers are arranged in a scene and how their relations change with viewpoint or movement.",
-      "tag": "VLM",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
-      "arxiv": "2611.11740",
-      "desc": "Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulating new scientific theories, are fundamentally creative acts.",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks",
-      "arxiv": "2611.12875",
-      "desc": "Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable prediction.",
-      "tag": "3D",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching",
-      "arxiv": "2501.08686",
-      "desc": "Traditional similarity-based schema matching methods fail to resolve semantic ambiguities and conflicts in complex, domain-specific mappings due to a lack of commonsense and domain-specific knowledge.",
-      "tag": "Retrieval",
       "extras": [
         "4 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "Energy-Tweedie: Score meets Score, Energy meets Energy",
-      "arxiv": "2512.23818",
-      "desc": "Denoising and score estimation are classically linked through Tweedie's formula, which relates the posterior mean under Gaussian noise to the Stein score of the noisy marginal.",
+      "votes": 5,
+      "title": "Micius-Flash: Lightweight Agentic Intelligence for Engineering",
+      "arxiv": "2611.10015",
+      "desc": "We introduce Micius-Flash, a 27-billion-parameter model for engineering with native multimodal input, deep reasoning and a 256K-token context window.",
+      "tag": "Agents",
+      "extras": [
+        "26 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking",
+      "arxiv": "2611.10486",
+      "desc": "Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality.",
       "tag": "Diffusion",
       "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "LEASH: Stay Safe in Agentic Robotics",
+      "arxiv": "2611.14115",
+      "desc": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "DyCraft: An Agentic System for Long-Horizon 4D Scene Generation",
+      "arxiv": "2610.40754",
+      "desc": "While frontier coding agents can generate high-quality 3D scenes and articulated assets, they struggle to create coherent long-horizon animations.",
+      "tag": "Agents",
+      "extras": [
+        "8 authors",
+        "Oct 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
+      "arxiv": "2611.12184",
+      "desc": "Scientific discovery requires ideas that are original, useful, and non-obvious.",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Are Causal Neuron Circuits Unique and Transferable?",
+      "arxiv": "2611.13885",
+      "desc": "Interpretability demonstrations often show that intervening on a group of neurons changes a model's answer.",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
+      "arxiv": "2611.14083",
+      "desc": "We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit.",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "TorchCurves: Differentiable Parametric Curves",
+      "arxiv": "2611.14516",
+      "desc": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives.",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Visual Similarity in Adult Word Extension and Artificial Word Learning",
+      "arxiv": "2611.14116",
+      "desc": "When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? First, we reanalyzed trial-level data from a large adult word-extension study (Lewis & Frank, 2018), computing each test image's distance to the examples shown in the space of a frozen self-supervised visual encoder (DINOv2).",
+      "tag": "CV",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model",
+      "arxiv": "2611.13425",
+      "desc": "Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains challenging due to substantial anatomical and appearance variability across standard acoustic windows.",
+      "tag": "CV",
+      "extras": [
+        "11 authors",
         "Nov 2026"
       ]
     }
