@@ -1,32 +1,66 @@
 {
-  "snapshot": "November 12, 2026",
+  "snapshot": "November 13, 2026",
   "papers": [
     {
-      "votes": 37,
-      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
-      "arxiv": "2610.40394",
-      "desc": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources.",
+      "votes": 27,
+      "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+      "arxiv": "2611.15844",
+      "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
+      "tag": "CV",
       "extras": [
-        "10 authors",
-        "Oct 2026"
-      ]
-    },
-    {
-      "votes": 30,
-      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
-      "arxiv": "2611.13410",
-      "desc": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
+        "7 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 16,
-      "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
-      "arxiv": "2608.22237",
-      "desc": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed.",
+      "votes": 19,
+      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "arxiv": "2611.17331",
+      "desc": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
+      "tag": "3D",
+      "extras": [
+        "9 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "arxiv": "2611.08318",
+      "desc": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks.",
+      "tag": "Agents",
+      "extras": [
+        "13 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "DeepStress: Stress-Testing Deep Search Agents",
+      "arxiv": "2607.13920",
+      "desc": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+      "arxiv": "2611.16009",
+      "desc": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since.",
+      "tag": "Agents",
+      "extras": [
+        "12 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "arxiv": "2611.12872",
+      "desc": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction.",
       "tag": "Agents",
       "extras": [
         "8 authors",
@@ -34,94 +68,33 @@
       ]
     },
     {
-      "votes": 11,
-      "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
-      "arxiv": "2611.12304",
-      "desc": "Agentic workloads are a major source of LLM inference demand.",
+      "votes": 3,
+      "title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+      "arxiv": "2611.08219",
+      "desc": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans.",
       "tag": "Agents",
       "extras": [
-        "11 authors",
+        "8 authors",
         "Nov 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
-      "arxiv": "2611.12869",
-      "desc": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces.",
-      "tag": "VLM",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
-      "arxiv": "2611.14418",
-      "desc": "Local decoding usually fixes one weight precision for the whole generation.",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds",
-      "arxiv": "2611.08286",
-      "desc": "Visual interaction models that support users during ongoing physical tasks require evaluation in closed loop, where assistant responses can change subsequent user behavior and task outcomes.",
-      "tag": "CV",
-      "extras": [
-        "14 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
-      "arxiv": "2611.13766",
-      "desc": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control.",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
-      "arxiv": "2611.13758",
-      "desc": "Weight-space programming allows language models to read a trained neural network's weights and edit them.",
-      "tag": "Diffusion",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Module-Aware Optimization for Graph Neural Networks",
-      "arxiv": "2611.08379",
-      "desc": "Different optimizers impose different geometries on parameter updates.",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models",
-      "arxiv": "2607.24999",
-      "desc": "Human cognitive tasks let us compare language models with humans under controlled conditions.",
-      "extras": [
-        "4 authors",
-        "Oct 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
-      "arxiv": "2611.05862",
-      "desc": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations.",
+      "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+      "arxiv": "2611.09567",
+      "desc": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows.",
+      "tag": "3D",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Unbundling Multimodal Vision Encoding",
+      "arxiv": "2611.17334",
+      "desc": "How multimodal language models should encode visual input remains up for debate.",
+      "tag": "Multimodal",
       "extras": [
         "12 authors",
         "Nov 2026"
@@ -129,33 +102,64 @@
     },
     {
       "votes": 2,
-      "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
-      "arxiv": "2611.14413",
-      "desc": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings.",
+      "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+      "arxiv": "2611.14046",
+      "desc": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure.",
       "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
-      "arxiv": "2611.13843",
-      "desc": "Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rarely measured on a fixed yardstick.",
-      "tag": "Benchmark",
-      "extras": [
-        "2 authors",
+        "6 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
-      "arxiv": "2611.11306",
-      "desc": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws.",
+      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "arxiv": "2611.16961",
+      "desc": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
       "tag": "Agents",
       "extras": [
-        "3 authors",
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "arxiv": "2611.16409",
+      "desc": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards.",
+      "tag": "RL",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+      "arxiv": "2611.14256",
+      "desc": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation.",
+      "tag": "Agents",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+      "arxiv": "2611.12750",
+      "desc": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics.",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "A frontier machine intelligence for human neuroimaging",
+      "arxiv": "2611.15094",
+      "desc": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time.",
+      "tag": "VLM",
+      "extras": [
+        "22 authors",
         "Nov 2026"
       ]
     }
