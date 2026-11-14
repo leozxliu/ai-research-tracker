@@ -1,8 +1,8 @@
 {
-  "snapshot": "November 13, 2026",
+  "snapshot": "November 14, 2026",
   "papers": [
     {
-      "votes": 27,
+      "votes": 32,
       "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
       "arxiv": "2611.15844",
       "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
@@ -13,18 +13,7 @@
       ]
     },
     {
-      "votes": 19,
-      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
-      "arxiv": "2611.17331",
-      "desc": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
-      "tag": "3D",
-      "extras": [
-        "9 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 5,
+      "votes": 18,
       "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
       "arxiv": "2611.08318",
       "desc": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks.",
@@ -35,7 +24,29 @@
       ]
     },
     {
-      "votes": 4,
+      "votes": 14,
+      "title": "Unbundling Multimodal Vision Encoding",
+      "arxiv": "2611.17334",
+      "desc": "How multimodal language models should encode visual input remains up for debate.",
+      "tag": "Multimodal",
+      "extras": [
+        "12 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+      "arxiv": "2611.10439",
+      "desc": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 6,
       "title": "DeepStress: Stress-Testing Deep Search Agents",
       "arxiv": "2607.13920",
       "desc": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored.",
@@ -46,7 +57,29 @@
       ]
     },
     {
-      "votes": 3,
+      "votes": 4,
+      "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+      "arxiv": "2611.17190",
+      "desc": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable.",
+      "tag": "Benchmark",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+      "arxiv": "2611.09567",
+      "desc": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows.",
+      "tag": "3D",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
       "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
       "arxiv": "2611.16009",
       "desc": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since.",
@@ -58,71 +91,17 @@
     },
     {
       "votes": 3,
-      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-      "arxiv": "2611.12872",
-      "desc": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
-      "arxiv": "2611.08219",
-      "desc": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans.",
-      "tag": "Agents",
-      "extras": [
-        "8 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
-      "arxiv": "2611.09567",
-      "desc": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows.",
-      "tag": "3D",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Unbundling Multimodal Vision Encoding",
-      "arxiv": "2611.17334",
-      "desc": "How multimodal language models should encode visual input remains up for debate.",
-      "tag": "Multimodal",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "arxiv": "2611.17336",
+      "desc": "Frontier video generation models work in a VAE latent space that compresses video in both space and time.",
+      "tag": "Diffusion",
       "extras": [
         "12 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
-      "arxiv": "2611.14046",
-      "desc": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure.",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
-      "arxiv": "2611.16961",
-      "desc": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
+      "votes": 3,
       "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
       "arxiv": "2611.16409",
       "desc": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards.",
@@ -133,17 +112,18 @@
       ]
     },
     {
-      "votes": 1,
-      "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
-      "arxiv": "2611.14256",
-      "desc": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation.",
+      "votes": 2,
+      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "arxiv": "2611.16961",
+      "desc": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
       "tag": "Agents",
       "extras": [
+        "6 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 0,
+      "votes": 2,
       "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
       "arxiv": "2611.12750",
       "desc": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics.",
@@ -153,7 +133,28 @@
       ]
     },
     {
-      "votes": 0,
+      "votes": 2,
+      "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+      "arxiv": "2611.14256",
+      "desc": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation.",
+      "tag": "Agents",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+      "arxiv": "2611.16728",
+      "desc": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents.",
+      "tag": "Agents",
+      "extras": [
+        "22 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
       "title": "A frontier machine intelligence for human neuroimaging",
       "arxiv": "2611.15094",
       "desc": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time.",
