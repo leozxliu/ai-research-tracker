@@ -1,8 +1,8 @@
 {
-  "snapshot": "November 14, 2026",
+  "snapshot": "November 15, 2026",
   "papers": [
     {
-      "votes": 32,
+      "votes": 36,
       "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
       "arxiv": "2611.15844",
       "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "votes": 18,
+      "votes": 21,
       "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
       "arxiv": "2611.08318",
       "desc": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks.",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "votes": 14,
+      "votes": 16,
       "title": "Unbundling Multimodal Vision Encoding",
       "arxiv": "2611.17334",
       "desc": "How multimodal language models should encode visual input remains up for debate.",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "votes": 7,
+      "votes": 8,
       "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
       "arxiv": "2611.10439",
       "desc": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents.",
@@ -46,13 +46,57 @@
       ]
     },
     {
-      "votes": 6,
+      "votes": 7,
+      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "arxiv": "2611.16961",
+      "desc": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 7,
       "title": "DeepStress: Stress-Testing Deep Search Agents",
       "arxiv": "2607.13920",
       "desc": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored.",
       "tag": "Agents",
       "extras": [
         "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "arxiv": "2611.17336",
+      "desc": "Frontier video generation models work in a VAE latent space that compresses video in both space and time.",
+      "tag": "Diffusion",
+      "extras": [
+        "12 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "arxiv": "2611.16409",
+      "desc": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards.",
+      "tag": "RL",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+      "arxiv": "2611.16009",
+      "desc": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since.",
+      "tag": "Agents",
+      "extras": [
+        "12 authors",
         "Nov 2026"
       ]
     },
@@ -79,51 +123,7 @@
       ]
     },
     {
-      "votes": 4,
-      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
-      "arxiv": "2611.16009",
-      "desc": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since.",
-      "tag": "Agents",
-      "extras": [
-        "12 authors",
-        "Nov 2026"
-      ]
-    },
-    {
       "votes": 3,
-      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-      "arxiv": "2611.17336",
-      "desc": "Frontier video generation models work in a VAE latent space that compresses video in both space and time.",
-      "tag": "Diffusion",
-      "extras": [
-        "12 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "arxiv": "2611.16409",
-      "desc": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards.",
-      "tag": "RL",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
-      "arxiv": "2611.16961",
-      "desc": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
       "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
       "arxiv": "2611.12750",
       "desc": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics.",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "votes": 2,
+      "votes": 3,
       "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
       "arxiv": "2611.14256",
       "desc": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation.",
