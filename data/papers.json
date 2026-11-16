@@ -1,66 +1,33 @@
 {
-  "snapshot": "November 15, 2026",
+  "snapshot": "November 16, 2026",
   "papers": [
     {
-      "votes": 36,
-      "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
-      "arxiv": "2611.15844",
-      "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
-      "tag": "CV",
+      "votes": 20,
+      "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+      "arxiv": "2611.17878",
+      "desc": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions.",
+      "tag": "Multimodal",
       "extras": [
-        "7 authors",
+        "8 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 21,
-      "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
-      "arxiv": "2611.08318",
-      "desc": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks.",
-      "tag": "Agents",
+      "votes": 12,
+      "title": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+      "arxiv": "2610.41354",
+      "desc": "Deployment objectives often specify desired outcomes without providing revised trajectories, while parts of the original reference must still be followed.",
+      "tag": "Diffusion",
       "extras": [
         "13 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 16,
-      "title": "Unbundling Multimodal Vision Encoding",
-      "arxiv": "2611.17334",
-      "desc": "How multimodal language models should encode visual input remains up for debate.",
-      "tag": "Multimodal",
-      "extras": [
-        "12 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
-      "arxiv": "2611.10439",
-      "desc": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
-      "arxiv": "2611.16961",
-      "desc": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
-      "tag": "Agents",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "DeepStress: Stress-Testing Deep Search Agents",
-      "arxiv": "2607.13920",
-      "desc": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored.",
+      "votes": 10,
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "arxiv": "2611.14505",
+      "desc": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning.",
       "tag": "Agents",
       "extras": [
         "3 authors",
@@ -68,99 +35,132 @@
       ]
     },
     {
-      "votes": 5,
-      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-      "arxiv": "2611.17336",
-      "desc": "Frontier video generation models work in a VAE latent space that compresses video in both space and time.",
-      "tag": "Diffusion",
-      "extras": [
-        "12 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "arxiv": "2611.16409",
-      "desc": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards.",
-      "tag": "RL",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
-      "arxiv": "2611.16009",
-      "desc": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since.",
+      "votes": 10,
+      "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+      "arxiv": "2611.17955",
+      "desc": "Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows.",
       "tag": "Agents",
       "extras": [
-        "12 authors",
+        "22 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
-      "arxiv": "2611.17190",
-      "desc": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable.",
-      "tag": "Benchmark",
+      "votes": 7,
+      "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
+      "arxiv": "2611.17440",
+      "desc": "Standard coding-agent benchmarks primarily evaluate binary task success, treating execution as a black box and obscuring the behaviors that produce those outcomes.",
+      "tag": "Agents",
       "extras": [
         "2 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
-      "arxiv": "2611.09567",
-      "desc": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows.",
+      "votes": 6,
+      "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+      "arxiv": "2611.14487",
+      "desc": "Research ideation is iterative: researchers refine their ideas step by step based on feedback.",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
+      "arxiv": "2611.15640",
+      "desc": "Streaming video understanding aims to continuously process incoming visual observations, making the retention and retrieval of relevant information increasingly important as the video history grows.",
+      "tag": "CV",
+      "extras": [
+        "13 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
+      "arxiv": "2611.17194",
+      "desc": "Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-step students, where an auxiliary fake score model tracks the student's distribution and the discrepancy between the teacher and fake predictions drives the student toward the teacher.",
+      "tag": "Diffusion",
+      "extras": [
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+      "arxiv": "2611.17169",
+      "desc": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell.",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
+      "arxiv": "2611.17780",
+      "desc": "Frontier LLM agents that query databases with tools are among the most accurate text-to-SQL systems, but per-query calls to a hosted model are slow, costly, and expose sensitive organizational queries to external APIs.",
+      "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
+      "arxiv": "2611.17321",
+      "desc": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object.",
       "tag": "3D",
       "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
-      "arxiv": "2611.12750",
-      "desc": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics.",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
-      "arxiv": "2611.14256",
-      "desc": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation.",
-      "tag": "Agents",
-      "extras": [
+        "2 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
-      "arxiv": "2611.16728",
-      "desc": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents.",
-      "tag": "Agents",
+      "title": "Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems",
+      "arxiv": "2611.05843",
+      "desc": "Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain.",
+      "tag": "CV",
       "extras": [
-        "22 authors",
+        "2 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "A frontier machine intelligence for human neuroimaging",
-      "arxiv": "2611.15094",
-      "desc": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time.",
+      "title": "EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning",
+      "arxiv": "2611.16500",
+      "desc": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia.",
       "tag": "VLM",
       "extras": [
-        "22 authors",
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+      "arxiv": "2611.18550",
+      "desc": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation.",
+      "tag": "CV",
+      "extras": [
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Alloy: A Multi-Material Physics Engine for Robot Learning",
+      "arxiv": "2611.16312",
+      "desc": "Robots handle much more than rigid objects: towels, cables, water, sand.",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
         "Nov 2026"
       ]
     }
