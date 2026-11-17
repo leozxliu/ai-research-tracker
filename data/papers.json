@@ -1,33 +1,11 @@
 {
-  "snapshot": "November 16, 2026",
+  "snapshot": "November 17, 2026",
   "papers": [
     {
-      "votes": 20,
-      "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
-      "arxiv": "2611.17878",
-      "desc": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions.",
-      "tag": "Multimodal",
-      "extras": [
-        "8 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 12,
-      "title": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
-      "arxiv": "2610.41354",
-      "desc": "Deployment objectives often specify desired outcomes without providing revised trajectories, while parts of the original reference must still be followed.",
-      "tag": "Diffusion",
-      "extras": [
-        "13 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 10,
-      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
-      "arxiv": "2611.14505",
-      "desc": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning.",
+      "votes": 5,
+      "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
+      "arxiv": "2611.14960",
+      "desc": "Coding agents can solve a task well before they stop working on it.",
       "tag": "Agents",
       "extras": [
         "3 authors",
@@ -35,54 +13,21 @@
       ]
     },
     {
-      "votes": 10,
-      "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
-      "arxiv": "2611.17955",
-      "desc": "Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows.",
-      "tag": "Agents",
-      "extras": [
-        "22 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
-      "arxiv": "2611.17440",
-      "desc": "Standard coding-agent benchmarks primarily evaluate binary task success, treating execution as a black box and obscuring the behaviors that produce those outcomes.",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
-      "arxiv": "2611.14487",
-      "desc": "Research ideation is iterative: researchers refine their ideas step by step based on feedback.",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
       "votes": 5,
-      "title": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
-      "arxiv": "2611.15640",
-      "desc": "Streaming video understanding aims to continuously process incoming visual observations, making the retention and retrieval of relevant information increasingly important as the video history grows.",
-      "tag": "CV",
+      "title": "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality",
+      "arxiv": "2611.18919",
+      "desc": "Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a category label.",
+      "tag": "RL",
       "extras": [
-        "13 authors",
+        "4 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
-      "arxiv": "2611.17194",
-      "desc": "Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-step students, where an auxiliary fake score model tracks the student's distribution and the discrepancy between the teacher and fake predictions drives the student toward the teacher.",
-      "tag": "Diffusion",
+      "votes": 4,
+      "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
+      "arxiv": "2611.19771",
+      "desc": "Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space.",
       "extras": [
         "7 authors",
         "Nov 2026"
@@ -90,9 +35,31 @@
     },
     {
       "votes": 3,
-      "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
-      "arxiv": "2611.17169",
-      "desc": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell.",
+      "title": "Marimba: A System One Model for Speech",
+      "arxiv": "2611.18330",
+      "desc": "Speech applications require decisions about term presence, turn completion, and language within an audio window.",
+      "tag": "Audio",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+      "arxiv": "2611.09825",
+      "desc": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving.",
+      "tag": "RL",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Dataset Distillation via Drifting",
+      "arxiv": "2611.16642",
+      "desc": "The task of dataset distillation concerns the learning of a small set of synthetic samples that can serve as an effective replacement for a large real dataset when used for downstream tasks.",
+      "tag": "Training",
       "extras": [
         "5 authors",
         "Nov 2026"
@@ -100,10 +67,31 @@
     },
     {
       "votes": 2,
-      "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
-      "arxiv": "2611.17780",
-      "desc": "Frontier LLM agents that query databases with tools are among the most accurate text-to-SQL systems, but per-query calls to a hosted model are slow, costly, and expose sensitive organizational queries to external APIs.",
+      "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
+      "arxiv": "2611.16694",
+      "desc": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers.",
       "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "arxiv": "2611.21605",
+      "desc": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions.",
+      "tag": "Agents",
+      "extras": [
+        "12 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+      "arxiv": "2611.21479",
+      "desc": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control.",
       "extras": [
         "4 authors",
         "Nov 2026"
@@ -111,56 +99,62 @@
     },
     {
       "votes": 1,
-      "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
-      "arxiv": "2611.17321",
-      "desc": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object.",
-      "tag": "3D",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems",
-      "arxiv": "2611.05843",
-      "desc": "Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain.",
-      "tag": "CV",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning",
-      "arxiv": "2611.16500",
-      "desc": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia.",
-      "tag": "VLM",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
-      "arxiv": "2611.18550",
-      "desc": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation.",
-      "tag": "CV",
-      "extras": [
-        "7 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Alloy: A Multi-Material Physics Engine for Robot Learning",
-      "arxiv": "2611.16312",
-      "desc": "Robots handle much more than rigid objects: towels, cables, water, sand.",
+      "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
+      "arxiv": "2611.20595",
+      "desc": "LLM agents answer questions by calling APIs and trusting the results.",
       "tag": "Agents",
       "extras": [
-        "2 authors",
+        "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
+      "arxiv": "2611.21412",
+      "desc": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on fast, anisotropic 2D acquisitions, particularly in resource-constrained settings.",
+      "extras": [
+        "13 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "arxiv": "2611.17610",
+      "desc": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass.",
+      "tag": "Agents",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+      "arxiv": "2611.18981",
+      "desc": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion.",
+      "tag": "Retrieval",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Zuse: A Decision Model for European Languages",
+      "arxiv": "2611.06238",
+      "desc": "Decision models read a document and return a probability for each of a fixed set of options instead of generating text.",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "A Reinforcement Learning Method to Navigate SMEFT Operator Space",
+      "arxiv": "2611.21439",
+      "desc": "In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly interpreted within new theoretical models.",
+      "tag": "RL",
+      "extras": [
         "Nov 2026"
       ]
     }
