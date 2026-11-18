@@ -1,54 +1,77 @@
 {
-  "snapshot": "November 17, 2026",
+  "snapshot": "November 18, 2026",
   "papers": [
     {
-      "votes": 5,
-      "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
-      "arxiv": "2611.14960",
-      "desc": "Coding agents can solve a task well before they stop working on it.",
-      "tag": "Agents",
+      "votes": 33,
+      "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
+      "arxiv": "2611.17048",
+      "desc": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation.",
+      "tag": "CV",
       "extras": [
-        "3 authors",
+        "18 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality",
-      "arxiv": "2611.18919",
-      "desc": "Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a category label.",
-      "tag": "RL",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
-      "arxiv": "2611.19771",
-      "desc": "Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space.",
+      "votes": 18,
+      "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
+      "arxiv": "2611.21392",
+      "desc": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an answer.",
+      "tag": "CV",
       "extras": [
         "7 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Marimba: A System One Model for Speech",
-      "arxiv": "2611.18330",
-      "desc": "Speech applications require decisions about term presence, turn completion, and language within an audio window.",
-      "tag": "Audio",
+      "votes": 9,
+      "title": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
+      "arxiv": "2611.22563",
+      "desc": "CAD practitioners often work with proprietary parts that they are unwilling to share with external services.",
+      "tag": "Agents",
       "extras": [
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
+      "arxiv": "2611.21382",
+      "desc": "Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs.",
+      "tag": "CV",
+      "extras": [
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models",
+      "arxiv": "2611.15671",
+      "desc": "A quantized model is usually judged by comparing it with its BF16 original, but that comparison changes more than the weights.",
+      "extras": [
+        "2 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 3,
-      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
-      "arxiv": "2611.09825",
-      "desc": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving.",
-      "tag": "RL",
+      "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
+      "arxiv": "2611.21925",
+      "desc": "Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, which then undergo parallel verification via a larger target model.",
+      "tag": "Diffusion",
+      "extras": [
+        "8 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning",
+      "arxiv": "2611.21938",
+      "desc": "Robot policies trained by imitation generalize poorly outside the environments and objects seen in training.",
+      "tag": "CV",
       "extras": [
         "6 authors",
         "Nov 2026"
@@ -56,52 +79,20 @@
     },
     {
       "votes": 3,
-      "title": "Dataset Distillation via Drifting",
-      "arxiv": "2611.16642",
-      "desc": "The task of dataset distillation concerns the learning of a small set of synthetic samples that can serve as an effective replacement for a large real dataset when used for downstream tasks.",
-      "tag": "Training",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
-      "arxiv": "2611.16694",
-      "desc": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers.",
+      "title": "MillBill: A Machining Agent with Geometric Feedback",
+      "arxiv": "2611.22565",
+      "desc": "Turning a CAD model into a machining program requires both process knowledge and geometric precision.",
       "tag": "Agents",
       "extras": [
-        "2 authors",
+        "6 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
-      "arxiv": "2611.21605",
-      "desc": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions.",
-      "tag": "Agents",
-      "extras": [
-        "12 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
-      "arxiv": "2611.21479",
-      "desc": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control.",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
-      "arxiv": "2611.20595",
-      "desc": "LLM agents answer questions by calling APIs and trusting the results.",
+      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+      "arxiv": "2611.18553",
+      "desc": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks.",
       "tag": "Agents",
       "extras": [
         "3 authors",
@@ -109,52 +100,64 @@
       ]
     },
     {
-      "votes": 0,
-      "title": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
-      "arxiv": "2611.21412",
-      "desc": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on fast, anisotropic 2D acquisitions, particularly in resource-constrained settings.",
+      "votes": 2,
+      "title": "AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions",
+      "arxiv": "2611.21421",
+      "desc": "Formal specifications define intended program behavior and underpin verification, but writing them in theorem provers such as Lean is slow and expertise-intensive, making specification a major bottleneck to scaling formally correct code.",
       "extras": [
-        "13 authors",
+        "7 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
-      "arxiv": "2611.17610",
-      "desc": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass.",
-      "tag": "Agents",
-      "extras": [
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
-      "arxiv": "2611.18981",
-      "desc": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion.",
-      "tag": "Retrieval",
+      "votes": 2,
+      "title": "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation",
+      "arxiv": "2611.23034",
+      "desc": "Multi-Teacher On-Policy Distillation (MOPD) enables a single student to absorb the skills of several domain teachers by learning from its own generated responses.",
+      "tag": "Multimodal",
       "extras": [
         "5 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "Zuse: A Decision Model for European Languages",
-      "arxiv": "2611.06238",
-      "desc": "Decision models read a document and return a probability for each of a fixed set of options instead of generating text.",
+      "votes": 1,
+      "title": "The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)",
+      "arxiv": "2611.20003",
+      "desc": "In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and many of them arrive with a technical report that presents the model as new.",
       "extras": [
         "Nov 2026"
       ]
     },
     {
-      "votes": 0,
-      "title": "A Reinforcement Learning Method to Navigate SMEFT Operator Space",
-      "arxiv": "2611.21439",
-      "desc": "In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly interpreted within new theoretical models.",
-      "tag": "RL",
+      "votes": 1,
+      "title": "Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark",
+      "arxiv": "2611.20321",
+      "desc": "Vision-based navigation systems for orbit must be trained almost entirely on synthetic imagery, because real labelled images of a given spacecraft in flight rarely exist.",
+      "tag": "Benchmark",
       "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "GameRealm: Grounding Visual Learning in Interactive Games",
+      "arxiv": "2611.23140",
+      "desc": "Visual foundation models are central to physical intelligence, yet their development remains constrained by fragmented training datasets, inconsistent annotation quality, and limited multimodal supervision.",
+      "tag": "CV",
+      "extras": [
+        "12 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "PanDWM: Panoramic 4D Driving World Models",
+      "arxiv": "2611.19857",
+      "desc": "Driving world models usually generate videos from six pinhole cameras with separate optical centres and small overlaps, and must learn to keep these views consistent.",
+      "tag": "3D",
+      "extras": [
+        "6 authors",
         "Nov 2026"
       ]
     }
