@@ -1,164 +1,159 @@
 {
-  "snapshot": "November 19, 2026",
+  "snapshot": "November 20, 2026",
   "papers": [
     {
-      "votes": 22,
-      "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
-      "arxiv": "2611.24654",
-      "desc": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities.",
+      "votes": 12,
+      "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+      "arxiv": "2611.26408",
+      "desc": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks.",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 11,
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "arxiv": "2611.26627",
+      "desc": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers.",
+      "tag": "RL",
       "extras": [
         "6 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 20,
-      "title": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
-      "arxiv": "2611.17600",
-      "desc": "Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images.",
-      "tag": "Multimodal",
+      "votes": 9,
+      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+      "arxiv": "2611.26286",
+      "desc": "Peer review relies on several readers finding different problems.",
       "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 12,
-      "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
-      "arxiv": "2611.24408",
-      "desc": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect.",
-      "tag": "Benchmark",
-      "extras": [
-        "12 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 8,
-      "title": "BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents",
-      "arxiv": "2611.21553",
-      "desc": "Streaming video understanding is becoming increasingly important for real-world interactive systems.",
-      "tag": "Agents",
+      "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+      "arxiv": "2611.25567",
+      "desc": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover.",
+      "tag": "CV",
       "extras": [
-        "8 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
-      "arxiv": "2611.23257",
-      "desc": "Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs).",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
-        "Sep 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "WaveView: The Novel View Is in the Noise",
-      "arxiv": "2611.23994",
-      "desc": "Generative novel view synthesis (NVS) employs a diffusion model to render a static or dynamic scene from a target camera view.",
-      "tag": "Diffusion",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
-      "arxiv": "2611.23751",
-      "desc": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates.",
-      "tag": "Agents",
-      "extras": [
-        "5 authors",
+        "3 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 4,
-      "title": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
-      "arxiv": "2611.23386",
-      "desc": "Language models can gain capacity at little computational cost from n-gram embedding tables: large tables of learned vectors for short sequences of consecutive tokens, which are looked up and added to the model's input or to its intermediate layers.",
+      "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+      "arxiv": "2611.26511",
+      "desc": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels.",
+      "tag": "Diffusion",
       "extras": [
-        "2 authors",
+        "7 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 3,
-      "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
-      "arxiv": "2611.23779",
-      "desc": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance.",
-      "tag": "Benchmark",
+      "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
+      "arxiv": "2611.25179",
+      "desc": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure.",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "arxiv": "2611.21885",
+      "desc": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends.",
       "extras": [
         "11 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
-      "arxiv": "2611.22382",
-      "desc": "Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into its constituent documents.",
-      "tag": "CV",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
-      "arxiv": "2611.16933",
-      "desc": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix.",
-      "tag": "Audio",
+      "votes": 2,
+      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+      "arxiv": "2611.21053",
+      "desc": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs).",
+      "tag": "Agents",
       "extras": [
         "2 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "BiCAT: Bimanual Coordination Action Tokenization",
-      "arxiv": "2611.23499",
-      "desc": "Autoregressive vision-language-action (VLA) models predict discrete action tokens with the next-token objective of their vision-language backbone, so the action tokenizer defines the interface between the policy and the robot.",
-      "tag": "VLM",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
       "votes": 2,
-      "title": "Choosing Quantized Code LLMs by File Size and Energy per Solved Task",
-      "arxiv": "2611.17605",
-      "desc": "A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine.",
+      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+      "arxiv": "2611.26450",
+      "desc": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
       "extras": [
         "Nov 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
-      "arxiv": "2611.24161",
-      "desc": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks.",
-      "tag": "Multimodal",
+      "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
+      "arxiv": "2611.19499",
+      "desc": "A direction in a language model's hidden state can be used to probe whether a concept is present or to steer the model toward it.",
       "extras": [
-        "18 authors",
+        "2 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
-      "arxiv": "2611.23236",
-      "desc": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks.",
+      "votes": 1,
+      "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+      "arxiv": "2611.25200",
+      "desc": "Experimentation teams must decide which proposed website changes to test with live traffic.",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+      "arxiv": "2611.23875",
+      "desc": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be trained with the hardware.",
+      "tag": "Agents",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "AURA: AUdio-dRiven streaming Avatar",
+      "arxiv": "2611.26540",
+      "desc": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties.",
+      "tag": "Audio",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+      "arxiv": "2611.26211",
+      "desc": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference.",
+      "extras": [
+        "12 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+      "arxiv": "2611.15941",
+      "desc": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images.",
+      "tag": "CV",
       "extras": [
         "7 authors",
-        "Aug 2026"
+        "Nov 2026"
       ]
     }
   ]
