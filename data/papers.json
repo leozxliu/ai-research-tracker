@@ -1,18 +1,8 @@
 {
-  "snapshot": "November 20, 2026",
+  "snapshot": "November 21, 2026",
   "papers": [
     {
-      "votes": 12,
-      "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
-      "arxiv": "2611.26408",
-      "desc": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks.",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 11,
+      "votes": 17,
       "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
       "arxiv": "2611.26627",
       "desc": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers.",
@@ -23,22 +13,65 @@
       ]
     },
     {
-      "votes": 9,
-      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-      "arxiv": "2611.26286",
-      "desc": "Peer review relies on several readers finding different problems.",
-      "extras": [
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 8,
+      "votes": 11,
       "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
       "arxiv": "2611.25567",
       "desc": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover.",
       "tag": "CV",
       "extras": [
         "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "arxiv": "2611.21885",
+      "desc": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends.",
+      "extras": [
+        "11 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+      "arxiv": "2611.21053",
+      "desc": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs).",
+      "tag": "Agents",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "Teaching Vision-Language-Action Models to Stop Safely",
+      "arxiv": "2611.26239",
+      "desc": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions.",
+      "tag": "VLM",
+      "extras": [
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 5,
+      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+      "arxiv": "2611.26450",
+      "desc": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
+      "arxiv": "2611.25604",
+      "desc": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains.",
+      "tag": "Diffusion",
+      "extras": [
+        "8 authors",
         "Nov 2026"
       ]
     },
@@ -54,7 +87,7 @@
       ]
     },
     {
-      "votes": 3,
+      "votes": 4,
       "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
       "arxiv": "2611.25179",
       "desc": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure.",
@@ -64,47 +97,7 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "arxiv": "2611.21885",
-      "desc": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends.",
-      "extras": [
-        "11 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
-      "arxiv": "2611.21053",
-      "desc": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs).",
-      "tag": "Agents",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-      "arxiv": "2611.26450",
-      "desc": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
-      "extras": [
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
-      "arxiv": "2611.19499",
-      "desc": "A direction in a language model's hidden state can be used to probe whether a concept is present or to steer the model toward it.",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
+      "votes": 3,
       "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
       "arxiv": "2611.25200",
       "desc": "Experimentation teams must decide which proposed website changes to test with live traffic.",
@@ -114,7 +107,7 @@
       ]
     },
     {
-      "votes": 1,
+      "votes": 3,
       "title": "In Situ Training of Optical Neural Networks by Coding Agents",
       "arxiv": "2611.23875",
       "desc": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be trained with the hardware.",
@@ -125,7 +118,17 @@
       ]
     },
     {
-      "votes": 1,
+      "votes": 2,
+      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+      "arxiv": "2611.26232",
+      "desc": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality.",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
       "title": "AURA: AUdio-dRiven streaming Avatar",
       "arxiv": "2611.26540",
       "desc": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties.",
@@ -136,7 +139,7 @@
       ]
     },
     {
-      "votes": 1,
+      "votes": 2,
       "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
       "arxiv": "2611.26211",
       "desc": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference.",
@@ -146,7 +149,7 @@
       ]
     },
     {
-      "votes": 0,
+      "votes": 1,
       "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
       "arxiv": "2611.15941",
       "desc": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images.",
