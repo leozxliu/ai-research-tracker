@@ -1,8 +1,8 @@
 {
-  "snapshot": "November 21, 2026",
+  "snapshot": "November 22, 2026",
   "papers": [
     {
-      "votes": 17,
+      "votes": 20,
       "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
       "arxiv": "2611.26627",
       "desc": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers.",
@@ -13,7 +13,17 @@
       ]
     },
     {
-      "votes": 11,
+      "votes": 18,
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "arxiv": "2611.21885",
+      "desc": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends.",
+      "extras": [
+        "11 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 12,
       "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
       "arxiv": "2611.25567",
       "desc": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover.",
@@ -25,11 +35,31 @@
     },
     {
       "votes": 8,
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "arxiv": "2611.21885",
-      "desc": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends.",
+      "title": "Teaching Vision-Language-Action Models to Stop Safely",
+      "arxiv": "2611.26239",
+      "desc": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions.",
+      "tag": "VLM",
       "extras": [
-        "11 authors",
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+      "arxiv": "2611.26211",
+      "desc": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference.",
+      "extras": [
+        "12 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+      "arxiv": "2611.26450",
+      "desc": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
+      "extras": [
         "Nov 2026"
       ]
     },
@@ -45,22 +75,13 @@
       ]
     },
     {
-      "votes": 5,
-      "title": "Teaching Vision-Language-Action Models to Stop Safely",
-      "arxiv": "2611.26239",
-      "desc": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions.",
-      "tag": "VLM",
+      "votes": 6,
+      "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+      "arxiv": "2611.26511",
+      "desc": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels.",
+      "tag": "Diffusion",
       "extras": [
         "7 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 5,
-      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-      "arxiv": "2611.26450",
-      "desc": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
-      "extras": [
         "Nov 2026"
       ]
     },
@@ -77,12 +98,12 @@
     },
     {
       "votes": 4,
-      "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-      "arxiv": "2611.26511",
-      "desc": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels.",
-      "tag": "Diffusion",
+      "title": "AURA: AUdio-dRiven streaming Avatar",
+      "arxiv": "2611.26540",
+      "desc": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties.",
+      "tag": "Audio",
       "extras": [
-        "7 authors",
+        "5 authors",
         "Nov 2026"
       ]
     },
@@ -124,27 +145,6 @@
       "desc": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality.",
       "extras": [
         "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "AURA: AUdio-dRiven streaming Avatar",
-      "arxiv": "2611.26540",
-      "desc": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties.",
-      "tag": "Audio",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-      "arxiv": "2611.26211",
-      "desc": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference.",
-      "extras": [
-        "12 authors",
         "Nov 2026"
       ]
     },
