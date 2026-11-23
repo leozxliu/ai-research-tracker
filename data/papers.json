@@ -1,138 +1,118 @@
 {
-  "snapshot": "November 22, 2026",
+  "snapshot": "November 23, 2026",
   "papers": [
     {
-      "votes": 20,
-      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-      "arxiv": "2611.26627",
-      "desc": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers.",
-      "tag": "RL",
+      "votes": 88,
+      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "arxiv": "2611.27193",
+      "desc": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
+      "extras": [
+        "13 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 54,
+      "title": "Non-penetrating World Models",
+      "arxiv": "2611.27963",
+      "desc": "We study a new problem of preventing object penetration in interactive video world models.",
+      "tag": "Diffusion",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 21,
+      "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+      "arxiv": "2611.26954",
+      "desc": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos.",
+      "tag": "CV",
+      "extras": [
+        "10 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 18,
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "arxiv": "2611.27973",
+      "desc": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures.",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 8,
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "arxiv": "2611.26613",
+      "desc": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives.",
+      "tag": "Agents",
+      "extras": [
+        "10 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 7,
+      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+      "arxiv": "2611.27915",
+      "desc": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world.",
+      "tag": "VLM",
       "extras": [
         "6 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 18,
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "arxiv": "2611.21885",
-      "desc": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends.",
-      "extras": [
-        "11 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 12,
-      "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
-      "arxiv": "2611.25567",
-      "desc": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover.",
-      "tag": "CV",
+      "votes": 4,
+      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+      "arxiv": "2611.25252",
+      "desc": "Coding agents built on large language models (LLMs) now help develop many models published as general solutions.",
+      "tag": "Agents",
       "extras": [
         "3 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 8,
-      "title": "Teaching Vision-Language-Action Models to Stop Safely",
-      "arxiv": "2611.26239",
-      "desc": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions.",
-      "tag": "VLM",
-      "extras": [
-        "7 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-      "arxiv": "2611.26211",
-      "desc": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference.",
-      "extras": [
-        "12 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 7,
-      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-      "arxiv": "2611.26450",
-      "desc": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
-      "extras": [
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 6,
-      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
-      "arxiv": "2611.21053",
-      "desc": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs).",
+      "votes": 4,
+      "title": "Intent Contracts: Taking Tools Away from Agents",
+      "arxiv": "2611.24025",
+      "desc": "Intent contracts are an authorization interface for tool-using LLM agents in which the planning model holds no tools.",
       "tag": "Agents",
+      "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+      "arxiv": "2611.27398",
+      "desc": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where objects undergo physical assemblies and disassemblies.",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
+      "arxiv": "2611.22479",
+      "desc": "-05-X-03), Known Exploited Vulnerabilities (KEV) catalogs, and exploitation sightings.",
       "extras": [
         "2 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 6,
-      "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-      "arxiv": "2611.26511",
-      "desc": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels.",
-      "tag": "Diffusion",
-      "extras": [
-        "7 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
-      "arxiv": "2611.25604",
-      "desc": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains.",
-      "tag": "Diffusion",
-      "extras": [
-        "8 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "AURA: AUdio-dRiven streaming Avatar",
-      "arxiv": "2611.26540",
-      "desc": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties.",
-      "tag": "Audio",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
-      "arxiv": "2611.25179",
-      "desc": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure.",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
-      "arxiv": "2611.25200",
-      "desc": "Experimentation teams must decide which proposed website changes to test with live traffic.",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "In Situ Training of Optical Neural Networks by Coding Agents",
-      "arxiv": "2611.23875",
-      "desc": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be trained with the hardware.",
-      "tag": "Agents",
+      "votes": 2,
+      "title": "Search From the Start: Search-Native Pretraining for Language Models",
+      "arxiv": "2611.26809",
+      "desc": "Modern language models (LMs) are increasingly deployed with access to search tools at inference.",
+      "tag": "Training",
       "extras": [
         "5 authors",
         "Nov 2026"
@@ -140,22 +120,44 @@
     },
     {
       "votes": 2,
-      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
-      "arxiv": "2611.26232",
-      "desc": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality.",
+      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+      "arxiv": "2611.19247",
+      "desc": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gameplay.",
+      "tag": "CV",
       "extras": [
-        "5 authors",
+        "8 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
-      "arxiv": "2611.15941",
-      "desc": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images.",
+      "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
+      "arxiv": "2611.27490",
+      "desc": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge.",
+      "tag": "Retrieval",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
+      "arxiv": "2611.22495",
+      "desc": "Reward models for instruction-guided video editing can favor temporal consistency at the expense of motion.",
       "tag": "CV",
       "extras": [
-        "7 authors",
+        "14 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Autoregressive View Model",
+      "arxiv": "2611.23417",
+      "desc": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation.",
+      "tag": "Diffusion",
+      "extras": [
+        "11 authors",
         "Nov 2026"
       ]
     }
