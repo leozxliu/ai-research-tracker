@@ -1,75 +1,75 @@
 {
-  "snapshot": "November 23, 2026",
+  "snapshot": "November 24, 2026",
   "papers": [
     {
-      "votes": 88,
-      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
-      "arxiv": "2611.27193",
-      "desc": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
-      "extras": [
-        "13 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 54,
-      "title": "Non-penetrating World Models",
-      "arxiv": "2611.27963",
-      "desc": "We study a new problem of preventing object penetration in interactive video world models.",
-      "tag": "Diffusion",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 21,
-      "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
-      "arxiv": "2611.26954",
-      "desc": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos.",
-      "tag": "CV",
-      "extras": [
-        "10 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 18,
-      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-      "arxiv": "2611.27973",
-      "desc": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures.",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 8,
-      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
-      "arxiv": "2611.26613",
-      "desc": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives.",
+      "votes": 13,
+      "title": "Beam Model Technical Report",
+      "arxiv": "2611.26358",
+      "desc": "Beam is a sparse Mixture-of-Experts (MoE) model with 501.3B total parameters and 23.4B active parameters, specifically built and optimized for coding, reasoning, and agentic workloads.",
       "tag": "Agents",
       "extras": [
-        "10 authors",
+        "230 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 7,
-      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
-      "arxiv": "2611.27915",
-      "desc": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world.",
-      "tag": "VLM",
+      "votes": 12,
+      "title": "Single-Transformer Latent Diffusion",
+      "arxiv": "2611.29064",
+      "desc": "Latent generative models typically rely on three separate networks: an encoder that tokenizes pixels, a generator that models the latent distribution, and a decoder that maps latents back to pixels.",
+      "tag": "Diffusion",
+      "extras": [
+        "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 10,
+      "title": "Can Latent Reasoning Drive LLM Outputs Without a Trace?",
+      "arxiv": "2611.31015",
+      "desc": "LLMs typically solve complex tasks with chain-of-thought (CoT) reasoning, which is also the main tool for monitoring them for misaligned behavior.",
+      "extras": [
+        "5 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
+      "arxiv": "2611.31094",
+      "desc": "Looped Transformers iterate a shared block of layers to increase computation without adding parameters, offering stronger performance and test-time scaling.",
+      "extras": [
+        "11 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 6,
+      "title": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
+      "arxiv": "2611.31209",
+      "desc": "Generative Pre-Training (GPT) represents a profound milestone in natural language processing, serving as the foundation for most of today's state-of-the-art large language models.",
+      "tag": "Multimodal",
       "extras": [
         "6 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
-      "arxiv": "2611.25252",
-      "desc": "Coding agents built on large language models (LLMs) now help develop many models published as general solutions.",
+      "votes": 3,
+      "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
+      "arxiv": "2611.30900",
+      "desc": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN).",
+      "tag": "RL",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
+      "arxiv": "2611.28158",
+      "desc": "Language model agents are increasingly asked to run ongoing multi-day operations rather than finish isolated single-turn tasks.",
       "tag": "Agents",
       "extras": [
         "3 authors",
@@ -77,87 +77,87 @@
       ]
     },
     {
-      "votes": 4,
-      "title": "Intent Contracts: Taking Tools Away from Agents",
-      "arxiv": "2611.24025",
-      "desc": "Intent contracts are an authorization interface for tool-using LLM agents in which the planning model holds no tools.",
+      "votes": 3,
+      "title": "KernelShift: Benchmarking Kernel Optimization Across Evolving Hardware",
+      "arxiv": "2611.29590",
+      "desc": "Efficient AI computation depends on hardware that evolves over time, shifting the strategies needed to implement performant code.",
+      "tag": "Benchmark",
+      "extras": [
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Innata-0: A Native Embodied World System with Model-Agent Co-Design",
+      "arxiv": "2611.30254",
+      "desc": "The physical world is open-ended, dynamic, and partially observable.",
       "tag": "Agents",
+      "extras": [
+        "41 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
+      "arxiv": "2611.28167",
+      "desc": "Answering questions over days or weeks of video requires searching for scattered clues across long timelines.",
+      "tag": "CV",
       "extras": [
         "4 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 3,
-      "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
-      "arxiv": "2611.27398",
-      "desc": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where objects undergo physical assemblies and disassemblies.",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
-      "arxiv": "2611.22479",
-      "desc": "-05-X-03), Known Exploited Vulnerabilities (KEV) catalogs, and exploitation sightings.",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
       "votes": 2,
-      "title": "Search From the Start: Search-Native Pretraining for Language Models",
-      "arxiv": "2611.26809",
-      "desc": "Modern language models (LMs) are increasingly deployed with access to search tools at inference.",
+      "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
+      "arxiv": "2611.31225",
+      "desc": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for training neural networks.",
       "tag": "Training",
       "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
-      "arxiv": "2611.19247",
-      "desc": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gameplay.",
-      "tag": "CV",
-      "extras": [
-        "8 authors",
+        "6 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
-      "arxiv": "2611.27490",
-      "desc": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge.",
-      "tag": "Retrieval",
+      "title": "Frontier models need only one text to unmask its human or AI author",
+      "arxiv": "2611.26216",
+      "desc": "Given a single text and a simple zero-shot prompt (no web access, tools, candidate lists, or writing samples), frontier models can answer \"who wrote this?\" at three increasingly specific levels: (1) whether an AI or human wrote it, (2) if an AI, which lab, and (3) if a human, often exactly who.",
       "extras": [
+        "12 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 1,
-      "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
-      "arxiv": "2611.22495",
-      "desc": "Reward models for instruction-guided video editing can favor temporal consistency at the expense of motion.",
-      "tag": "CV",
+      "title": "HEP-Ex-Bench: Evaluating Agentic Performance in High Energy Physics Experiment Data Analyses with Sealed Worlds",
+      "arxiv": "2611.28194",
+      "desc": "Agentic systems are increasingly being explored for automating experimental high-energy physics measurements, but the correctness of their results can today be reliably evaluated only via extensive expert review.",
+      "tag": "Agents",
       "extras": [
-        "14 authors",
+        "10 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory",
+      "arxiv": "2611.31239",
+      "desc": "Exploring a scene from as little as a single photo requires generating a long, camera-controlled walkthrough that extends far beyond what was captured, yet remains consistent upon return.",
+      "tag": "3D",
+      "extras": [
+        "10 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "Autoregressive View Model",
-      "arxiv": "2611.23417",
-      "desc": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation.",
-      "tag": "Diffusion",
+      "title": "CCFinance: Reconstructing Financial News Samples from Web Archives",
+      "arxiv": "2611.30737",
+      "desc": "Proprietary news archives assign stories to firms, so reproducing a financial study often requires access to both the articles and the vendor's assignments.",
       "extras": [
-        "11 authors",
         "Nov 2026"
       ]
     }
