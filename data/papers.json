@@ -1,161 +1,166 @@
 {
-  "snapshot": "November 25, 2026",
+  "snapshot": "November 26, 2026",
   "papers": [
     {
-      "votes": 80,
-      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-      "arxiv": "2611.31358",
-      "desc": "Visual creation demands expressive imagery together with precise control over text, layout, and structure.",
+      "votes": 6,
+      "title": "Letting Models Manage Their Own Context: Where We Stand",
+      "arxiv": "2611.34147",
+      "desc": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history.",
       "tag": "Agents",
       "extras": [
-        "12 authors",
+        "7 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 20,
-      "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
-      "arxiv": "2611.32649",
-      "desc": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time.",
+      "votes": 5,
+      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "arxiv": "2611.28244",
+      "desc": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.",
       "tag": "Agents",
+      "extras": [
+        "11 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+      "arxiv": "2611.34363",
+      "desc": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database.",
+      "tag": "RL",
+      "extras": [
+        "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 3,
+      "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+      "arxiv": "2611.28732",
+      "desc": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates.",
+      "tag": "CV",
       "extras": [
         "10 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 8,
-      "title": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
-      "arxiv": "2510.22622",
-      "desc": "Audio-visual deepfakes can spread misinformation and enable impersonation, undermining trust in digital media.",
-      "tag": "Multimodal",
-      "extras": [
-        "13 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth",
-      "arxiv": "2611.31977",
-      "desc": "Looped transformers reuse one block of shared weights along the depth of the network.",
-      "tag": "Diffusion",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 4,
-      "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
-      "arxiv": "2611.31752",
-      "desc": "Split-training privacy evaluations fail through distinct mechanisms.",
-      "extras": [
-        "2 authors",
-        "Nov 2026"
-      ]
-    },
-    {
       "votes": 3,
-      "title": "SpatialArena: Where Do Geometric Foundation Models Stand?",
-      "arxiv": "2611.32816",
-      "desc": "3D perception is shifting from task-specific pipelines to geometric foundation models: monocular depth networks, feed-forward 3D/4D reconstruction models, and vision--language models that predict geometry.",
-      "tag": "3D",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
-      "arxiv": "2611.30017",
-      "desc": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain experts in software engineering, physical engineering, machine learning, and scientific computing.",
-      "tag": "Benchmark",
-      "extras": [
-        "6 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
-      "arxiv": "2611.32782",
-      "desc": "Modern large language models (LLMs) keep the feed-forward network (FFN) intermediate width identical across every layer, a convention inherited from the original Transformer.",
-      "extras": [
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
-      "arxiv": "2611.32918",
-      "desc": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities.",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
-      "arxiv": "2611.30963",
-      "desc": "Robotic manipulation policies can improve action prediction by anticipating how objects move and how their spatial relationships change.",
-      "tag": "3D",
-      "extras": [
-        "13 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Fractal Neural Synthesis: Constant-Storage Procedural Weight Derivation via Complex Quadratic Boundary Dynamics",
-      "arxiv": "2611.32393",
-      "desc": "Conventional neural networks store synaptic parameters as explicit tensors whose persistent Flash footprint scales linearly (O(W)) with parameter count, constraining resource-limited edge microcontrollers.",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 1,
-      "title": "Point Dynamics as Proxy for Robotic World Models",
-      "arxiv": "2611.25946",
-      "desc": "Robotic world models predict future video frames from the current observation and a sequence of robot actions.",
-      "tag": "3D",
+      "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
+      "arxiv": "2611.21056",
+      "desc": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations.",
+      "tag": "Agents",
       "extras": [
         "8 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
-      "arxiv": "2611.31129",
-      "desc": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity.",
-      "tag": "VLM",
+      "votes": 3,
+      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "arxiv": "2611.33307",
+      "desc": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly.",
+      "tag": "Benchmark",
       "extras": [
         "5 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 1,
-      "title": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
-      "arxiv": "2611.31258",
-      "desc": "Context compaction enables large language model agents to tackle long-horizon tasks within limited context budgets by replacing interaction histories with compressed summaries.",
+      "votes": 3,
+      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
+      "arxiv": "2611.34777",
+      "desc": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based policy gradient.",
       "tag": "Agents",
       "extras": [
+        "4 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+      "arxiv": "2611.33093",
+      "desc": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong.",
+      "tag": "Agents",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+      "arxiv": "2611.34079",
+      "desc": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address.",
+      "tag": "3D",
+      "extras": [
+        "9 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
+      "arxiv": "2611.21155",
+      "desc": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it.",
+      "tag": "Agents",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+      "arxiv": "2611.30334",
+      "desc": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction.",
+      "tag": "RL",
+      "extras": [
         "3 authors",
-        "Oct 2026"
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
+      "arxiv": "2611.32938",
+      "desc": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs).",
+      "tag": "Retrieval",
+      "extras": [
+        "3 authors",
+        "Nov 2026"
       ]
     },
     {
       "votes": 0,
-      "title": "Degradation of Language Models under Controlled Load: Synchronization, Rule Execution and Misfires on the Background",
-      "arxiv": "2611.27404",
-      "desc": "As the load grows, a language model makes more and more errors, but different processes stand behind this decline in quality.",
+      "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+      "arxiv": "2611.29259",
+      "desc": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions.",
+      "tag": "RL",
       "extras": [
+        "9 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+      "arxiv": "2611.32335",
+      "desc": "Panoramic cameras capture nearly the entire spherical field of view in a single frame.",
+      "extras": [
+        "11 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+      "arxiv": "2611.32786",
+      "desc": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows.",
+      "tag": "3D",
+      "extras": [
+        "6 authors",
         "Nov 2026"
       ]
     }
