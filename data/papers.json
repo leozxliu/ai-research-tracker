@@ -1,55 +1,32 @@
 {
-  "snapshot": "November 26, 2026",
+  "snapshot": "November 27, 2026",
   "papers": [
     {
-      "votes": 6,
-      "title": "Letting Models Manage Their Own Context: Where We Stand",
-      "arxiv": "2611.34147",
-      "desc": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history.",
+      "votes": 101,
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "arxiv": "2611.34232",
+      "desc": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions.",
       "tag": "Agents",
       "extras": [
-        "7 authors",
+        "76 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 5,
-      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-      "arxiv": "2611.28244",
-      "desc": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.",
-      "tag": "Agents",
+      "votes": 57,
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "arxiv": "2611.31619",
+      "desc": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets.",
       "extras": [
-        "11 authors",
+        "2 authors",
         "Nov 2026"
       ]
     },
     {
-      "votes": 4,
-      "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
-      "arxiv": "2611.34363",
-      "desc": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database.",
-      "tag": "RL",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
-      "arxiv": "2611.28732",
-      "desc": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates.",
-      "tag": "CV",
-      "extras": [
-        "10 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
-      "arxiv": "2611.21056",
-      "desc": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations.",
+      "votes": 24,
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "arxiv": "2611.34852",
+      "desc": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions.",
       "tag": "Agents",
       "extras": [
         "8 authors",
@@ -57,32 +34,10 @@
       ]
     },
     {
-      "votes": 3,
-      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
-      "arxiv": "2611.33307",
-      "desc": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly.",
-      "tag": "Benchmark",
-      "extras": [
-        "5 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 3,
-      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
-      "arxiv": "2611.34777",
-      "desc": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based policy gradient.",
-      "tag": "Agents",
-      "extras": [
-        "4 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-      "arxiv": "2611.33093",
-      "desc": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong.",
+      "votes": 7,
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "arxiv": "2611.32238",
+      "desc": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies.",
       "tag": "Agents",
       "extras": [
         "6 authors",
@@ -90,77 +45,115 @@
       ]
     },
     {
-      "votes": 2,
-      "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
-      "arxiv": "2611.34079",
-      "desc": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address.",
-      "tag": "3D",
+      "votes": 4,
+      "title": "Revisiting LLMs as Context Engineers",
+      "arxiv": "2611.30494",
+      "desc": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training.",
       "extras": [
-        "9 authors",
+        "10 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 4,
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "arxiv": "2611.30483",
+      "desc": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help.",
+      "tag": "Agents",
+      "extras": [
+        "3 authors",
         "Nov 2026"
       ]
     },
     {
       "votes": 2,
-      "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
-      "arxiv": "2611.21155",
-      "desc": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it.",
+      "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+      "arxiv": "2611.30025",
+      "desc": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations.",
+      "extras": [
+        "2 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+      "arxiv": "2611.30723",
+      "desc": "Speech language models (LMs) generate speech as sequences of discrete tokens.",
+      "tag": "Audio",
+      "extras": [
+        "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+      "arxiv": "2611.28849",
+      "desc": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved.",
+      "tag": "Multimodal",
+      "extras": [
+        "7 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Generation as Reverse Encoding",
+      "arxiv": "2611.34782",
+      "desc": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail.",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 2,
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "arxiv": "2611.34719",
+      "desc": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection.",
+      "tag": "CV",
+      "extras": [
+        "3 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+      "arxiv": "2611.31516",
+      "desc": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate.",
+      "tag": "3D",
+      "extras": [
+        "6 authors",
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 1,
+      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+      "arxiv": "2611.31491",
+      "desc": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain.",
+      "extras": [
+        "Nov 2026"
+      ]
+    },
+    {
+      "votes": 0,
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "arxiv": "2611.27112",
+      "desc": "Teams put a one-page rules file in a repository and call it a control on coding agents.",
       "tag": "Agents",
       "extras": [
         "Nov 2026"
       ]
     },
     {
-      "votes": 2,
-      "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
-      "arxiv": "2611.30334",
-      "desc": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction.",
-      "tag": "RL",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 2,
-      "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
-      "arxiv": "2611.32938",
-      "desc": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs).",
-      "tag": "Retrieval",
-      "extras": [
-        "3 authors",
-        "Nov 2026"
-      ]
-    },
-    {
       "votes": 0,
-      "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
-      "arxiv": "2611.29259",
-      "desc": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions.",
-      "tag": "RL",
+      "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+      "arxiv": "2611.31155",
+      "desc": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented.",
       "extras": [
-        "9 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
-      "arxiv": "2611.32335",
-      "desc": "Panoramic cameras capture nearly the entire spherical field of view in a single frame.",
-      "extras": [
-        "11 authors",
-        "Nov 2026"
-      ]
-    },
-    {
-      "votes": 0,
-      "title": "Simulator-as-Proxy World Model for Robot Manipulation",
-      "arxiv": "2611.32786",
-      "desc": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows.",
-      "tag": "3D",
-      "extras": [
-        "6 authors",
         "Nov 2026"
       ]
     }
